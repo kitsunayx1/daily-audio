@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Morning Signal</title>
+    <link>https://kitsunayx1.github.io/daily-audio/</link>
+    <description>Daily threat intelligence briefing from public sources.</description>
+    <language>en-us</language>
+    <itunes:author>Morning Signal</itunes:author>
+    <itunes:image href="https://kitsunayx1.github.io/daily-audio/cover.png"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Tue 13 Oct 2026: Deloitte leak-site claim, EU retail attacks, help-desk social engineering</title>
+      <description>Deloitte listed by The Gentlemen; Ahold Delhaize outage and Danfoss fridge sabotage in French supermarkets; Silent Ransom Group sends agents into law firms; SonicWall, GitLab and Atlassian flaws; CyberXero&#x27;s AI agents; Yandex strikes and Riyadh airport closure; ShinyHunters deep dive. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-13.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-13.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-13.mp3" length="13861805" type="audio/mpeg"/>
+      <itunes:duration>1732</itunes:duration>
+    </item>
+  </channel>
+</rss>

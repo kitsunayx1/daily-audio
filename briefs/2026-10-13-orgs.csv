@@ -1,0 +1,50 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-10-13,"Ahold Delhaize (Albert Heijn, Delhaize, Etos, Gall&Gall, Stop & Shop, Food Lion, Giant, Hannaford)",Food retail,NL/BE/US,"Cyberattack, systems offline",Unknown,12–13 Oct,Confirmed,https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/
+2026-10-13,Danfoss,Industrial OT vendor,DK,Refrigeration controllers abused,Unknown,12–13 Oct,Confirmed,https://www.coolingpost.com/world-news/danfoss-moves-to-mitigate-cyberattack/
+2026-10-13,Intermarché / Netto (Les Mousquetaires),Retail,FR,OT sabotage,Unknown,12–13 Oct,Confirmed,https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html
+2026-10-13,Carrefour,Retail,FR,OT sabotage,Unknown,12–13 Oct,Confirmed,https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html
+2026-10-13,Coopérative U,Retail,FR,OT sabotage,Unknown,12–13 Oct,Confirmed,https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html
+2026-10-13,Monoprix,Retail,FR,OT sabotage,Unknown,12–13 Oct,Confirmed,https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/
+2026-10-13,E.Leclerc / Auchan,Retail,FR,OT sabotage,Unknown,12–13 Oct,Media,https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/
+2026-10-13,Air France-KLM,Airline,FR/NL,Internal folders accessed,Xuanye Group,12 Oct,Confirmed,https://www.cityam.com/asos-hackers-claim-responsibility-for-air-france-klm-data-breach/
+2026-10-13,H&M,Retail,SE,Hacking claims,ShinyHunters (claimed),12 Oct,Claimed / denied,https://beinsure.com/news/hm-investigates-shinyhunters-cyberattack-claims/
+2026-10-13,"TFG London (Hobbs, Whistles, Phase Eight)",Retail,UK,IT outage,Unknown,13 Oct,Confirmed,https://retailtimes.co.uk/tfg-london-reports-cybersecurity-incident-affecting-phase-eight-hobbs-and-whistles/
+2026-10-13,Icon Cancer Centre (Icon Oncology Group),Healthcare,AU,Breach via supplier,Unknown,12 Oct,Confirmed,https://databreaches.net/2026/10/12/australian-patient-data-compromised-in-icon-cancer-centre-hack/
+2026-10-13,iRhythm Technologies,Medical devices,US,"Data theft and extortion, 360k+",Unnamed,12 Oct,Confirmed,https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/
+2026-10-13,Daiichi Kosho / Nippon Columbia,Entertainment / supplier,JP,~8.7M customer PII,Unknown,8–12 Oct,Confirmed,https://cybernews.com/security/daiichi-kosho-data-breach-customers/
+2026-10-13,Holland & Knight,Legal,US,Social-engineering breach,Unknown,~10 Oct,Confirmed,https://cybernews.com/news/us-law-firms-hit-by-data-breaches/
+2026-10-13,Squire Patton Boggs,Legal,US,Breach,Unknown,8 Oct,Confirmed,https://cybernews.com/news/us-law-firms-hit-by-data-breaches/
+2026-10-13,Secure Healthcare Information Management,Healthcare billing,US,Breach,Unknown,12 Oct,Confirmed,https://www.hipaajournal.com/secure-healthcare-information-management-desert-orthopaedic-center-data-breaches/
+2026-10-13,Desert Orthopaedic Center,Healthcare,US,Breach,Unknown,12 Oct,Confirmed,https://www.hipaajournal.com/secure-healthcare-information-management-desert-orthopaedic-center-data-breaches/
+2026-10-13,Ledger / CryptoBilis,Crypto hardware / reseller,FR/MY,Hardware implant,Unknown,12 Oct,Confirmed,https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/
+2026-10-13,"IDC Frontier (IDCF Cloud) and 495 customers incl. JR East, JR Kyushu, Nissui Logistics",Cloud hosting,JP,Ransomware,Unnamed,7–12 Oct,Confirmed,https://cybernews.com/security/japanese-cloud-cyberattack-railways-police-495-organizations-idcf/
+2026-10-13,Deloitte,Professional services,Global,Leak-site listing,The Gentlemen,~9 Oct,Claimed,https://nationaltechnology.co.uk/KFC_Deloitte_MoneyGram_Named_In_Ransomware_Gangs_Data_Leak_Claims.php
+2026-10-13,Confluent,Software / SaaS,US,Leak-site listing,The Gentlemen,by 13 Oct,Claimed,https://nationaltechnology.co.uk/KFC_Deloitte_MoneyGram_Named_In_Ransomware_Gangs_Data_Leak_Claims.php
+2026-10-13,MoneyGram,Financial services,US,Leak-site listing,The Gentlemen,12 Oct,Claimed,https://cybernews.com/security/moneygram-data-breach-ransomware-claim
+2026-10-13,KFC,Restaurants,US/Global,Leak-site listing,The Gentlemen,10 Oct,Claimed,https://cybernews.com/security/kfc-data-breach-ransomware-claim
+2026-10-13,Placer.ai,Location analytics,US,Leak-site listing,The Gentlemen,12 Oct,Claimed,https://www.ransomware.live/id/UGxhY2VyIEFJQHRoZWdlbnRsZW1lbg==
+2026-10-13,Eversource Energy,Utility,US,Leak-site listing,Redact,12 Oct,Claimed,https://www.ransomware.live/id/RXZlcnNvdXJjZSBFbmVyZ3lAUmVkYWN0
+2026-10-13,Claire's,Retail,US,Leak-site listing,Dark Project,12 Oct,Claimed,https://www.ransomware.live/id/Q2xhaXJlJ3MgSW5jLkBEYXJrIFByb2plY3Q=
+2026-10-13,MyMichigan Health,Healthcare,US,Leak-site listing,MetaEncryptor,12 Oct,Claimed,https://www.ransomware.live/id/TXlNaWNoaWdhbiBIZWFsdGhAbWV0YWVuY3J5cHRvcg==
+2026-10-13,DFK Group,Professional services (per tracker),DE,Leak-site listing,Play,13 Oct,Claimed,https://www.ransomware.live/id/REZLIEdyb3VwQHBsYXk=
+2026-10-13,Ocean Network Express,Container shipping,SG,Leak-site listing (N0n batch),N0n,12 Oct,Claimed,https://www.ransomware.live/id/T2NlYW4gTmV0d29yayBFeHByZXNzIChjb250YWluZXIgc2hpcHBpbmcpQE4wbg==
+2026-10-13,Santos Brasil / Portonave / Superterminais / T2S,Port terminals,BR,N0n batch,N0n,12 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/N0n
+2026-10-13,ZPMC,Port machinery,CN,N0n batch,N0n,12 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/N0n
+2026-10-13,Yusen Logistics Hong Kong,Logistics,HK,N0n batch,N0n,12 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/N0n
+2026-10-13,HPC Hamburg Port Consulting,Port consulting,DE,N0n batch,N0n,12 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/N0n
+2026-10-13,NEOM Ports,Ports,SA,N0n batch,N0n,12 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/N0n
+2026-10-13,Pusan Newport / BNCT / GNCNet-DGT Busan / Korea Ferry / Dongkuk Steel,"Ports, shipping, steel",KR,N0n batch,N0n,12 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/N0n
+2026-10-13,TTI Algeciras,Port terminal,ES,N0n batch,N0n,12 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/N0n
+2026-10-13,Eurogate Tanger,Port terminal,MA,N0n batch,N0n,12 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/N0n
+2026-10-13,T.S. Lines / CULines / Camellia Line / Tsuneishi-Kambara Kisen / ILCS Pelindo / Samudera / NCT Kandla / Nam Dinh Vu / BMT IQ / Premier Alliance and others,Shipping and ports,Various,N0n batch,N0n,12 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-13,Topcon Healthcare,Medical devices,Unverified,Leak-site listing,Everest,12 Oct,Claimed,https://www.ransomlook.io/group/everest
+2026-10-13,Laerdal,Healthcare training,NO,Leak-site listing,Everest,12 Oct,Claimed,https://www.ransomlook.io/group/everest
+2026-10-13,Concord Eye Center,Healthcare,US,Leak-site listing,Interlock,12 Oct,Claimed,https://api.ransomware.live/v2/recentvictims
+2026-10-13,Valenti Management,Professional services,CL,Leak-site listing,Interlock,12 Oct,Claimed,https://api.ransomware.live/v2/recentvictims
+2026-10-13,Prodiel,Energy,ES,Leak-site listing,Qilin,12 Oct,Claimed,https://api.ransomware.live/v2/recentvictims
+2026-10-13,VIATechnik,Tech / AEC consulting,US,Leak-site listing,MetaEncryptor,12 Oct,Claimed,https://api.ransomware.live/v2/recentvictims
+2026-10-13,Brooks Law Firm,Legal,US,Leak-site listing,INC Ransom,12 Oct,Claimed,https://api.ransomware.live/v2/recentvictims
+2026-10-13,Rechtsanwaltskanzlei Dr. Bien,Legal,DE,Leak-site listing,Aurora,12 Oct,Claimed,https://api.ransomware.live/v2/recentvictims
+2026-10-13,The Park Lane Hong Kong,Hospitality,HK,Leak-site listing,Orova,12 Oct,Claimed,https://api.ransomware.live/v2/recentvictims
+2026-10-13,Canadian Mennonite University,Education,CA,Leak-site listing,DragonForce,12 Oct,Claimed,https://api.ransomware.live/v2/recentvictims
+2026-10-13,Royal Thai Air Force,Government / military,TH,Leak-site listing,The Gentlemen,10 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/thegentlemen
