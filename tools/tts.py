@@ -8,11 +8,19 @@ import argparse, re, subprocess, tempfile, os
 import numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
 
+# ffmpeg post-processing: lower pitch without changing tempo, warm EQ
+TONES = {
+    "none": "anull",
+    "warm": "asetrate=24000*0.96,aresample=24000,atempo=1/0.96,bass=g=3:f=150,treble=g=-2:f=6000",
+    "deeper": "asetrate=24000*0.93,aresample=24000,atempo=1/0.93,bass=g=4:f=140,treble=g=-3:f=5500,aecho=0.8:0.85:35:0.12",
+}
+
 ap = argparse.ArgumentParser()
 ap.add_argument("script"); ap.add_argument("out")
 ap.add_argument("--model", default=os.path.expanduser("~/.cache/kokoro"))
-ap.add_argument("--voice", default="am_michael")
-ap.add_argument("--speed", type=float, default=1.05)
+ap.add_argument("--voice", default="am_onyx")
+ap.add_argument("--speed", type=float, default=1.15)
+ap.add_argument("--tone", default="deeper", choices=sorted(TONES))
 ap.add_argument("--title", default="")
 a = ap.parse_args()
 
@@ -29,6 +37,6 @@ for i, p in enumerate(paras):
     print(f"{i+1}/{len(paras)}", flush=True)
 with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as t:
     sf.write(t.name, np.concatenate(chunks), sr)
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", t.name, "-ac", "1", "-b:a", "64k",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", t.name, "-af", TONES[a.tone], "-ac", "1", "-b:a", "64k",
                     "-metadata", f"title={a.title}", "-metadata", "artist=Morning Signal", a.out], check=True)
 os.unlink(t.name)
