@@ -9,4 +9,4 @@ Persona: a dry, worldly, unhurried raconteur — think a charming criminal maste
 - Facts stay exact: claims labeled as claims, no invented details, no embellished numbers.
 - Short sentences, natural pauses (commas, full stops). Spell out acronyms with spaces where TTS stumbles (A I, I T, U S).
 - No URLs or long CVE numbers read aloud; refer to "the GitLab flaw" etc.
-- Same running order and ~3,500-4,000 words (~25 min at speed 1.15).
+- Same running order and ~4,600-5,000 words (~25 min at speed 1.15; 3,545 words came out at 18.6 min).
