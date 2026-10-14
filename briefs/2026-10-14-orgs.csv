@@ -1,0 +1,37 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-10-14,Meta Platforms,Tech,US,"GitHub repos accessed via stolen credential; code and data on ~1,500 people",Unattributed,13 Oct,Confirmed,https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/
+2026-10-14,Ampath Laboratories,Healthcare,ZA,Data theft / extortion; 80M records claimed,ByteToBreach,13 Oct,Confirmed attack; scale claimed,https://databreaches.net/2026/10/13/attackers-claim-to-have-stolen-80-million-south-african-patient-records-in-massive-ampath-laboratories-data-breach/
+2026-10-14,Liberating Research,Market research,UK,Open Elasticsearch; health data,None (misconfiguration),12–13 Oct,Researcher-confirmed,https://databreaches.net/2026/10/13/uk-commercial-market-research-and-data-gathering-firm-in-the-medical-space-leaked-health-data/
+2026-10-14,UK Housing Ombudsman Service,Government,UK,Third-party supplier incident,Unknown,13 Oct,Confirmed,https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/
+2026-10-14,Park Dental Partners,Healthcare,US,8-K 1.05 update; PHI stolen,Not named (Chaos per trackers),13 Oct,Confirmed,https://www.sec.gov/Archives/edgar/data/2069604/000110465926115541/park-20261007x8k.htm
+2026-10-14,Photon Health,Health tech,US,Metabase zero-day,Direwolf (claim),13 Oct notice,Confirmed,https://www.hipaajournal.com/photon-health-healthcare-highways-data-breaches/
+2026-10-14,Healthcare Highways,Health plan administration,US,Network intrusion,Chaos (claim),13 Oct notice,Confirmed,https://www.hipaajournal.com/photon-health-healthcare-highways-data-breaches/
+2026-10-14,Unnamed European bank,Financial services,EU,Third-party VPN gateway intrusion,Unattributed,13–14 Oct,Researcher (Unit 42),https://cybersecuritynews.com/attackers-breach-european-bank
+2026-10-14,Denmark CPR / Pays ApS,Government / IT vendor,DK,Vendor account abuse,Unnamed,13 Oct (update),Confirmed,https://www.theregister.com/security/2026/10/13/123456-password-linked-to-denmark-data-breach-affecting-88m-people/5302726
+2026-10-14,Femern / FLC consortium (Fehmarnbelt tunnel),Infrastructure / construction,DK/DE,"IT outage, cyberattack",Unknown,13 Oct,Confirmed,https://www.drweb.de/fehmarnbelt-tunnel-cyberangriff-flc/
+2026-10-14,Ahold Delhaize (update),Retail,NL/BE/US,Controlled relaunch,Unknown,13 Oct,Confirmed,https://newsroom.aholddelhaize.com/update-on-ahold-delhaizes-cybersecurity-incident
+2026-10-14,Danfoss / French retailers (update),Retail / OT,FR + EU,OT tampering; 350+ stores,Unclaimed,13–14 Oct,Confirmed,https://betanews.com/article/danfoss-fridge-attack-france-supermarket/
+2026-10-14,TFG London (update),Retail,UK,ICO report filed,Unknown,13 Oct,Confirmed,https://www.infosecurity-magazine.com/news/retail-firms-confirm-cyber/
+2026-10-14,SkyNet (St Petersburg ISP),Telecom,RU,DDoS / intrusion,BO Team (claim),13 Oct,Disruption confirmed; claims unverified,https://therecord.media/russian-internet-provider-skynet-reports-outages-ddos
+2026-10-14,Unnamed Suva regional organisation,Regional body,FJ,Intrusion (Jul–Aug),China-linked (per US embassy),14 Oct,Reported,https://taipeitimes.com/News/front/archives/2026/10/14/2003865926
+2026-10-14,KVH Industries,Maritime communications,US,Leak-site listing,Everest,13 Oct,Claimed,https://www.ransomware.live/group/everest
+2026-10-14,Laerdal Medical,Medtech,NO,Leak-site listing,Everest,13 Oct,Claimed,https://www.ransomware.live/group/everest
+2026-10-14,Topcon Healthcare,Medtech,JP/US,Leak-site listing,Everest,13 Oct,Claimed,https://www.ransomware.live/group/everest
+2026-10-14,Interseguro,Insurance,PE,Leak-site listing,Direwolf,13 Oct,Claimed,https://api.ransomware.live/v2/groupvictims/direwolf
+2026-10-14,"Iliff, Meredith, Wildberger & Brennan",Legal,US,Leak-site listing,Qilin,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,Milstein Siegel,Legal,US,Leak-site listing,Qilin,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,CMAPA Victoria,Water utility,MX,Leak-site listing,Qilin,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,The Golden Legacy Financing,Finance,Unknown,Leak-site listing,Qilin,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,"Ahlqvist & Almqvist, Englunds Konsultbyrå, Spectrum Arkitekter, Vendus Sweden, Fab Support, Byrån för Arkitektur och Urbanism, Briab Group, Danvikshem, Brunnberg & Forshed, Mantum Holding, Lambertinum",Architecture / engineering / care,SE/DE,Leak-site batch,Wallstreet,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,Admirals Trading,Fintech / brokerage,AE,Leak-site listing,Auditteam,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,Valode & Pistre; Zenidoc,Architecture,FR,Leak-site listing,Panzer,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,Hunter Neurology,Healthcare,AU,Leak-site listing,N0n,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,Ecuador police headquarters,Government,EC,Leak-site listing,Hyflock,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,YYC Advisors,Advisory,CA,Leak-site listing,Hyflock,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,CMC Auditores SRL,Audit / professional services,AR,Leak-site listing,Emperador,13 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,PMG Project Management Group,Professional services,Unknown,Leak-site listing,NightSpire,12 Oct,Claimed,https://www.breachsense.com/breaches/2026/october/
+2026-10-14,Hagiva Engineering Projects,Engineering,Unknown,Leak-site listing,Qilin,12 Oct,Claimed,https://www.breachsense.com/breaches/2026/october/
+2026-10-14,Lane Equipment,Industrial,US,Leak-site listing,DragonForce,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-14,Baker McKenzie,Legal,Global,Leak-site listing,Silent Ransom Group,8 Oct (older),Claimed,https://www.dexpose.io/silentransomgroup-targets-global-law-firm-baker-mckenzie/
+2026-10-14,Docker Hub,Software supply chain,Global,Token-transfer flaw CVE-2026-105445,None seen,12–13 Oct,Fixed,https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html
+2026-10-14,npm ecosystem (GitHub),Software supply chain,Global,Trusted-publishing hijack flaw,None (research),13 Oct,Fixed,https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html
