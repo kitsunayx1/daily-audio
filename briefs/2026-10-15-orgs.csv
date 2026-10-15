@@ -1,0 +1,37 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-10-15,Anywayanyday,Travel booking,RU,Cyberattack; bookings suspended,Unknown,14 Oct,Confirmed,https://therecord.media/russia-anywayanyday-travel-website-cyberattack
+2026-10-15,Revolut,Fintech,UK/EU,KYC leak; possible link to home invasion,Unnamed extortion actor,13–14 Oct (new development),Link unconfirmed,https://cybernews.com/security/revolut-data-breach-crypto-robbery/
+2026-10-15,Vibetech,AI / IT services,IN,Exposed DB of 13.7M breach credentials,None (misconfiguration),13–14 Oct,Secured,https://cybernews.com/security/at-t-amazon-paypal-walmart-fbi-data-leak-ai/
+2026-10-15,Copeland (Dixell) / E.Leclerc,OT vendor / retail,FR,Refrigeration controller attack,Unknown,13–15 Oct,Under investigation,https://cybernews.com/security/copeland-dixell-cyberattack-french-supermarket-refrigeration/
+2026-10-15,Mercadien (+ 9 banks and credit unions),Audit,US,"Breach; 402,741 people",Unknown,13 Oct (older),Confirmed,https://themoneyoverview.com/a-cyberattack-on-bank-auditor-mercadien-exposed-data-on-402741-people
+2026-10-15,Nextcloud / Collabora users,Software,Global,Exploited CVE-2026-110447,Unknown,14 Oct,Patched,https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html
+2026-10-15,"alera (possibly Alera Group, unconfirmed)",Professional services / insurance,Unknown,"Leak-site listing, 2.6 TiB",Iah6477,15 Oct,Claimed,https://www.ransomware.live/id/YWxlcmFAaWFoNjQ3Nw
+2026-10-15,Poole Group,Accounting / advisory,AU,Leak-site listing,LockBit5,14 Oct,Claimed,https://www.ransomware.live/id/cG9vbGVncm91cC5jb20uYXVAbG9ja2JpdDU
+2026-10-15,CMC Auditores SRL,Audit,ES/AR,Leak-site listing,Emperador,13–14 Oct,Claimed,https://www.breachsense.com/breaches/cmc-2026-10-data-breach/
+2026-10-15,Valode & Pistre,Architecture,FR,"Leak-site listing, 2 TB",Panzer,14 Oct,Claimed,https://www.breachsense.com/breaches/valode-and-pistre-data-breach/
+2026-10-15,MOA Architecture,Architecture,SG,Leak-site listing,Qilin,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,Trieschmann Dumala Architectural Group,Architecture,US,Leak-site listing,N0n,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,Milstein Family Law,Legal,US,Leak-site listing,Qilin,14 Oct,Claimed,https://www.breachsense.com/breaches/milstein-family-law-data-breach/
+2026-10-15,YYC Advisors,Advisory,CA,Leak-site listing,Hyflock,14 Oct,Claimed,https://www.breachsense.com/breaches/yyc-advisors-data-breach/
+2026-10-15,H2 Financiamento,Financial services,BR,"Leak-site listing, 1.53 TB",INC Ransom,14 Oct,Claimed,https://www.ransomware.live/id/RklOQU5DSUFNRU5UTyBMVERBQGluY3JhbnNvbQ
+2026-10-15,"N0n ""Company #67""",FX trading technology,NL,Anonymised listing,N0n,15 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,The Golden Legacy Financing,Finance,Unknown,Leak-site listing,Qilin,14 Oct,Claimed,https://www.breachsense.com/breaches/the-golden-legacy-financing-data-breach/
+2026-10-15,Taiwan Otsuka Pharmaceutical,Pharma,TW,Leak-site listing,Eclipse,14 Oct,Claimed,https://www.ransomware.live/id/VGFpd2FuIE90c3VrYSBQaGFybWFjZXV0aWNhbEBFY2xpcHNl
+2026-10-15,Alma Center Servizi Medicali,Healthcare,IT,Leak-site listing,Spacebears,15 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,Holistic Health Group / Suncrafted,Healthcare,US,Leak-site listing,Spacebears,15 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,Merkez İlaç,Pharma,TR,Leak-site listing,Hyflock,14 Oct,Claimed,https://www.breachsense.com/breaches/merkez-ilac-data-breach/
+2026-10-15,Green Clinic,Healthcare,US,Leak-site listing,Wallstreet,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,MyM Odontoclinica,Healthcare,BR,Leak-site listing,Emperador,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,National Police of Ecuador,Government,EC,"Leak-site listing, 1.2 TB",Hyflock,14 Oct,Claimed,https://www.breachsense.com/breaches/national-police-of-ecuador-data-breach/
+2026-10-15,I G Petrochemicals,Chemicals,IN,Leak-site listing,Hyflock,14 Oct,Claimed,https://www.breachsense.com/breaches/i-g-petrochemicals-data-breach/
+2026-10-15,The Japan Times,Media,JP,Leak-site re-listing,Eclipse,14 Oct (original Sep),Claimed,https://www.ransomware.live/id/amFwYW50aW1lcy5jby5qcEBFY2xpcHNl
+2026-10-15,Oceania Digital Communications,Managed IT provider,VU,Leak-site listing,Kairos,14 Oct,Claimed,https://www.ransomware.live/id/T2NlYW5pYSBEaWdpdGFsIENvbW11bmljYXRpb25zQGthaXJvcw
+2026-10-15,Interior Technologies,Smart building / security integrator,US,Leak-site listing; gateway configurations,N0n,14 Oct,Claimed,https://www.ransomware.live/id/SW50ZXJpb3IgVGVjaG5vbG9naWVzQE4wbg
+2026-10-15,MarieBelle New York,Retail,US,Leak-site listing,N0n,14 Oct,Claimed,https://www.breachsense.com/breaches/mariebelle-new-york-data-breach/
+2026-10-15,Kord Hotels,Hospitality,GR,Leak-site listing,LockBit5,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,Saint-Pierre-des-Corps (municipality),Government,FR,Leak-site listing,LockBit5,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,Great Lakes Institute of Management,Education,IN,Leak-site listing,INC Ransom,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,Morrow Meadows,Construction / electrical,US,Leak-site listing,PayoutsKING,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,FOODMatch; AAA Architectural Hardware,Food / hardware,US,Leak-site listing,Akira,14 Oct,Claimed,https://www.ransomware.live/
+2026-10-15,Lane Equipment,Industrial,US,Leak-site listing,DragonForce,14 Oct,Claimed,https://www.breachsense.com/breaches/lane-equipment-data-breach/
+2026-10-15,Telecom MSP (unnamed; PEERSTITCH victim),Telecom / managed IT,Unknown,FortiManager/FortiGate implant,CL-STA-0954 / UNC5820,Reported 14 Oct (intrusion Sep 2024),Researcher (Unit 42),https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/
