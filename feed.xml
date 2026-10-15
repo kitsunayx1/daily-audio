@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Thu 15 Oct 2026: Edge devices under fire, phishing-kit takedown, ransomware gets personal</title>
+      <description>Exploited PAN-OS management flaw, Cisco Secure Email Gateway root via attachment, Ivanti mass scanning; Microsoft takes down CoGUI, Haozi and Iron Man phishing kits; ransomware threats against staff and the Revolut KYC leak; professional-services leak-site claims (possibly Alera Group, unconfirmed); Nextcloud backdoors, XBOW&#x27;s AI-built Chrome chain; deep dive on the PEERSTITCH FortiGate implant. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-15.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-15.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-15</guid>
+      <pubDate>Thu, 15 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-15.mp3" length="12900076" type="audio/mpeg"/>
+      <itunes:duration>1612</itunes:duration>
+    </item>
+    <item>
       <title>Wed 14 Oct 2026: Ivanti zero-day chain, record Patch Tuesday, insiders and laptop farms</title>
       <description>Ivanti Connect Secure chain (UTA0576) roots patched VPNs; Microsoft&#x27;s ~1,400-CVE Patch Tuesday with an exploited Mark-of-the-Web bypass; OpenAI conference-room recorder, DPRK laptop farms and Kimsuky fake invitations; Meta GitHub breach, Ampath, Liberating Research; Fehmarnbelt tunnel attack. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-14.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-14.md</link>
