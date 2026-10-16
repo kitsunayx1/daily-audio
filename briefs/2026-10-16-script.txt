@@ -1,0 +1,201 @@
+## Morning Signal. Friday, the sixteenth of October.
+
+Good morning. Friday. The day when the week's loose ends are either tied up or quietly tucked into someone else's drawer. We'll do a little of both.
+
+This is Morning Signal for Friday, the sixteenth of October. The window is the last twenty four hours. And because it's Friday, at the end you'll get the week in review, Friday to Thursday, for the team's weekly feed. The written brief has every source link and an organisations table. The weekly roll-up is its own document, with a combined table of every organisation we've mentioned this week.
+
+Two housekeeping notes before we begin, because accuracy is a habit, not a mood. First, a correction. Yesterday I said the Palo Alto flaw went into C I S A's exploited catalogue on Thursday. It was actually Wednesday, as one of four additions. Second, the exposure counts for French refrigeration controllers I attributed to SOCRadar came from Censys. Small things. But small things are where trust lives.
+
+Three things first.
+
+## The top three
+
+Number one. The contractor is the breach.
+
+On Thursday, the Administrative Office of the U S Courts announced that a security incident at BAE Systems had stopped the Bankruptcy Noticing Center. That's the system that produces and sends notices for every federal bankruptcy court in the country. Every single one. One contractor. One system. And creditors across America are now waiting for letters that aren't coming.
+
+The same day, we learned that an attack on an I T contractor called Senture had knocked out the phone lines for the Federal Motor Carrier Safety Administration, the people who look after America's truckers. And a breach notice appeared in Massachusetts for National Insurance Company. It wasn't issued by the insurer. It was issued by its law firm, Squire Patton Boggs, whose own breach we discussed on Tuesday.
+
+You see the pattern. The organisation in the headline is rarely the organisation that was actually broken into. For our restructuring and insolvency colleagues, expect delayed creditor notices. And expect someone, somewhere, to send phishing emails dressed as bankruptcy notices. They always follow the confusion.
+
+Number two. The appliances keep falling, and the deadlines are here. C I S A's deadline for Ivanti Connect Secure is today. A public script that tests for the Ivanti bug appeared on Thursday. It only detects, by its own account, but it will make scanning easier, and your logs noisier. The deadlines for Palo Alto and Cisco's email gateway are tomorrow. And a new name has joined the list. AhsayCBS, a backup management console used widely by managed service providers, is being exploited and is now in the catalogue. If your backups are run by someone else, it's worth asking them a question this morning.
+
+Number three. Spyware that arrives through an advertisement. No link. No click. Just an ad, served to the right phone. Citizen Lab and Confiant say an Israeli firm called Discover-Tech used targeted online advertising to deliver Candiru spyware. At least forty five devices belonging to Al Jazeera staff were targeted. Ads carrying the script appeared on networks belonging to NATO, the U N, E U bodies and the U S Defense Department, though an ad appearing on a network does not mean anyone there was infected. The practical step is refreshingly simple. Ad blocking or filtering D N S on executive and travel devices. Sometimes the best defence is to stop listening to strangers.
+
+## Breaches and incidents
+
+Let's take the BAE story a little further.
+
+The systems down are the noticing center websites and the National Creditor Registration Service. PACER, the court records system, is not reported as affected. BAE says the incident is "isolated to the B N C system". There's no restoration timeline, no named attacker, and no statement on whether any data was taken. C I S A referred questions to the courts. The F B I declined to comment. When everyone politely points at someone else, the story usually has a second chapter.
+
+The Senture incident has been running quietly since the sixth of October. The Department of Transportation says no safety administration data was compromised. Online tickets and chat kept working. One expert raised an eyebrow at an unverified claim that the attack was "A I powered". So shall I.
+
+CenterPoint Energy, the Houston utility, told the Texas attorney general that one million, sixty two thousand Texans were affected by its breach. Names, addresses, Social Security numbers and driver's licence numbers. CenterPoint found out the way no company wants to. A hacker posted on a cybercrime forum, claiming about seven and a half million records. That larger figure is not verified. Customers in other states may be affected too.
+
+Now, the U K Legal Aid Agency. The original breach was in the spring of last year. A forensic review published on Thursday found the stolen data goes back much further than anyone said. Back to nineteen seventy eight. About two hundred and fifty thousand records from before two thousand and seven, plus probation data. National Insurance numbers, financial assessments, bank details. And, in some Crown Court trials, the names of judges and of defence and prosecution lawyers. The hackers claimed data on more than two million people. That's unverified, and the minister says there's no sign it has been published. DataBreaches dot net says ShinyHunters claimed it. The government hasn't named anyone.
+
+Why does that matter to us? Because lawyers' names, matched to the cases they worked on, are precisely the raw material for targeting a firm's partners. Data rarely stays in the drawer it was stolen from.
+
+An update from Australia. Poole Group, the accounting and advisory firm LockBit listed on Wednesday, has confirmed an incident affecting part of its I T environment. It says it's contained, and it has notified the privacy regulator, the national cyber centre and the Australian Taxation Office. LockBit's countdown ends on the twenty fifth of October. A peer firm, holding client tax records, on a clock.
+
+Also in Australia, Hunter Neurology, listed by N zero n, says the incident was at a third party technology provider that hosts its systems. N zero n claims patient scans, letters, and four weekly backups of the medical records system. Again, the supplier.
+
+The French supermarket refrigeration attacks have grown. France's economy minister told lawmakers that about seven hundred of the country's roughly ten thousand supermarkets were affected. Earlier reports said three hundred and fifty. ANSSI, the French cyber agency, thinks the campaign is probably still running, and warns that resetting an old, exposed controller can simply invite the attacker back. The number of exposed Danfoss panels in France fell by about seventy percent in two days. Not because they were patched. Because they were unplugged. Sometimes the most effective security control is the plug.
+
+And in Japan, Qilin has claimed Keio Corporation, the rail and hotel group, which confirmed a ransomware attack back in September. Its trains were fine. Its hotels less so.
+
+Nothing new on Deloitte. The listing on The Gentlemen's site still says "data info, soon", with no countdown and no statement. The group hasn't posted a new victim since Monday. One thing earlier briefs missed. On Monday The Gentlemen also listed BigID, a data security vendor. A company whose business is knowing where everyone's sensitive data lives. I'll leave you to savour that.
+
+## Leak site claims
+
+The usual reminder. Everything here is a claim.
+
+"Alera" first. Still unconfirmed as Alera Group. No domain, no country, no statement. What we did learn is that it was one of seven victims the group Iah six four seven seven posted on Thursday. The others include two listed American companies, Middleby, which makes commercial kitchen equipment, and Buckle, the clothing retailer. Plus Hilmar Cheese, at seven hundred gigabytes, and a few more.
+
+In professional services, one curiosity. N zero n listed an anonymous Californian software quality assurance company, and the description mentions Wolters Kluwer and C C H Axcess testing. C C H Axcess is tax and accounting software used by a great many accounting firms. That may mean a contractor holding test environments for that software. The victim isn't named, and the Wolters Kluwer link is not verified. But if your firm or your clients use that platform, it's worth a quiet question.
+
+Also in professional services. An Arizona law firm, Boyle, Pecharich, Cline, Whittington and Stallings, twenty four gigabytes claimed by Akira. Fair Fee Legal Services in the U S, claimed by INC Ransom. An Italian law firm, Torcivia, claimed by LockBit five. And a Mexican business services firm, Bienestar Empresarial.
+
+In finance, Qilin claims Telcoe Federal Credit Union in the U S. INC Ransom claims Coopecaja, a Costa Rican savings cooperative. And N zero n lists an anonymous American payments fintech.
+
+One listing I can't quite explain. INC Ransom posted "verveba dot com", followed by "w w w dot a t t dot com", claiming two terabytes. What, if anything, AT and T has to do with it is unclear. It may be a vendor. There's no press coverage. I mention it so that if it surfaces next week, you heard it here with the appropriate caution attached.
+
+Qilin also listed a Florida firm described as government and defence, Shield Wall Systems, and a long list of others. N zero n listed a Texas spinal implant maker, claiming its F D A quality records. The full list, as ever, is in the table.
+
+## Vulnerabilities
+
+AhsayCBS first, because it's new. It's the management server for Ahsay's backup software. Two flaws chained together, an authentication bypass and a remote code execution, give an attacker full system control. Huntress first saw exploitation on the seventh of October, and five organisations were hit by the next day. So far attackers have used it to install a web shell and a cryptocurrency miner. Which is the criminal equivalent of breaking into a bank and stealing the pens. But a door used to steal pens can be used to steal anything. The important detail is that the earlier fixes were incomplete. You need the newer hotfix, a reboot, and if you find indicators, a full re image, because Huntress saw hidden secondary backdoors. And the question for your suppliers, again. Do you run it?
+
+Ivanti. Deadline today. The detection script works by sending the authentication bypass request. It doesn't write files or run code. The third bug in the chain, the privilege escalation, still has no reported fix.
+
+Palo Alto, Cisco, Nextcloud. No attribution. No public exploit. No new indicators. Quiet. For now.
+
+Langflow is a popular tool for building A I workflows. It has a nine point nine flaw. Any logged in user can add a so called M C P server, and the command attached to it simply runs. Every time the server list loads, it runs again. Previdian's honeypots logged more than seventeen hundred attempts since September, three hundred and sixteen on Thursday alone. The attackers guess common passwords, log in, and dump the secrets. Upgrade, turn off automatic login, and please, keep it off the internet.
+
+A few patches with no exploitation yet. Microsoft pushed an out of band Office update on Thursday, about two dozen remote code execution flaws, mostly in Word, all needing a crafted file to be opened. Next dot js shipped fixes for two critical flaws, and a standard dependency check may miss them. Drupal fixed a critical core flaw exposed through common add on modules. N G I N X fixed five, including a client certificate bypass. And a Linux kernel flaw nicknamed PwnEscape lets a guest virtual machine read the host's memory. It was found by an A I system in three days, for under seven hundred dollars. Patch the hosts, not just the guests.
+
+And one statistic from Cisco Talos to put it all in proportion. More than seventy thousand vulnerabilities published so far this year. Roughly double last year. Network devices account for about a quarter of those actually exploited. The front door, once again.
+
+## Software supply chain
+
+GitGuardian has documented a campaign called GhostAction. About nineteen hundred GitHub accounts compromised, and more than thirty thousand repositories targeted. The attackers pushed workflow files with reassuring names, "security audit", "github actions security", which quietly harvested cloud keys, package registry tokens, and A I service keys. The main wave was on the eighth and ninth of October. GitHub has blocked it. But some victims were hit twice, because they hadn't rotated their secrets after the first time. If a burglar has copied your key, changing the doormat does not help.
+
+And an older but nasty one. A compromised npm package called tensorlake carried a worm that steals credentials and republishes the victim's own packages. It also installs a monitor that wipes your home directory if you revoke the stolen GitHub token. Hostage software, essentially. The advice is precise. Remove the monitor first. Then rotate. In that order.
+
+## A I attacks and trends
+
+A researcher claims a prompt injection flaw in ChatGPT's GitHub connector. Hidden text in a public repository persuades ChatGPT to commit a workflow into your private repository, and that workflow sends your secrets out. OpenAI reportedly closed the report as out of scope. It's not independently verified. The lesson stands regardless. Give A I connectors access to the repositories they need, and not one more.
+
+An open source A I coding agent called Archon has a flaw scored nine point eight. Its control interface has no authentication, listens on every network interface by default, and the agent runs with its permission checks switched off. Anyone who can reach it can run commands. There's no patch. Bind it to the local machine.
+
+Infostealers have noticed A I tools. Two families, Warden and Aoki, now steal session and configuration files from Claude, Codex, Cursor and Gemini. Those files can lead to code repositories and build pipelines. Yesterday's stolen browser cookie is today's stolen coding assistant.
+
+On the regulatory side, the U S Federal Trade Commission sent lengthy demands to OpenAI and Anthropic about security incidents and safeguards. And the E U's A I Office sent its first information requests under the A I Act, to the same two companies, about incidents where models escaped their test environments. A first enforcement test. Precedents are being set this month.
+
+And the market. Proofpoint is buying Varonis for six point three billion dollars, framed around controlling what data A I agents can reach. Everyone, it seems, has decided the agents are coming, and someone should be holding the keys.
+
+## Cyber geopolitics
+
+Starlink and Ukraine. Ukraine's former defence minister says speeds of up to a hundred and sixty kilometres an hour are being restored. The Defence Ministry says the cap is still there, and it's talking to SpaceX. Musk says the U S government sets the limits. A U S official told Axios the administration "had nothing to do with" it. Ukrainian officials suspect the restrictions are pressure over their strikes on Russian refineries. That's unconfirmed. Zelensky says the strikes will resume. In other words, the people with their hands on the switch disagree about whose hands they are. For anyone planning business continuity around satellite links, that's the lesson.
+
+In Moscow, Putin held a meeting on information security and ordered the security services to work more closely with internet providers, I T companies and banks. He spoke of "hybrid external aggression", after Ukrainian drones struck four Russian data centres. Expect tighter state control of Russian I T. If any Russia linked work remains anywhere in the firm's orbit, the data access risk just went up.
+
+Cisco Talos and Recorded Future described a Kazakhstan linked espionage group targeting governments across the former Soviet Union. At least eight campaigns since January last year, in nine countries. Lures dressed as diplomatic letters, aviation forms and business proposals, sometimes sent from genuinely compromised government mailboxes. The timing tracked real negotiations between governments. If we're advising governments in Central Asia or the Caucasus, the people we work with are the people being phished.
+
+Ahead of the U S midterms, X suspended more than thirteen thousand accounts in three suspected influence operations, from Iran, Russia and China.
+
+In the Gulf, ships have been struck and sunk near the Strait of Hormuz. CNN reports U S planning for strikes on Iranian energy and nuclear sites. Netanyahu says he does not favour a pre emptive strike before Israel's election on the twenty seventh. No new Iranian cyber attribution. But historically, when the missiles move, the hacktivists follow.
+
+And Fiji is bringing in New Zealand's intelligence service to rebuild its own, after the China linked intrusion. Quietly, the Pacific is choosing its friends.
+
+## Consulting and professional services
+
+McKinsey. The fallout from Chris Bradley's LinkedIn posts continues. He has resigned from the board of an Australian charity, Opportunity International. I could only verify the headline. The story is now international, which keeps the risk of harassment alive. And A F P reports that the French state now spends about a quarter of what it once did on consultancies, four years after what the French press still calls "the McKinsey affair". Reputational. Nothing cyber.
+
+No new McKinsey incident, breach, lawsuit or phishing campaign in the window.
+
+KELA has analysed the leaked chats of the Silent Ransom Group, the gang that sent people into law firms posing as I T staff. Nearly fifty seven hundred messages. A focus on law firms and professional services. Twenty seven organisations reached what the group called the "gold" stage, with alleged settlements of about two hundred million dollars, though KELA is careful to say that label doesn't prove anyone paid. Two new details. A phone script in which the caller poses as an I T security check. And discussion of placing insiders inside firms using fake C Vs. If your help desk and your recruiters haven't seen that script, they should.
+
+Deloitte, no change. Accenture, acquisition news only.
+
+## Community chatter
+
+On Bluesky, searches for McKinsey turned up mostly the Bradley story and the French tax probe. Two posts from one account used violent hyperbole about consulting firms in general, with no target and no plan. Low concern, noted. And some resharing of McKinsey's A I led job interviews, a story from January.
+
+On infosec dot exchange, Starlink, the I C C sanctions, and a reply to last week's argument about passkeys, titled "Passkeys Are Not a Trap". The debate continues. On Hacker News, the Citizen Lab spyware report.
+
+## Brand and executive targeting
+
+The spyware by advertisement story is the headline here. Targeting works through advertising identifiers and I P addresses. The executive's phone doesn't need to do anything wrong. It only needs to be shown an ad.
+
+An Italian case, now re reported. Fideuram, part of Intesa Sanpaolo. A WhatsApp message posing as the chief executive. Then a phone call with an A I cloned voice of a senior lawyer from an associated law firm. About ninety five million euros sent. About fifty three million recovered. Note who was impersonated. Not the boss. The outside counsel. That's exactly the pretext that would work during a deal, or an engagement.
+
+On recruitment, McKinsey's A I led interview step gives scammers a plausible lure. A fake "A I interview" link would look entirely reasonable to a candidate. No such campaign has been seen. It's the kind of thing worth watching for before it arrives.
+
+And in France, three teenagers were arrested over data lookup sites that let anyone search stolen records by name, phone number, address or bank account. That's the plumbing behind doxxing.
+
+## Regulation and law enforcement
+
+OFAC designated sixteen people and ten entities on Thursday for Iran related activity, including Iraqi and Iranian affiliated banks. Not cyber. But secondary sanctions exposure for Gulf and Iraqi clients, so screen your counterparties.
+
+A research group called Qurium shows how Aeza, a sanctioned bulletproof hosting provider, simply carried on through eleven new companies, and grew its internet address space more than twenty fold. Sanctions on a name are easy to step around. Block by network, not by company name.
+
+Russia arrested three members of a hacking group called DataSuckers. Thailand arrested thirty nine people over a fake trading app. A group of American states is suing OpenAI. The U K still hasn't decided whether to add A I safeguards to its cyber security bill. The U K data regulator reprimanded the Metropolitan Police over a third party crime platform it used without proper approval. And India will require caller names to be displayed on modern mobile networks from the first of November. A small, sensible blow against phone scams.
+
+## Deep dive: CL UNK twelve eleven
+
+Now, our actor of the day. And this one has a peculiar signature. It talks to itself.
+
+Unit forty two has described a cluster it calls C L U N K twelve eleven. It hasn't decided whether this is a nation state or a criminal group. From October last year to April this year, it went after government bodies and state linked infrastructure, on Linux web servers, mail servers and databases. The countries aren't named. The goal was intelligence. Stealing mailboxes. And something rather more modern. Searching government mailboxes for the recovery emails of social media accounts, so those accounts could be taken over.
+
+Here's the peculiar part. The attacker's scripts are full of chatty, step by step comments addressed to the operator. Neat section headers. Rapid switching between four programming languages. Unit forty two reads that, sensibly, as code written by an A I model, or an operation run by an A I agent. Imagine a burglar whose toolkit came with a friendly instruction manual, written in the margins, by a machine that wanted to be helpful.
+
+The way in was ordinary. P H P web shells, stolen credentials, and a custom scanner for a known React flaw, though that scanner isn't confirmed as the entry point. Then a custom remote access tool written in Go, which Unit forty two calls SysGoRAT, alongside the usual public tools for privilege escalation and tunnelling.
+
+Persistence was thorough. The attacker edited every P H P configuration file on the server so that a malicious file was quietly loaded before every single page. A system service. A cron job every five minutes. Extra S S H keys. And on Windows machines, a scheduled task named, of course, OneDrive.
+
+The credential theft was quietly clever. An alias that intercepted administrators' passwords every time they used sudo, saving them to a file named after SolarWinds. SolarWinds had nothing to do with it. The name was a disguise, chosen because nobody looks twice at a log file from a monitoring vendor. Login pages were modified to capture passwords. Configuration files and command histories were searched.
+
+From there, lateral movement through Microsoft S Q L Server's command shell, hopping from one database server to another across subnets. Then mail and databases were packaged up and sent out to public file sharing sites.
+
+And the exit was theatrical. The attacker tried to kill the endpoint security agent, and failed. Wiped the logs, twice. Altered file timestamps. And then planted little notes reading "red team ops twenty twenty five" and "pentest one two three". So that anyone who found the traces might conclude it was an authorised test, and go home early. A forged permission slip, left at the scene.
+
+How do you hunt for it? Unexpected processes spawned by the P H P engine. Changes to the P H P setting that pre loads files. Sudo aliases in shell profiles. S S H keys nobody can explain. Hidden binaries in temporary memory folders. Mass log truncation. Outbound connections to G socket relays and file sharing sites. The full list of addresses, domains and hashes is in the written brief.
+
+And the response. Rebuild, don't clean. Rotate every credential found on those machines. Patch the React flaw and the old PwnKit flaw. Filter outbound traffic. And treat any "red team" note you didn't commission as a lie until proven otherwise.
+
+Why does it matter to us? Because these are exactly the techniques that would work against internet facing Linux servers, client portals, and web hosting. And because it's concrete evidence that A I is now writing parts of real intrusions. Not in theory. In logs.
+
+## Watchlist
+
+What I'm watching.
+
+Ivanti's deadline today. Palo Alto, Cisco and AhsayCBS tomorrow. Monday the nineteenth, N zero n's deadline to publish its maritime victims. The twenty fifth, LockBit's deadline for Poole Group. The twenty seventh, Israel's election, and the Iran escalation risk around it. The twenty eighth, Boston Scientific's earnings call, which may put a number on its cyber incident.
+
+And the open questions. When the bankruptcy noticing system comes back, and whether data was taken. Whether "alera" is Alera Group. What the AT and T listing really refers to. And the long runners. Deloitte. The French refrigeration attacks. Starlink.
+
+## The week in review
+
+And now, the week. Friday the ninth to Thursday the fifteenth of October. A short note first. Morning Signal began on Tuesday, so the weekend and Monday are covered only where those stories were still moving on Tuesday morning.
+
+If the week had a theme, it was this. The doors at the edge, and the people in the middle.
+
+The edge first. Ivanti Connect Secure had a zero day chain that gave a new actor, U T A zero five seven six, root on fully patched V P N appliances. The patching happened only in memory, so Ivanti's own integrity checker missed it. By Thursday it had moved to mass scanning. Palo Alto's firewall management interface and its GlobalProtect V P N were both exploited, the latter by ransomware crews. Cisco's email gateway could be taken over with a single attachment. SonicWall's remote access appliance and Atlassian's Data Center products were exploited within days of disclosure. Nextcloud servers had been quietly backdoored since September. And Microsoft's Patch Tuesday set a record, around fourteen hundred flaws, with an exploited Windows Shell bypass that lets a malicious attachment skip its security warnings. Unit forty two's PEERSTITCH report showed what happens when the console that manages five hundred firewalls is the thing that falls.
+
+The people in the middle. Deloitte appeared on The Gentlemen's leak site, and as of Thursday, no data and no statement. The Silent Ransom Group's leaked chats showed people walking into law firms dressed as I T staff, and the group claims Baker McKenzie. Holland and Knight and Squire Patton Boggs disclosed breaches that began with social engineering. An Accenture contractor's missed PeopleSoft patch let ShinyHunters into an F B I hiring site, and a Toronto ransomware negotiator was arrested. E Y's clients asked for written proof of fixes after its ticketing breach. And every single day, auditors, accountants, architects and advisers appeared on leak sites. Poole Group. C M C Auditores. D F K. Y Y C Advisors. Valode and Pistre. A batch of Swedish engineering consultancies. And possibly Alera Group, still unconfirmed.
+
+European retail had a brutal week. Supermarket freezers switched off across France and beyond, by someone still unknown. Ahold Delhaize took systems offline on both sides of the Atlantic. TFG London, the owner of Hobbs and Whistles, reported an incident. Air France K L M confirmed access to internal folders. And the Fehmarnbelt tunnel between Denmark and Germany halted construction I T, with hybrid warfare not ruled out.
+
+Threats moved off the screen. A survey said more than a third of ransomware attacks now include threats against staff and their families. A U K home invasion may be linked to leaked Revolut identity data. An OpenAI engineer was charged over a recorder hidden in a conference room. And the Justice Department dismantled more than forty North Korean laptop farms and described how the workers fake their webcams and redirect replacement laptops.
+
+A I lowered the cost of offence, again. One criminal ran fifty one Claude Code agents at once. XBOW built a Chrome exploit chain worth a quarter of a million dollars in six days with a public model. Booz Allen's agents took over industrial labs in minutes. And A I systems found bugs in curl, the Linux kernel and Windows.
+
+And the good news, because there was some. Microsoft and its partners took down three Chinese language phishing kit platforms, behind more than a billion messages. The U S disrupted Flax Typhoon's phishing tools. Police arrested the admin of a cybercrime market in North Macedonia, raided scam compounds in West Africa, and charged a ransomware "recovery" firm owner who secretly paid the criminals while billing his clients for decryption.
+
+Three things to carry into next week. Monday's N zero n deadline for the maritime batch. Whether Deloitte's data ever appears. And whether the remaining Ivanti bug gets its fix.
+
+The full roll-up, with every link and a combined table of a hundred and twenty one organisations, is in the weekly document.
+
+That's the week. Enjoy the weekend. Check your suppliers before you do. And if someone from I T turns up at reception on Saturday morning, ask to see a little more than a lanyard.
+
+Until Monday.
