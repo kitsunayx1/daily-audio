@@ -1,0 +1,50 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-10-19,ConnectWise Cloud Backup (SkyKick) and 162–173+ Microsoft 365 tenants,MSP / SaaS backup,US / global,Vendor app credential abused for tenant access,Unknown,13–15 Oct; reported 16–18 Oct,Confirmed,https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access
+2026-10-19,Four unnamed law firms,Legal,Unknown,Password spraying from the ConnectWise attacker IP,Unknown,13–14 Oct,Researcher-observed; no success,https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html
+2026-10-19,BeyondTrust Remote Support customers (unnamed),Remote-support software,Global,Zero-day CVE-2026-102764 exploited,ARMORY CASTLE (suspected China-nexus),Since late Aug; disclosed 15 Oct,Confirmed,https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust
+2026-10-19,CyberLogitec (suspected common supplier),Maritime software,KR,Suspected source of the N0n batch of 38,N0n,Reported 19 Oct,Unconfirmed assessment,https://www.hellenicshippingnews.com/non-cyber-extortion-incident-involving-38-maritime-companies-likely-traces-back-to-a-single-vendor/
+2026-10-19,Ocean Network Express and 37 other maritime organisations,Shipping / ports,Global,Publication due 19 Oct 13:27 UTC,N0n,Deadline 19 Oct,Claimed,https://www.ransomware.live/id/T2NlYW4gTmV0d29yayBFeHByZXNzIChjb250YWluZXIgc2hpcHBpbmcpQE4wbg==
+2026-10-19,Canva (via Canny / Salesforce),SaaS,AU,Third-party incident; 200M+ rows claimed,The Seven Deadly Sins,Listed 15–16 Oct; confirmed 19 Oct,Incident confirmed; scale claimed,https://www.cyberdaily.au/security/14317-exclusive-aussie-software-giant-canva-confirms-third-party-data-incident
+2026-10-19,Harness,CI/CD SaaS,US,"Leak listing, 2.5M+ rows",The Seven Deadly Sins,15–16 Oct,Claimed,https://www.breachsense.com/breaches/harness-data-breach/
+2026-10-19,Globeia; iHeartJane; Verano; Cradlewise; Hospital Sírio-Libanês,SaaS / cannabis / IoT / healthcare,US/BR,Leak listings,The Seven Deadly Sins,15–16 Oct,Claimed,https://www.ransomlook.io/group/the%20seven%20deadly%20sins
+2026-10-19,California Dept of Education contractor (ETS),Education / testing,US,About 7M students' data copied,Unknown,Reported 16 Oct,Confirmed,https://databreaches.net/2026/10/17/hack-exposes-data-on-millions-of-california-students/
+2026-10-19,Depozitarul Central,Financial market infrastructure,RO,Investor portal accessed,Unknown,16 Oct,Confirmed,https://www.wall-street.ro/articol/bursa-si-investitii/depozitarul-central-atac-cibernetic-rapid-gestionat
+2026-10-19,OpenCode Console,AI developer SaaS,US,Users' AI API keys stolen,Unknown,16–17 Oct,Confirmed,https://thehackernews.com/2026/10/opencode-console-breach-may-have.html
+2026-10-19,Burger King Japan,Restaurants,JP,11.18M app records leaked,Unknown,16 Oct,Confirmed,https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/
+2026-10-19,Save-On-Foods (More Rewards),Retail,CA,Loyalty data breach,Unknown,17 Oct,Confirmed,https://www.ctvnews.ca/vancouver/article/more-rewards-customers-data-accessed-in-a-cybersecurity-breach/
+2026-10-19,Joshin Denki,Retail,JP,Cyberattack; services restricted,Unknown,16–17 Oct,Confirmed (secondary source),https://blog.rankiteo.com/jos1792398401-joshin-breach-october-2026/
+2026-10-19,SBI (and possibly subsidiaries),Banking,IN,"375K rows and 2,722 PDFs claimed","""Siriusim"" (forum user)",16–17 Oct,Claimed,https://www.freepressjournal.in/business/sbi-subsidiaries-customer-data-allegedly-on-dark-web-375-lakh-records-2722-documents-claimed-in-data-breach
+2026-10-19,BAE Systems / US Bankruptcy Noticing Center,Defence contractor / judiciary,UK/US,Outage since 9 Oct,Unknown,9 Oct onward,Confirmed,https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/
+2026-10-19,Conduent,BPO,US,$80M class-action settlement (Jan 2025 incident),n/a,8-K 16 Oct,Confirmed,https://www.sec.gov/Archives/edgar/data/1677703/000167770326000138/cndt-20261016.htm
+2026-10-19,Boston Children's Health Physicians / XTIUM,Healthcare / MSP,US,"NY and CT AG settlement, about $2.64M",n/a,17 Oct,Confirmed,https://databreaches.net/2026/10/17/ny-ag-james-and-ct-ag-tong-secure-2-7-million-from-boston-childrens-health-physicians-and-xtium-for-2024-data-breach/
+2026-10-19,Alera Group (aleragroup.com),Insurance / benefits / wealth advisory,US,"Leak listing, 2.6 TB",Iah6477,15–16 Oct,Claimed; unconfirmed,https://www.breachsense.com/breaches/alera-group-data-breach/
+2026-10-19,mckenneys (McKenney's; not McKinsey),Building contractor,US,"Leak listing, 295.9 GiB",Iah6477,18 Oct,Claimed,https://www.ransomware.live/id/bWNrZW5uZXlzQElhaDY0Nzc
+2026-10-19,SQA Services Inc (possibly last week's Company #66),Software QA / supplier quality,US,VPN and DC credentials; CCH Axcess test lab claimed,N0n,18 Oct,Claimed; identity doubtful,https://www.ransomware.live/id/U1FBIFNlcnZpY2VzIEluY0BOMG4
+2026-10-19,All Business Technologies (Fox Hill bookkeeping and tax),Accounting / tax,US,Client tax returns 2015–25 claimed,N0n,18 Oct,Claimed,https://www.ransomware.live/id/QWxsIEJ1c2luZXNzIFRlY2hub2xvZ2llcyAoRm94IEhpbGwgYm9va2tlZXBpbmcgYW5kIHRheCBwcmFjdGljZSlATjBu
+2026-10-19,"N0n ""Company #77""",Investigations / due diligence,US,Anonymised listing,N0n,18–19 Oct,Claimed,https://www.ransomware.live/id/Q29tcGFueSAjNzdATjBu
+2026-10-19,Martin LLP,Legal,US,Leak listing,The Gentlemen,16 Oct,Claimed,https://www.ransomware.live/id/TWFydGluIExMUEB0aGVnZW50bGVtZW4
+2026-10-19,"Janet, Janet & Suggs",Legal,US,Leak listing,The Gentlemen,16–17 Oct,Claimed,https://www.breachsense.com/breaches/janet-janet-and-suggs-data-breach/
+2026-10-19,Sládek & Partners,Legal,CZ,Leak listing,The Gentlemen,16 Oct,Claimed,https://www.breachsense.com/breaches/sladek-and-partners-data-breach/
+2026-10-19,Engineers Ireland,Professional body,IE,Leak listing,The Gentlemen,16 Oct,Claimed,https://www.breachsense.com/breaches/engineers-ireland-data-breach/
+2026-10-19,North Bridge Venture Partners,Venture capital,US,Leak listing,The Gentlemen,16 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-19,Europ Assistance South Africa,Insurance / assistance,ZA,Leak listing,The Gentlemen,16 Oct,Claimed,https://www.breachsense.com/breaches/europ-assistance-south-africa-data-breach/
+2026-10-19,R. A. Wood Associates,Engineering consulting,US,Leak listing,Storm,16 Oct,Claimed,https://www.ransomware.live/group/storm
+2026-10-19,Data-Core Systems,IT consulting,US,Leak listing,Vexy,16–19 Oct,Claimed,https://www.ransomware.live/
+2026-10-19,acclaimcompanies.com; adapt-global.com; konsis.no,Professional services / technology,US/NO,Leak listings,Settra,18 Oct,Claimed,https://www.ransomware.live/group/settra
+2026-10-19,WSBI-ESBG,Banking association,BE,Leak listing,Play,16 Oct,Claimed,https://www.ransomware.live/id/V1NCSS1FU0JHQHBsYXk
+2026-10-19,Merit Financial Group,Wealth management,US,Leak listing,Storm,19 Oct,Claimed,https://www.ransomware.live/id/TWVyaXQgRmluYW5jaWFsIEdyb3VwQFN0b3Jt
+2026-10-19,Finzly Corp,Payments fintech,US,Payment-infrastructure secrets claimed,N0n,19 Oct,Claimed,https://www.ransomware.live/id/Rmluemx5IENvcnBATjBu
+2026-10-19,Macfarlan Capital Partners,Finance,US,Leak listing,Pear,16 Oct,Claimed,https://www.breachsense.com/breaches/macfarlan-capital-partners-data-breach/
+2026-10-19,Pure Options,Financial services,US,Leak listing,Play,16 Oct,Claimed,https://www.ransomware.live/
+2026-10-19,Via Credit Union,Credit union,US,Leak listing,Qilin,16 Oct,Claimed,https://www.breachsense.com/breaches/via-credit-union-data-breach/
+2026-10-19,Genesys,Contact-centre SaaS,US,Leak listing,SCARLETTGROUP,16–17 Oct,Claimed,https://www.breachsense.com/breaches/genesys-data-breach/
+2026-10-19,Parker-Hannifin (India subsidiary per Brinztech),Manufacturing,US/IN,"Leak listing, 10.9 TB",Redact,16 Oct,Claimed,https://www.ransomware.live/id/UGFya2VyLUhhbm5pZmluIENvcnBvcmF0aW9uQFJlZGFjdA
+2026-10-19,ONEOK,Oil and gas,US,"Leak listing, 67.5 GB",Redact,16 Oct,Claimed,https://www.ransomware.live/id/T05FT0ssIEluYy5AUmVkYWN0
+2026-10-19,Rheem; Southwire; Quikrete; Personify Health; Bay Alarm; Smith Douglas Homes,Manufacturing / health / security,US,Leak listings with timed data release,Helix,17–18 Oct,Claimed,https://www.ransomware.live/group/helix
+2026-10-19,"Verveba Telecom (""verveba.com \ www.att.com"")",Telecom engineering,US,"Leak listing, 2 TB",INC Ransom,15–16 Oct,Claimed; AT&T link unverified,https://www.breachsense.com/breaches/verveba-telecom-data-breach/
+2026-10-19,Belcorp; Brenner Base Tunnel; SMIC US; Amagi Media Labs,Mixed,PE/AT/US,Leak listings,Qilin / Everest / N0n,17–19 Oct,Claimed,https://www.ransomware.live/
+2026-10-19,Baltimore Tank Lines; Patriot Maritime,Transport / maritime,US,Leak listings,Storm,19 Oct,Claimed,https://www.ransomware.live/group/storm
+2026-10-19,"AOMEI Backupper users (IT services, telecom, higher education)",Software supply chain,11 countries,Update-config tampering,UNC7017,May–Jul; reported 16 Oct,Researcher (Google),https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering
+2026-10-19,imgdecode and related MALFEX packages,npm supply chain,Global,Malicious packages (stealer and RAT),MALFEX,17 Oct,Researcher-confirmed,https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html
+2026-10-19,South Korean financial institutions (7+),Banking,KR,AI-assisted intrusions; 68K+ people exposed,TAG-217,Reported 16 Oct,Researcher (Recorded Future),https://www.recordedfuture.com/blog/tag-217-artex-south-korean-banks
+2026-10-19,VK (Novosergievka data centre),Technology,RU,Drone strike; service disruption,Ukraine (kinetic),17–18 Oct,Reported,https://united24media.com/war-in-ukraine/drone-strike-hits-russias-vkontakte-data-center-knocking-services-offline-as-st-petersburg-faces-blackouts-23551

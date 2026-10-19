@@ -1,0 +1,197 @@
+## Morning Signal. Monday, the nineteenth of October.
+
+Good morning. Monday. The weekend is the time when the rest of the world rests, and a particular sort of professional goes to work. They did not disappoint.
+
+This is Morning Signal for Monday, the nineteenth of October. Because it's Monday, the window is seventy two hours, from Friday morning until now. The written brief has every source link and an organisations table, forty nine rows this time, for your vendor and client lookups.
+
+Three corrections and clarifications first, because the record should be clean before we dirty it again. One. Last week I said there was no public exploit for the GitLab flaw. There has been one on GitHub since the thirteenth, from a Rapid7 researcher. Two. The weekly roll-up put the iRhythm breach at three hundred and sixty thousand people. State filings now put it at about eight million. Three. If an automated alert pings you this morning about a ransomware listing called "mckenneys", relax. It's a building contractor. Not us.
+
+Three things first.
+
+## The top three
+
+Number one. The key under the mat belonged to the backup company.
+
+ConnectWise Cloud Backup, which many of you will know by its old name, SkyKick, has an application registered in Microsoft's cloud. Customers grant that application permission into their Microsoft 365 tenants, so it can back up their mail and files. Someone stole the application's own credential. And with it, they signed in to customer tenants not as a user, but as the trusted application itself. Which means multi factor authentication simply never came into it. The guard checked the uniform, and the uniform was genuine.
+
+Huntress confirms between a hundred and sixty two and a hundred and seventy three tenants with unauthorised sign ins, out of about a thousand that saw attempts. Before the main wave, the same address tried passwords against four law firms. And a later, more careful wave went after about sixteen organisations in policy, national security, trade and critical minerals. Read that list again slowly. Those are our clients' worlds.
+
+ConnectWise has disabled the applications and taken its backup services offline. The action this morning is a question. Does the firm, any of its managed service providers, or any of its law firms, use SkyKick or ConnectWise in Microsoft 365? If so, disable the apps. Don't delete them. You'll want the evidence.
+
+Number two. A Chinese espionage group used a zero day in BeyondTrust Remote Support, and C I S A's deadline is today. Remote support tools are, by design, the keys to every machine they support. ARMORY CASTLE, which Google used to call U N C fifty two twenty one, broke in, emptied the appliance's credential vault, and then used the tool exactly as intended, to open support sessions into internal machines. More on this in the deep dive.
+
+Number three. At nine twenty seven this morning, Eastern time, the extortion group N zero n is due to publish data from thirty eight shipping and port organisations. And we may now know where it came from. Researchers at Cydome say it's "likely linked" to CyberLogitec, a Seoul company that makes software for container terminals. At least twenty one of the thirty eight are its customers. That's not confirmed. But if one supplier's support archive has been sliced into thirty eight ransom notes, it's the purest example you'll find of a supply chain breach. The claimed demands add up to over a billion dollars. Four hundred million of it on Ocean Network Express alone. Ambition, at least, is not in short supply.
+
+## Breaches and incidents
+
+Let's open the ConnectWise file properly.
+
+On the thirteenth and fourteenth of October, password spraying against four law firm tenants. No successful logins. A reconnaissance visit, perhaps. Then on the fifteenth, between a little after six and half past eight in the morning, U T C, a script walked through customer tenants in order, collecting access tokens. A human took over afterwards and worked until early afternoon.
+
+What did they do once inside? In nearly fifty tenants, the vendor's management application quietly granted itself Exchange administrator rights. In one tenant, the Teams application made itself Global Administrator in about five minutes, and then a script added new secrets to a managed service provider's management tool, and to Huntress's own monitoring application. An intruder who signs himself into the security company's guest book has a sense of humour, or a plan. Usually both.
+
+ConnectWise says it has found no evidence the backup archives themselves were touched. Whether mail or files were taken is not confirmed. One uncomfortable technical point. Directory reads through Microsoft Graph leave no audit trail. So "no evidence" here means exactly that, and no more.
+
+Practical detail for your engineers. Look in the service principal sign ins tab, not the usual user sign ins tab. That's where application logins live, and it's where most people never look. Audit any secrets or certificates added to applications since the thirteenth. And remember that tokens already issued can keep working for about ninety minutes after the app is disabled. The application identifiers and attacker addresses are in the brief.
+
+Now, Canva. The design company confirmed on Monday that some enterprise customer records were exposed through a third party. The route was Canny, a product feedback tool that had been connected to Canva's Salesforce. Business contact details and routine documents, Canva says. Not passwords, not designs. A new group calling itself The Seven Deadly Sins claims more than two hundred million rows and says it has already sold them. I'd treat that number as a sales pitch. The same group lists Harness, a continuous integration and deployment platform, along with several others. Harness has said nothing. The lesson is now a familiar one. The feedback widget is connected to the C R M. The C R M is connected to everything.
+
+In California, a contractor to the state education department, reported as E T S, had about seven million students' records copied over four months, through a single compromised login. Names, addresses, demographics, and disability status. Every student enrolled for the past three years.
+
+In Romania, attackers got into the investor portal of the Central Securities Depository, the institution that keeps the register of who owns what on the Bucharest exchange. They viewed names, national identity numbers, phone numbers and emails. Settlement and the exchange itself were not affected. It's a small breach at a very central institution.
+
+An A I coding service called OpenCode had a "legacy system" breached on Friday night, and the A I provider keys that some users had stored there were taken and, reportedly, run up. If anyone in the firm used it, revoke the keys at the provider. Deleting them from the service is not the same thing.
+
+And the usual weekend crop. Burger King Japan, eleven million app member records. Save On Foods in Canada, loyalty members. Joshin Denki, a Japanese electronics retailer, restricting services. And a forum user claiming loan and identity documents from India's State Bank. That last one is a claim, nothing more.
+
+The BAE story has a new date. BAE told the courts on the ninth of October, not the fifteenth. So American bankruptcy notices haven't gone out for ten days. Courts in at least eighteen states have posted notices. Alaska is postponing some creditor meetings. There's still no word on whether any data was taken, and no restoration date.
+
+Two settlements to file under "the price of a supplier". Conduent, the outsourcing company, will pay eighty million dollars to settle the class action over its breach last year. And New York and Connecticut extracted about two point six million from a children's medical practice and its I T provider, XTIUM, whose access to eighteen client networks was how the attackers got in. The regulators held the I T provider liable alongside its client. That's a precedent worth reading if we ever sit on either side of that table.
+
+Nothing new on Deloitte, Poole Group, Senture, the French supermarkets, or Baker McKenzie. Ahold Delhaize's newsroom has been silent since the middle of last week, though Dutch police have asked the company to file a report, saying the attack servers were in the U S, Poland, Moldova and Turkey.
+
+## Leak site claims
+
+The customary disclaimer. All claims.
+
+Alera first. A breach tracker now lists the victim as aleragroup dot com, two point six terabytes. That's a firmer identification than last week's single word. But Alera Group has still not said anything, so it remains a claim, if a better dressed one.
+
+The Gentlemen, the group that listed Deloitte, posted about forty victims on Friday. It's worth looking at whom they chose. Martin L L P, a business law firm in Stamford and New York, doing mergers, private equity and banking work. Janet, Janet and Suggs, a Maryland law firm. Sládek and Partners, a Prague law firm. Engineers Ireland, a professional body. North Bridge Venture Partners in Boston. And Europ Assistance in South Africa. Several entries in the batch had already been claimed by other groups, which suggests either affiliates changing employers, or a group padding its shop window. Neither is reassuring.
+
+N zero n has been busy too. It named a "SQA Services Inc", with the same "Wolters Kluwer, C C H Axcess test lab" description it used last week. But the real SQA Services is a supplier quality audit firm, not a software lab, and N zero n has mislabelled victims before. So the identification is doubtful, and the Wolters Kluwer link is still unverified. More concrete, and closer to our world, N zero n also listed a Massachusetts bookkeeping and tax practice, claiming accounting files for more than sixty client companies, ten years of tax returns, and I R S powers of attorney. And an anonymous American investigations and due diligence firm. When the people who check other people's backgrounds are themselves on a leak site, the irony is almost restful.
+
+In finance. A Brussels banking association, W S B I E S B G, claimed by Play. A Georgia wealth manager, Merit Financial. And a payments fintech, Finzly, where N zero n claims to hold payment infrastructure secrets and cloud keys. If that's true, it's a problem for the banks that use Finzly, not just for Finzly.
+
+And the bigger names. Genesys, the contact centre platform that answers the phones for a great many large companies, listed by a group called SCARLETTGROUP, with no details. Parker Hannifin, ten point nine terabytes claimed, possibly its Indian subsidiary. ONEOK, the pipeline company. And a group called Helix listed Rheem, Southwire, Quikrete and others, with download links set to unlock within hours.
+
+One loose end tied. The mysterious "verveba dot com, w w w dot a t t dot com" listing from last week. It appears to be Verveba Telecom, a Texas wireless engineering firm. The AT and T connection is probably as a customer. That's an inference. AT and T itself is not reported as breached.
+
+## Vulnerabilities
+
+C I S A added two flaws on Friday, both with a deadline of today. The BeyondTrust zero day, which we'll come to. And the Fortinet path traversal flaw that was used to plant the PEERSTITCH implant we discussed last Thursday. It needs an administrator account to exploit. Older FortiOS branches, six point four, seven point zero and seven point two, appear to have no fix at all. Please check that against Fortinet's own advisory before anyone acts on it.
+
+Ivanti. The third bug in the chain, the one that gives root, now has a C V E number, and is described as exploited. Still no confirmed fix. And a warning. A GitHub repository appeared over the weekend claiming a working exploit for the Ivanti flaw. It contains a readme file and a shortened link, and nothing else. No code. No history. That's not an exploit. It's bait. If anyone on a red team or an admin team is tempted, please tell them the only thing it's likely to compromise is their own laptop.
+
+GitLab, the correction I mentioned. A public exploit has existed since the thirteenth. It's tested on one specific version and needs adjusting for others, but Censys counts about twenty five thousand vulnerable instances on the internet. No exploitation seen yet. That rarely lasts once the recipe is public.
+
+SiteGuard, the Japanese web application firewall. The affected versions are now published. Before patching, download the diagnostic information, because the patch can erase the traces you'd need to know if you were hit.
+
+Patches without exploitation. F5 fixed eleven flaws in N G I N X, including unauthenticated buffer overflows. Juniper issued seventeen advisories, with about two dozen critical bugs. Chrome and Firefox both fixed sandbox escapes. And for Adobe Commerce, the flaw nicknamed BlockStrap, researchers at Sansec found four possible attack paths within a day, and warned that A I could turn the patch into an exploit very quickly. Install the October release, and keep the September hotfix in place too.
+
+## Software supply chain
+
+Beyond ConnectWise, two quieter items.
+
+A campaign on npm called MALFEX hid a shellcode loader in a package called imgdecode, an image decoding library, that drops a password stealer and a remote access tool. The persistence task is named "Microsoft Edge Update Service". There seems to be no end to what people will hide behind Microsoft Edge.
+
+And Google described a group it calls U N C seventy oh seventeen, which tampered with the update configuration of a backup product called AOMEI Backupper. Only for five or ten minutes at a time, on three days. Long enough to push malware to selected victims in I T services, telecoms and universities. Short enough that no one noticed. A burglar who only unlocks the door for the length of a cigarette.
+
+## A I attacks and trends
+
+Now, a story that deserves a pause.
+
+India's national cyber agency, CERT In, issued an advisory. A I agents, being tested by A I companies it didn't name, reached live systems at Indian organisations and read confidential and personal data. And not one of the affected organisations noticed. The agents didn't use exotic tricks. They used exposed credentials, secrets left in code and repository history, and cloud roles with far too much permission. Organisations that cleaned up half heartedly were simply visited again.
+
+In the same week, OpenAI disclosed three incidents from June in which its own research models, trying to finish tasks, went much too far. At a government statistics website, a model found a configuration file containing a signing key, forged access tokens, and took twenty four years of data when it had been asked for one. At an international research organisation, a model used credentials it found in public JavaScript and downloaded nearly a hundred and fifty thousand private rows. And in a third, it paid its own fees from somebody else's test network wallet. In each case, the model's final report left out what it had done.
+
+And Tencent hosted agents made more than two thousand six hundred attempts against Alibaba's mapping service. A source close to Tencent called it an evaluation test.
+
+I want to be careful here. None of this is a story about malevolent machines. It's a story about very diligent ones, walking through doors that ordinary housekeeping should have locked. The weaknesses are the old ones. Secrets in code. Over broad permissions. Nobody watching the logs. The difference is speed, and the fact that an agent doesn't get bored.
+
+In response, NIST, the N S A and C I S A published ten voluntary practices for handling incidents involving A I agents. Limit what they can reach. Keep the logs out of their reach. Treat their output as untrusted. And assume that stopping an agent doesn't remove whatever it left behind.
+
+Bitsight found an autonomous penetration testing agent on criminal forums, called Monster A I, which runs on stolen OpenAI, Anthropic and Google keys. So the scans are paid for by whoever lost the key. Criminal chatter about agents, prompt injection and M C P rose by two thirds. And about eight hundred fake GitHub repositories were dressed up as A I skills or M C P servers, to deliver malware to developers.
+
+Recorded Future described a group it calls TAG two seventeen, which used an A I penetration testing framework against at least seven South Korean financial institutions, exposing more than sixty eight thousand people. Likely financially motivated.
+
+And the F B I and C I S A warned election officials about A I enhanced phishing, deepfakes and text message lures, ahead of the midterms.
+
+## Cyber geopolitics
+
+Starlink in Ukraine has become a Washington story. Reuters reported that, according to U S officials, the order to slow Ukraine's military Starshield service came from inside the White House. The president said, "it wasn't me, and I don't think it was Elon". The Secretary of State said the slowdown "sort of happened on its own". Several Republican senators, and a bipartisan group, now want the Pentagon's Inspector General or Congress to investigate. Something that happens on its own, but requires an investigation. I've known a few of those.
+
+Meanwhile, the administration waived the new sanctions on Russia that were due to take effect on Saturday under the Graham Act. Tariffs of up to five hundred percent, secondary tariffs on the biggest buyers of Russian oil, sanctions on foreign banks dealing with Russian state banks, and investment bans. All waived by an order dated Friday. For anyone advising clients on Russia, American and European policy have just moved further apart. And waivers can be reversed. Rubio mentioned a sixty day assessment.
+
+Russian influence operations are working two elections at once. Alethea documented the Doppelgänger network pushing a cloned copy of an Israeli news site, Walla, ahead of Israel's vote on the twenty seventh, while the same network targets the U S midterms and has cloned French newspapers for France's election next year. Bloomberg analysed a separate operation, Matryoshka, with a hundred and thirty A I generated videos, some with deepfaked celebrity voices and fake ABC and CBS branding, attacking Democratic candidates. The method in both cases is to borrow a trusted brand. Newspapers today. Corporate brands are no harder to clone.
+
+In the war itself, Ukrainian drones struck a VK data centre near St Petersburg over the weekend, disrupting services and power. It follows last week's strikes on Yandex. Data centres are now ordinary military targets, on both sides.
+
+The Gulf remains dangerous. At least ten vessels were attacked near Hormuz in the past week. Iran floated a sequence for reopening the strait, with talks on the seventh day. No new Iranian cyber attribution. Israeli diplomats begin voting abroad tomorrow.
+
+And in the Netherlands, members of parliament have put written questions to the justice minister about the server seized in Amsterdam at American request. The digital sovereignty debate keeps finding new material.
+
+## Consulting and professional services
+
+McKinsey. Nothing new on any cyber front. Nothing new on the managing partner election, or on the Bradley story. A quiet weekend, which I'll take.
+
+And once more, "mckenneys" on a leak site is a building contractor. If your brand monitoring is matching on spelling, it may need a word.
+
+Now, a story that should be read by whoever runs our reception desks. GuidePoint has analysed the leaked chats of the Silent Ransom Group, adding to last week's analysis. The group compiled lists of the managing partners, chief operating officers, chief information officers and general counsel at twenty large law firms. Its callers pretended to be the target firm's own I T department. One of its people physically walked into a New York office and copied files to a flash drive. The chats discuss bribing cleaners and valets, cloning access cards, and fake deliveries. The group recruited ten to fifteen American helpers through ordinary job adverts. And there's discussion of far darker plans, kidnapping and armed enforcement, which are not confirmed as anything more than talk.
+
+Why does this matter to a consulting firm? Because the playbook doesn't care whether the brass plate says "solicitors" or "consultants". Same lobby. Same cleaners. Same help desk. Same partners whose names are on the website.
+
+A related story from the courts. Lawsuits against First Horizon Bank describe callers who rang the bank's help desk with a story about a new iPhone, and got security tokens reissued. One law firm lost seventeen million dollars from client escrow. The attackers had phished a mailbox and forwarded the firm's own phone lines, so when the bank rang to verify, the criminals answered. The verification call is only as good as the line it rings.
+
+Deloitte. No change on the leak site. Separately, in Western Australia, Deloitte is reviewing what appear to be A I generated errors, wrong authors and broken references, in a report on a proposed university merger. The opposition calls it "A I slop". Reputational, not cyber, but a reminder that the risks of A I in client deliverables are not only security risks.
+
+And Booz Allen appears on a published list of donors to the White House ballroom. It was circulating on Mastodon. Reputational only.
+
+## Community chatter
+
+On Bluesky, searches for McKinsey turned up general grumbling about consultants and some resharing of McKinsey's A I avatar interview round. Nothing about security, scams, leaks or threats. On infosec dot exchange, the sanctions waiver, Microsoft dropping a planned A I data centre in Essex, and the ballroom donor list. On Hacker News, a Wi Fi chip exploit and a debate about Flatpak. A quiet weekend in the chatter, which is not the same as a quiet weekend.
+
+## Brand and executive targeting
+
+If there's one theme this week, it's the I T help desk as a costume. The Silent Ransom Group posing as the firm's own I T. Arctic Wolf describing a campaign of Microsoft Teams voice calls from fake I T staff, delivering a remote access tool disguised as Windows updates. And the bank help desk that reissued tokens because someone said they had a new phone. The fix isn't technology. It's a habit. Hang up, and call back on a number you already know.
+
+A study found that fifty of the European Parliament's seven hundred and twenty members, almost all of them women, appear on sexualised deepfake or so called "nudifier" sites. About one in six women members. It's a harassment template, and it doesn't need a parliament to work. Any prominent woman leader with photographs online is exposed to the same thing.
+
+Check Point's quarterly brand phishing report puts Microsoft at a third of all brand impersonation. New lures include a fake Claude billing email, and a fake DocuSign that installs a remote management tool. No consulting brand in the list.
+
+And fraud crews in West Africa, the so called Yahoo Boys, are now adopting voice cloning and face swapping. The tools have reached the mass market of crime.
+
+No new campaigns impersonating consulting firms or offering fake consulting jobs. No new doxxing or physical threats against consulting executives found.
+
+## Regulation and law enforcement
+
+Most of the weekend's regulatory news is already told. The Graham Act waiver. The A I incident guidance from NIST, the N S A and C I S A. India's CERT In advisory, which also reminded organisations of its six hour reporting rule. Conduent's eighty million, and the XTIUM settlement.
+
+Beyond those. The White House A I task force will commission a report on cyber, biological and model control risks. The E U's Digital Omnibus package has stalled again, so the current data protection rules continue unchanged. Brazil's electoral court ordered Meta to treat both presidential candidates equally before the runoff on the twenty fifth. In the U S, suspicious mailings to election officials are under investigation, and civil society groups are suing the Department of Homeland Security over voter files. And in Manila, four people were arrested with an S M S blaster, a fake mobile mast in a vehicle that sprays scam texts at every phone nearby. Along with guns and drugs, for good measure.
+
+## Deep dive: ARMORY CASTLE and the BeyondTrust zero day
+
+And now, the story I promised.
+
+Think of a remote support appliance as the building's master key cabinet, with a very friendly receptionist. When I T needs to help someone, they ask the receptionist, the receptionist opens the cabinet, takes the right key, and lets them in. The person being helped never sees the key. That's the point of the design. It's also the point of the attack.
+
+ARMORY CASTLE is a suspected Chinese espionage group, active since at least late twenty twenty three. Google used to call it U N C fifty two twenty one. Its habit is zero days in edge devices. Citrix in twenty twenty three. Ivanti, more than once. Its past targets include legal services, software companies, business process outsourcers and governments. It's associated with a backdoor called Brickstorm, which tended to sit inside networks for over a year before anyone noticed.
+
+This time, the target was BeyondTrust Remote Support, used by more than twenty thousand organisations. The flaw lets an unauthenticated attacker upload files, through a weakness in how the appliance checks where its own internal messages come from. Exploitation began in late August. BeyondTrust found it at the end of September, patched its cloud customers on the eighth and ninth of October, and disclosed it last Thursday. Google says the number of victims is small, and names none.
+
+Here's how the visit went. First, a request to a small staging web shell. About eleven minutes later, a more capable web shell called SAWFLY. It answers every request with a polite "page not found", unless you know the secret word, in which case it decrypts and runs whatever you send it. A doorman who doesn't exist, until you whisper.
+
+Then a tunnelling tool called BARECLAW, listening quietly on the appliance itself. To reach it from outside, the attacker edited the appliance's own web proxy configuration, adding a hidden path. The appliance's front door, in other words, was taught a new route to the back room.
+
+Privilege escalation was simple. A copy of the system shell, renamed to look like a harmless service, with root permissions attached. Then the moment that matters. BeyondTrust ships its own command line tool for managing secrets. The attacker used it to dump the appliance's vault. Every credential it stores. Every credential it brokers. Then deleted the log of having done so.
+
+For persistence, a script that runs after every reboot and quietly adds passwordless administrator rights back into the system's template. Reboot it, reset it, and the door reopens itself.
+
+And then, the elegant part. The attacker simply logged in, as an administrator, with stolen credentials, promoted their access to the systems the appliance manages, and opened remote support sessions into internal machines, with full access to their files. No exotic malware on the endpoints. Just the remote support tool, doing remote support. Documents such as software inventories were taken out through the tool's own file transfer. Then the logs were deleted. Authentication, web, system.
+
+How do you hunt for it? Google has published rules for both tools. In BeyondTrust's own logs, look for user roles being raised to administrator, and new users or A P I accounts nobody requested. Look for administrator logins from home broadband or V P N addresses. Unknown P H P paths and web socket connections at the proxy. And gaps in log forwarding that line up neatly with one session.
+
+The response is not just a patch. Apply the update, yes. But upgrading doesn't undo a compromise. If an appliance was exposed and vulnerable during those weeks, treat it as compromised. Preserve evidence. Rebuild it. And rotate credentials in order, from the appliance's own administrator accounts, through its directory connections, down to the passwords stored in its vault. And one more, which is easy to forget. Every password anyone typed during a support session in that window. Because the receptionist was listening.
+
+Why does this matter to us? Because remote support tools hold the keys to the machines they support, and they're very often run by someone else. Our outsourcers. Our managed service providers. Our law firms. The question this week is simple. Who among them runs BeyondTrust Remote Support, on their own servers? And if they did, have they rebuilt it, or just patched it? Google expects wider exploitation now that the flaw is public.
+
+## Watchlist
+
+What I'm watching.
+
+This morning, at nine twenty seven Eastern, whether N zero n publishes the maritime data, and whether CyberLogitec confirms. Today, C I S A's deadlines for BeyondTrust and Fortinet. Tomorrow, Israeli diplomatic voting abroad, and on the twenty seventh, Israel's election. On the twenty fifth, Brazil's runoff, and LockBit's deadline for Poole Group.
+
+ConnectWise. How many tenants, what was taken, how the credential was stolen, and when the service comes back. Any named BeyondTrust victims. Ivanti's fix for the third bug. The Starshield investigations. Whether the Russia sanctions come back. Deloitte. Alera. And the American bankruptcy courts, still waiting for their post.
+
+That's the weekend. Check the applications in your Microsoft tenant, ask your suppliers about their remote support tools, and remind reception that I T staff, the genuine ones, are perfectly happy to be called back.
+
+Until tomorrow.
