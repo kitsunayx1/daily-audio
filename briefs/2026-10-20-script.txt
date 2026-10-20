@@ -1,0 +1,253 @@
+## Morning Signal. Tuesday, the twentieth of October.
+
+Good morning. Tuesday. The day the week stops pretending it's still Monday, and the problems that arrived over the weekend start sending their invoices.
+
+This is Morning Signal for Tuesday, the twentieth of October. The window is the last twenty four hours, from about five o'clock yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has fifty six rows this time, for your vendor and client lookups.
+
+Before we begin, four corrections and clarifications. I'd rather confess my own mistakes than have someone else find them.
+
+One. Yesterday I told you that Israeli diplomatic voting abroad would begin today. It didn't. It ran from the fourteenth to the sixteenth, and it's finished. The election itself is still the twenty seventh.
+
+Two. A breach notice for Canva has been doing the rounds this month as if it were fresh. It isn't. Canva was told about the problem by a vendor, Canny, at the end of August, and confirmed it in September. What you're seeing is a re-listing. Old wine, new label.
+
+Three. The California Department of Education breach, the one involving the testing company E T S. Some reports put the number at seven million students. No number has actually been published. Seven million is an estimate. Treat it as one.
+
+Four. The OpenCode A P I key exposure we covered last week. The earliest exposure is now dated to half past eight on the evening of the sixteenth, Eastern time. Earlier than first thought.
+
+Now. Three things first.
+
+## The top three
+
+Number one. N zero n has begun to publish.
+
+Yesterday I told you the extortion group N zero n had set a deadline for publishing data from thirty eight maritime organisations. The deadline came, and so did the data. Korea's Boan News reports zip archives posted for twelve Korean companies. Busan New Port. Dongkuk Steel. Samju Maritime. Yusu Logistics. B K H I D C, a data centre. Goryeo Ferry. Saehan Marine. Dongwon Global Terminal Busan. Masan iPort. B N C T, the Busan New Container Terminal. Polaris Shipping. And Dong-A Tanker.
+
+N zero n calls this the first batch. Which tells you, with the subtlety of a brass band, that there are more batches to come. The other twenty six on that list should assume their turn is approaching.
+
+The supplier at the centre of this, CyberLogitec, a Seoul maritime software house, still has not confirmed it was the common source. Korea's cyber agency, K I S A, has notified the affected firms. The action is the same as yesterday, only more urgent. Check the list of thirty eight against your clients and vendors. And ask whether anyone you work with in shipping, ports or logistics runs CyberLogitec software.
+
+Number two. The lawyers are having a difficult week. So are the recruiters.
+
+A group called Silent Ransom Group listed Latham and Watkins on its leak site yesterday afternoon. No data has been posted, and the firm has said nothing. The same group, earlier this month, listed Andersen Group, a tax and advisory firm. That's a peer, not a law firm. Silent Ransom Group is the crowd that telephones staff pretending to be the I T helpdesk, talks them into installing remote access software, and then helps itself. It doesn't encrypt. It simply takes, and asks to be paid for not sharing.
+
+Separately, a group called Redact claims three hundred and fifty five gigabytes from Baker Donelson. Another law firm.
+
+And then there's Bullhorn. Bullhorn is the recruitment and staffing platform used by more than ten thousand firms. On Saturday, the seventeenth, it took its platform offline to contain a cyber incident, and brought in CrowdStrike. It doesn't yet know whether data was taken. It's asked customers to reset passwords for any accounts not using single sign on, and to rotate their A P I credentials. And it has warned that people may pose as Bullhorn staff. Which, if you think about it, is a very polite way of saying: expect phishing in our name. It was partly back online yesterday.
+
+The action. Check your outside counsel against these names. Check your recruitment and staffing vendors for Bullhorn. And if a helpful voice calls from I T this week offering to fix something you didn't know was broken, hang up and call them back.
+
+Number three. A fake Chat G P T assistant that teaches you to hack yourself.
+
+Huntress and Forescout have published research on a platform being called ROMULUS. It starts with custom versions of Chat G P T, built inside OpenAI's own G P T store, with names like "Plus five point six". It also buys sponsored Google results. Both routes lead to a fake Cloudflare check that asks you to prove you're human by pasting a command into Windows. That command installs a remote access trojan. Huntress has handled more than forty incidents. One of the tricks involves a Siemens software tool, which is now being exploited in the wild. More on that in the deep dive.
+
+The action. Tell people, again, in plain words. No genuine website ever asks you to paste a command to prove you're human. Not one. Not ever.
+
+## Breaches and incidents
+
+Let's take the wider picture, starting with an old friend.
+
+ConnectWise. The backup company whose own cloud application was used to walk into Microsoft 365 tenants. As of yesterday afternoon, ConnectWise said it had no confirmed restoration time for Cloud Backup, SaaS Security and Cloud Management. Which means that for many of its customers, backups have now not run for days. That is the quiet cost of an incident like this one. The attackers came and went. The safety net is still in the shop.
+
+Huntress has now reviewed more than ten thousand tenants. The stolen credential was last used successfully at about a quarter to five on the morning of the fifteenth, Eastern time. And Huntress has found a second tenant with what it calls post-compromise activity. Someone gave themselves Global Administrator and added secrets to applications, just before midnight on the fourteenth, Eastern. Only one address, ending in sixty four dot one two eight, actually produced sign ins. The full address is in the brief.
+
+Who did it? Nobody is saying. ConnectWise says it cannot discuss the investigation. And there is still no evidence that the password spraying against four law firms earlier in the week and the token theft that followed were the same operator. They may be. They may simply have shared a taste in hosting.
+
+Now, the grocers. Ahold Delhaize, which owns Albert Heijn in the Netherlands and a long list of American supermarket chains, has confirmed what it calls malicious actions. It's filed a police report. It says it has found no evidence of data theft, and it is restoring services. The bill is estimated at more than ten million euros. A modest sum, as these things go, which suggests someone caught it early.
+
+Loxone, the Austrian smart building company, has confirmed an intrusion into its internal I T. There's an unverified claim of about two hundred gigabytes taken. If you have offices with Loxone controls, nothing so far points at customer systems. But it's worth a question to facilities.
+
+In Russia, a hosting provider called FirstVDS was breached through a flaw in its virtual machine management software. The attackers stole customer credentials and files, and quietly copied customer disks. Read only. Very tidy. The intruder who wipes his feet on the way in is the one I worry about most.
+
+Then the slow drip of regulatory notices, which are not glamorous, but are often where the truth turns up first.
+
+C T G, Computer Task Group, now part of the Belgian firm Cegeka, filed a breach notice with the Vermont attorney general yesterday. Forty eight Vermont residents. A small number, but C T G is an I T services and consulting firm, and those firms tend to hold other people's keys.
+
+An older one, newly surfaced. Johnson Investment Counsel, an investment manager, was breached through its managed service provider's remote management tool. A group called Storm claims nearly forty gigabytes. That's a pattern you'll hear about again before the week is out. The tool you pay someone to manage your computers with is the tool someone else uses to manage them for you.
+
+And Massachusetts has published its October list of breach notifications. On it, without dates, are Fragomen, the immigration law firm, Sheppard Mullin, Womble Bond Dickinson, and the insurance broker Lockton. Law firms, again. If any of those firms handle your people or your matters, the question is simple. Were our records in it?
+
+No new material cyber incident filings with the S E C in the last few days. And no change on Genesys, B A E, Alera or Poole Group. The Deloitte listing is now flagged on trackers as a duplicate entry. Make of that what you will. I make very little of it.
+
+## Leak site claims
+
+Now the leak sites. As ever, these are claims, not confessions.
+
+For our purposes, the professional services list first. Latham and Watkins, by Silent Ransom Group. Andersen Group, the tax and advisory firm, by the same group, earlier in the month. O'Hagan Meyer, another law firm, also theirs. Baker Donelson, by Redact, three hundred and fifty five gigabytes claimed. Rosenberg and Pittinsky, a law firm, by Global Secret Group.
+
+And from N zero n, a firm called The Akeeli Group, which does investigations and due diligence. That's the sort of firm that knows things about other people for a living, which makes its own files rather interesting to the wrong reader. It may be the firm N zero n earlier listed only as Company seventy seven.
+
+N zero n also listed Vormittag Associates, an E R P hosting company, and claims to have credentials for client environments it hosts. If that's true, Vormittag is less a victim than a doorway.
+
+Qilin, still the busiest group on the board, added GardaWorld, the Canadian security services company. Also CREDIN, a Portuguese finance house. Toyota Canarias. WalkingTree, an I T services firm. SkyWorld Air Cargo. Johnson and Pace. Grupo Crónica. Salauno. And a dental practice in Florida.
+
+A group called Fulcrumsec claims PingCAP, the company behind the TiDB cloud database. If you or your vendors run TiDB Cloud, that's one to watch.
+
+The rest, briefly. Walbro, by Nitrogen. Ultimate Health Plans, by LockBit five. Seetelhotels, by INC. Brüninghoff, by Payload. Fisher fifty nine, by Anubis. Plus Seminole Schools, G T L Concreto, and B W Office World. And N zero n's usual parade of hotels, clinics and companies it only gives numbers to, ninety four through ninety seven.
+
+Two older items, now in the table. First Brothers in Japan, by Qilin. And Oak Grove Technologies, an American defence and government services contractor, by DragonForce, two hundred and sixty one gigabytes claimed.
+
+## Vulnerabilities
+
+To the vulnerabilities.
+
+First, a gap. C I S A's website wouldn't load for us again this morning, so I can't confirm the Known Exploited Vulnerabilities catalogue directly. The secondary trackers show nothing new since Friday. I'll believe that when I see it with my own eyes.
+
+Now, Plex. Plex Media Server is the software a great many people run at home to stream their films and music around the house. A chain of four flaws, which the researchers named Plex2Shell, lets an attacker run code on a Plex server without logging in. The proof of concept was published on the sixteenth. By the seventeenth, people were using it. The payloads so far are a crypto miner, and a residential proxy, which rents out your home internet connection to strangers so they can look like you.
+
+Why do we care? Because Plex runs on home networks. Including the home networks of people who work from home, on laptops that connect to ours. A compromised machine on the same network, quietly offering your home address to anyone who pays, is not a comfortable neighbour. The fix is version one point four three point three. If you run Plex, update it. If your colleagues do, tell them. The indicators are in the brief.
+
+Siemens Software Center. A flaw that lets a malicious D L L sit next to a genuine Siemens program and be loaded by it. It's being exploited right now, as part of ROMULUS. The fixed version is four point zero point nine point eight. Most firms won't have it. Engineering and industrial clients might.
+
+Oracle's quarterly patch release is due today. One thousand two hundred and eighty three fixes. Several rated a perfect ten for severity, in E-Business Suite, Fusion Middleware and J D Edwards, and nine point eights in PeopleSoft and MySQL. Oracle E-Business Suite exposed to the internet has been a mass exploitation target before. I'd patch that first and argue about the rest afterwards.
+
+A curiosity, but a sobering one. A researcher, Quentin Kaiser, has found a flaw in Broadcom's Wi-Fi code, about sixteen years old, in the Wi-Fi Protected Setup feature. It gives root on a router without a password. There's no C V E. And on routers running an old operating system called eCos, it can't be fixed at all. Sixteen years. Some secrets keep remarkably well.
+
+Critical, but not yet exploited. Google's open source Agent Mesh. A WordPress automation plugin called OttoKit. FreeBSD. GeoVision cameras. And Vanus. The identifiers are in the brief.
+
+And the things that haven't moved. No named victims yet from the BeyondTrust zero day. No fix from Ivanti for its third bug. No exploitation of the GitLab flaw. And no attribution yet for the Palo Alto or Cisco activity. Silence, in this business, is rarely the same thing as peace.
+
+## Software supply chain
+
+Supply chain. A rich seam today.
+
+Rank Math. One of the most popular S E O plugins for WordPress. Its paid version, Rank Math PRO, release three point zero point one two three, was trojanised. Anyone who downloaded it between about four in the afternoon on the fifteenth and about three in the morning on the sixteenth, Eastern time, got a backdoor with it.
+
+Here's the unpleasant part. The fixed version, three point zero point one two four, does not remove what the backdoor left behind. It plants files, sets up hidden admin accounts, and adds a scheduled task. Updating the plugin is rather like changing the lock while the burglar is still upstairs. The advice is to delete the plugin's folder entirely and restore from a clean backup. Check marketing sites, campaign sites, and anything an agency built for you. The indicators, including the admin account names to look for, are in the brief.
+
+GhostAction is back, aimed at developers. A phishing site posing as GitHub abuses the device login flow, the one where you type a short code to approve a new device, to steal tokens. And a credential stealer has been disguised as a font file and tucked into ninety four code repositories, belonging to sixty six owners. It's launched by a Visual Studio Code task file the moment someone opens the project. You don't run anything. You just open the folder. Which is the kind of hospitality I find suspicious.
+
+Elastic has found a fake Web three accelerator, calling itself Apex, pushing malicious packages to the npm registry. One of them is named to sound like a Copilot M C P tool. The package names and domains are in the brief.
+
+A footnote to last week's AOMEI story, where attackers hijacked the backup software's update servers. ManageEngine says it told AOMEI about a problem back in June. Four months is a long time to leave a door ajar.
+
+And as you've already heard, ConnectWise and Bullhorn are both, at heart, supply chain stories. One was the backup provider. One is the recruiting system. Neither is something most people would think of as a threat. That is precisely the point.
+
+## A I attacks and trends
+
+Now, the machines.
+
+Sekoia ran a honeypot, a decoy, dressed as an exposed Flowise server. Flowise is a tool for building A I agents and chatbots. In August, someone found it. They stole the A P I keys stored inside. Then they built their own malicious chatflow, one that called home to their server. Then they tried to jailbreak the model, to pull data out of the document store the agent used for answers, and to use the agent itself to scan the network for open ports. Sekoia thinks it was a Chinese-speaking group from the online gambling world.
+
+What's interesting isn't the tools. It's the manners. This wasn't a scanner bumping into an open door. Someone came inside, sat down, and started asking the furniture questions. Exposed A I agent builders are now being worked by hand.
+
+Reuters has a long piece on one hacker who used A I agents, and a few thousand dollars, to break into more than a hundred websites. BleepingComputer links it to a card skimming campaign: about six hundred thousand cards, across a hundred and nineteen sites. The Verge reports that John Deere, SharkNinja and Cummins were among those hit. I haven't been able to verify that part, so treat it as reported, not established.
+
+The Department of Homeland Security has banned DeepSeek across federal civilian agencies. If that wasn't already your firm's policy, it may be a useful reference point.
+
+MITRE has released version twenty of ATT and CK. It now catalogues A I abuse techniques, M F A bypass methods, and attacks on water utilities, and it has added The Gentlemen ransomware group. If your detection team maps to ATT and CK, there's homework.
+
+A sadder story. A former OpenAI engineer, Alfozan, has been detained in a spying case. The allegation is that he used one of OpenAI's own agents to work out which rooms the company's leadership used. And the court filing alleges WhatsApp contact with a Saudi royal. An insider using an A I agent for physical reconnaissance. That's a new sentence, and not a welcome one.
+
+And Microsoft has published a piece with a title I rather admire. Agents are your newest insiders. It's right. Every agent we give access to is an employee who never sleeps, never complains, and does exactly what it's told. By whoever happens to be telling it.
+
+## Cyber geopolitics
+
+The wider world.
+
+Ukraine. Zelensky has told two American senators, Tillis and Blumenthal, that on three occasions Ukraine received no early warning of Russian ballistic missile launches. The background is last week's reporting on Starshield and American intelligence sharing. Overnight from Sunday into Monday, Russia fired sixteen ballistic missiles and more than two hundred drones. President Trump says intelligence sharing continues. Zelensky has offered a thirty day pause on strikes against Russian refineries, in return for more Patriot systems. And talks are due in Oslo today, with Witkoff and Kushner. Whatever comes out of Oslo will shape the Russian cyber picture for the winter.
+
+Israel has launched what it calls Election Shield, a defence programme ahead of the twenty seventh. And as I said at the top, the diplomatic vote abroad is already done.
+
+In Serbia, Pegasus spyware has been found on the phone of the rector of the University of Belgrade, ahead of elections on the twenty fifth. Commercial spyware, used against a university head, in the run-up to a vote. The pattern is not new. Its persistence is the point.
+
+In Washington, the Treasury's sanctions office designated five Chinese entities tied to Linwei Ding, the former Google engineer at the centre of the A I trade secrets case. One of them is MiraclePlus, sometimes described as China's answer to Y Combinator. And Treasury Secretary Bessent has warned that sanctions could follow for A I model distillation. That is, for using another company's model to train your own. That's a remarkable widening. Intellectual property theft, as a sanctions matter, applied to the way models learn.
+
+On American election security, ProPublica reports that political appointees at Homeland Security asked C I S A to secretly hack a voting machine. Axios counts a hundred and thirty seven million dollars spent on A I generated attack ads. And the Justice Department has charged twenty eight foreign nationals with election crimes.
+
+In Brazil, Lula's campaign says Meta is not complying with an electoral court order, ahead of the runoff on the twenty fifth.
+
+And the Strait of Hormuz. There's chatter, but only from aggregators, and I couldn't verify it. I mention it only so you know I looked.
+
+## Consulting and professional services
+
+Our own neighbourhood.
+
+Andersen Group, a tax and advisory firm, is on Silent Ransom Group's leak site. That's the closest thing to a peer on the boards today. And the group's method, the friendly phone call from someone claiming to be I T, works on consultants as well as lawyers. Perhaps better. We are trained to be helpful.
+
+The law firms. Latham and Watkins, Baker Donelson, Rosenberg and Pittinsky on leak sites. Fragomen, Sheppard Mullin and Womble Bond Dickinson on the Massachusetts notification list. Law firms hold the most sensitive version of our clients' business. Their breach is our exposure, whether or not our name appears on a single page.
+
+C T G, the I T consultancy, has filed a breach notice. The Akeeli Group, the investigations firm, is listed by N zero n. And Bullhorn touches every staffing firm that supplies contractors to firms like ours.
+
+And McKinsey itself? Nothing cyber-related in the window. Google and McKinsey are buying three hundred and twenty thousand tonnes of carbon credits together, which will set off every brand alert you own. It's harmless. Let it ring.
+
+## Community chatter
+
+What people are talking about.
+
+On Hacker News, the Reuters and Verge stories on A I agent hacking are getting a great deal of attention, and a great deal of argument about whether the agents did the hard part or merely the boring part. My view is that the boring part was always the hard part.
+
+Developers are passing around warnings about GhostAction, and about Visual Studio Code task files that run when a folder opens. WordPress administrators are discovering, with some feeling, that updating Rank Math doesn't clean up the mess.
+
+No McKinsey-specific chatter that I could find.
+
+## Brand and executive targeting
+
+Brand and executive targeting.
+
+An older item, but one worth having on file. In July, a phishing campaign used the domain mckinsey dash careers dot com to send fake interview invitations, through a genuine H R platform called PeopleForce. The links led to a fake Google sign-in, drawn inside the browser window to look like a pop-up. Fake recruiters using our name are a perennial nuisance. If that domain isn't on your blocklist and your lookalike monitoring, it should be.
+
+A name collision, for your alert filters. A New York Times Games engineer, Jonathan McKinsey, was killed, and the case is in the news. It's a tragedy, and it has nothing to do with the firm. But it'll appear in your keyword alerts.
+
+Bullhorn's warning about people posing as its staff applies to anyone who uses it. And ROMULUS is borrowing the Chat G P T brand to build trust. People trust the brands they use every day. That's what makes them such good disguises.
+
+## Regulation and law enforcement
+
+Regulation and law enforcement, briefly.
+
+A court has denied WhatsApp's motion claiming that NSO Group had violated the injunction against it. Round to NSO, for now.
+
+ICANN is testing technology to let law enforcement see the non-public WHOIS records behind domain names. For anyone who has tried to unmask a phishing domain, that's either progress or a long overdue apology.
+
+The DeepSeek ban and the Chinese sanctions we've covered. And the American incident reporting rule, CIRCIA, is still sitting at the Office of Management and Budget. Rules, like wine, are said to improve with age. I have my doubts about both.
+
+## Deep dive: ROMULUS, and the fake Chat G P T that teaches you to hack yourself
+
+Now. Let's spend some time with ROMULUS.
+
+The technique is called ClickFix, and its genius is that it doesn't need to break anything. It persuades you to do the breaking. A page shows you something familiar, a Cloudflare check, a CAPTCHA, the little box that asks if you're human. Then it says, to finish verifying, press the Windows key and R, paste this, and press enter. The command has already been copied to your clipboard for you. How thoughtful. You paste it, and you have just run PowerShell on your own machine, on behalf of a stranger, with your own permissions. No exploit. No vulnerability. Just good manners, turned against you.
+
+What makes ROMULUS different is where it finds its victims. Huntress found malicious custom G P Ts, built inside OpenAI's own store, with names designed to sound like premium versions of Chat G P T. "Plus five point six", for example. Someone looking for a better assistant finds one, and the assistant, very helpfully, sends them to a verification page. That page is hosted on Google Sites. So the whole chain looks like OpenAI, Google and Cloudflare. Three of the most trusted names on the internet, holding the door open. The operators also buy sponsored results in Google search, so it works for people who never open Chat G P T at all.
+
+Now, the installation. ROMULUS has two main routes.
+
+The first uses installer files, M S I files, given long random names. Inside each is a genuine, digitally signed program from a respectable company, and next to it, a malicious D L L. When the genuine program starts, it loads the D L L sitting beside it, as programs do. That's called sideloading, and it's how you get a signed, trusted process to run your code. ROMULUS uses a Canon utility, a Stardock tool, and the Siemens Software Center we mentioned earlier, the one now officially recognised as being exploited. Three respectable programs, each carrying a passenger.
+
+The second route uses a loader called LegionLoader. It arrives as a seven zip archive, and inside is an executable padded out to eight hundred and forty two megabytes. Why so big? Because many security tools won't scan a file that large. They skip it to save time. The attackers know that, and they've simply made the file too heavy to lift. There's something almost admirable in that. Almost.
+
+What's at the end of the chain? A remote access trojan, which nobody has yet given a name. It can capture the screen, use the webcam, use the microphone, pull data out of seventeen different browsers, and search the disk for files. To find its command servers, it uses D N S over H T T P S, which hides the lookups inside ordinary encrypted web traffic. So the network team sees nothing unusual. Just another laptop, talking to the internet, like all the others.
+
+And then persistence, which is where it gets stubborn. ROMULUS creates a Run key in the registry, so it starts when you log in. Every hundred and fifty seconds, it checks that the key is still there, and puts it back if not. It also creates a scheduled task, disguised as "Canon Configuration Reader" or "Stardock DeElevation Tool", and re-creates that every eight hundred and seventy five seconds. So if you delete the key and the task and leave the process running, you'll find both of them waiting for you a few minutes later, like a houseguest who keeps letting himself back in. Kill the process first. Then remove the rest.
+
+How do you find it? Huntress and Forescout give a good list, and it's all in the brief. Let me give you the shape of it.
+
+Look at the Run dialog history in the registry, the RunMRU key, for PowerShell commands with execution policy bypass, or a hidden window. That's the fingerprint of someone being talked into pasting. Look at PowerShell script block logging for a particular environment variable the scripts use. The exact string is in the brief. Look for web addresses written as a single decimal number instead of a normal I P address. That's an old trick to slip past filters. Look for the Windows installer running an M S I with a long random name out of the temporary folder. Look for signed programs running from the local app data programs folder, where they have no business being. Look for a command line seven zip being launched by PowerShell with a password. And look for executables bigger than five hundred megabytes sitting in folders users can write to. There aren't many legitimate ones.
+
+The indicators. Eight I P addresses, four domains, and six file hashes, including the installers, the malicious D L Ls and the LegionLoader sample. All in the brief, ready for the blocklists.
+
+If you find it, Huntress's advice is not to clean the machine but to rebuild it. And rotate the user's credentials, including anything saved in the browser, because the trojan will already have read them.
+
+Now, why should this matter to us in particular?
+
+Because the lure is exactly the kind of thing our people go looking for. Consultants use A I assistants all day. They're always looking for a better one, a faster one, a premium one. A G P T that promises to be the next version, hosted in the official store, is a very attractive invitation. And the defences we usually rely on, the browser warnings, the email filters, the attachment scanning, simply don't come into it. There's no attachment. There's no link in an email. There's just a person, alone with their keyboard, being asked politely to prove they're human.
+
+So, three things.
+
+First, the message to staff. Not a long training module. One sentence, repeated until people are bored of hearing it. No genuine website will ever ask you to paste anything into Windows to prove who you are.
+
+Second, the technical control. Many firms can now restrict the Windows Run dialog, or alert on PowerShell launched from it. If yours can, this is the moment.
+
+Third, the A I policy. If your firm has an approved list of A I tools, make sure people understand that a custom G P T in the public store is not an approved tool just because it lives inside one.
+
+ROMULUS isn't the most sophisticated thing I've described on this programme. It doesn't need to be. It understands people. And it has realised that the most trusted place on the modern internet is a chat window with a friendly assistant in it.
+
+## Watchlist
+
+What I'm watching.
+
+N zero n's next batch, and whether CyberLogitec finally speaks. ConnectWise, and when its backups come back, and who was behind it. Bullhorn, and whether data left the building. Latham and Watkins and Baker Donelson, and whether data or statements appear.
+
+Oracle's patches, and whether anyone starts exploiting E-Business Suite. Today's talks in Oslo. On the twenty fifth, the Serbian and Brazilian votes, and LockBit's deadline for Poole Group. On the twenty seventh, Israel. And still, the BeyondTrust victims, and Ivanti's third fix.
+
+That's Tuesday. Check your outside counsel and your recruiters. Update Plex at home. And the next time a website asks you to prove you're human by doing something no human should do, take the hint.
+
+Until tomorrow.

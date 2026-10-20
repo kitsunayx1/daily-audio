@@ -1,0 +1,57 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-10-20,Busan New Port,Ports,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Dongkuk Steel,Steel / industrial,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Samju Maritime,Shipping,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Yusu Logistics,Logistics,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,BKH IDC,Data centre,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Goryeo Ferry,Shipping,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Saehan Marine,Shipping,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Dongwon Global Terminal Busan,Ports,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Masan iPort,Ports,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,BNCT (Busan New Container Terminal),Ports,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Polaris Shipping,Shipping,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,Dong-A Tanker,Shipping,KR,Data published (first batch),N0n,19–20 Oct,Claimed; data posted,https://www.boannews.com/news/articleView.html?idxno=146549
+2026-10-20,CyberLogitec,Maritime software,KR,Suspected common supplier for N0n batch,N0n,Ongoing,Unconfirmed,https://cyprusshippingnews.com/2026/10/20/
+2026-10-20,ConnectWise (Cloud Backup / SkyKick),MSP / SaaS backup,US / global,Services still offline; second tenant with post-compromise activity,Unknown,15 Oct; update 19 Oct,Confirmed,https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack
+2026-10-20,Bullhorn,Staffing / recruitment SaaS,US / global,Platform offline; credential resets required,Unknown,17 Oct,Confirmed; exfiltration undetermined,https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/
+2026-10-20,Latham & Watkins,Legal,US,Leak-site listing,Silent Ransom Group,19 Oct,Claimed,https://www.ransomware.live/id/TGF0aGFtICYgV2F0a2luc0BzaWxlbnRyYW5zb21ncm91cA
+2026-10-20,Andersen Group,Tax / advisory,US,Leak-site listing,Silent Ransom Group,6–8 Oct,Claimed [OLDER],https://www.ransomware.live/id/QW5kZXJzZW4gR3JvdXBAc2lsZW50cmFuc29tZ3JvdXA
+2026-10-20,O'Hagan Meyer,Legal,US,Leak-site listing,Silent Ransom Group,Oct,Claimed [OLDER],https://www.ransomware.live/
+2026-10-20,Baker Donelson,Legal,US,355 GB claimed,Redact,19 Oct,Claimed,https://www.ransomware.live/id/QmFrZXIgRG9uZWxzb25AUmVkYWN0
+2026-10-20,Rosenberg & Pittinsky LLP,Legal,US,Leak-site listing,Global Secret Group,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,The Akeeli Group,Investigations / due diligence,US,Leak-site listing,N0n,19 Oct,Claimed,https://www.ransomware.live/id/VGhlIEFrZWVsaSBHcm91cEBOMG4
+2026-10-20,Vormittag Associates,ERP hosting,US,Claimed client-environment credentials,N0n,19 Oct,Claimed,https://www.ransomware.live/id/Vm9ybWl0dGFnIEFzc29jaWF0ZXMgSW5jQE4wbg
+2026-10-20,PingCAP / TiDB Cloud,Database SaaS,US / CN,Leak-site listing,Fulcrumsec,19 Oct,Claimed,https://www.ransomware.live/id/UGluZ0NBUCAvIFRpREIgQ2xvdWRAZnVsY3J1bXNlYw
+2026-10-20,GardaWorld,Security services,CA,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/id/R2FyZGFXb3JsZEBxaWxpbg
+2026-10-20,CREDIN,Finance,PT,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/id/Q1JFRElOQHFpbGlu
+2026-10-20,Toyota Canarias,Automotive retail,ES,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,WalkingTree,IT services,US / IN,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,SkyWorld Air Cargo,Logistics,Unknown,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Johnson & Pace,Engineering,US,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Grupo Crónica,Media,Unknown,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Salauno,Healthcare,MX,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Dental Team FL,Healthcare,US,Leak-site listing,Qilin,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Walbro,Manufacturing,US,Leak-site listing,Nitrogen,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Ultimate Health Plans,Health insurance,US,Leak-site listing,LockBit5,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Seetelhotels,Hospitality,DE,Leak-site listing,INC,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Brüninghoff,Construction,DE,Leak-site listing,Payload,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Fisher59,Unknown,Unknown,Leak-site listing,Anubis,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Hotel DuPont,Hospitality,US,Leak-site listing,N0n,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Kingwood Endoscopy,Healthcare,US,Leak-site listing,N0n,19 Oct,Claimed,https://www.ransomware.live/
+2026-10-20,Oak Grove Technologies,Defence / government services,US,261 GB claimed,DragonForce,Earlier,Claimed [OLDER],https://www.ransomware.live/
+2026-10-20,First Brothers,Real estate / finance,JP,Leak-site listing,Qilin,Earlier,Claimed [OLDER],https://www.ransomware.live/
+2026-10-20,Ahold Delhaize / Albert Heijn,Retail,NL,Cyberattack; police report filed,Unknown,Oct; update 19 Oct,Confirmed; no data theft found,https://therecord.media/ahold-delhaize-cyberattack-grocery
+2026-10-20,Loxone,Smart building tech,AT,Internal IT intrusion; 201.6 GB claimed,Unknown,Oct,Confirmed intrusion; data claim unverified,https://cypro.co.uk/insights/cyber-bulletins/loxone-cyberattack-hits-internal-it-systems/
+2026-10-20,FirstVDS,Hosting,RU,Customer credentials and files stolen,Unknown,Oct,Confirmed,https://therecord.media/russia-cyberattack-firstvds-cloud
+2026-10-20,OpenCode,AI developer tools,US,API key exposure,Unknown,From 17 Oct,Confirmed,https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/
+2026-10-20,CTG (Computer Task Group / Cegeka),IT services / consulting,US / BE,Breach notice to Vermont AG (48 residents),Unknown,Filed 19 Oct,Confirmed,https://ago.vermont.gov/categories/security-breach-notices
+2026-10-20,Johnson Investment Counsel,Investment management,US,Breach via MSP remote tool; 39.6 GB claimed,Storm,Earlier,Confirmed [OLDER],https://www.claimdepot.com/data-breach/johnson-investment-counsel-2026
+2026-10-20,Fragomen,Legal (immigration),US,On Massachusetts breach list,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-20,Sheppard Mullin,Legal,US,On Massachusetts breach list,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-20,Womble Bond Dickinson,Legal,US / UK,On Massachusetts breach list,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-20,Lockton,Insurance brokerage,US,On Massachusetts breach list,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-20,Rank Math PRO,WordPress plugin,Global,Trojanised release 3.0.123,Unknown,15–16 Oct,Confirmed,https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html
+2026-10-20,Plex Media Server users,Media software,Global,Plex2Shell exploitation,Unknown,From 17 Oct,Confirmed,https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html
+2026-10-20,Siemens Software Center users,Industrial software,Global,DLL sideloading in ClickFix attacks,ROMULUS operators,Oct,Confirmed,https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html
+2026-10-20,Canva,Design SaaS,AU,Vendor (Canny) Salesforce breach,Unknown,Aug–Sep,Confirmed [CORRECTION: not new],https://databreaches.net/2026/09/23/canva-hacked-via-vendors-salesforce-instance-other-customers-affected-as-well/
+2026-10-20,California Dept of Education / ETS,Education / testing,US,Student records via compromised SFTP login,Unknown,Detected 25 Sep,Confirmed; count not published,https://www.cde.ca.gov/nr/in/ets-incident.asp
