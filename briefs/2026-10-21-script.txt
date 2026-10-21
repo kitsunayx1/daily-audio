@@ -1,0 +1,241 @@
+## Morning Signal. Wednesday, the twenty first of October.
+
+Good morning. Wednesday. The middle of the week, when everyone's attention is somewhere else, which is precisely why so many people choose it to be busy.
+
+This is Morning Signal for Wednesday, the twenty first of October. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief has every source link, and the organisations table has forty two rows for your vendor and client lookups.
+
+One clarification before we start. Yesterday I said we'd found no new additions to C I S A's Known Exploited Vulnerabilities catalogue. That was true when I said it. Later in the day, C I S A added six. Four are the Plex flaws, one is the Siemens Software Center flaw, both of which we covered yesterday, and the sixth is a Japanese web firewall called SiteGuard. I'll come to that.
+
+Three things first.
+
+## The top three
+
+Number one. They're coming in through the V P N, and they've written our industry on the list.
+
+Palo Alto's research unit, Unit 42, says two ransomware groups, Qilin and INC, are exploiting a flaw in GlobalProtect, the Palo Alto V P N, to get a session without a password and without multi factor authentication. The flaw isn't new. It was disclosed in May. What's new is the reporting, and one line in particular. Among the sectors targeted, Unit 42 lists professional and legal services.
+
+What they do once inside is the part I'd like your infrastructure colleagues to hear. They don't stay on the laptops. They go straight to the virtualisation layer, vCenter and the E S X i hosts. They switch off a safety setting that stops unsigned code running on those hosts. Then they take a copy of the domain controller's virtual disk and pull the passwords out of it offline. Your endpoint protection, running politely inside that domain controller, never sees a thing. Someone has walked off with the filing cabinet, and the guard is still watching the drawer.
+
+On the same day, the F B I, C I S A, the Secret Service and their German and British partners issued a joint advisory on another group, SafePay. More than six hundred victims since August twenty twenty four. Their way in? Password guessing, and old flaws in Cisco firewalls, SonicWall and Veeam backup servers. SafePay is today's deep dive.
+
+The action. Ask whoever runs your Palo Alto V P N one specific question: are authentication override cookies switched on, and does that cookie use the same certificate as the portal? If yes, patch, change the certificate, and end every live session. And while you have their attention, ask about Veeam, Cisco and SonicWall.
+
+Number two. A busy day in the supply chain. Four stories, one lesson.
+
+ConnectWise, first. New numbers from Huntress, via CyberScoop. The attacker's infrastructure tried to sign in to almost a thousand Microsoft tenants, and more than three hundred of those attempts appear to have worked. The confirmed number is still a hundred and sixty two, but Huntress says there are likely more it can't see. ConnectWise has reset credentials, and it's telling customers not to reconnect the apps until it says so.
+
+Then OVHcloud, the French cloud provider. Someone hijacked a contributor's GitHub account and swapped five releases of its command line tool for a version that steals developer secrets. It was live for about an hour and a half.
+
+Then UpdraftPlus, the WordPress backup plugin on more than four million sites. Its maker was breached over the weekend, and the attacker took the connection keys customers use to manage their sites remotely. Those keys are now being used to install backdoor plugins. Roughly four hundred thousand sites could be exposed.
+
+And eMudhra, an Indian certificate authority. A scripting error a year and a half ago produced eight certificates whose private keys could be worked out by anyone who tried. Browsers have now blocked them.
+
+The lesson, if you want one, is that the thing you trust to look after you is also the thing best placed to betray you. The backup app. The command line tool. The plugin that keeps your site safe. The certificate that says a site is who it claims to be.
+
+The action. Ask the web team whether any of the firm's WordPress sites use UpdraftCentral keys. Ask developers whether anyone ran the OVHcloud tool in the last few days. And if a legitimate site suddenly starts throwing certificate errors, eMudhra is a likely reason.
+
+Number three. P H P gets emergency patches today.
+
+Two critical flaws in P H P, the language a very large share of the web is written in, leaked on social media before the fixes were ready. They're being called P H P two Shell. The patches are due at ten o'clock this morning, Eastern time, for versions eight point two to eight point five. Anything older gets nothing. No one has been seen exploiting them yet, and there's no public proof of concept. SecurityWeek's headline is "Mass exploitation looms", which is the journalistic equivalent of a man looking at the sky and buying an umbrella.
+
+And a proof of concept is now public for a critical FortiSIEM flaw, Fortinet's security monitoring product. Version seven point five point zero, fixed in seven point five point one.
+
+The action. Find your P H P. Including the P H P hiding inside appliances that nobody thinks of as running P H P. Patch what faces the internet first, and isolate anything too old to be patched.
+
+## Breaches and incidents
+
+The rest of the confirmed incidents.
+
+Bullhorn, the staffing platform we covered yesterday. Its chief information security officer says access is being restored, with systems running again in Australia, Europe and the United States. CrowdStrike and Kroll are both working on it now. A P I passwords have been expired, so any integration your recruiters rely on will need new credentials. Single sign on was still unavailable as of Monday. And the question everyone wants answered, whether data left the building, is still undetermined.
+
+State Bank of India, the country's largest bank, has confirmed a data leak in a stock exchange filing. It found three thousand eight hundred and ninety seven customer records with personal details in a set of about three hundred and seventy five thousand records on the dark web. Names, phone numbers, dates of birth, emails, addresses. The count is preliminary. The bank hasn't said how the data was obtained, or whether a third party was involved. An actor calling itself Siriusim posted it on BreachForums, and also claims more than two thousand seven hundred loan and account opening documents.
+
+Ahold Delhaize. Many European sites and apps are back. American online shopping should follow within days, and Albert Heijn deliveries resume on Friday. Still no evidence of data theft.
+
+In healthcare. Parkview Health, in Indiana and Ohio, has disabled its network after what it calls suspicious activity. Its patient portal and appointment reminders are down. And a slower story. Paradigm Healthcare Services, a billing vendor to California's Medi-Cal programme, has disclosed that about nine hundred and seventy thousand members had their names, dates of birth and Medi-Cal numbers exposed. The intrusion happened in October last year. The letters went out last month. Eleven months. Patience is a virtue, they say. Not in breach notification.
+
+Citizens Bank has had its second incident of the year. Someone reached a system holding personal data, including Social Security numbers. It was identified on the tenth of September. The bank hasn't said how many people are affected.
+
+No new material incident filings with the S E C. And no new state notices for law, consulting or managed service firms.
+
+## Leak site claims
+
+The leak sites. Claims, not confessions.
+
+Silent Ransom Group, the outfit that listed Latham and Watkins on Monday, posted three new entries yesterday. All three are redacted. Just initials. "P, S, R". "P, H". "M, M". Each with a note saying the full name is pending disclosure, and a timer running. This group specialises in law firms. So these are probably law firms, but that's my inference, not a fact. It's an old trick. Show the victim, and the victim's friends, enough of the name to make them nervous. Then wait for the phone to ring.
+
+And on Latham itself, a plaintiff firm has opened what it calls a class action investigation, based on nothing more than the dark web listing. Latham has said nothing. The lawyers, it seems, are now chasing the lawyers.
+
+In our own neighbourhood. The Excalibur Group, a Washington staffing and programme management firm working across defence, I T and legal, is claimed by a group called Dark Project. More than six hundred gigabytes.
+
+51Ridge, an I T services and hosting company in Newark, New Jersey, is marked by N zero n as not paid, and exposed. N zero n says it has published the company's network configuration, its topology and its site to site V P N design. If that's true, 51Ridge's clients have just had the blueprints of their own front door posted on a public noticeboard.
+
+And Bruin Group, a telecom expense management firm. That's a company other companies hand their phone bills, their account numbers and their tax I Ds to, so it can audit them. A group called Emperador claims its ticketing system, including clients' financial details and signed authorisations. It wants a million dollars. And it's threatening to contact the clients directly. That's the modern refinement. You don't just extort the victim. You extort the victim's customers, and let them do the shouting.
+
+A new group, Mimori, has claimed two large software companies. OpenText, the Canadian enterprise software firm, with ninety four thousand files. And AVEVA, Schneider Electric's industrial software business, with about a hundred and seventy seven thousand files, and a publication date of Friday. No samples yet, and the leak site was down when researchers checked. A new name with a taste for big targets. Either very capable or very ambitious. Often both, until it isn't.
+
+Scarlettgroup, the group behind the Genesys claim, now claims NBCUniversal. Studio project data, finance data from SAP, customer data and Outlook mail. Cybernews has seen samples referencing Universal Television. The company hasn't commented.
+
+The rest, briefly. Asensus Surgical, part of KARL STORZ, by Dark Project. A batch from a group called Booba Project: City Hall in Everett, Massachusetts, the City of Mount Angel in Oregon, two medical practices, a neuropsychiatric centre in South Carolina, and the Research Foundation of the City University of New York. Graves Fireplaces by Global Secret Group. Central Rogers by INC. Duarte Nursery by Aurora. And G S E-M Technology in Malaysia, by Bravox.
+
+N zero n added two more, an Ethiopian environmental charity and a company called Xylanpicks. But no second maritime batch, and still no word from CyberLogitec.
+
+## Vulnerabilities
+
+The vulnerabilities.
+
+C I S A's six additions, as I mentioned. Plex and Siemens you know. The sixth is SiteGuard Server Edition, a host based web firewall that's popular in Japan. A flaw in its statistics feature, which is switched on by default, lets an attacker run commands as root or as SYSTEM. The vendor confirms it's being abused. The fixed version is eight point zero zero update five. And one detail worth passing on. Before you patch, download the diagnostic information from the console first. Patching can erase the evidence. It's the only security product I know of that asks you to photograph the crime scene before you tidy it.
+
+The Palo Alto flaw, we've covered. The fixed versions and every indicator are in the brief, including host names the attackers' machines use. One of them is "Jocker". Spelled wrong. I mention it only because it's always reassuring when the opposition can't spell.
+
+P H P and FortiSIEM, covered.
+
+Oracle. No sign of anyone exploiting the October patches yet. One clarification. Yesterday I said one thousand two hundred and eighty three patches. Trackers count those as covering one thousand two hundred and nine distinct vulnerabilities. Both numbers are correct. They simply count different things.
+
+And the old ones, unchanged. No fix yet for Ivanti's third bug. No named BeyondTrust victims.
+
+## Software supply chain
+
+Back to the supply chain, with the details.
+
+OVHcloud first. The attacker got into a contributor's GitHub account, which, according to one research group, had been compromised for more than six months. They replaced the release files for five versions, from point eleven to point fifteen, on Mac, Linux and Windows. OVHcloud's chief executive says the bad release was up for ninety four minutes before a customer noticed. If you installed through Homebrew, through Go, or used the Docker image, you were fine. Researchers link the payload to a campaign called GlassWorm, which reads its next instructions from a memo on the Solana blockchain. A command channel nobody can take down, written into a ledger nobody can edit. Very modern. Very irritating.
+
+The advice is blunt. If you ran it, every secret on that machine is gone. Rotate them all, from a different machine.
+
+UpdraftPlus. The maker, TeamUpdraft, was breached over the weekend of the seventeenth. The attacker likely reached the customer database, including the keys that let UpdraftCentral manage sites remotely. From the afternoon of the eighteenth, those keys were used to install plugins with names like "Site Health Cache", and to create admin accounts with names made of two words and two numbers. Data ops forty three. Media staff ninety six. Patchstack has seen at least ninety nine different plugin names.
+
+What to do. Update to one point twenty six point thirteen, or two point twenty six point thirteen for Premium. The previous fix had a bug. Delete your UpdraftCentral keys. Rotate any remote storage credentials. And look for admin accounts you don't recognise. Coming two days after the Rank Math backdoor, this has been a hard week to run a WordPress site.
+
+eMudhra. Eight intermediate certificates, two of them for code signing, with private keys that can be recovered. One key has already been published on GitHub. Chrome, Firefox, Apple and Microsoft have blocked them. Go has an emergency update. One gap worth knowing about. Chrome's block doesn't cover the two code signing certificates. So if your endpoint or application control tools trust software signed under them, someone should look.
+
+Zeabur, a developer hosting platform, is shutting down after its second breach in two months. The attacker used internal passwords stored in plain text, probably taken in the first breach. They logged in as root on a hundred and one servers and copied customer disks. More than three point two million environment variable records. That's where developers keep their secrets. If any client or vendor hosted there, they should be rotating everything.
+
+And AOMEI, the backup software whose update servers were hijacked. Google's threat intelligence team now attributes it to a group it tracks as U N C seventy seventeen. They tampered with the updates for windows of five to ten minutes at a time, from April to July. Small windows, carefully chosen. Victims in I T services, higher education and telecoms, in eleven countries, including the United States.
+
+## A I attacks and trends
+
+The machines.
+
+Yesterday I told you about the hacker who used A I agents to break into more than a hundred websites. It now has a name. The tool is called Cairn. It's an open source framework for running teams of A I agents, built for penetration testing. A researcher at NorForge, Snorre Fagerland, found about two dozen of its control panels left exposed on the internet. Often on port eight thousand, with no login at all. The criminals, it turns out, are as careless with their own systems as they hope we'll be with ours.
+
+There are three groups. The largest is Chinese-speaking, and ran more than eleven hundred attack projects against online shops and payment systems in the United States, Japan and Australia. About one in ten succeeded. Each success took just under a day, and cost about fifty dollars in A I compute. Fifty dollars. That's the price of a modest dinner, for a persistent foothold in a company's web server. Reuters says more than a hundred companies were breached, including John Deere, SharkNinja and Cummins.
+
+NIST, the N S A and C I S A have published guidance on responding to incidents involving rogue A I agents during the training of very advanced models. Ten practices, including revoking credentials and rebuilding any environment an agent has touched. It's voluntary. It's also the first time I've seen three government agencies write an incident response plan for a suspect who isn't a person.
+
+A curious one from WhatsApp. Researchers found hidden instructions in eighty of its help pages, aimed at its own support chatbot. They told the bot not to recommend data protection regulators, not to mention G D P R, and not to say accounts could be deleted manually. The hidden text was shown to Google and Bing's crawlers, and not to anyone else. Meta calls it a bug, and it's been removed. Whatever it was, it's a tidy real world example of how text a human never sees can steer what a model says. That's the whole principle of indirect prompt injection. Here it is, in a help page, at one of the largest companies on earth.
+
+And on the DeepSeek ban from Homeland Security, the order also covers third party products built on DeepSeek. Agencies have sixty days to ask for exceptions. If you advise government clients, that's worth knowing about your own tool stack.
+
+## Cyber geopolitics
+
+The wider world.
+
+Russia. Symantec reports that A P T twenty eight, Fancy Bear, the military intelligence unit, broke into a naval shipbuilder, a military aircraft engine maker, and a law enforcement agency in two European NATO countries, between July and September. The way in was a Word document with macros. The backdoor, called HOOKEDGE, takes its instructions through a hidden Microsoft Edge window positioned off the edge of the screen. Out of sight, quite literally. The indicators are in the brief.
+
+On the diplomatic side, after Oslo, Witkoff is due to meet Putin in St Petersburg today with an updated framework agreement. An American official speaks of meaningful progress. Axios reports the President has agreed to lift sanctions on Russian diesel sales. If there's a deal, the cyber picture shifts. If there isn't, it shifts the other way. Either way, it shifts.
+
+And in the other direction, a pro-Ukrainian group called Black Spark disrupted Russia's national school testing platform, showing pupils anti-Putin messages. Somewhere a Russian teenager got out of an exam. History will record that as a war crime, or a public service, depending on the teenager.
+
+Taiwan. Its National Security Bureau reports a surge in Chinese cyberattacks and disinformation ahead of local elections on the twenty eighth of November. The government network logged a hundred and eighty five million attacks in July alone, more than the whole first quarter. Intrusions into universities, telecoms and the defence supply chain. A I used to pick targets, hunt for zero days and write phishing. And influence work run through content farms, deepfakes, and accounts belonging to P R firms. That last detail is worth a moment. Professional communications firms, lending their reach to a state's campaign.
+
+Germany. More than four hundred and twenty one thousand internal emails from the A f D, the far right party, have been published. Nobody has said who took them.
+
+Serbia. A second target named in the spyware story: a lawyer with the organised crime prosecutor's office, who received an Apple threat notification. Citizen Lab has confirmed the Pegasus infection on the university rector's phone. Two more opposition figures have reportedly been targeted. The elections are on Sunday.
+
+Iran, the Gulf and North Korea, nothing new on cyber in the window.
+
+## Consulting and professional services
+
+Our neighbourhood.
+
+A survey from Deltek, published today, of three hundred and seventy five senior people at professional services firms. Six in ten consulting firms have been hit by a cyber attack since twenty twenty three. Thirty percent lost money as a result. The most common attacks were client data breaches, ransomware, and theft of intellectual property, all at about the same rate. And only twenty two percent of consultants put cybersecurity in their top three priorities. I'll leave that number with you. I imagine you've met the other seventy eight percent.
+
+Qilin and INC have named professional and legal services as targets. Silent Ransom Group is hunting law firms, and may have three more. A Washington staffing firm, an outsourced telecom auditor holding client financial data, and a hosting company with its V P N design now public. Every one of them is the sort of company that holds a piece of someone else's business.
+
+On our peers, nothing new. The Deloitte listing hasn't moved. The F B I's removal of an Accenture contractor, after a breach of its job site, is from earlier in the month.
+
+And McKinsey itself. Nothing cyber-related in the window. There is an older reputational story, from earlier this month, about a senior partner removed from a leadership role over social media posts. Nothing has changed. But stories like that are the raw material of pretexting. If someone calls asking for comment, or offering help, or claiming to be from a journalist, check before you speak.
+
+## Community chatter
+
+What people are talking about.
+
+On Hacker News, eMudhra, the A f D leak, the takedown of Tor exit relays, the DeepSeek ban, and WhatsApp's hidden chatbot instructions. That last one generated the most heat. People don't much mind being lied to by a company. They mind very much finding out it was a machine doing it.
+
+Nothing naming McKinsey or our peers, as far as I could see. Coverage of Reddit and the newer platforms remains patchy, so absence of evidence is, as ever, not evidence of absence.
+
+## Brand and executive targeting
+
+Brand and executive targeting.
+
+Nothing new naming the firm. One older item worth filing. Proofpoint has reported a China-aligned group, T A four nineteen, posing as former American officials, and as an employee of Anthropic, the A I company, to phish A I policy experts at think tanks, universities and law firms. They registered lookalike domains to do it. Anyone at the firm who writes or speaks publicly on A I policy is exactly the audience for that approach.
+
+And a pattern from today's leak sites. Bruin Group's extortionists are threatening to contact clients directly. Expect more extortion emails sent not to the breached company, but to its customers. Your people may well receive one about a vendor they've never heard of.
+
+## Regulation and law enforcement
+
+Regulation and law enforcement.
+
+The SafePay advisory, of course. More on that in a moment.
+
+In New York, a Nigerian man, Chukwuemeka Amachukwu, was sentenced to eight years for spear-phishing American tax preparation firms, including one in Manhattan, and using about eight hundred clients' data to file fraudulent returns. A professional services firm, attacked for what it holds about its clients. Familiar.
+
+California has settled with 23andMe's successor for six million dollars over the twenty twenty three breach. Connecticut has settled with Frontier for six hundred and twenty five thousand over its twenty twenty four breach. And nothing new on CIRCIA. Still waiting. Still at O M B.
+
+## Deep dive: SafePay
+
+Now. SafePay.
+
+A word about sources first. C I S A's website wouldn't load this morning, so what follows comes from reporting on the advisory, mainly from outlets that reproduced its tables. Check the original before you block anything.
+
+The advisory comes from the F B I, C I S A and the Secret Service, together with a German state criminal police office, Britain's National Crime Agency, and a regional organised crime unit in the north west of England. That's an unusually long list of signatures. When that many agencies agree to put their names on the same piece of paper, it's usually because they've each been cleaning up after the same people.
+
+SafePay first appeared in the late summer of twenty twenty four. Since then, more than six hundred victims, across North America, South America, Europe and Australia. The advisory covers activity up to August this year. Named victims in reporting include Ingram Micro, the I T distributor, Microlise, and Conduent.
+
+What makes SafePay unusual is what it isn't. It isn't a franchise. Most of the large ransomware brands today rent out their tools to affiliates, independent crews who do the break-ins and share the proceeds. SafePay doesn't. It's a closed group. Which means fewer people to arrest, fewer people to fall out with each other, and, so far, fewer leaks about how it operates. Discipline, in crime as elsewhere, is underrated.
+
+How does it get in? Mostly, the honest way. Stolen passwords. Guessed passwords. Passwords someone left lying about. It logs into V P N and remote desktop gateways, often from a commercial V P N service so its real location doesn't show. And it runs automated scripts against the edge. Old flaws in Cisco firewalls, which allow information disclosure and brute forcing of V P N accounts. Flaws in Veeam backup servers, one of which leaks credentials and another of which lets an unauthenticated attacker run code. And a flaw in SonicWall. None of these is new. Most are more than a year old. SafePay isn't relying on genius. It's relying on the patch nobody got round to.
+
+Once inside, the tools are the usual cast. PsExec, Windows remote management and remote desktop to move around. AnyDesk and TeamViewer to copy the ransomware onto machines, which has a certain cheek to it. Network scanners and share finders to map where the valuable files are. Mimikatz and a DCSync tool to harvest credentials. And a SOCKS proxy, renamed to look like a Windows error reporting process, to tunnel traffic in and out.
+
+Then the theft. Files are bundled up with seven zip or WinRAR, and sent out with RClone, WinSCP, FileZilla, or straight to OneDrive or Backblaze cloud storage. Then the encryption. A file called locker dot D L L, or simply one dot E X E. Files end up with the extension dot SafePay. And the ransom note sends you to a chat portal on Tor.
+
+Two details about how SafePay ends things that I find telling. First, it creates new administrator accounts, or takes over existing ones, and then changes everybody else's passwords. So when your I T team arrives to fight the fire, they find they've been locked out of the building. Second, it doesn't just delete the Windows shadow copies, which is standard. It factory resets network storage devices used for backups. It goes after the lifeboats.
+
+And then the pressure. Double extortion, a leak site, and telephone calls. They ring people. And the ransom is set as a percentage of the victim's revenue. Not what the data is worth. What the victim is worth. It's a pricing model any consultant would recognise.
+
+The indicators. Nine I P addresses, but a warning. Four of them belong to Cloudflare, GitHub and Google. That's not a sign those companies are involved. It's where the attackers' traffic happened to pass through. Don't block them, or you'll take down half your own business. Use them to hunt, not to blacklist. There are also file hashes for the ransomware and its tools, and four attacker host names, all in the form W I N dash, followed by eleven random characters. That's the default name Windows gives a new machine. Seeing one of those connect to your V P N is a reasonable cause for curiosity. All of it is in the brief.
+
+How do you look for SafePay? Six places.
+
+At the edge. Successful V P N or remote desktop logins from commercial V P N services. Patterns of many failed attempts followed by one success. Machines with those default names. And confirm that Cisco, SonicWall and Veeam are patched.
+
+In identity. New accounts created, accounts added to privileged groups, and especially a burst of password resets. And any machine that isn't a domain controller asking a domain controller for a copy of its passwords.
+
+In execution. New services, especially the one PsExec creates. One machine reaching out to many others over remote management. Remote support tools on servers, where they have no business being.
+
+In exfiltration. RClone, WinSCP, or the Backblaze tool appearing. Large archives in temporary folders. Uploads to personal cloud storage.
+
+Before impact. Shadow copies being deleted. Backup appliances being reset. Security tools being turned off.
+
+And one overlap worth noting. SafePay and Qilin both use the same Veeam flaw. One hunt on your backup servers covers both.
+
+If you find it. Isolate the hosts and keep the logs. Rotate domain admin, service and backup credentials, and reset the Kerberos master account twice. Remove remote tools nobody sanctioned. Restrict the remote administration tools to dedicated admin machines. Require phishing resistant multi factor authentication on every way in. And keep at least one backup that's offline or can't be changed, with its own credentials, on its own segment of the network.
+
+Why does this matter to us?
+
+Because SafePay's victims look a great deal like our clients, and our suppliers. Mid-sized and large organisations, with a V P N, a backup server, and a few systems that were going to be patched next quarter. And because the method is so ordinary. No zero days. No nation state. Just a disciplined crew with a list of old flaws and a lot of patience. The advisory is useful precisely because it's dull. It's a checklist. Hand it to your infrastructure team, ask them to go through it line by line, and ask for the answers in writing.
+
+SafePay doesn't need you to make a dramatic mistake. It only needs you to leave one small thing undone. The trick, as ever, is to be slightly less interesting than the company next door.
+
+## Watchlist
+
+What I'm watching.
+
+At ten this morning, Eastern, P H P's emergency patches, and whether a proof of concept follows them out the door. Today, Witkoff and Putin in St Petersburg. Friday, Mimori's deadline for AVEVA, and Albert Heijn's deliveries return. Sunday, the Serbian and Brazilian votes, and LockBit's deadline for Poole Group. The twenty seventh, Israel. The twenty ninth, the reported date for OpenText.
+
+The names behind Silent Ransom Group's three sets of initials. ConnectWise's final count, and when its services return. Whether Bullhorn lost data. N zero n's next maritime batch. FortiSIEM. Ivanti. BeyondTrust.
+
+That's Wednesday. Ask about the V P N cookies. Find your P H P. Check the WordPress sites again. And if your backups are in one place, with one password, give someone a reason to fix that before Friday.
+
+Until tomorrow.
