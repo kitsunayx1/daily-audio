@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Wed 21 Oct 2026: Ransomware through the VPN, a supply-chain pile-up, PHP2Shell patch day</title>
+      <description>Qilin and INC exploit GlobalProtect against professional and legal services; joint advisory on SafePay; ConnectWise, OVHcloud CLI, UpdraftCentral and eMudhra supply-chain incidents; PHP emergency patches; Silent Ransom Group&#x27;s redacted listings; deep dive on SafePay. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-21.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-21.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-21.mp3" length="13182123" type="audio/mpeg"/>
+      <itunes:duration>1647</itunes:duration>
+    </item>
+    <item>
       <title>Tue 20 Oct 2026: N0n publishes maritime data, law firms on leak sites, ROMULUS fake ChatGPT ClickFix</title>
       <description>N0n posts its first batch of Korean maritime data; Latham &amp; Watkins, Andersen and Baker Donelson on leak sites; Bullhorn staffing platform offline; Plex2Shell exploited; Rank Math PRO backdoor; deep dive on the ROMULUS ClickFix platform. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-20.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-20.md</link>
