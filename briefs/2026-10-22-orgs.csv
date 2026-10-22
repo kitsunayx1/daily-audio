@@ -1,0 +1,46 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-10-22,ConnectWise (Cloud Backup / SkyKick),MSP / SaaS,US,"App identities abused against 2,250+ M365 tenants; attributed",Storm-0940 (China) using ARTEX,Attribution 21 Oct,Confirmed; phased restoration,https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
+2026-10-22,LiteLLM (BerriAI),AI developer tooling,US,PyPI 1.107.0 and Docker images backdoored with credential stealer,Unattributed,21 Oct,Confirmed; removed,https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer
+2026-10-22,GMO Internet (Onamae Desktop Cloud),Hosting / VPS,JP,"Malicious programs on up to 26,739 customer servers; service suspended",Unknown,20–21 Oct,Confirmed,https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/
+2026-10-22,PingCAP / TiDB Cloud,Database SaaS,US / CN,Stolen service-account credentials; access 9 Sep–7 Oct,FulcrumSec (claims),Reported 21 Oct,Confirmed access; data claim unverified,https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security
+2026-10-22,Navigate360 P3 / Toronto Crime Stoppers,Public-safety SaaS,CA,"176,859 tips stolen; tip intake suspended",Unknown,Breach Mar 2026; suspended 22 Oct,Confirmed [OLDER],https://www.cp24.com/local/toronto/2026/10/22/please-do-not-send-us-tips-toronto-crime-stoppers-says-following-data-breach/
+2026-10-22,Richmond Public Schools,Education,US,Ransomware; network offline; data theft claimed,Unnamed,21 Oct,Confirmed incident,https://cybernews.com/news/richmond-schools-ransomware-attack-ransom-note/
+2026-10-22,Jerome School District,Education,US,"Ransomware hit cameras, locks, HVAC; student data accessed",Unnamed,17–18 Oct,Confirmed,https://cybernews.com/news/school-district-ransomware-attack-idaho-cameras-locks-hvac/
+2026-10-22,California Dept of Education / ETS,Education contractor,US,"Student PII including disability status copied, May–Sep",Unknown,Warned 20 Oct,Confirmed [UPDATE],https://therecord.media/california-warns-all-public-school-students-of-data-breach
+2026-10-22,Burger King Japan,Hospitality,JP,11.18M app member records accessed,Unknown,2–7 Oct,Confirmed [OLDER],https://escudodigital.com/en/cybersecurity/data-breach-hits-11-million-burger-king-japan-customers.html
+2026-10-22,Sodali & Co,Governance / shareholder advisory,US / LU,Leak-site listing,BrainCipher,21 Oct,Claimed,https://www.ransomware.live/id/c29kYWxpLmNvbUBCcmFpbkNpcGhlcg
+2026-10-22,S.R. Snodgrass,Accounting,US,Leak-site listing with screenshot,BrainCipher,21 Oct,Claimed,https://www.ransomware.live/id/c3Jzbm9kZ3Jhc3MuY29tQEJyYWluQ2lwaGVy
+2026-10-22,"SGLA (Schwartz, Giannini, Lantsberger & Adamson)",Accounting / consulting,US,Leak-site listing; archive for sale,Spacebears,22 Oct,Claimed,https://www.ransomware.live/id/U0dMQSAoU2Nod2FydHosIEdpYW5uaW5pLCBMYW50c2JlcmdlciAmIEFkYW1zb24pQHNwYWNlYmVhcnM
+2026-10-22,Linebarger Goggan Blair & Sampson,Legal,US,Leak-site listing,Everest,22 Oct,Claimed,https://www.ransomware.live/id/TGluZWJhcmdlciBHb2dnYW4gQmxhaXIgJiBTYW1wc29uQGV2ZXJlc3Q
+2026-10-22,Bereskin & Parr / Smart & Biggar,Legal (IP),CA,Client case data claimed,INC Ransom,22 Oct,Claimed,https://www.ransomware.live/id/YmVyZXNraW5wYXJyLmNvbSBzbWFydGJpZ2dhci5jYUBpbmNyYW5zb20
+2026-10-22,Porter Hedges LLP,Legal,US,Leak-site listing,Silent Ransom Group,21 Oct,Claimed,https://www.ransomware.live/id/UG9ydGVyIEhlZGdlcyBMTFBAU2lsZW50UmFuc29tR3JvdXA
+2026-10-22,"Redacted ""K.r.. ...s"" / ""K.r.a. ...s""",Unknown,Unknown,"Redacted listing(s), data timer",Silent Ransom Group,21–22 Oct,Claimed,https://www.ransomware.live/id/Sy5yLmEuIC4uLnNAU2lsZW50UmFuc29tR3JvdXA
+2026-10-22,O'Flaherty Law,Legal,IE or US (unclear),Leak-site listing,BrainCipher,21 Oct,Claimed,https://www.ransomware.live/id/b2ZsYWhlcnR5LWxhdy5jb21AQnJhaW5DaXBoZXI
+2026-10-22,mvjllp.com,Unknown (LLP),Unknown,Leak-site listing,BrainCipher,21 Oct,Claimed,https://www.ransomware.live/id/bXZqbGxwLmNvbUBCcmFpbkNpcGhlcg
+2026-10-22,Lanham Associates,Professional services (unconfirmed),Unknown,Leak-site listing,Everest,21 Oct,Claimed,https://www.ransomware.live/id/TGFuaGFtIEFzc29jaWF0ZXNAZXZlcmVzdA
+2026-10-22,Adobe Insurance Brokers,Insurance brokerage,US,Leak-site listing,Pear,21 Oct,Claimed,https://www.ransomware.live/id/QWRvYmUgSW5zdXJhbmNlIEJyb2tlcnMsIExMQ0BwZWFy
+2026-10-22,LEGAL-RECORDS.US,Legal records service,US,Leak-site listing,Clop,21 Oct (before window),Claimed,https://www.ransomware.live/id/TEVHQUwtUkVDT1JEUy5VU0BjbG9w
+2026-10-22,Hanjin Information Systems & Telecom (HIST),IT services,KR,"Staff accounts, client staffing map, vendor accounts claimed",N0n,21 Oct,Claimed,https://www.ransomware.live/id/SGFuamluIEluZm9ybWF0aW9uIFN5c3RlbXMgJiBUZWxlY29tbXVuaWNhdGlvbiBDby4sIEx0ZC5ATjBu
+2026-10-22,Haier,Manufacturing,CN,Leak-site listing,Everest,21 Oct,Claimed,https://www.ransomlook.io/group/everest
+2026-10-22,Westrock Coffee,Food and beverage,US,Leak-site listing; class-action investigation,Helix,21 Oct,Claimed,https://www.ransomware.live/id/V2VzdHJvY2sgQ29mZmVlQEhlbGl4
+2026-10-22,Hypertherm,Manufacturing,US,Leak-site listing,Helix,21 Oct,Claimed,https://www.ransomware.live/id/SHlwZXJ0aGVybUBIZWxpeA
+2026-10-22,Heritage Senior Living,Healthcare,US,Network configurations claimed,N0n,21 Oct,Claimed,https://www.ransomware.live/id/SGVyaXRhZ2UgU2VuaW9yIExpdmluZ0BOMG4
+2026-10-22,Weld RE-8 School District,Education,US,Leak-site listing,The Gentlemen,21 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-22,PLD Group,Unknown,Unknown,Leak-site listing,Everest,21 Oct,Claimed,https://www.ransomware.live/id/UExEIEdyb3VwQGV2ZXJlc3Q
+2026-10-22,Lindauer Dornier,Manufacturing,DE,Leak-site listing,Everest,21 Oct,Claimed,https://www.ransomware.live/id/TGluZGF1ZXIgRG9ybmllckBldmVyZXN0
+2026-10-22,Hecker Holzsystembau,Construction,DE,Leak-site listing,Lamashtu,21–22 Oct,Claimed,https://www.ransomware.live/id/SGVja2VyIEhvbHpzeXN0ZW1iYXVAbGFtYXNodHU
+2026-10-22,Gräfliches Hofbrauhaus Freising,Food and beverage,DE,Leak-site listing,Lamashtu,21–22 Oct,Claimed,https://www.ransomware.live/id/R3LDpGZsaWNoZXMgSG9mYnJhdWhhdXMgRnJlaXNpbmdAbGFtYXNodHU
+2026-10-22,VERGI Muenster,Utilities,DE,Leak-site listing,Lamashtu,21–22 Oct,Claimed,https://www.ransomware.live/id/VkVSR0kgTXVlbnN0ZXJAbGFtYXNodHU
+2026-10-22,FuG-Gruppe,Manufacturing,DE,Leak-site listing,Lamashtu,21–22 Oct,Claimed,https://www.ransomware.live/id/RnVHLUdydXBwZUBsYW1hc2h0dQ
+2026-10-22,MECA-PRECIS,Manufacturing,FR,Leak-site listing,Lamashtu,21–22 Oct,Claimed,https://www.ransomware.live/id/TUVDQS1QUkVDSVNAbGFtYXNodHU
+2026-10-22,WEPOS Chemie,Chemicals,DE,Leak-site listing,Lamashtu,21–22 Oct,Claimed,https://www.ransomware.live/id/V0VQT1MgQ2hlbWllQGxhbWFzaHR1
+2026-10-22,Flextron Circuit Assembly,Electronics manufacturing,SG,Leak-site listing,Akira,21 Oct,Claimed,https://www.ransomware.live/id/RmxleHRyb24gQ2lyY3VpdCBBc3NlbWJseUBha2lyYQ
+2026-10-22,Cascade Flooring America,Retail / construction,US,Leak-site listing,Akira,21 Oct,Claimed,https://www.ransomware.live/id/Q2FzY2FkZSBGbG9vcmluZyBBbWVyaWNhQGFraXJh
+2026-10-22,Coastal Alabama Community College,Education,US,Leak-site listing,Interlock,21 Oct,Claimed,https://www.ransomware.live/id/Q29hc3RhbCBBbGFiYW1hIENvbW11bml0eSBDb2xsZWdlQGludGVybG9jaw
+2026-10-22,Allmand-Smith,Unknown,GB,Leak-site listing,Aurora,21 Oct,Claimed,https://www.ransomware.live/id/QWxsbWFuZC1TbWl0aCBMaW1pdGVkQGF1cm9yYQ
+2026-10-22,ProSomnus,Medical devices,US,Leak-site listing,BrainCipher,21 Oct,Claimed,https://www.ransomware.live/id/cHJvc29tbnVzLmNvbUBCcmFpbkNpcGhlcg
+2026-10-22,Lucid Motors,Automotive,US,New 5 TB data and source-code auction posts,Sovcali,21 Oct (original Aug/Sep),Claimed [UPDATE],https://www.galaxywarden.com/blog/breach/lucidmotors-sovcali-2026-08
+2026-10-22,Latin American banks and payment firms (400+ targeted),Financial services,LATAM,AI-agent intrusion campaign,"""CyberCartel""",Reported 22 Oct,Researcher-reported,https://cybersecuritynews.com/hackers-used-claude-and-grok
+2026-10-22,"South Korean software, construction and telecom firms",Multiple,KR,FlashHole espionage campaign,Lazarus,Reported 21 Oct,Researcher-reported,https://securelist.com/lazarus-operation-flashhole/121541/
+2026-10-22,GitLab self-managed users,Software,Global,CVE-2026-110264 (CVSS 10) unauthenticated RCE,N/A,21 Oct,Patched; not exploited,https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/
+2026-10-22,PHP users (8.2–8.5 and EOL),Software,Global,PHP2Shell exploitation attempts,Unknown,21 Oct,Patched; attempts confirmed,https://www.php.net/archive/2026.php#2026-10-21-5
