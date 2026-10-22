@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Thu 22 Oct 2026: China&#x27;s Storm-0940 behind ConnectWise, advisers on leak sites, LiteLLM backdoored</title>
+      <description>Microsoft attributes the ConnectWise compromise to China-aligned Storm-0940 using the ARTEX AI agent framework; Sodali, accounting and law firms on leak sites; LiteLLM 1.107.0 backdoored; PHP2Shell exploitation attempts; GitLab CVSS 10 bug; deep dive on Storm-0940. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-22.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-22.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-22.mp3" length="13584565" type="audio/mpeg"/>
+      <itunes:duration>1698</itunes:duration>
+    </item>
+    <item>
       <title>Wed 21 Oct 2026: Ransomware through the VPN, a supply-chain pile-up, PHP2Shell patch day</title>
       <description>Qilin and INC exploit GlobalProtect against professional and legal services; joint advisory on SafePay; ConnectWise, OVHcloud CLI, UpdraftCentral and eMudhra supply-chain incidents; PHP emergency patches; Silent Ransom Group&#x27;s redacted listings; deep dive on SafePay. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-21.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-21.md</link>
