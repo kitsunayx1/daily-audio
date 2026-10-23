@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Fri 23 Oct 2026: Everest claims PwC, AI-key harvesting, PHP2Shell at scale + weekly roll-up</title>
+      <description>Everest&#x27;s unverified PwC claim and the law-firm run (Kirkland &amp; Ellis, Lexitas); Railway and LiteLLM show attackers harvesting AI keys from developer platforms; PHP2Shell hits millions of attempts and an Arista VeloCloud zero-day is exploited. Deep dive: the Microsoft 365 token-spraying campaign. Plus the weekly roll-up for 16-22 Oct. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-23.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-23.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-23.mp3" length="12615534" type="audio/mpeg"/>
+      <itunes:duration>1576</itunes:duration>
+    </item>
+    <item>
       <title>Thu 22 Oct 2026: China&#x27;s Storm-0940 behind ConnectWise, advisers on leak sites, LiteLLM backdoored</title>
       <description>Microsoft attributes the ConnectWise compromise to China-aligned Storm-0940 using the ARTEX AI agent framework; Sodali, accounting and law firms on leak sites; LiteLLM 1.107.0 backdoored; PHP2Shell exploitation attempts; GitLab CVSS 10 bug; deep dive on Storm-0940. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-22.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-22.md</link>
