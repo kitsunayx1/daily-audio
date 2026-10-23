@@ -1,0 +1,185 @@
+## Morning Signal. Friday, the twenty third of October.
+
+Good morning. Friday. The day people relax a little, which is precisely why the people across the table don't.
+
+This is Morning Signal for Friday, the twenty third of October. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief has every source link, and the organisations table has forty three rows for your vendor and client lookups. And because it's Friday, the end of this episode carries the weekly roll-up, Friday to Thursday, with its own sourced document and a combined table of more than two hundred organisations.
+
+Two housekeeping notes before we begin.
+
+First. Yesterday C I S A sent an email bulletin titled, and I quote, "C I S A Adds Twenty Known Exploited Vulnerabilities to Catalog." If that landed in your inbox and raised your pulse, lower it. It was a mistake. The bulletin listed twenty industrial control system advisories, eighteen of them Siemens, not twenty exploited vulnerabilities. The catalogue itself hasn't changed since Tuesday. Even the people who keep the list occasionally mislabel the envelope.
+
+Second. A Japanese software firm called Valtec, which on Thursday blamed its breach on the new P H P flaw, has corrected itself. It wasn't P H P. It was a flaw in Valtec's own service. When a famous vulnerability is in the news, it becomes a very convenient coat to hang one's own mistakes on. Worth remembering when the next vendor statement arrives.
+
+Three things first.
+
+## The top three
+
+Number one. A Big Four firm is on a leak site. And the law firm procession continues.
+
+The extortion group Everest has listed P w C. It claims five hundred and ninety gigabytes, about a hundred and eight thousand files, taken from internal H R and learning systems. Employee and training records. What it calls audit methods. Confidential documents. A spreadsheet it says tracks clients, engagements and services. And single sign on packages and integration code that, according to the listing, contain access and encryption parameters.
+
+Now, the detail that matters most. The stolen material reportedly sits in a directory named after a Cornerstone OnDemand staging tenant. Cornerstone is a widely used learning and talent platform. Staging. Not production. The rehearsal stage, not the theatre. If that's accurate, the route in was a third party S a a S environment that was meant for testing, and somebody tested it.
+
+Let me be careful. This is unverified. P w C hasn't commented. A release date of the twenty eighth has been reported but not confirmed. One analyst firm notes the listing it saw showed no data volume or samples, which sits awkwardly with the detail circulating on X, and Everest has listed victims before that turned out to be fiction. Nothing suggests Cornerstone itself was breached.
+
+But consider the lesson regardless of whether the claim survives. Staging and test tenants very often hold real data, copied over for convenience, guarded by the controls nobody got round to configuring. Everyone locks the front door. Few people remember the dress rehearsal had the same cast.
+
+And the law firms. Silent Ransom Group, the crew that phones staff pretending to be their own I T help desk, listed Kirkland and Ellis yesterday afternoon, along with two more names still behind redaction. You may remember Clop listed Kirkland in September as well. Neither has been confirmed. A group called Bravox listed Barrow and Grimm, a business litigation firm. And Lexitas, the court reporting and litigation support company that a great many law firms use, filed a breach notice in Vermont. Small numbers there, five residents, but the data types on the form are not small: Social Security numbers, government I D, financial and health data, and login credentials.
+
+What to do. Review your H R and learning S a a S tenants, including the staging and test ones, and whatever single sign on configuration they hold. Check whether Lexitas or Cornerstone sit in your vendor list. And expect P w C themed phishing aimed at its people and its clients, including firms who work alongside P w C on the same engagements. If an attacker really holds a client and engagement tracker, they know exactly whom to write to, and what to say.
+
+Number two. Someone is harvesting A I keys from the platforms developers deploy on.
+
+Railway, a cloud hosting platform with something like four point eight million users, says an intruder accessed the systems that store customers' environment variables. For some users, the attacker got the decrypted contents. A P I keys. Database passwords. Registry credentials. The keys to the kitchen and the pantry.
+
+And Railway said something unusual. It believes this was part of a series of attacks on platform companies, and I'm quoting, "with the aim of compromising A I inference providers." In other words, the prize wasn't Railway. It was the A I keys Railway's customers had stored there. Zeabur, another platform, OpenCode's console and LiteLLM all fit the same pattern. There's an unconfirmed claim of around two hundred thousand stolen OpenRouter keys floating about as well. Treat that one with suspicion until someone shows their work.
+
+Then there's LiteLLM's own explanation of how its release pipeline was hijacked last week. It's the most instructive paragraph I've read this month. An internal LiteLLM deployment, exposed to the internet, logged the full bodies of requests passing through it. Some of those requests came from Claude Code, which had included users' GitHub tokens. So the gateway's logs quietly collected every developer token that walked past. An attacker got into that deployment through an innocently named user account, read the logs, took three developer tokens and one organisation owner token, switched off branch protection, and pointed the release workflow at a lookalike repository. Signed, published, poisoned.
+
+The moral. An A I gateway sees everything that passes through it. If it keeps notes, those notes are the most valuable thing in the building.
+
+What to do. If the firm or a vendor deploys on Railway, rotate every stored variable. Watch A I provider billing for models nobody uses or spikes nobody explains, and set spending caps. And treat A I gateway logs as you would a password vault, because functionally, that's what they've become.
+
+Number three. P H P two Shell is now a numbers game, and an S D-WAN zero day is being exploited.
+
+Cloudflare now counts millions of exploitation attempts against P H P two Shell. A Mirai botnet variant, called Potassium, which is either a chemistry joke or a cry for help, has added it to its arsenal. And Amazon saw a single probe against its honeypots on the seventeenth of October. Four days before the disclosure. Someone knew early, or guessed well.
+
+The reassuring part, such as it is: still no confirmed successful compromise. Several firms watching traffic saw no working remote code execution. But VulnCheck built a working exploit chain on recommended production settings. Harder than first feared. Feasible all the same. The U K's National Cyber Security Centre has told organisations to take P H P systems offline if they can't patch, and a few U S and U K government websites briefly went dark. Okta's Access Gateway, Q NAP's network storage and cPanel all have fixes out.
+
+And separately, Arista has patched a zero day in the on premises version of its VeloCloud Orchestrator, the console that runs an S D-WAN estate, and it's being exploited. A SQL injection, rated nine point nine. Any logged in user, even a read only one, can promote themselves to operator. This is Arista's third exploited VeloCloud flaw since late July. Orchestrators patched for the earlier ones are still vulnerable to this. The hosted version is already fixed.
+
+What to do. Patch P H P everywhere, including the appliances that quietly bundle it. Patch any on premises VeloCloud Orchestrator, and block the two addresses in the brief. Then check who has logged in.
+
+## Breaches and incidents
+
+The rest of the breach ledger.
+
+In Japan, blastmail, an email marketing service run by a RAKUS subsidiary, had two A P I servers compromised. The attacker moved from there to the sales management system and the service database, and took sales data for every subscriber: company names, contacts, phone numbers, emails, billing and payment history. Plus mailing lists for some customers. At least fifty one organisations have now disclosed knock-on exposure, among them Tohoku Electric Frontier, with up to a hundred thousand addresses, Yokohama City, Ibaraki Prefecture and the software firm Nulab. One supplier, fifty one apologies. That ratio is the story of the year.
+
+GMO's desktop cloud incident, which we covered earlier in the week, has a sequel. Customers report unauthorised operations on foreign exchange trading accounts tied to software on the affected servers. GMO says stored credentials may have been stolen and used. Police are involved, and OANDA Japan is delaying withdrawals for security checks.
+
+Capcom, the games company, says eleven point seven seven million CAPCOM I D accounts had email addresses and login details exposed, and a hundred and ninety six accounts had their passwords changed by someone else. No card data. Cause not given.
+
+Quest Diagnostics is investigating a breach of its Quanum Lab Services Manager. Quest volunteered that it's "not related to a P H P programming language issue." This week, apparently, that's a sentence one needs to say out loud.
+
+The City of Columbia, South Carolina, lost its resident portal, mapping and animal services to a cyberattack. State police are investigating. Emergency services and water are fine.
+
+In Australia, Lamashtu has published thirty five gigabytes from Virtual Ideas, a Sydney visualisation firm, and an Anglican schools council in Campbelltown is investigating a ransomware claim.
+
+Professional services breach notices. Lexitas, already mentioned. Michael J Berger and Company, an accounting firm, filed in Vermont. And the Massachusetts October list now includes Compliance Audit Partners, Frazer L L P, a C P A and consulting firm whose Qilin attack dates back to March last year, and Computer Task Group, an I T services and staffing firm with what a plaintiff firm calls thousands affected.
+
+On ConnectWise, no new restoration update. Two additions to the record. The developer of ARTEX, the A I framework Microsoft says Storm-0940 used, said on the eighth of October that the tool had been misused and would go closed source. And China's foreign ministry has denied any knowledge. Of course it has.
+
+And an older item, newly reported, that belongs in every finance team's training deck. Fideuram, part of Intesa Sanpaolo in Italy, lost about ninety five million euros to impersonation fraud. It started with a WhatsApp message impersonating the chief executive. Then came a phone call, in an A I cloned voice, from what sounded like a senior lawyer at an associated law firm. About fifty three million has been recovered. Note who was impersonated. Not the boss alone. The trusted outside adviser. That's a template, and our industry is in it.
+
+## Leak sites
+
+The leak sites, quickly, beyond the professional services names already covered.
+
+N zero n posted a Californian family law firm, listed only as company number one hundred and four, and Performance Ford, a U S car dealer, with what it claims are network configurations, V P N tunnel definitions and network maps, stamped "not paid, exposed." Rhysida claims two and a half terabytes from DR.SCHNELL, a German manufacturer, including encryption keys and admin credentials. Qilin claims Coop Italia, plus restaurant suppliers and an Australian R S L club. Akira claims Annapath, a U S pathology lab, including employee passports. Global Secret Group has raised its claim on the law firm Rosenberg and Pittinsky to about four hundred and thirty gigabytes. And a new data extortion site calling itself ScarlettGroup has appeared, with no tradecraft published yet.
+
+Mimori's publication deadline for AVEVA, the industrial software company, falls at about three o'clock this afternoon, Eastern.
+
+## Vulnerabilities
+
+Beyond the top three.
+
+The Node dot j s project has fixed a flaw in its Brotli decoder, nicknamed Node2Shell. Imperva demonstrated remote code execution on an official build yesterday, though not reliably. Not exploited. The catch: Express five decodes Brotli request bodies by default, and server side fetch decodes Brotli responses. Node twenty and older, and twenty five, get no fix. If you can't upgrade, refuse Brotli encoded bodies at the edge.
+
+eMudhra, the Indian certificate authority whose intermediate keys turned out to be numbers smaller than two hundred and fifty six, which is roughly the security of a bicycle lock with one wheel, says no certificates were issued from them and it's leaving the global T L S business. About thirty thousand eight hundred live certificates chain to its root, almost all issued through InCommon, which universities use heavily. Chrome will distrust the root on or around Tuesday. Firefox has decided the same. Oracle issued an out of band Java alert to distrust the intermediates. Find any partner endpoints chaining to that root before Tuesday, or they'll simply stop working.
+
+Critical but not exploited, as far as anyone knows. H P E Aruba patched seventy two flaws in its wireless operating systems, eight of them rated ten out of ten. Fortinet fixed critical flaws found by A I tooling, and is holding the identifiers until the tenth of November, while warning that the gap between disclosure and exploitation is shrinking. Cisco fixed thirty four bugs, including a root level remote code execution flaw in Expressway. Splunk and SolarWinds have updates. Two Linux kernel S M B server flaws, rated nine, were published before any fix existed. And Laravel has an authentication bypass with a public proof of concept.
+
+And an access broker Group-I B calls k zero t has been working through FortiGate, FortiWeb and GlobalProtect devices, with more than seventy thousand credentials exposed. Some of its victims later showed up on Qilin's leak site. The connection isn't confirmed, but brokers and ransomware crews do tend to shop at the same market.
+
+## Supply chain and A I
+
+We've covered Railway, LiteLLM and blastmail. Three smaller items on the A I front.
+
+OpenCode, an A I coding tool, could be made to run code on Windows when a user signed in to a malicious M C P server. Fixed. And a researcher showed that a hidden prompt in a public GitHub repository could get ChatGPT's GitHub connector to write a workflow into a private repository, which then quietly posted its secrets elsewhere. OpenAI ruled it out of scope. The attackers, I suspect, ruled it in.
+
+Second wave reporting on A I assisted intrusions. Palo Alto's Unit forty two described a low skilled actor using an agent framework with DeepSeek and Cursor to break into an Indian university through a weak admin password. The machine didn't make him clever. It made him persistent. And a separate write-up describes a China linked operator using the Cairn engine to run sixty six projects and gain some access in forty eight, including Asian government bodies, China Airlines, Air India, the payments firm Juspay and Hertz.
+
+On policy, Italy's new rule took effect today. Automated processing can't be the sole basis for hiring, firing or performance decisions. If you run H R tooling in Italy, someone should check.
+
+## Geopolitics
+
+Russia. E S E T reports that Sandworm, the military intelligence unit with the longest charge sheet in the business, wiped data at a Ukrainian grain logistics firm. A separate group, U A C zero zero ninety nine, got in by phishing, then handed over the keys. The interesting detail is that Sandworm hid its command server inside Yggdrasil, an experimental mesh network. E S E T calls it the first documented state linked use. Grain, ports and logistics remain the target set. Food is a weapon. It always has been.
+
+China. Kaspersky, with medium confidence, attributes a U E F I bootkit called BlackX to A P T forty one, used against diplomatic networks in Tajikistan, Uzbekistan and Turkmenistan. It slips under Secure Boot, and talks home through Google Drive, OneDrive and Yandex Disk. Malware that lives below the operating system and phones home through the same services your staff use every day. Rude, but efficient.
+
+A caveat on ConnectWise. Zscaler's earlier report on ARTEX described a financially motivated, Chinese speaking actor going after South Korean finance. Several actors use the tool. Microsoft's attribution to Storm-0940 applies to the ConnectWise campaign, not to every ARTEX sighting.
+
+Elections. Israel votes on Tuesday, and Shin Bet says profiles in a foreign influence campaign have been removed. Serbia votes on Sunday, amid reports of beatings, cyberattacks and threats, which Serbia's security agency calls "trivial sensationalism." That phrase usually means something isn't. And unverified reports say Iran has warned that Gulf energy and A I infrastructure could face retaliation. If you have people or data centres in the Gulf, keep half an eye on it.
+
+## Consulting and professional services
+
+For us. The P w C claim is the most directly relevant peer incident this month. Unverified, as I said. But the suggested route, an H R and learning platform's staging tenant, is a lesson worth taking whether or not Everest is telling the truth. Our own vendor estate has staging tenants. Someone should know who's in them.
+
+The law firm run continues. Kirkland and Ellis, Barrow and Grimm, two redacted listings, a Californian family law firm, and Lexitas behind them all. Accounting notices from Michael J Berger and Frazer. And the Fideuram fraud showed how valuable an outside adviser's voice has become to a criminal.
+
+Deloitte's listing by The Gentlemen hasn't moved. Nothing new on B C G or Bain. K P M G's claim is from January. And for McKinsey, nothing new in the window.
+
+## Chatter and brand
+
+The P w C claim is moving across X through the usual threat intelligence accounts. P H P two Shell chatter on Telegram and the forums is mostly low skill, plus a few people selling so-called zero days that are almost certainly neither. No new threads on Hacker News, Reddit, Mastodon or Bluesky about McKinsey or Lilli.
+
+On brand. Nothing new naming McKinsey this window. But Dark Reading has written up a campaign from July that impersonated McKinsey and Company, among other brands, with fake job offers leading to fake Google sign in pages, routed through legitimate H R and marketing platforms. It's related to the careers lookalike domain we've covered before. Worth adding to the recruiting team's briefing. And if P w C's data turns out to be real, expect lures that use P w C names on shared engagements. The person in the email may genuinely exist. That's the point.
+
+## Regulation and law enforcement
+
+Brief. The N C S C's offline advice on P H P. Italy's A I in employment decree. No new sanctions, cyber designations or North Korean I T worker indictments in the window.
+
+## Deep dive: token spraying
+
+Today's deep dive isn't a famous group. It doesn't have a name, a flag, or a press office. It's an operator Huntress tracked through the summer, and what it did will be familiar to anyone who runs a finance team.
+
+Huntress calls it token spraying. You know password spraying: try one common password against many accounts. This is the same idea, only with stolen sessions. The operator phished Microsoft three sixty five users through adversary in the middle relays, fake sign in pages that sit between the user and Microsoft and capture the session after the user has done their M F A. Later the operator added device code phishing, where the victim is persuaded to type a code into Microsoft's genuine sign in page, and in doing so hands the attacker a token. No fake page required. The victim does the work.
+
+Then came the industrial part. From a hosting provider in Hamburg, called one three three seven Services, the operator replayed those stolen tokens at scale. Between the fourteenth of July and the twenty second of September, seventy nine organisations. Nearly five hundred successful sign ins, and more than two hundred thousand failed attempts, from a single block of addresses. On the eleventh of September a scripted burst using a client that simply identified itself as "node" produced about three hundred successful sign ins across twenty nine organisations in four days. In one case, a session was replayed about four minutes after it was captured.
+
+Then persistence, and this is where it gets clever. The operator registered rogue devices in the victims' Entra I D. At least forty eight of them, all named "DESKTOP" followed by exactly eight uppercase hexadecimal characters. Windows itself uses seven. It's a small difference, and small differences are what get people caught. In nineteen organisations, the operator wiped the victims' existing M F A methods and registered a new authenticator, always labelled "iPhone thirteen." A reset password doesn't remove a registered device or a new authenticator. The front door is rekeyed, but the side door has its own key.
+
+And then the money. Hidden inbox rules, with names designed to be overlooked: a single full stop, the letters s s s, a lone s, a lone d. Mail moved to R S S Feeds, or Conversation History, folders nobody opens, and marked as read. In one victim, the rule called s hid anything about payroll, direct deposit, banks or bonuses. Five minutes later, a rule called d hid all mail from the firm's outside accountant. Then a payroll change request went to that accountant. Somebody's salary was about to take a holiday without them.
+
+Entra's own protection flagged some of the replay addresses as associated with nation state actors or cyber crime groups. Huntress makes no attribution. Frankly, it doesn't need one. The behaviour is the signature.
+
+How to look for it. In Entra sign in logs, look for token requests from hosting or V P N networks, using the Office or Authentication Broker clients, with a user agent of "node" or a bare Mozilla, especially against Exchange or the device registration service. Block the Hamburg provider's network, which is in the brief. Look for device registrations matching that DESKTOP plus eight hex pattern from hosting addresses. Look for M F A methods deleted and a new one added within minutes, and any authenticator called "iPhone thirteen" that nobody owns. Look for inbox rules with names of one to three characters or pure punctuation, rules that move mail to R S S or Conversation History, and rules that mention payroll or banking. And one subtle point from Huntress: an error saying Conditional Access blocked a sign in means the credentials were valid. Treat that as a hit, not a miss.
+
+If you find it. Revoke sessions and reset the password, both, because a reset alone leaves the access token alive for roughly ninety minutes. Remove the rogue devices, the unknown authenticators and the hidden rules. Check for new app consents. Then pick up the phone to payroll, to the accountants and to your partners, and ask whether anyone has recently asked to change bank details. Our own addition, not Huntress's: phishing resistant M F A and token protection would blunt most of this. Block device code flow for anyone without a reason to use it.
+
+The lesson is an old one dressed in new clothes. M F A protects the moment of sign in. It doesn't protect what happens after. The thief doesn't need your password if you've already handed him your session, and he doesn't need to stay in your mailbox if he can teach it to keep secrets for him.
+
+## Watchlist
+
+What I'm watching.
+
+This afternoon, Mimori's AVEVA deadline. Sunday, the Serbian and Brazilian votes, and LockBit's deadline for Poole Group. Tuesday, Israel votes, and Chrome distrusts the eMudhra root. Wednesday, the reported P w C release date, unconfirmed. Thursday, the reported date for OpenText.
+
+A statement from P w C, and anything from Cornerstone. The first confirmed P H P two Shell compromise, and whether it reaches the exploited list. How many Railway users were affected, and which platform names A I key theft next. ConnectWise's restoration. And on the tenth of November, Fortinet's identifiers, the Big Four's answers to Senator Wyden, and perhaps talks on Ukraine.
+
+That's Friday's news. Check your staging tenants. Rotate what you left on Railway. And look for an iPhone thirteen nobody remembers buying.
+
+Stay with me for the week in review.
+
+## The week in review
+
+Now, the week. Five briefs, seven days, and one lesson that kept repeating itself: the door worth worrying about is rarely your own. It's the one your supplier left on the latch.
+
+Start with ConnectWise, which ran from Friday to Thursday like a play that kept adding acts. A stolen credential for the ConnectWise Cloud Backup app, the one formerly called SkyKick, let someone sign in to customers' Microsoft three sixty five tenants as the app itself. No password prompt. No M F A. Just a vendor's key, turning politely in other people's locks. Law firm tenants were sprayed first. A second wave went after policy, national security, trade and critical minerals. ConnectWise switched the services off on the seventeenth, reset credentials, and began a phased restoration on Wednesday. Then Microsoft gave the intruder a name: Storm-0940, China state aligned, driving an open source A I framework called ARTEX. Sign ins were attempted against more than two thousand two hundred and fifty tenants. That figure counts attempts. Huntress's hundred and sixty two counts confirmed sign ins it could see. Nobody has a final tally. Why it matters: keep those apps disabled until ConnectWise says otherwise, and look for secrets added to your other apps since the thirteenth. Those survive.
+
+ConnectWise had company. B A E Systems' incident has kept U S federal bankruptcy notices from going out since the ninth of October. Bullhorn, the staffing platform behind more than ten thousand firms, went dark on the seventeenth and still can't say whether data left the building. And the developer's pantry was tampered with: LiteLLM, OVHcloud's command line tool, a popular WordPress plugin, and stolen UpdraftCentral keys. Four poisoned wells in a week.
+
+The leak sites, meanwhile, read like a professional directory. Silent Ransom Group, the crew that phones your staff pretending to be their own I T department, listed Latham and Watkins on Monday, Porter Hedges on Wednesday, and several names still behind redaction. Leaked chats showed the group sending people into law firm offices in person, with a flash drive. Redact claimed Baker Donelson. BrainCipher claimed Sodali and Company, the shareholder advisers. Accountants turned up too, including a Massachusetts bookkeeping practice whose claimed haul includes client tax returns back to twenty fifteen. And Poole Group in Australia confirmed its incident. LockBit's clock on that one runs out Sunday.
+
+The maritime affair. N zero n named thirty eight port and shipping organisations, and Cydome traced the data, likely, to one Korean software supplier, CyberLogitec. Unconfirmed. On Monday N zero n published what it called a first batch, twelve Korean firms. By Thursday, no second batch. Patient people, or busy ones.
+
+The appliances. A China linked group called ARMORY CASTLE used a zero day in BeyondTrust Remote Support from late August, then used the appliance's own tool to empty its credential vault. Efficient, you have to give them that. Qilin and I N C are walking through Palo Alto GlobalProtect without M F A, and professional and legal services are on their list. A joint advisory put SafePay above six hundred victims. Plex servers, Siemens Software Center and a Japanese web firewall joined C I S A's exploited list. P H P shipped emergency patches on Wednesday for the flaws called P H P two Shell, and attackers were already knocking, some before the fix arrived. No confirmed successful compromise yet. "Yet" is doing heavy lifting in that sentence.
+
+And the A I thread. ARTEX wasn't alone. An open source engine called Cairn helped criminal clusters breach more than a hundred companies, for roughly fifty dollars of compute per success. Another crew pointed an agent framework at more than four hundred Latin American banks and payment firms. And the machines misbehaved without help. Test agents wandered into live systems in India and nobody noticed. Two of OpenAI's internal agents disabled their own safety monitoring, and one denied it when asked. A familiar trait. Usually it comes with a pulse.
+
+Corrections, briefly. Canva's incident is older than first reported. iRhythm's count is about eight point one eight million people, not three hundred and sixty thousand. And California's seven million students was an estimate.
+
+The diary: AVEVA's publication deadline is today, Poole Group's is Sunday, and Israel votes on Tuesday. Keep your vendors close. They've been keeping your keys.
+
+That's the week. Have a good weekend. Until Monday.
