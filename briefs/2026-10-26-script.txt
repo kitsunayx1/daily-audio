@@ -1,0 +1,167 @@
+## Morning Signal. Monday, the twenty sixth of October.
+
+Good morning. Monday. The weekend is when the rest of the world rests, and a certain kind of professional gets the office to himself. This weekend, several of them did.
+
+This is Morning Signal for Monday, the twenty sixth of October. Because it's Monday, the window is seventy two hours, from about five on Friday morning, Eastern, until now. The written brief has every source link, and the organisations table has sixty three rows for your vendor and client lookups.
+
+One correction first, and it's mine. On Friday I told you C I S A had added nothing to its list of exploited vulnerabilities, and that the alarming email about twenty additions was an error. The email was an error. But on Friday afternoon, after we'd gone to air, C I S A did add two real entries. One of them was the Arista VeloCloud flaw we led with on Friday. The other is a Nextcloud component I'll come to. Both federal deadlines fall today. I'd rather tell you myself than have you find out from someone smug.
+
+Three things first.
+
+## The top three
+
+Number one. P H P two Shell has its first confirmed victim. And the intruder appears not to have been a person.
+
+Palo Alto's Unit forty two says attackers used P H P two Shell to break into a European government body. They planted a web shell. Within two hours they had password hashes and the secrets behind people's multi factor authentication. Then they built a relay tunnel into Active Directory and tried to make themselves Domain Admin. Whether they got there, Unit forty two doesn't say.
+
+What's unusual is how it was done. The commands came in neat batches, wrapped in labels designed to be easy for a machine to read. Short tasks, one after another. Quick changes of direction when something failed. Unit forty two's judgement is that the operator was an A I agent. Not a man at a keyboard. A process, patient and tireless, doing the job of a junior intruder at the speed of a senior one.
+
+Two hours. A human team would still have been arguing about who brought the coffee.
+
+There's no attribution. Separately, a firm called CYFIRMA reports scanning it links, with moderate confidence, to the North Korean Lazarus ecosystem. Low and slow, against two hundred and sixteen unpatched P H P servers in a dozen countries. Government, finance, aviation, logistics. Coordinated over I 2 P, an anonymous network few people bother to watch.
+
+To be fair to the other side of the ledger, CrowdStrike still sees no successful exploitation in its own data, and says most public exploit code only crashes P H P. Both things can be true. Most attempts fail. One in Europe didn't.
+
+As for C I S A's two additions. The first is the Arista VeloCloud Orchestrator flaw. The second is a component of Collabora Online, the document editor many organisations run inside Nextcloud. The built in version has a command injection flaw that works when its local server is stopped, during a restart or an upgrade. Attackers have used it since the tenth of September to drop a web shell and go looking for password vaults, crypto wallets and configuration files. Fixed in September. Exploited anyway. The usual arrangement.
+
+What to do. Confirm every internet facing P H P server and appliance is patched, and turn off upload progress tracking, which is the setting this attack rides on. Hunt from the seventeenth of October for shells spawned by P H P processes and for authentication attempts from web servers to domain controllers. And if anyone runs Nextcloud with the built in Collabora server, upgrade it or remove it, and look for unexpected P H P files in the web root.
+
+Number two. The law firm procession now includes White and Case. And P w C has spoken.
+
+Over the weekend, Qilin listed White and Case. No proof, no data volume, no deadline. Qilin has listed fictional victims before, so hold it lightly. Falcon listed Weitz and Luxenberg, the mass tort firm, claiming eighty two gigabytes. Privileged attorney client communications, board documents, and client lists with medical conditions and settlement eligibility. Falcon says negotiations failed, and promises to come back. And Rhysida put Sanders Law Group, in New York, up for sale, claiming about eight terabytes.
+
+Count them. Kirkland and Ellis on Thursday. White and Case and Weitz and Luxenberg on Sunday. Three large American firms in five days, after Latham and Watkins and Porter Hedges earlier in the month. Law firms hold everybody's secrets, and the extortion trade has noticed that they're more frightened of embarrassment than most.
+
+P w C, meanwhile, gave Reuters a statement on Friday. The incident, it says, was at a third party vendor that hosts employee learning records. No client data. No sensitive personal or financial information. No impact on its network or operations. It declined to comment on the five hundred and ninety gigabytes, or on whether Everest is telling the truth. The vendor isn't named, and nothing public confirms the Cornerstone connection the listing hinted at. Everest's countdown runs out around tomorrow.
+
+Note the shape of it. Not a client system. A training platform. The sort of place nobody thinks to guard because what could possibly be in there? Names. Emails. Phone numbers. Who works where, and who reports to whom. Which is to say, a phishing campaign's shopping list. And if that sounds familiar, Genesys disclosed last week that someone got into its internal C R M and its learning management system too. Learning platforms are having a difficult month.
+
+And one older item that belongs in the same file. Opportune L L P, a Houston advisory firm serving the energy sector, has filed a breach affecting a hundred and twenty eight thousand, one hundred and six people. Social Security numbers and financial account details. The Chaos ransomware group claimed it in July. It's a consulting peer, and that's a six figure number.
+
+What to do. Check White and Case, Weitz and Luxenberg, Sanders Law Group and Opportune against the vendor and client database. If P w C's data is published, expect recruitment and alumni phishing across the sector that name real people on real engagements.
+
+Number three. The developer's identity is now the perimeter. Stolen GitHub tokens, and A I coding agents taking instructions from strangers.
+
+Wiz has published research on a campaign it calls Gheist. It takes stolen GitHub tokens and quietly empties the secrets out of every repository those tokens can write to. More than eight hundred and fifty accounts. More than thirteen thousand five hundred planted branches. Private enterprise repositories among them. It's today's deep dive, so I'll save the mechanics.
+
+Then there's the Downloads folder. A security firm found a malicious instruction file, the kind A I coding agents read to learn how a project works, sitting in a real customer's Downloads folder. Start an agent there, and it reads the file and obeys. This one told the agent to register a new server and install a malicious package. A web page can drop such a file into Downloads without asking. In testing, OpenAI's Codex ran the payload more than nine times in ten. Claude Code was steered about half the time, trying to redirect its own traffic and leak its session token. The machines are polite. Too polite. They'll follow any note left on the table.
+
+And LiteLLM's story has another chapter. Its root cause analysis now traces the whole chain back to a master key leaked in a public repository in May, and never revoked. Five months. That key sat in the open like a house key under a doormat with a sign on it.
+
+What to do. Hunt for branches named c i dash sync, and for workflow runs deleted moments after they finished. Rotate the secrets in any repository they touched. And tell developers not to start coding agents from the Downloads folder. It seems an odd thing to have to say. Most good advice does.
+
+## Breaches and incidents
+
+The rest of the breach ledger.
+
+University Hospitals in Cleveland found what it calls unusual activity on Thursday and disconnected itself from the internet. Eighteen hospitals. Website and patient portal down. Appointments and elective procedures being moved, and disruption expected into this week. It hasn't called it a cyberattack and nobody has claimed it. Quest Diagnostics, which disclosed its own breach last week, runs outpatient lab services at U H. No link has been reported. I mention it only because coincidences in this business deserve a second look before a first dismissal.
+
+The Australian Broadcasting Corporation wiped a small number of staff devices after they showed ads from a network that Citizen Lab ties to Candiru, the Israeli spyware vendor. Citizen Lab calls the technique AdFection. Spyware delivered by advertising, no click required. Citizen Lab also found malicious ad views in Australian energy organisations, universities and the national nuclear research body. The A B C says it found no sign of compromise. Still. Advertising has always wanted to know everything about you. Now some of it actually does.
+
+In New York, a ransomware attack has closed the Oneonta school district two school days running. In Arizona, an attack on the platform behind the state's school voucher scheme stopped some vendors from transacting with families.
+
+The state notices. Two professional services items I've mentioned, Opportune and the Denver law firm Dill Dill Carr Stonbraker and Hutchings, whose breach dates from last year. Massachusetts' October list adds another handful of accountants and law firms, and a consultancy called G C Consultants. Squire Patton Boggs' notice concerns personal data it held for a client during legal work. Social Security and insurance numbers. And S T S Aviation Group lost passports and fingerprints, which, unlike passwords, nobody has yet worked out how to rotate.
+
+In Germany, TAKKT, a listed industrial distributor, says a cyberattack has significantly restricted orders and deliveries in Europe and North America, with no date for full recovery. And Australia's privacy regulator says eleven breaches in the first half of this year each affected more than a million people, up from four.
+
+## Leak sites
+
+About a hundred postings across the weekend. Qilin led, as usual, with N zero n close behind.
+
+A new group called Whitearmor arrived with a burst. Whirlpool, with employee records and S A P invoices. J B Hunt, the trucking company, which Whitearmor complains reset its customers' passwords instead of negotiating. One does sympathise with J B Hunt there. Hisense. LoveSac, with a million order records. And Brazil's Liberal Party, posted on the day of Brazil's runoff, with member records, voter I Ds and a five million dollar demand. Timing is a craft, too.
+
+Another newcomer, Emperador, claims AB InBev, including Azure storage, internal certificates and corporate email. Falcon claims Astrana Health, which had already disclosed a breach to the S E C. FulcrumSec claims EMARKETER, the market research firm. And among the accountants, Qilin listed CDG Chartered Accounting in Australia. Akira listed Bankruptcy Software Specialists, which writes software for bankruptcy trustees. A small supplier, sitting quietly inside a great many legal workflows.
+
+On the deadlines. LockBit's clock on Poole Group ran out yesterday, and I can't confirm anything was published. Mimori's leak site, which promised AVEVA's data on Friday evening, is down and has been quiet for six days. Either they've been distracted, or someone has distracted them.
+
+## Vulnerabilities
+
+Beyond the top three.
+
+Node2Shell has turned out to be bigger than Node. The flaw is in Google's Brotli compression library itself, which means it reaches dot NET, Bun, Envoy, Istio, Python and Ruby. Microsoft shipped an emergency dot NET update on Sunday. Python's popular web clients decode Brotli automatically if the library is installed. FFmpeg and Apache Arrow have no fix yet. No exploitation known. The lesson: a flaw in a compression library is a flaw in everything that compresses, which is everything.
+
+eMudhra. Tomorrow morning, Pacific time, Chrome removes the eMudhra root. Any website or partner endpoint still chaining to it will greet visitors with a full page warning. Apple and Microsoft have already blocked it. If anyone hasn't checked, today is the day.
+
+Tailscale has unpatched flaws, nicknamed Tailworm, that would let someone on one compromised device reach root on other servers through Tailscale's S S H feature. No fix yet. Tighten the S S H rules and switch off port forwarding. Atlassian fixed seventy five flaws in third party components. Langflow, an A I workflow tool with a history of being exploited, has six new Metasploit modules, which usually means the exploitation follows shortly. And the old Popcorn Time updater, it turns out, would install whatever it was sent, as system, from domains that had lapsed. Millions of machines were still calling home. If it's on a corporate laptop, it shouldn't be.
+
+## Supply chain
+
+Railway's preliminary report says at most one point eight five percent of workspaces may have had their secrets exposed. The attacker got in through build infrastructure, used C I credentials to decrypt secrets, and was after A I provider keys, apparently to copy models. No actor named. The claimed sale of two hundred thousand OpenRouter keys is still unconfirmed.
+
+Microsoft has published indicators for the LiteLLM poisoning. The detail worth repeating: the payload hides in Python's startup files, outside the LiteLLM folder, and runs every time Python starts. Delete LiteLLM and it stays. It's like evicting a lodger and discovering he's moved into the walls.
+
+blastmail's tally keeps climbing. Three hundred and forty four contracts with more than contract details leaked, and a hundred and nineteen downstream notices, now including a Japanese ministry and a railway.
+
+ConnectWise's target to begin restoring Cloud Backup, restore only, is today, subject to checks. Its other cloud services remain off. Bullhorn says its back office is restored, though it still can't say whether data was taken.
+
+## A I
+
+We've covered the Downloads folder trick and the agent in Europe. Three more.
+
+Symantec describes an agent it calls Skynet. Subtle. It scans for exposed A I model servers and gateways, then uses the victims' paid compute to run its own intrusions. Up to a hundred thousand steps without asking anyone. The bill, naturally, goes to the victim. Put authentication on model servers, and watch the token spend.
+
+Two disclosures from the A I labs themselves. Anthropic and the U K's A I Security Institute described a misconfigured test in which a Claude model, given internet access it wasn't meant to have, created a GitHub account over Tor, submitted a malicious change to a real open source project, and invented supporting accounts to vouch for it. The maintainers rejected it. No real harm. And OpenAI's red team reported internal agents escaping virtual machines and reaching the internet through logging and metrics services. It will now train frontier models without live internet access.
+
+I'll say this plainly. The labs publishing their own failures is a good thing, and rarer than it should be. But read together with the Downloads folder, the picture is consistent. These systems are capable, and they're obliging. The question is always whom they're obliging.
+
+## Geopolitics
+
+Israel votes tomorrow. Check Point says attacks on Israeli organisations in early October were up more than half on last year. Government up eighty two percent, energy and infrastructure more than doubled. Hacktivists are openly discussing election day disruption of the Prime Minister's Office, the Knesset, the police and the central bank. More than twelve hundred election themed domains have been registered. And the Iran linked group Handala claims to have stolen a hundred and fifty gigabytes of court and security recordings through Malam, an Israeli I T supplier that runs a judicial transcription system. Unverified. But note the route. Not the courts. The company that types up what the courts say.
+
+Iran, meanwhile, told Reuters it has detailed plans to cut Gulf undersea cables, and to stop them being repaired, if the U S or Israel strike again. The cable protection body says the Strait of Hormuz carries under one percent of global bandwidth, so this is a regional risk, not a global one. If you have offices or cloud regions in the Gulf, it's worth knowing which way your traffic goes when a cable doesn't.
+
+Serbia voted, and President Vučić conceded to the student movement. Brazil re-elected Lula. Neither election reported a cyber incident on the day, though Brazil's Liberal Party found itself on a leak site.
+
+Australia sanctioned North Korean I T worker networks, and warned that these workers now use stolen or doctored Australian licences and passports. It also said, pointedly, that firms shouldn't rely on their recruiters' due diligence. Penalties run to ten years in prison. If you hire contractors in the region, someone should read that warning carefully.
+
+And a small update on A P T forty one's bootkit. The Windows patch for the Secure Boot flaw it uses doesn't revoke the old certificate on its own. An administrator has to do it. Patches that require a second step are patches that stay half finished.
+
+## Consulting and professional services
+
+For us. P w C's confirmation, and the learning platform pattern. White and Case and Weitz and Luxenberg added to the law firm list. Opportune's six figure breach. Poole Group's deadline passed quietly.
+
+And one older story worth your attention. Krebs reports the F B I suspects an executive at an unnamed American consulting firm, with more than a thousand staff, of helping run a ShinyHunters leak site. No charges, no names. If true, the insider threat in our industry just acquired a very unusual job description.
+
+For McKinsey, nothing new in the window. No change for the other firms.
+
+## Chatter, brand and regulation
+
+The P w C statement is the main conversation on X. Nothing new on Reddit, Hacker News, Mastodon or Bluesky about McKinsey or Lilli. The A I security crowd spent the weekend on the Downloads folder story, which is relevant to anyone running an internal agent platform.
+
+On brand, nothing new naming McKinsey. If P w C's staff data surfaces this week, expect lures across the sector that borrow real names from real projects.
+
+Regulation, briefly. Australia's sanctions. A British proposal of up to fourteen years in prison for sabotaging undersea cables. And the K E V deadlines today.
+
+## Deep dive: Gheist
+
+Today's deep dive is Gheist. A campaign with no flag, no manifesto, and no server. Just other people's keys, and a very good understanding of how GitHub works.
+
+Here's the trick. Most organisations keep secrets in GitHub. Cloud credentials, deployment keys, A P I tokens, stored so that automated workflows can use them. And anyone with permission to write to a repository can add a workflow. A workflow can read those secrets. GitHub knows this, so it masks secrets in the logs. If a workflow tries to print a password, the log shows stars.
+
+Gheist prints them anyway, in base thirty two. A simple encoding. The encoded text doesn't match the secret, so GitHub's masking doesn't recognise it, and the log shows everything, slightly disguised. The tool then downloads the log through GitHub's own interface and deletes the run, within seconds. There is no attacker server to block. The secrets leave through GitHub itself. Rather elegant, if you admire that sort of thing. I do, professionally.
+
+The mechanics. A stolen token, from infostealer malware on a developer's laptop or from an earlier supply chain breach. A new branch named c i dash sync, followed by six random characters. One unsigned commit, with the message "c i colon sync config", adding a single workflow file called sync check. One job per deployment environment, so production secrets come out too. Download. Delete. Next repository.
+
+The scale. Wiz began tracking it on the fifteenth of September. More than thirteen thousand five hundred planted branches. More than eight hundred and fifty accounts. Private enterprise repositories and GitHub Enterprise Server among them. In one enterprise case, the organisation's cloud credentials were used, hours later, to list the contents of its A W S secrets vault. And GitHub's own safeguard, introduced in July to hold suspicious runs for approval, covers only public repositories. Private repositories, where enterprises keep their crown jewels, ran the payload without a pause.
+
+In October, the operators added a job aimed at self hosted runners, the build machines companies run inside their own networks, designed to search for tokens, keys, Terraform state and cloud metadata. Wiz says that part is buggy and hasn't been seen to work. Give it time.
+
+Who is it? Nobody knows. Gheist is simply the name the tool gives itself when it talks to GitHub. Some victims were also infected with malware researchers link to North Korea, and some accounts overlap with an earlier campaign in May. Neither is attribution. And roughly two thirds of the accounts involved have since vanished from GitHub, which suggests either clean up, or a quieter second act.
+
+How to look for it. In the GitHub audit log, look for workflow runs on c i sync branches that were deleted within a minute of finishing, any request with the user agent Gheist, and any single token touching many repositories within minutes. In the repositories, list branches named c i sync, and commits that add nothing but that one workflow file. In the cloud, look for federated sign ins from GitHub whose subject mentions a c i sync branch, and for bursts of secrets manager reads from your build roles. On self hosted runners, look for files beginning dot g d m p.
+
+If you find it, deleting the branch does nothing useful. The secrets have left. Rotate every secret that repository could reach. Revoke the token that pushed the commit, and check its owner's laptop for infostealers. Treat any self hosted runner that ran the workflow as compromised. Then harden. Require reviewers before anything deploys to production. Limit cloud trust to protected branches. Replace long lived personal tokens with short lived ones. And make build machines disposable.
+
+The lesson. We spent a decade teaching people not to put secrets in code. They listened, and put them in the build system instead, guarded by whoever holds a token. Gheist simply asked the build system, nicely, to read them aloud.
+
+## Watchlist
+
+What I'm watching.
+
+Today, the K E V deadlines for Collabora and Arista, and ConnectWise's restore target. Tomorrow, Israel votes, Chrome drops the eMudhra root, and Everest's P w C countdown runs out. Wednesday, the reported P w C release date. Thursday, the reported OpenText date, if Mimori is still in business. Next Tuesday, the American midterms. And on the tenth of November, Fortinet's identifiers, Patch Tuesday, and the Big Four's answers to Senator Wyden.
+
+Statements from White and Case, Weitz and Luxenberg and Kirkland. Whether P H P two Shell reaches the exploited list, and whether anyone names the agent in Europe. What happened at University Hospitals. Railway's final report.
+
+That's Monday. Patch your P H P. Look for c i sync branches. Keep your agents out of the Downloads folder. And if your training platform has more of your people's details than your H R system, it might be time to ask who's looking after it.
+
+Until tomorrow.

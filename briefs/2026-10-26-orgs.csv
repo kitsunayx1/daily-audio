@@ -1,0 +1,64 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-10-26,White & Case,Legal,US / Global,"Leak-site listing, no proof",Qilin,25 Oct,Claimed,https://www.ransomware.live/id/V2hpdGUgJiBDYXNlQHFpbGlu
+2026-10-26,Weitz & Luxenberg,Legal,US,82 GB claimed incl. privileged communications,Falcon,25 Oct,Claimed,https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u
+2026-10-26,Sanders Law Group,Legal,US,~8 TB offered for sale,Rhysida,23 Oct,Claimed,https://www.ransomware.live/id/U2FuZGVycyBMYXcgR3JvdXBAcmh5c2lkYQ
+2026-10-26,Mach Law APC,Legal,US,Leak-site listing,N0n,25 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-26,CDG Chartered Accounting,Accounting,AU,Leak-site listing,Qilin,23 Oct,Claimed,https://www.ransomware.live/id/Q0RHIENoYXJ0ZXJlZCBBY2NvdW50aW5nQHFpbGlu
+2026-10-26,Bankruptcy Software Specialists,Legal software,US,19 GB promised,Akira,23 Oct,Claimed,https://www.ransomware.live/id/QmFua3J1cHRjeSBTb2Z0d2FyZSBTcGVjaWFsaXN0c0Bha2lyYQ
+2026-10-26,Andrews Advisory Group LLC,Advisory (tag disputed; data looks medical),US,Data marked exposed,N0n,25 Oct,Claimed,https://www.ransomware.live/id/QW5kcmV3cyBBZHZpc29yeSBHcm91cCBMTENATjBu
+2026-10-26,Don Pickett & Associates,Professional services,Unknown,Leak-site listing,Sarcoma,23 Oct,Claimed,https://ransomware.live/id/RG9uIFBpY2tldHQgJiBBc3NvY2lhdGVzQHNhcmNvbWE
+2026-10-26,Tax Prep and More,Accounting,US,Leak-site listing,Securotrop,23 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-26,Zelsior.es,Legal debt recovery,ES,Leak-site listing,LockBit 5,23 Oct,Claimed,https://www.ransomware.live/
+2026-10-26,vinsolutions.com,Auto-dealer CRM software,US,Leak-site listing,Scarlettgroup,23 Oct,Claimed,https://ransomware.live/id/dmluc29sdXRpb25zLmNvbUBTY2FybGV0dGdyb3Vw
+2026-10-26,PwC (unnamed learning-records vendor),Professional services,Global,Vendor incident; 590 GB claimed,Everest,Statement 23 Oct,Vendor incident confirmed; claim unverified [UPDATE],https://1027wbow.com/2026/10/23/pwc-confirms-cybersecurity-incident-involving-employee-learning-records/
+2026-10-26,Kirkland & Ellis LLP,Legal,US,"Leak-site listing, no samples",Silent Ransom Group,22 Oct,Claimed [UPDATE],https://www.ransomware.live/id/S2lya2xhbmQgJiBFbGxpcyBMTFBAU2lsZW50UmFuc29tR3JvdXA
+2026-10-26,Poole Group,Accounting,AU,Deadline passed; publication unconfirmed,LockBit 5,25 Oct,Confirmed incident [UPDATE],https://www.cyberdaily.au/security/14307-exclusive-poole-group-investigating-lockbit-ransomware-attack
+2026-10-26,Opportune LLP,Energy advisory / consulting,US,"Breach, 128,106 people",Chaos (claimed),Intrusion Jun–Jul; filed 22 Oct,Confirmed [OLDER],https://www.claimdepot.com/data-breach/opportune-2026
+2026-10-26,Dill Dill Carr Stonbraker & Hutchings,Legal,US,Breach notice,Genesis (per Breachsense),Filed 22 Oct,Confirmed [OLDER],https://ago.vermont.gov/categories/security-breach-notices
+2026-10-26,Squire Patton Boggs (US) LLP,Legal,US,Client personal data exposed,Unknown,Oct notice,Confirmed [OLDER],https://www.mass.gov/doc/2026-1750-squire-patton-boggs-us-llp/download
+2026-10-26,"Larry C. Kent, C.P.A.",Accounting,US,Massachusetts breach notice,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-26,Aldrich Services LLP,Accounting / advisory,US,Massachusetts breach notice,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-26,Schlesinger Lazetera & Auchincloss LLP,Professional services,US,Massachusetts breach notice,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-26,"Martin, Magnuson, McCarthy & Kenney",Legal,US,Massachusetts breach notice,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-26,Law Office of Barbara L Horan,Legal,US,Massachusetts breach notice,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-26,"GC Consultants, Inc",Consulting,US,Massachusetts breach notice,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-26,"Carney Badley Spellman, PS",Legal,US,Massachusetts breach notice,Unknown,Oct (undated),Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-26,Stitch Connect Inc.,Commercial,US,"Vermont breach notice, 86 residents",Unknown,23 Oct,Notified,https://ago.vermont.gov/categories/security-breach-notices
+2026-10-26,EyeMed Vision Care,Insurance,US,Vermont breach notice,Unknown,23 Oct,Notified,https://ago.vermont.gov/categories/security-breach-notices
+2026-10-26,STS Aviation Group,Aviation services,US,Breach incl. passports and fingerprints,Unknown,Letter 19 Oct,Notified,https://www.mass.gov/doc/2026-1812-sts-aviation-group/download
+2026-10-26,Genesys,Customer-experience SaaS,US,Internal CRM and LMS accessed,Unknown,16–19 Oct,Confirmed [OLDER],https://safeguard.sh/resources/blog/genesys-crm-lms-breach-october-2026
+2026-10-26,University Hospitals (Cleveland),Healthcare,US,"Systems offline after ""unusual activity""",Unknown,22–26 Oct,Confirmed disruption,https://www.cleveland19.com/2026/10/23/university-hospitals-experiencing-digital-service-disruptions/
+2026-10-26,Australian Broadcasting Corporation,Media,AU,Devices wiped after ad-delivered spyware exposure,Discover-Tech / Candiru (Citizen Lab),23 Oct,No compromise found,https://www.cyberdaily.au/security/14347-aunty-hack-abc-wipes-staff-devices-after-discovering-spyware-campaign
+2026-10-26,Oneonta City School District,Education,US,Ransomware; schools closed,Unknown,22–26 Oct,Confirmed,https://dysruptionhub.com/oneonta-new-york-schools-ransomware-attack/
+2026-10-26,Arizona ESA platform operator,Government / EdTech,US,Vendor disruption,Unknown,Reported 23 Oct,Reported,https://dysruptionhub.com/arizona-scholarship-vendor-cyber-incident/
+2026-10-26,TAKKT AG,Industrial distribution,DE,Orders disrupted,Unknown,21 Oct,Confirmed [OLDER],https://www.ad-hoc-news.de/boerse/news/ad-hoc-mitteilungen/takkt-ag-cyberangriff-bei-takkt-ag/70385276
+2026-10-26,"Esukeroji Co., Ltd.",Logistics,JP,Ransomware; internal data leaked,Unknown,20 Sep; reported 26 Oct,Confirmed [OLDER],https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html
+2026-10-26,Whirlpool,Manufacturing,US,Employee records and SAP invoices claimed,Whitearmor,23 Oct,Claimed,https://www.ransomware.live/id/V2hpcmxwb29sQFdoaXRlYXJtb3I
+2026-10-26,J.B. Hunt,Transport,US,Extortion listing,Whitearmor,23–26 Oct,Claimed,https://www.ransomware.live/id/Si5CIEh1bnRAV2hpdGVhcm1vcg
+2026-10-26,Hisense,Electronics,CN,CRM and warranty data claimed,Whitearmor,25 Oct,Claimed,https://www.ransomware.live/id/SGlzZW5zZUBXaGl0ZWFybW9y
+2026-10-26,LoveSac,Retail,US,1.1M order records claimed,Whitearmor,26 Oct,Claimed,https://www.ransomware.live/id/TG92ZVNhY0BXaGl0ZWFybW9y
+2026-10-26,Partido Liberal,Political party,BR,Member and voter-ID data claimed,Whitearmor,25 Oct,Claimed,https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I
+2026-10-26,AB InBev,Food and beverage,BE,"Azure, PKI and email data claimed",Emperador,25 Oct,Claimed,https://www.ransomware.live/id/QUIgSW5CZXZAZW1wZXJhZG9y
+2026-10-26,Astrana Health,Healthcare,US,738 GB claimed,Falcon,25 Oct,Claimed (breach disclosed Sep),https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u
+2026-10-26,EMARKETER,Market research,US,Leak-site listing,FulcrumSec,23 Oct,Claimed,https://www.ransomware.live/id/RU1BUktFVEVSQGZ1bGNydW1zZWM
+2026-10-26,Ooredoo Myanmar,Telecoms,MM,Leak-site listing,Qilin,25 Oct,Claimed,https://www.ransomware.live/id/T29yZWRvbyBNeWFubWFyQHFpbGlu
+2026-10-26,Commonwealth Community Bank,Banking,US,Leak-site listing,Qilin,24 Oct,Claimed,https://www.ransomware.live/id/Q29tbW9ud2VhbHRoIENvbW11bml0eSBCYW5rQHFpbGlu
+2026-10-26,Castle Howard Estate,Hospitality,UK,Leak-site listing,Qilin,24 Oct,Claimed,https://www.ransomware.live/id/Q2FzdGxlIEhvd2FyZCBFc3RhdGVAcWlsaW4
+2026-10-26,SLTN Inter Access,IT services,NL,Leak-site listing,Qilin,24 Oct,Claimed,https://www.hookphish.com/blog/ransomware-group-qilin-hits-sltn-inter-access/
+2026-10-26,Conax Technologies,Manufacturing,US,Leak-site listing,The Gentlemen,24 Oct,Claimed,https://www.ransomware.live/id/Q29uYXggVGVjaG5vbG9naWVzQHRoZWdlbnRsZW1lbg
+2026-10-26,"Heber City, UT",Government,US,Leak-site listing (outage since 10 Oct),Qilin,24 Oct,Claimed,https://www.ransomware.live/
+2026-10-26,Bravilor Bonamat,Manufacturing,NL,Leak-site listing,Akira,23 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-26,Labaid Cancer Hospital,Healthcare,BD,Leak-site listing,Qilin,23 Oct,Claimed,https://www.ransomware.live/
+2026-10-26,Hologic,Medical technology,US,Re-listing (first 7 Sep),MetaEncryptor,23 Oct,Claimed,https://socradar.io/blog/data-breach/hologic-inc-metaencryptor-ransomware-2026/
+2026-10-26,"Malam (""E-Type"" judicial transcription)",IT services / government,IL,150 GB court and security files claimed via supply chain,Handala (Iran-linked),~25–26 Oct,Claimed,https://en.yenisafak.com/world/iranian-group-handala-claims-theft-of-150gb-of-israeli-data-3724812
+2026-10-26,Unnamed European government entity,Government,Europe,PHP2Shell exploitation; hashes and MFA secrets stolen,Unattributed (AI agent suspected),Reported 23 Oct,Confirmed (Unit 42),https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
+2026-10-26,216 unpatched PHP hosts,"Government, finance, aviation, logistics",12 locations,PHP2Shell targeted scanning,Suspected Lazarus (moderate confidence),Reported 25 Oct,Targeting only,https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html
+2026-10-26,850+ GitHub accounts incl. enterprise and GHES,Software / multiple,Global,CI/CD secrets exfiltrated via stolen tokens,Gheist (unattributed),15 Sep – 24 Oct,Confirmed (Wiz),https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles
+2026-10-26,Nextcloud self-hosters (unnamed),Multiple,Global,Collabora CODE web shells,Unattributed,10 Sep – Oct,Confirmed; count unknown,https://securityaffairs.com/201652/security/u-s-cisa-adds-collabora-online-flaw-to-its-known-exploited-vulnerabilities-catalog.html
+2026-10-26,Railway,PaaS,US,≤1.85% of workspaces exposed,Unattributed,Report updated 23 Oct,Confirmed [UPDATE],https://blog.railway.com/p/preliminary-report-october-security-incident
+2026-10-26,LiteLLM (BerriAI),AI developer tooling,US,Leaked master key root cause; earlier secret theft,Unattributed,23–24 Oct,Confirmed [UPDATE],https://socket.dev/blog/litellm-attack-timeline
+2026-10-26,RAKUS Light Cloud (blastmail),Email-marketing SaaS,JP,344 contracts with wider leaks; 119 downstream notices,Unknown,24–26 Oct,Confirmed [UPDATE],https://rocket-boys.co.jp/security-measures-lab/blastmail_20261022_summary_updated_23_public_notices/
+2026-10-26,ConnectWise,MSP software,US,Restore-only onboarding target today,Storm-0940,26 Oct,Ongoing [UPDATE],https://windowsforum.com/news/connectwise-cloud-backup-restore-target-october-26-phased-recovery-and-microsoft-365-tenant-checks.449942/
+2026-10-26,Bullhorn,Staffing SaaS,US,Back Office restored; theft undetermined,Unknown,26 Oct,Partly restored [UPDATE],https://status.bullhorn.com/
+2026-10-26,GMO Internet (Onamae Desktop Cloud),Hosting,JP,Compensation announced,Unknown,24 Oct,Confirmed [UPDATE],https://news.bitcoin.com/de/security/hacker-dringen-in-gmo-trading-cloud-ein-26739-server-gefaehrdet
+2026-10-26,Bathurst RSL,Hospitality,AU,Says contained; Qilin posted documents,Qilin,26 Oct,Confirmed [UPDATE],https://www.cyberdaily.au/security/14349-exclusive-bathurst-rsl-says-cyber-incident-contained-after-qilin-ransomware-attack
