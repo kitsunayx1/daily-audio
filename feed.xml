@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Mon 26 Oct 2026: PHP2Shell&#x27;s first victim, White &amp; Case listed, Gheist drains GitHub secrets</title>
+      <description>72-hour window. PHP2Shell&#x27;s first confirmed compromise at a European government body, apparently run by an AI agent, and two KEV additions due today; White &amp; Case and Weitz &amp; Luxenberg join the law-firm leak-site run as PwC confirms a vendor incident; stolen GitHub tokens and hijacked coding agents. Deep dive: Gheist. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-26.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-26.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-26.mp3" length="10116463" type="audio/mpeg"/>
+      <itunes:duration>1264</itunes:duration>
+    </item>
+    <item>
       <title>Fri 23 Oct 2026: Everest claims PwC, AI-key harvesting, PHP2Shell at scale + weekly roll-up</title>
       <description>Everest&#x27;s unverified PwC claim and the law-firm run (Kirkland &amp; Ellis, Lexitas); Railway and LiteLLM show attackers harvesting AI keys from developer platforms; PHP2Shell hits millions of attempts and an Arista VeloCloud zero-day is exploited. Deep dive: the Microsoft 365 token-spraying campaign. Plus the weekly roll-up for 16-22 Oct. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-23.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-23.md</link>
