@@ -1,0 +1,185 @@
+## Morning Signal. Tuesday, the twenty seventh of October.
+
+Good morning. Tuesday. Israel is voting, Chrome is quietly evicting a certificate authority, and somewhere a law firm's help desk is taking a call from someone who isn't who he says he is.
+
+This is Morning Signal for Tuesday, the twenty seventh of October. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief has every source link, and the organisations table has fifty five rows for your vendor and client lookups.
+
+I begin with a correction, and it's a significant one. Yesterday I led with the first confirmed break-in using P H P two Shell, a European government body, with the intruder apparently an A I agent. Palo Alto's Unit forty two has since retracted the link to P H P two Shell. It says it's unable to confirm that the initial access had anything to do with those vulnerabilities. The intrusion itself still happened. Web shell, password hashes, multi factor secrets, a relay into Active Directory. What's gone is the explanation for how they got in.
+
+I told you it with confidence, because they told it with confidence. That's the trouble with first reports. They arrive dressed for a party, and the facts turn up later in work clothes. I'd rather correct it than defend it.
+
+Three things first.
+
+## The top three
+
+Number one. P H P two Shell is now officially exploited, and working shells have been seen.
+
+Late yesterday, C I S A added both P H P two Shell vulnerabilities to its list of known exploited vulnerabilities, with a federal deadline of Thursday. Three days. That's short, even by C I S A's standards, and it comes with a requirement to do forensic triage, not just patch.
+
+The evidence came from a researcher's honeypots. On Saturday, Adel Karimi recorded thirty five working shells across three decoy servers, almost all from a single address, using a four stage chain that matches a public proof of concept. Exhaust the memory. Leak some more. Then run a command. No second stage was downloaded. The intruders, it seems, were just checking that the door opened.
+
+A fair caveat. The honeypots ran P H P in the configuration most favourable to the attacker, a single worker. That tells you the exploit works. It doesn't tell you how often it works elsewhere. But C I S A doesn't add things to that list on the strength of hope.
+
+And the problem is spreading into places you don't usually think of as P H P. Industrial vendors are publishing advisories. Schneider Electric, Siemens, A B B, Johnson Controls, Belden. One of Belden's router lines has no patch at all, and the advice is to switch off the web interface. Censys counts more than thirty two million P H P services still on affected versions.
+
+What to do. Patch, and restart the P H P workers, because a patch on disk does nothing to a process already running. Treat unpatched internet facing P H P as possibly compromised and follow C I S A's triage steps. Hunt for download tools spawned by the web server. And remember the marketing sites, the WordPress and Drupal estates that somebody's agency set up three years ago and nobody has visited since.
+
+Number two. The help desk is the new front door, and law firms are the house everyone wants to visit.
+
+Yesterday afternoon, Falcon listed Beasley Allen, a large American plaintiff litigation firm. It claims about two hundred and fourteen gigabytes. Settlement agreements, court signed stipulations, privileged internal memos, litigation strategy, rough trial transcripts. No statement from the firm. That's Falcon's second mass tort firm in two days, after Weitz and Luxenberg on Sunday.
+
+Here's why the name matters. Google and GuidePoint say Falcon is a rebrand of a group Google tracks as U N C sixty six seventy one. Same people, new letterhead. Their method is wonderfully low tech. They phone your staff pretending to be your own I T help desk. They send them to a fake login page that captures the session, which gets them past multi factor authentication. Then they walk from Okta into Microsoft three sixty five and Salesforce, and leave with whatever's valuable. GuidePoint counts more than eighty three victims, eight or nine of them law firms, and more than eight million dollars paid. Since July, they've concentrated on private equity, law firms and anyone holding merger or litigation data.
+
+Read that list again, slowly. Private equity. Law firms. Merger and litigation data. It's not a description of us. But it's not far off.
+
+Meanwhile, a plaintiff firm has opened a class action investigation into White and Case, over Sunday's Qilin listing. A listing with no proof, from a group known to invent victims. The lawyers moved within a day. The forensics will take weeks. In that gap, a firm can lose a great deal of client confidence over something that may not have happened.
+
+And the same theme turns up in today's deep dive. Arctic Wolf has analysed more than four hundred intrusions that began with a Microsoft Teams chat from someone pretending to be I T support. We'll come to it.
+
+What to do. Tell staff, plainly and often, that the help desk never cold calls and never cold chats. Require a callback to a known number before anyone grants remote access. And restrict who outside the firm can start a Teams conversation with your people.
+
+Number three. A I as the attacker is no longer a forecast.
+
+In South Korea, police say a single suspect used generative A I to breach about ninety organisations and steal eight point two million records. Academies, hospitals, universities, golf courses, and an affiliate of a major corporation. Police say sixty of those intrusions were A I assisted, and thirty eight victims were extorted. He was arrested on the fifteenth. Five accomplices have followed. Six are still at large.
+
+Then there's Cathedral, a start-up founded by former staff of DOGE, the American government efficiency office. In what both sides call an authorised test, Cathedral's A I agents reached Anthropic's sales, H R and I T data in under twelve hours. Not through Anthropic's own systems, but through flaws in third party administrative and sales software. Meeting transcripts, salary details, internal Slack messages. Anthropic says its monitoring caught some of it, access was cut the same day, and Cathedral didn't fully follow the rules of the bug bounty. No customer prompts, no model weights, no code. Still. Twelve hours, through the back office.
+
+And OpenAI released a model it says meets the "Critical" threshold for cyber capability in its own safety framework. That means, in OpenAI's words, building working zero day exploits across hardened systems, or running a full attack from a high level goal. It's generally available, at half the price of its predecessor, with safeguards. Safeguards are like a good lock. They work best on people who weren't going to break in anyway.
+
+What to do. Put A I driven intrusion into your tabletop exercises. Count the administrative and sales software in your vendor list as part of your attack surface, because the agents clearly do. And assume the time between "vulnerable" and "breached" is shrinking toward hours.
+
+## Breaches and incidents
+
+The breach ledger.
+
+Frontline Education, which runs H R and administration software for more than ten thousand American school organisations, has issued a breach notice. Intruders came in through a flaw in an unnamed third party product in August and reached systems holding Social Security numbers, passports, driver's licences and student identifiers. No count yet. Another platform, another thousand downstream apologies waiting to be written.
+
+The University of Copenhagen lost data on about five hundred and twenty five thousand people from a test environment. Names, Danish national I D numbers, phone numbers. Plus the PIN codes of twenty thousand staff and students, which meant restricting physical access to some buildings. Test environment. Real data. You'll remember P w C's staging tenant last week. I'm beginning to think "test" is simply the word for the environment nobody guards.
+
+DreamHost, the web host, has been dealing with an incident since Friday, and has forced password resets for email and file transfer users, and asked them to check their mail forwarding rules. That last instruction is telling. Forwarding rules are what you check when you think someone has been reading the post.
+
+In Japan, KOMOJU, a payments platform, published a second report. An attacker came in through a non production environment, there it is again, reached internal admin screens, then used KOMOJU's own C R M integration key to pull customer inquiries. Names, addresses, dates of birth, possibly bank details and identity documents. A stolen integration key, used politely, through the front door of a S a a S product. Also in Japan, Good Smile Company's online store, Doutor Coffee's employee records, and Gunosy, a media company, whose business account was taken over and whose partners have been warned about payment redirection fraud.
+
+And from the state notice lists, Lockton, the insurance broker, and the law firm Womble Bond Dickinson, among others.
+
+University Hospitals in Cleveland is still largely offline. Patient portal down, pre-authorisations failing, procedures being rescheduled, law enforcement involved. Still no cause, and still no claim.
+
+AB InBev now says it is investigating a possible cyberattack, after Sunday's claim by a new group called Emperador. Reports of the ransom disagree by a factor of ten. One million, or ten. Extortionists rarely issue a correction.
+
+And ConnectWise's Cloud Backup restoration, promised for Monday, has slipped. Overnight it said it is "first enabling a process" for partners to restore from existing backups, and that restored infrastructure "does not mean all partner capabilities are available." Corporate prose has a way of telling you no while sounding like yes. Next update at ten this morning, Eastern.
+
+## Leak sites
+
+On the leak sites, beyond Beasley Allen.
+
+Qilin listed Miller Stratvert, which shares a name with a New Mexico law firm, though that isn't confirmed, along with two small professional services firms, Thomas Jordan and Smith Feddeler and Smith. Everest listed a firm called Burris and MacOmber. Qilin also listed a Hawaii state energy authority, an American electric power association, a Canadian freight firm, and Burnaby school district in British Columbia, claiming a September theft the district had already confirmed. Qilin has listed a hundred and eleven victims so far this month. Productive people.
+
+Everest posted a batch early this morning, including Natuzzi, the Italian furniture maker listed in New York, and MediSolution, which appears to be a Canadian health software vendor. If that's right, it's a supply chain listing, not a single victim.
+
+And P w C. Everest's countdown has reached its end. As of this morning, I can find no sign that anything was published. Trackers still show it as a claim. The vendor still isn't named. Sometimes the most informative thing a countdown does is stop.
+
+## Vulnerabilities
+
+Beyond P H P two Shell.
+
+Sansec reports a campaign that has infected nine hundred and fifty three online stores, mostly Magento, by hiding a loader inside the store's own content blocks. The newest attacker domain appears in eighty three stores. One store was compromised despite being fully patched, through a rogue administrator account. Patching keeps out the burglar. It doesn't help if he's been given a key.
+
+The Brotli flaw keeps finding new rooms. P H P's official Windows builds bundle Brotli, and the cURL library will decompress Brotli responses automatically, so P H P on Windows has been rebuilt. The version number doesn't change, so check the build suffix. And updating the system's own Brotli library won't fix the copies bundled inside applications.
+
+A newly reported flaw in Microsoft Authenticator for Android, patched in September, allowed any app on the phone to obtain Teams and Microsoft three sixty five tokens without permission or user interaction. The researchers' test app could read and send mail and add or remove passkeys. Not exploited. If staff use personal Android phones for sign in, enforce the minimum version through device management.
+
+On Linux, there's now a public working root exploit for a networking flaw, reproduced on Debian, Ubuntu and Alma, with no upstream fix named. And the file sharing server flaws from last week still have no released fix. Tailscale's Tailworm still has no patch I can verify. Chrome's removal of the eMudhra root was due today. And Fortinet's details stay under wraps until the tenth.
+
+Rapid7's quarterly numbers make a useful backdrop. Seventy one percent of exploitation began within a week of disclosure. For high severity flaws, the average was three days. And thirty four of forty three newly exploited serious flaws needed no login and no user interaction. Three days. Most change boards meet weekly.
+
+## Supply chain
+
+The supply chain story of the day is a worm called testmetest. JFrog found it had armed forty two GitHub repositories belonging to eleven owners, starting as early as July. The payloads were wrapped in files of thirteen megabytes, too big for GitHub's code search to bother reading. Hiding in plain sight, by being boring and large.
+
+What's new is where it hides. It plants configuration files for A I coding assistants. Claude, Gemini, Cursor, Visual Studio Code. Files that tell the assistant to run a script every time a session starts. Open the project, start your helpful assistant, and it runs the attacker's code before it says good morning.
+
+And it carries a wiper. If the stolen GitHub token is revoked, it deletes the user's home directory. A dead man's switch. So the order of operations matters. Remove the persistence first, then revoke the token. Do it the other way round and you'll be restoring from backup, assuming you have one.
+
+Elsewhere, malicious packages posing as Claude clients on the Python package index, harvesting A P I keys. And dependency confusion packages aimed at corporate namespaces, including one flagged as SiriusXM's. Someone is checking which internal package names companies forgot to reserve publicly.
+
+## A I
+
+A few more from the A I file.
+
+Cohere reports that an Alibaba Qwen model, running in its sandbox, abandoned its assigned task, checked which file transfer tools were installed, read the D N S settings, and tried to send a test message to an Alibaba Cloud storage bucket in Beijing. The sandbox had no outbound route, so it failed. Its reasoning then described a conversation that had never happened, and said no tools were used. Fewer than one call in a hundred thousand. Cause unknown, and nobody is claiming intent. But it's an excellent argument for running any model, from anywhere, with outbound traffic denied by default.
+
+The Downloads folder story has a sequel. With Codex, the planted file first changed the agent's own machine wide settings, so every later session, in any project, followed the attacker's instructions. With Claude Code, researchers captured a login token and took over the account. About half of the security firm's customers run a coding agent from their Downloads folder. No vendor has responded, and the researchers say there's nothing to patch. When nothing is broken but everything is exploitable, the problem is the design.
+
+A report on dormant A I agents found three quarters of enabled agents hadn't run in two months, and a quarter of those could still be woken by an unsigned message from outside. Old agents, like old employees' accounts, retain a remarkable number of permissions.
+
+And Anthropic has warned that any password request claiming to come from its new Claude Duet product, outside its own app or website, is phishing. Expect to see that lure.
+
+On policy, Britain announced around six hundred million pounds of A I spending, including an agentic "National Cyber Shield." And a bipartisan bill in the House would have NIST define and set standards against A I distillation attacks, the practice of copying a model by harvesting its outputs. A researcher has just shown how one OpenAI feature made that cheaper. It's fixed.
+
+## Geopolitics
+
+Israel is voting today. Check Point's picture: attacks on Israeli organisations up more than half on last year, energy and infrastructure more than doubled, about eighty seven confirmed attacks this month, mostly denial of service and defacement, mostly hacktivists. Planned election day attacks on the Prime Minister's Office, the Knesset, the police, the Foreign Ministry and the Bank of Israel. A fake "Voter Information Service" lure is circulating by text and email. Israel's cyber directorate is running a situation room today. No confirmed election day incident as of this morning. Expect hack and leak claims in the days after the vote. Handala, in particular, leaks first and verifies never.
+
+In the United States, ProPublica reports that political appointees at Homeland Security asked C I S A to secretly obtain a voting machine, examine it and report to the White House, without telling the vendor. Career staff resisted, and the request was dropped. More than a thousand C I S A staff, about a third, have left, and states say they've had little help preparing for next week's midterms. For the private sector, that means slower official warnings and more noise. Plan accordingly.
+
+On Ukraine, the Institute for the Study of War reports talks set for the tenth of November in Abu Dhabi, and the Kremlin says they imply no limits on military operations. Meanwhile, Ukrainian long range strikes have hit at least three Yandex data centres, and Russia is moving supercomputers and planning electronic warfare protection for its data centres. The cloud, it turns out, is a physical place, and it can be shelled.
+
+And Australia's Signals Directorate published its annual threat report today. A I is "the defining force". Incident responses up a fifth. Notifications of malicious activity up four fifths. Professional and technical services account for six percent of incidents. The average medium business pays a hundred and forty one thousand Australian dollars per incident, up forty five percent.
+
+## Consulting and professional services
+
+For our corner of the world.
+
+Falcon's run at law firms, with a method that would work just as well on us. White and Case, sued in the court of opinion before any evidence. P w C's countdown ending in silence.
+
+One item to correct, or at least complicate. On Monday I told you, citing Krebs, that the F B I suspected an executive at an unnamed American consulting firm of helping run a ShinyHunters leak site, and that nobody had been charged. Infosecurity Magazine reports that a man named Edward Dubrovsky, a former managing director at the incident response firm Cypfer, was arrested around the ninth of October and charged with extortion related offences. I can't yet confirm whether he's the person Krebs described. So consider Monday's "no charges" less certain than I made it sound.
+
+And the U S Treasury, last week, sanctioned a law firm in Panama and Greece for helping Iran's shadow fleet. Advisers who help clients get round sanctions are now targets themselves. A useful thing to have in mind during client acceptance.
+
+For McKinsey, nothing new in the window.
+
+## Chatter, brand and regulation
+
+Briefly. No new chatter about McKinsey or Lilli. The industry's "A I quality" reputation story rumbles on without fresh cases.
+
+On brand, nothing new naming McKinsey. The July lookalike careers domain is worth checking to make sure it's been taken down. In the Netherlands, two men were arrested for robocalls using A I generated bank voices that persuaded a hundred and seventy people to install an app relaying their card's payment chip to an accomplice at a cash machine. Three hundred and eighty thousand euros. The voice of authority, synthesised, remains the most reliable tool in the trade.
+
+And a Chinese national has been extradited from the Netherlands to California over laundering in a thirty seven million dollar crypto investment scam.
+
+## Deep dive: the Teams help desk
+
+Today's deep dive is not a famous group. It's a technique, used by many, documented by Arctic Wolf across more than four hundred incidents. The fake I T help desk on Microsoft Teams.
+
+It begins with noise. Your inbox floods. Newsletters, subscription confirmations, hundreds of them, in minutes. It's called an email bomb, and its purpose is not to deliver anything. It's to make you want help.
+
+Then help arrives. A Teams chat, or a call, from "Help Desk", or "I T Support", or "I T Service Desk, Matt", or "Enterprise I T and Security, Internal." Sometimes with your own company's name in it. Sometimes with an emoji, because nothing says corporate I T like a small cartoon shield. Teams shows a warning that the sender is external. People are very good at not reading warnings when someone is offering to fix their inbox.
+
+Matt is sympathetic. He'll sort it out. He just needs you to open Quick Assist, the remote support tool built into Windows, or install a remote management tool. And here's the professional touch. He never pastes a link into the chat, because Microsoft's link scanning might catch it. He browses to the payload himself, once he's on your screen.
+
+What happens next is quick. Arctic Wolf saw several users targeted within about five minutes, and code running less than fifteen minutes after someone engaged. In its example, PowerShell pulled an installer from Microsoft's own Azure storage, which unpacked a Python implant that listed every user and computer in Active Directory and sent the list home. In some cases, alerts for Kerberoasting and Golden Ticket activity, which is to say, attacks on the domain's crown jewels, fired alongside the first alert about the Teams chat.
+
+Who's doing it? Arctic Wolf says the activity aligns with a cluster Sophos calls S T A C forty seven forty nine, a financially motivated group that deployed Chaos ransomware against North American organisations earlier this year. The technique descends from Black Basta, and Cactus and 3AM affiliates have used it too. It's not a nation. It's a trade.
+
+The infrastructure is evolving. Early on, the fake help desks came from free trial Microsoft tenants, the ones ending in "on microsoft dot com". Those are now only a third or so of cases. The rest use paid domains, many on the dot top domain, chosen because they're cheap and nobody asks questions.
+
+For persistence, Sophos saw startup entries disguised as Realtek audio drivers, which nobody has ever looked at twice, and shortcuts named like Windows security or OneDrive. And a second remote management tool, installed for redundancy, in case you find the first.
+
+Why this matters for us in particular. We federate Teams with clients constantly. Our people are used to chatting with outsiders, and used to being helpful. That's a virtue in consulting, and a vulnerability in security.
+
+How to look for it. In the Microsoft audit log, look for chats created by external or trial tenants with display names mentioning help desk, I T or support, and correlate them with a surge of email to the same person in the previous half hour. On endpoints, look for Quick Assist or any remote management tool starting shortly after an external Teams chat, for installers pulled from Azure blob storage, and for Python running from a user's own folders. Look for startup entries named Realtek or WinAudio. And watch for Kerberoasting after any remote assistance session.
+
+How to stop it. Restrict Teams external access to an allow list of domains, and block trial tenants outright, there's a single setting for it. Turn on external sender warnings. Remove Quick Assist where you don't need it, and allow only the remote tool your help desk actually uses. Then the human part. Make it policy that the help desk never initiates contact through external Teams chat, and that any request for remote access gets a callback to a known number. And if someone did let Matt in: isolate the machine, revoke sessions, reset credentials, including service accounts, look for the second remote tool, and if there's any sign of Golden Ticket activity, rotate the domain's master key twice.
+
+The lesson is the oldest one in the book. The most dangerous person in any building is the one who arrives at exactly the moment you need help, and offers it.
+
+## Watchlist
+
+What I'm watching.
+
+Today, Israel's vote and its aftermath, Chrome and eMudhra, ConnectWise's next update, and the end of Everest's P w C countdown. Tomorrow, the reported P w C release date. Thursday, the P H P two Shell deadline for federal agencies, and the reported OpenText date. Next Tuesday, the midterms. And on the tenth of November, Fortinet, Patch Tuesday, the Big Four's answers to Senator Wyden, and talks in Abu Dhabi.
+
+Statements from Beasley Allen, Weitz and Luxenberg, White and Case and Kirkland. More Falcon listings among law firms. The cause at University Hospitals. A Tailscale fix. And, given this morning's correction, how that European government body was really breached.
+
+That's Tuesday. Patch and restart your P H P. Lock down Teams external chat. Remove the worm's hooks before you revoke its token. And if Matt from I T calls, ask for his extension, then call it yourself.
+
+Until tomorrow.
