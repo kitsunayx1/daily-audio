@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Tue 27 Oct 2026: PHP2Shell enters KEV, Falcon targets law firms, the Teams help-desk con</title>
+      <description>A correction on Monday&#x27;s lead (Unit 42 retracted the PHP2Shell link to the European government intrusion); CISA adds PHP2Shell to KEV with working shells confirmed; Falcon lists Beasley Allen after Weitz &amp; Luxenberg; AI-driven intrusions in South Korea and an authorised agent test against Anthropic&#x27;s SaaS. Deep dive: Teams fake IT-support intrusions. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-27.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-27.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-27.mp3" length="10755051" type="audio/mpeg"/>
+      <itunes:duration>1344</itunes:duration>
+    </item>
+    <item>
       <title>Mon 26 Oct 2026: PHP2Shell&#x27;s first victim, White &amp; Case listed, Gheist drains GitHub secrets</title>
       <description>72-hour window. PHP2Shell&#x27;s first confirmed compromise at a European government body, apparently run by an AI agent, and two KEV additions due today; White &amp; Case and Weitz &amp; Luxenberg join the law-firm leak-site run as PwC confirms a vendor incident; stolen GitHub tokens and hijacked coding agents. Deep dive: Gheist. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-26.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-26.md</link>
