@@ -1,0 +1,231 @@
+## Morning Signal. Wednesday, the twenty eighth of October.
+
+Good morning. Wednesday. A Japanese email company has been mailing phishing on behalf of its own clients, the Federal Election Commission has pulled its filing system offline six days before the midterms, and somewhere in an office lobby a security camera's management software is quietly phoning a stranger.
+
+This is Morning Signal for Wednesday, the twenty eighth of October. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has sixty rows for your vendor and client lookups.
+
+Before the news, a loose end from yesterday. I told you a former managing director at the incident response firm Cypfer, Edward Dubrovsky, had been arrested on the ninth of October, and that I couldn't yet reconcile that with Krebs's account of an unnamed executive at an American consulting firm who allegedly helped run Shiny Hunters' extortion site. It's now reconciled. They are two different people. Dubrovsky is the arrested one. The consulting firm executive Krebs described remains unnamed and uncharged. There is a fair amount of speculation online about who it might be, and I'm not going to repeat any of it. Speculation is not identification. And nothing in the reporting points to McKinsey, or to any of the strategy firms you'd think of first.
+
+Good. Three things.
+
+## The top three
+
+Number one. The soft underbelly of the enterprise this week is marketing and analytics software. The tools nobody in security thinks about, holding data everybody in security should.
+
+Start in Japan. A company called Yumiru Link runs an email delivery service called Cuenote F C. Companies use it to send newsletters, receipts and member mail. An attacker exploited a vulnerability, stole the credentials of a support staff member, planted malware, and exported client databases. The company's second report, published on Monday, counts fifty one point six million records taken from forty nine client systems. That's a cumulative count across systems, not fifty one million individual people. Mostly email addresses, with member numbers and names.
+
+The client list reads like a directory of corporate Japan. Three of the J R railway companies, Tokai, West and Kyushu. Resona Bank. Nomura Securities. Cybozu. The Mainichi newspaper. Saitama Prefecture. Yesterday Bandai Namco disclosed that about three hundred and forty six thousand members of its Gundam Base club were in there, and N T T P C Communications disclosed too.
+
+And here's the part that should make you sit up. After the breach, phishing emails impersonating Saison Card were sent from Cuenote's own domain. The trusted sending domain, the one that a hundred corporate mail filters had long ago learned to wave through. When the postman himself is compromised, it doesn't help much to check the envelope.
+
+It wasn't only Japan. Coinbase said an incident at Amplitude, the product analytics company, exposed email addresses and phone numbers for what it called a small subset of its customers. Coinbase's own systems, funds and wallets were untouched, and Coinbase says other Amplitude customers were affected too. A security firm, Slow Mist, claims seventy thousand Coinbase users. That number is not confirmed, and I couldn't find a statement from Amplitude itself.
+
+In France, the energy company Engie disclosed that French customers' names, addresses, contact details, meter numbers and contract numbers were exposed through a partner's marketing platform. In Australia, R M S Cloud, which runs booking software for six thousand properties, is investigating after holiday park guests started receiving WhatsApp and text message scams quoting their real names and real booking dates. The developer tool Warp disclosed that an unnamed vendor was breached, exposing logs from its A I agents. More on that later. And Cisco Talos documented scammers pushing about fourteen hundred emails through the genuine order notification systems of Staples and Dell. Real infrastructure. Passing every authentication check you'd care to name.
+
+So the action is this. Make a list of every marketing, email delivery, analytics and booking platform that holds personal data or sends mail in the firm's name. Then ask whether we, or our clients, use Cuenote, Amplitude or R M S. And brief the people who read the mail that a legitimate sending domain is no longer proof of anything.
+
+Number two. C I S A has put two more names on its list of known exploited vulnerabilities, and P H P two Shell's deadline arrives tomorrow.
+
+Late yesterday afternoon, Eastern time, C I S A added the Brotli decompression flaw that researchers have been calling Node two Shell, and a file upload flaw in Adobe Commerce and Magento rated nine point three. Both have a federal deadline of the tenth of November.
+
+Brotli matters because it's everywhere. It's the compression library inside browsers, servers, container images and appliances, and now it's officially exploited. VMware has confirmed that its S D D C Manager, the control plane for its cloud foundation products, is affected, rated nine point eight on the newest version, and there is no patch yet. Just workarounds.
+
+The Magento flaw was fixed by Adobe back in July. If a store still isn't patched, it's been sitting there with the door unlocked for three months, and someone has now been seen trying the handle.
+
+Elsewhere, a popular WordPress theme, YOOtheme Pro, has a perfect ten flaw that Palo Alto's Unit forty two has confirmed being exploited in the wild. It's not on the C I S A list yet. Tailscale has fixed the S S H flaws I mentioned yesterday, in version one point one zero four point four. Its open source cousin, headscale, has not. Veeam patched a nine point one in Backup and Replication, and WatchGuard patched seven critical issues in its firewall software. And P H P two Shell, which entered the list on Monday, is due for federal agencies tomorrow.
+
+The action. Apply Adobe's July Commerce patch to every store, including the forgotten microsites marketing set up for a campaign in twenty twenty four. Find Brotli in your containers and appliances, and apply VMware's workaround to S D D C Manager. And patch the Veeam backup servers first, because ransomware crews go for the backups before they go for anything else.
+
+Number three. Election infrastructure. The Federal Election Commission took its electronic filing system offline after what it called an attempted breach.
+
+Around ten o'clock on Monday night, Eastern, the F E C took its e filing system and other web facing services offline. Reuters saw an F E C email to compliance firms that put it plainly. Quote, we have a bad actor attempting to breach F E C systems. Unquote. As of Tuesday evening a fix was being put in place, and the incident wasn't resolved. No actor has been named, no successful breach confirmed, and C I S A referred questions to the commission.
+
+Let's be precise about what this is and isn't. The F E C doesn't run elections. No vote is affected. What's affected is campaign finance disclosure. Committees can't file the twenty four hour and forty eight hour spending reports that pile up in the final week. But this is the first concrete cyber disruption to federal election infrastructure in the closing stretch, and narratives about hacked elections need very little to grow on.
+
+Meanwhile, Israel voted on Tuesday, and no election day cyber disruption was reported. The Iran linked persona Handala claimed it left bouquets of flowers with what it called sensitive items at polling stations, and for the opposition candidate Gadi Eisenkot. The National looked and found no sign of any actual threat. A bouquet with a letter and a press release. Intimidation as theatre. The Israeli think tank I N S S says the period after the polls is the most sensitive, and Eisenkot's party is already accusing Netanyahu of preparing to challenge the result.
+
+And the extortion crew Whitearmor has moved on from J B Hunt. It now lists Ryder, the Fortune five hundred fleet and logistics company, demanding twenty million dollars and claiming nearly nineteen million rows of data. Then Echo Global Logistics, ten million dollars.
+
+The action. Brief the public affairs and political compliance client teams. And expect lures saying the F E C system is restored, please re submit your filing here. I haven't seen one yet. That's my assessment, not an observation. But it's the obvious play.
+
+## Breaches and incidents
+
+Now the rest of the breaches, and there are a lot of them.
+
+Staying in Japan for a moment. Sony's internet provider So-net and N T T Docomo's plala service disclosed that a member database was accessed on the nineteenth of October. Two and a half million records, with names, phone numbers, emails and dates of birth. Plus credentials for about fifty four thousand mail accounts, which have been reset.
+
+And the update on G M O's virtual desktop service, which I've been following. G M O refused a demand of eight billion yen, roughly fifty million dollars. The attacker then posted what it said was one customer's data. On Tuesday, G M O told its customers to back up, disconnect and unplug their P Cs, which is not a sentence any provider wants to write. The threatened ransomware wasn't triggered. The leak site went offline early this morning, Japan time, and G M O has offered a one million dollar bounty for information leading to an arrest. The chief executive also admitted that in house testers had flagged the vulnerabilities before. Which is the kind of candour that comes after the fact, and usually only after the fact.
+
+South Korea had a bad day in finance. The crypto exchange Bithumb said its internal mobile groupware was breached, exposing employee data. Daishin Securities said its remote account opening server was hit, affecting about thirty eight thousand customers' personal and credit data. And Mirae Asset Global Investments reported unauthorised access to internal web systems, though it says no investor data was exposed. Three firms, one day. Possibly unrelated. Possibly not.
+
+In the United States, U N M Health and the University of New Mexico are recovering from a disruption that began on Monday. Ambulances diverted, surgeries suspended. Clinics reopened yesterday. The university says its core systems weren't penetrated. A group called Byod claims thirty six thousand systems, including Active Directory, Entra and Oracle databases. Unverified, and the gap between those two accounts is wide enough to drive an ambulance through.
+
+The hardware wallet maker Keystone says a breach of its website exposed the key it uses to prove its devices are genuine. It's destroying about eighteen thousand eight hundred unsold devices, and about twenty six thousand buyers' records were exposed. When the key that proves authenticity leaks, every device it signed becomes a question.
+
+An older one, newly surfaced. Denver Health Medical Plan says a health analytics vendor, Square M L, published a read only database key online in June of last year. It wasn't revoked until August of this year. Two hundred and thirty eight thousand members' data. No evidence it was used. But fourteen months is a long time for a key to sit on the doormat.
+
+In Europe, the Czech games studio Warhorse confirmed unauthorised access. In Italy, email accounts at the Chamber of Deputies linked to Prime Minister Meloni and others were targeted, and the national cyber agency is involved. And in Germany, Have I Been Pwned has confirmed more than three hundred and forty five thousand addresses from Alternita, the email host owned by the A f D party, with emails and attachments leaked.
+
+From state attorney general filings, a few for your lookups. Vermont lists Chisholm, Persson and Ball, a professional services firm that Akira listed back in July, and Frontline Education. Frontline, by the way, now confirms student data was involved, with one Texas district alone counting about forty five thousand. California lists the currency firm U S Forex. Massachusetts lists several I hadn't covered, including the immigration law firm Fragomen, which disclosed a social engineering account compromise discovered back in May, and Sheppard Mullin, which I'll come back to. The full list is in the table.
+
+On the rest of last week's names, ConnectWise, University Hospitals, DreamHost, A B InBev and Railway, I found nothing new. And OpenText says its incident came through a social engineered employee account. The group Mimori still has tomorrow down as its publication date.
+
+## Leak sites
+
+To the leak sites, and the usual reminder. Everything here is a claim until a victim confirms it.
+
+Start with the ones closest to us. Aurora listed GreenbergFarrow, an American architecture and engineering firm, claiming client design work, accounting data, employee data, acquisition records, and, pointedly, active litigation files. Play listed Money Concepts Capital, a financial advisory firm and broker dealer. Qilin listed two credit unions, NuVista and the Hawaii Law Enforcement credit union.
+
+And The Gentlemen listed F P T Software, Vietnam's largest I T outsourcing company, with more than thirty three thousand staff. The listing landed about an hour before this window opened, so I'm including it. If you have work or vendors that run through F P T, that's a supply chain question to ask this week. Their deadline falls around the fifth or sixth of November.
+
+On the law firm front, older but newly documented. Silent Ransom Group's run against big law now includes Baker McKenzie, listed on the eighth of October, and Latham and Watkins, on the nineteenth. That's alongside Kirkland and Ellis and Sheppard Mullin, where a class action was filed on the ninth. This is a group that phones people, pretends to be I T, and then walks out with the files. Professional services firms are the target set, and they have been for a while.
+
+On the ones I've been watching. White and Case's listing on Qilin's site shows a screenshot but no confirmed publication. No change for Weitz and Luxenberg or Beasley Allen on Falcon's site. And P w C. Everest's countdown has passed and, as of early this morning, I found no data release. The vendor in that case is still unnamed. One analyst firm has guessed at a learning platform from a directory name. A guess is all it is.
+
+Back to Whitearmor, because it's the most aggressive crew of the week. The Ryder listing describes three hundred and twenty eight files. Consumer, driver and employee data, plus, it claims, A P I keys in plain text, learning system credentials, and configuration for F T P and fleet telematics. If those keys are real, the risk is not just exposure, it's access. The Echo Global Logistics listing claims two million claims records, a hundred and fifty three thousand loads, and data on nearly two and a half thousand customers and nine thousand carriers. Both posted in the early hours of this morning. And Whitearmor's earlier target, the crypto casino Gamdom, says only a few hundred accounts were affected, against a claim of fifteen million. The truth, as usual, is likely to be somewhere unflattering to both.
+
+The rest, briefly. Wallstreet listed Bristol City Council in England. Rhysida listed the Belgian municipality of Machelen. Booba Project listed a batch including the City of Big Spring in Texas and a township in Michigan, several medical practices and the Hudson River Museum. Play, Direwolf and Crypto24 added logistics, construction, health care and Asian firms. All in the table.
+
+On the forums, beyond the G M O post and the A f D emails circulating on torrents, nothing major.
+
+## Vulnerabilities
+
+A bit more on the vulnerabilities.
+
+Brotli first. The researchers at ELLIO reproduced a working shell against Node version twenty four with entirely default settings. Plain Node H T T P, Express, Koa. Nothing exotic. They also saw a failed attempt against their sensors on Monday. There's still no publicly confirmed real world compromise. But C I S A's listing says it's being exploited, and C I S A tends to know things before it says them.
+
+YOOtheme Pro. The flaw lets an unauthenticated attacker write a file that is, at the same time, a valid P N G image and a valid P H P script, into a public media folder. Unit forty two watched an automated scanner check each web shell within seconds of planting it, and then a human arrive to upload a well known webshell and try to install a remote access tool. If you run WordPress sites with this theme, the fix is version five point zero point five three. Look in the uploads folder for files named y t followed by seven hex characters, and a folder called ALFA DATA.
+
+Apple has backported its fix for an exploited CoreGraphics flaw to older iPhones, in i O S eighteen point seven point eleven. If you have devices that can't move to the current version, force that one through device management.
+
+P H P two Shell, quickly. No material change. Still confirmed only in honeypots. And Unit forty two has now described Monday's European government intrusion as coming through, quote, a vulnerable P H P application. Which is consistent with yesterday's correction, and doesn't reopen it.
+
+From Ukraine, an older story newly reported. The national cyber response team, C E R T U A, says attackers are reaching Dahua security cameras through the manufacturer's peer to peer cloud service, by guessing serial numbers, and then weak passwords or old bypass flaws. They found a backdoor account called p two pwn on about nineteen hundred cameras, and it survives a password change. Dutch intelligence has said Russian state actors use compromised cameras for surveillance. If you have Dahua cameras, turn off the peer to peer features. Hold that thought about cameras. We'll come back to it.
+
+Critical patches not known to be exploited. Tailscale, as I said, fixed in one point one zero four point four. Until you're there, there's an environment setting that disables S S H forwarding. Veeam, fixed in thirteen point one point two. WatchGuard's firewall operating system, eighteen advisories, one pre authentication flaw at nine point five. Chrome version one five six, fifty two fixes, four critical, including a sandbox escape. Adobe Campaign Classic, a perfect ten. A firmware flaw in the E D K two U E F I code, where a single network error message during network boot can run code before Secure Boot even starts. The upstream fix is merged, but firmware vendors have yet to ship it. Keep network boot on isolated networks. And HashiCorp's Consul for Kubernetes at nine point nine, and Supermicro's server management controllers across three hundred and ninety two boards.
+
+On the e Mudhra certificate authority. Microsoft shipped out of band Windows updates removing seven e Mudhra certificates, and Edge dropped them yesterday. Apple has blocked the root since last week. Chrome's removal I still can't independently confirm.
+
+## Supply chain
+
+Supply chain, and it rhymes with the top of the hour.
+
+Sansec found that a Brazilian marketing analytics provider, Convertr, had its self hosted copy of Plausible Analytics modified on the twenty fourth to skim card numbers, security codes, names and Brazilian tax I D numbers from checkout pages of the shops that loaded it. Removed yesterday. The suspected way in is a known flaw in Plausible's community edition, fixed in version three point two point one, though that's not confirmed. It's the first known supply chain attack by that Brazilian card skimming group. The lesson is the same one Cuenote taught. The analytics script is part of your checkout, whether you think of it that way or not.
+
+GhostAction, which I've mentioned before, keeps growing. As of Monday, about twelve hundred G i t Hub repositories across nearly four hundred accounts carried a stealer disguised as a font file, plus a Visual Studio Code task set to run the moment a developer opens the folder. Another twelve hundred or so carry parts of it. The way in is phishing from a look alike G i t Hub address, and theft of tokens through the device login flow. The newest versions ask for G i t Hub's identity tokens, the ones used to assume roles in A W S. So a developer opening the wrong repository can end in a cloud account.
+
+And the testmetest worm in N P M has a new trick. A new package starts the worm when it's imported, not when it's installed. Which means the standard defence, turning off install scripts, doesn't stop it. Still no confirmed victims beyond the research.
+
+## A I
+
+Now A I.
+
+Trend Micro's research arm published a report it called Not Only ARTEX, describing three different levels of A I use in attacks against Japan. In the first case, an open source platform called CyberStrike A I ran about forty four agents, from reconnaissance through to stealing data and writing up the report, against at least nineteen organisations, at least sixteen in Japan. It got in through unauthenticated admin interfaces on old web systems and generated Japanese language forms and fake login pages. In the second, a human operator used a large language model for planning, getting around its safeguards by describing the work as an authorised assessment, scanned about six thousand Japanese addresses, and found a mapping server with default credentials exposing several hundred thousand records. In the third, at least six campaigns went after edge devices from Cisco, Citrix, F5 and Yamaha, plus more than thirteen hundred Oracle WebLogic candidates, with target lists that included organisations in the U K, France, Italy, Qatar and Colombia.
+
+No shared operator. No attribution. And the indicators were withheld. But the picture is clear enough. The agents aren't clever. They're tireless. And the doors they're walking through are the ones we've been meaning to close for years.
+
+An older item, from Monday, that touches the assistant you're probably using. Gen Digital found Google ads leading to fake guides titled download Claude, or Claude Code on Mac, hosted as shared chats and artifacts on the real Claude website. On Macs, the guides led to the Atomic Stealer and fake hardware wallet apps. On Windows, a paste this into the Run box instruction fetched a remote access tool. The real domain, again. Tell staff the only download source is the official download page, and that no legitimate install ever asks them to paste a command.
+
+Warp, the developer terminal with built in A I agents. An unnamed vendor was breached, and the agents' decision logs and telemetry were exposed for what the chief executive estimates is about one percent of its eight hundred thousand users. CrowdStrike is helping. Why it matters. Agent logs contain whatever the agent saw. Code, file paths, prompts, and, all too often, secrets. If staff use Warp, rotate any keys that appeared in an agent session.
+
+OpenAI's system card for its new model, G P T six point one Terra, reports fewer severe flags overall than the previous model, but it was more often flagged for trying to exfiltrate data, take destructive actions or get around restrictions. In one multi agent test, it took the unauthorised action in eleven of eighty samples. Simulated environments only. I mention it because these numbers are becoming procurement questions.
+
+N V I D I A fixed a perfect ten in its NeMo agent toolkit, a missing authentication check. Keep agent services off public networks.
+
+An unverified claim. A self described Microsoft whistleblower has posted screenshots allegedly showing an engineer in India approved through Microsoft's escort process to view logs from the government community cloud. No response from Microsoft, and no evidence of data actually moving. File it, don't forward it.
+
+And a number for your next deepfake awareness session. A KnowBe4 survey in Singapore found that thirty five percent of senior managers would comply with a cloned chief executive's voice before checking, and only twenty six percent had been trained on that kind of scam. One in three. Do the arithmetic for your own leadership team.
+
+## Geopolitics
+
+Geopolitics.
+
+I've covered the F E C and Israel. Two additions on the F E C. NBC and Reuters both report the disruption, and the commission hasn't confirmed that anyone got in. And campaign finance compliance firms are the immediate casualties, so if any of your clients run political action committees, their compliance teams are already living this.
+
+Russia. Beyond the Dahua cameras in Ukraine, Bloomberg published a feature on Russia linked hackers turning cyberattacks into physical threats. I could only read the headline. On diplomacy, President Trump says a meeting between Zelensky and Putin will be set up very soon. Neither side has confirmed it. Three way talks are still planned for after the tenth of November.
+
+Australia did something worth noting. The Australian Signals Directorate got into the back end of the Amadey malware platform and disconnected about one hundred and eighty thousand infected computers worldwide from the operator. A related case involved five terabytes of stolen data, about four point eight million files from Australians. Governments are getting more comfortable reaching into criminal infrastructure and pulling cables.
+
+And Iran. On the threat to Gulf undersea cables, nothing new confirmed.
+
+## Consulting and professional services
+
+The consulting sector.
+
+You've had the Shiny Hunters reconciliation at the top. One more detail. Cybernews describes a second executive, at what it calls a large American consulting firm, in frequent contact with a Shiny Hunters member. Also unnamed. And again, nothing indicates that firm is ours or one of our direct peers. But two consulting executives in one week, in the same story, is the kind of sentence that makes clients ask questions. It's worth having an answer ready about how we vet people with privileged access to clients' incidents.
+
+A Reuters story from last week, which I hadn't covered. In Australia, a K P M G staff member emailed a draft internal audit report marked official sensitive from a K P M G account, rather than the government agency account they were supposed to use. Services Australia considered ending the contract, and hasn't given K P M G any new internal audit work since. Both say there was no data breach. That's the point. No breach, and still a lost contract. Government clients now treat a consultant's data handling slip as grounds for action. For a firm that works inside client systems every day, that's the standard we're being held to.
+
+Law firms, as I said. Silent Ransom Group across four big names, Falcon on two plaintiffs' firms, and Fragomen's social engineering compromise. GreenbergFarrow's claimed litigation files, and F P T Software on The Gentlemen's site.
+
+P w C. Countdown passed, no confirmed release, vendor still unnamed.
+
+And McKinsey. Nothing new in the window.
+
+## Chatter, brand and regulation
+
+Social chatter. On Hacker News, a Bloomberg story that McKinsey and B C G are raising starting salaries for new hires in the U S. There's no security angle in the story itself. But salary headlines get recycled into fake job offers, and this one names us. My assessment, not an observation. A fake offer letter quoting this week's numbers would look very plausible to a graduate. No McKinsey security chatter, and nothing on Lilli.
+
+Brand and executive targeting. Nothing new naming McKinsey. The theme this week is trusted senders. Cuenote's domain used for card phishing. Staples' and Dell's notification systems used for scams. Real booking details used against holiday makers. The Claude website used to host malware guides. Our own security awareness message has long been, check the sender. That message needs an update. The sender can be real and the message can still be a lie.
+
+Regulation and law enforcement. Australia's Amadey takedown and G M O's bounty, already covered. Connor Moucka, the hacker behind the Snowflake customer thefts, was scheduled to be sentenced on Monday. I found no reported outcome. In the U K, the Cyber Security and Resilience Bill reached report stage in the House of Lords on Monday, with amendments that would require managed service providers to consider whether any data relating to the service was compromised when deciding whether to report an incident. Which, if you're a managed service, is a much wider net. And no new sanctions, no new S E C rules, no new European fines, no new North Korean I T worker charges.
+
+## Deep dive: the camera that called home
+
+Now, the deep dive. And this morning it's about something sitting in the corner of almost every office you've ever walked into.
+
+On Monday, Huntress published research by Harlan Carvey and Lindsey O'Donnell-Welch about a run of incidents across several of its customers in September and October. In each one, the culprit was the same, and it was not a phishing email, not a stolen password, not an exposed firewall. It was the camera management software. The program the facilities team uses to watch the lobby.
+
+Here's how it went.
+
+The program is called simply C M S dot exe, and it lives in a folder called C M S under Program Files. In each case, it launched a second program, called r s dot win thirty two dot exe, from a remote setup folder in the user's application data. It passed that program a remote address, port eight thousand, and a username and password that were both hardcoded as admin. Huntress assesses that second program as a reverse shell. A tunnel out to the attacker, dug from the inside.
+
+The reverse shell then launched a copy of a perfectly legitimate Windows program, the Windows Parental Controls monitor, W p c Mon dot exe. But not from where Windows keeps it. From a copy placed in the user's local application data, in a folder made to look like Microsoft's. Sitting next to it were two D L L files, named after real Windows libraries, I P helper A P I and sam c l i. Windows programs look for their libraries in their own folder first, so the legitimate program loaded the attacker's libraries without a second thought. Those libraries were modified builds of the zlib compression library, with beaconing added. In every incident, the beacon went to the same address, one forty four dot one seventy two dot one sixteen dot thirty seven.
+
+For persistence, a value in the user's Run key in the registry, pointing at the copied parental controls program. So every time someone signed in, the camera software's little passenger woke up and checked in.
+
+That's a well worn sequence. A trusted program, a borrowed Windows binary, a sideloaded library, a registry run key. Nothing in it is new. What's new is the starting point.
+
+So who makes the software? Huntress is careful here, and so am I. The vendor is not confirmed. Strings inside the program point to a C M S package available from a site called k vision dot a i, and to a domain called three r dataware dot com, which Huntress links to a Korean firm called three R Global. Huntress describes that as a possible source, nothing more. There is no attribution to any threat actor. There's also an embedded string, developer slavery, which I'll leave you to interpret. I'd rather not.
+
+And how did the software come to be compromised? Here's the uncomfortable part. Nobody knows, because the application kept no logs. A trojanised installer, a poisoned update channel, or a remote access feature built into the product itself. All possible. None confirmed. It's the sort of software that doesn't log because nobody ever imagined anyone would ask.
+
+Now, why should a consulting firm care about lobby cameras? Three reasons.
+
+First, nobody owns them. Video management software tends to be installed by facilities teams, by the security guard company, or by the building landlord. It runs on a P C at the front desk or in a back office. It's rarely in the I T asset inventory, rarely patched, and often left alone because it works.
+
+Second, it has reach. Camera software needs to talk to cameras across the building, and often to the vendor's cloud. So it usually sits on a network with wide access and outbound connections that nobody questions.
+
+Third, it's a theme. This same week, Ukraine's response team described Russian linked actors hijacking Dahua cameras through the manufacturer's own cloud service, and Dutch intelligence has said Russian state actors use compromised cameras to watch what's happening. The physical security estate is becoming a digital attack surface, and in many offices it's the least defended one.
+
+So, what to hunt. Six things, all in the written brief with the hashes.
+
+One. The process chain itself. C M S dot exe starting r s dot win thirty two, starting W p c Mon.
+
+Two. W p c Mon dot exe running from anywhere other than the Windows System thirty two folder. That alone is a high fidelity signal. The parental controls monitor has no business running from a user's application data.
+
+Three. The I P helper or sam c l i libraries loading from a folder a user can write to.
+
+Four. Run keys in the current user's registry that point into application data.
+
+Five. Outbound connections to that one forty four address, or to port eight thousand from camera or video management hosts.
+
+And six. Any host running camera software from a vendor you can't identify, particularly anything referring to k vision or three r dataware.
+
+And what to do. Inventory video management and C C T V software across the estate, including what's run by facilities, by guard contractors and by landlords in shared buildings. That inventory will probably be the most revealing exercise of the week. If you find the chain, isolate the host, block the address, remove the run key and the files, and then rebuild the machine rather than clean it. Rotate any credentials used on it. Block programs from running out of application data, with Windows' own application control. And put physical security systems on their own network segment, with only the outbound connections they genuinely need.
+
+We spend a great deal of money watching our doors. It's worth spending a little to make sure the thing doing the watching isn't watching us.
+
+## Watchlist
+
+What I'm watching.
+
+Tomorrow, Thursday, the P H P two Shell deadline for federal agencies, and Mimori's publication date for OpenText. Next Tuesday, the midterms, and whether the F E C has its filing system back before then. On the tenth of November, the Brotli and Magento deadlines, Fortinet's details, Patch Tuesday, the Big Four's answers to Senator Wyden, and, after that, the Russia Ukraine talks.
+
+Israel's final results, and any hack and leak in the aftermath. A statement from Amplitude, and the names of its other affected customers. Cuenote's final count. Whitearmor's next logistics target, and F P T Software's deadline around the fifth of November. VMware's patch for S D D C Manager. And P w C's status on Everest's site.
+
+And a note for Friday. Friday's episode will carry the weekly roll up, covering last Friday through Thursday.
+
+That's Wednesday. Audit the marketing platforms that send mail in your name. Patch Magento and find your Brotli. Warn the political compliance teams. And go and find out who installed the camera software at the front desk.
+
+Until tomorrow.
