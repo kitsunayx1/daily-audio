@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Thu 29 Oct 2026: Law and accounting firms listed, PHP2Shell hits PAN-OS, KeyDrift in Cisco SD-WAN</title>
+      <description>Silent Ransom Group lists Morrison Foerster and Lowenstein Sandler, The Gentlemen claims Cherry Bekaert and SK Capital, and CrowdStrike&#x27;s legal threat report; Palo Alto confirms PHP2Shell exploitation of PAN-OS management interfaces as CISA adds Linux Fragnesia and a VMware ESX zero-day to KEV; DHS staff data via Okta SSO, Amadeus airline bookings, 123 Reg&#x27;s AI-driven intrusion; FEC filing restored. Deep dive: Cisco Talos on UAT-11473&#x27;s KeyDrift implants in SD-WAN controllers. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-29.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-29.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-29.mp3" length="12800436" type="audio/mpeg"/>
+      <itunes:duration>1600</itunes:duration>
+    </item>
+    <item>
       <title>Wed 28 Oct 2026: Marketing SaaS leaks, Brotli and Magento enter KEV, FEC filing offline</title>
       <description>Cuenote FC&#x27;s 51.6M-record breach and phishing from its own domain, plus Amplitude/Coinbase, ENGIE, RMS Cloud and Warp; CISA adds Brotli (Node2Shell) and Magento to KEV; FEC takes e-filing offline after an attempted breach; Whitearmor hits Ryder and Echo. Update: Dubrovsky is not the unnamed consulting-firm executive. Deep dive: Huntress on compromised camera-management software. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-28.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-28.md</link>
