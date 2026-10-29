@@ -1,0 +1,199 @@
+## Morning Signal. Thursday, the twenty ninth of October.
+
+Good morning. Thursday. Two more big law firms have appeared on an extortion site, Palo Alto firewalls are being opened with a P H P bug, and somewhere in a satellite company's network, a router has been quietly copying down the keys to every branch office it talks to.
+
+This is Morning Signal for Thursday, the twenty ninth of October. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has seventy five rows for your vendor and client lookups. A busy day for the table.
+
+Three things first.
+
+## The top three
+
+Number one. The firms that advise other firms are the target set this week. Law, accounting, advisory, private equity.
+
+Yesterday, Silent Ransom Group, which lists itself as Leaked Data, added Morrison Foerster and Lowenstein Sandler to its site, along with two redacted entries marked, rather theatrically, to be announced. Two days earlier it had added Morrison Cohen in New York. That's on top of Kirkland and Ellis, Latham and Watkins, Baker McKenzie and Sheppard Mullin, which I've mentioned before. The group also claims that Nelson Mullins offered eight million dollars, and Sheppard Mullin four point nine million, to keep their data off the site. Those figures are the group's own. Extortionists are not a reliable source on what other people offered them. But they do tell you what they think the market will bear.
+
+The Gentlemen, meanwhile, listed Cherry Bekaert, one of the larger American accounting and advisory firms, and SK Capital Partners, a private equity house. Akira listed Roberts Consulting Services, an engineering and materials testing consultancy. And Rhysida listed Broadstreet H E O R, a health economics consultancy in Vancouver. All claims. No data samples seen, no statements from the firms.
+
+And then CrowdStrike published its legal sector threat report, which reads like a commentary on the week. Four hundred and fifty five legal organisations named on leak sites in a year, up thirty nine percent. Silent Ransom Group, which CrowdStrike calls Chatty Spider, up a hundred and twenty nine percent, with law firms about nine in ten of its victims. And this is the detail I keep returning to. Last November, the group hired a man, a Russian national, to walk into a U S law firm posing as internal I T staff. He was detained when he came back the next day. Some people, it seems, can't resist a second visit.
+
+On the state side, CrowdStrike says China's Warp Panda used a VMware logging flaw as a zero day against American law firms. That flaw went on C I S A's exploited list yesterday. And another Chinese group, Titan Panda, exploited a hardcoded key in Intapp Time Server, which CrowdStrike calls the first attack it has seen on software made specifically for the legal sector.
+
+Why this matters to us is simple. These are the firms that sit next to us on client engagements. They hold the same kind of data, they share the same deal rooms, and they're being worked over by people who phone, and now visit.
+
+The action. Check Cherry Bekaert, Morrison Foerster, Lowenstein Sandler and SK Capital against the vendor and client database. Find out whether we run Intapp anywhere. And tell staff again, plainly, that I T never calls you first, and never turns up at your desk unannounced.
+
+Number two. P H P two Shell has found its way into Palo Alto firewalls, and the federal deadline is today.
+
+Palo Alto updated its advisory yesterday with a sentence no firewall vendor enjoys writing. Quote, active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet. Unquote. It's rated critical. Some of the fixed versions are out. Others are only due today or tomorrow. Until you have one, the advice is the old advice. The management interface should never have been on the internet in the first place.
+
+At the same time, C I S A added a Linux kernel flaw nicknamed Fragnesia to its known exploited list, with a deadline of Saturday. Three days. C I S A's own note says it can be chained with P H P two Shell to plant web shells and run commands as root. The research firm Dream described exactly that chain. Twenty five servers rooted across the United States, Japan, Taiwan and South Korea, three of them in a U S government affiliated environment. Fragnesia used for root. Then tunnels, Active Directory reconnaissance and password spraying. Twenty two firewalls still had live web shells when they reported. And on the attacker's own infrastructure, Dream found Claude Code, an A I scanning tool built on DeepSeek and Kimi, and about forty scripts with the fingerprints of machine authorship. The Hacker News suggests the unnamed firewall in Dream's report is Palo Alto's. Dream itself didn't say.
+
+The other addition to C I S A's list is that VMware logging flaw. It lets an administrator do certain things without leaving a record. A small flaw with a low score, and a perfect tool for someone who already has the keys and doesn't want to be remembered.
+
+Also exploited in the window. A Cisco firewall flaw that lets anyone reboot the device remotely, if the S S L V P N is set up with a secondary authentication server. FreeSWITCH, the telephony server, rated nine point eight. MLflow, the machine learning platform, hit by honeypot traffic within a day of its flaw being published. And Kerio Connect webmail, through a booby trapped image attachment.
+
+The action. Take Palo Alto management interfaces off the internet this morning, not this afternoon. Patch the Linux kernels on any web facing server that runs P H P. And patch Cisco firewalls where that V P N configuration applies, because there's no workaround.
+
+Number three. Identity and vendor accounts, again. Homeland Security staff data, taken through its single sign on, and airline bookings, taken through a vendor account.
+
+TechCrunch reported that names, job titles and work contact details for more than forty thousand Department of Homeland Security employees and contractors were taken in mid August, through D H S's Okta single sign on. About twenty one thousand at Customs and Border Protection, about ten thousand at I C E and Homeland Security Investigations, and just under a thousand at C I S A. Plus Active Directory group memberships. The attacker called itself the Department of Peace, passed the data to a journalist, and the transparency collective D D o S Secrets published it. TechCrunch matched part of it to real records. Okta says its own systems were not compromised. D H S didn't comment. We don't know how the attacker got through the sign on, or whether the door is now shut.
+
+Then Amadeus, the booking system behind a large share of the world's airlines. Japan Airlines disclosed yesterday that about ninety two thousand customers' booking details were exposed through Amadeus, about two thousand of them with passport numbers. The access ran from August twenty twenty three to September of this year. Three years. Korean Air and Asiana, who disclosed last week, say someone logged in with valid credentials for an Amadeus system account. Not a clever exploit. A password that worked.
+
+And the British domain registrar 123 Reg, owned by GoDaddy, told customers it suffered what it calls an A I driven cyberattack, with attacker servers in China and Singapore. More on that later.
+
+One update. The Federal Election Commission's filing system came back on Wednesday afternoon, after nearly forty one hours. Filers had to reset their passwords. Still no attribution.
+
+The action. Ask our travel team, and our travel management company, whether Amadeus has told them anything. And look at which third party accounts can sign in to our own identity provider. Every one of them is a door with someone else holding the key.
+
+## Breaches and incidents
+
+Now the rest of the breaches.
+
+Stay with 123 Reg a moment. The intrusion was on the eighteenth of September. Customer names, phone numbers, countries, V A T numbers, account products and marketing preferences. The company says the attacker only read the data, though copying can't be ruled out. Investigators found A I attack skills on the attacker's servers, including copies of skills that Anthropic released as open source. And 123 Reg suspects the same group behind earlier abuse of Claude Code against dozens of organisations, and the ARTEX attacks on Korean finance firms. That's 123 Reg's suspicion. It is not an attribution, and I'd treat it as a hypothesis until someone with more evidence says so.
+
+Japan, as ever, is disclosing at pace. Rakuten Travel says up to two point six million users who logged in may be affected, and about thirty six thousand customers who booked overseas hotels may have had partial card details exposed. Last four digits, name and expiry. Sony Life Insurance says about three hundred and eighty five thousand customers' data leaked from its policyholder website. Benefit One, through its vendor Forestech, disclosed nearly thirty thousand members of Credit Saison's perks service. And the Cuenote F C and blastmail breaches I covered earlier this week keep producing names. Impress confirmed about fifty eight thousand records from one of its news services, and the electronics maker T V S Regza is checking whether its members' emails leaked.
+
+Two older ones from Japan worth noting. The website builder Studio told Japan's Digital Agency that its cloud environment had been accessed, exposing up to thirteen thousand form entries sent to the agency, and Money Forward counted over eight thousand records across five group companies. And Park24, the parking and car sharing company, has booked a five and a half billion yen loss for its earlier breach of six point six million accounts. Which puts a number on what these things cost.
+
+On G M O's virtual desktop service. Police are now investigating. G M O will pay five thousand yen to every current user, plus more to those whose data was published, and its million dollar bounty runs for a year.
+
+In South Korea, Bithumb now confirms that several hundred customer records leaked, not only staff data.
+
+In Europe, Femern Link Contractors, the consortium building the tunnel under the Baltic between Denmark and Germany, confirmed data theft, including personal data. A group calling itself Barracuda, with no connection to the security company of that name, claims two point four terabytes, says it encrypted virtual machines through vCenter, and asked for half a million dollars.
+
+In the United States, Boston Scientific reported its first quarterly results since its August cyberattack. Sales up slightly, guidance for the next quarter down one to three percent, and no number put on the incident. Vermont's attorney general lists Quantum Health, with more than two thousand Vermont residents' social security numbers and health records, and Directed Trust Company, among others. Texas lists the brokerage platform Tradier. All in the table.
+
+And PwC. Reuters picked up the story yesterday. PwC says the vendor's site, quote, does not house client data, sensitive personal data or financial information. Everest's countdown has passed, and I've found no sign of a release.
+
+## Leak sites
+
+To the leak sites, beyond the professional services firms I've already named.
+
+First, a set of older listings from Monday and Tuesday that I hadn't covered, and one of them is large enough to treat carefully. The Gentlemen listed S A P. Also SoftwareOne, the I T services company, Vietnam Airlines, the water engineering firm WABAG, and a handful of others. Another group listed ST Engineering in Singapore. Rhysida listed MISC Group in Malaysia. Whitearmor listed the crypto exchange KuCoin. No data seen, no confirmation, and in S A P's case I'd want a good deal more than a name on a website before I believed it. A listing is an assertion. Sometimes it's a press release in search of a victim.
+
+Overnight. Aurora listed the British fashion retailer E W M Group, claiming about half a million loyalty records and twenty one thousand employee records, and the German supplier Meleghy Automotive. Anubis listed Santiam Hospital and Clinics in the United States. Others listed manufacturers in Germany and France, a Malaysian telecom, a U S software vendor and a laboratory.
+
+The Gentlemen also claimed the Swedish municipality of Svedala, which had confirmed a ransomware attack at the start of the month. That's the first time anyone has put their name to it.
+
+On the forums, a dump of a hundred and fifteen gigabytes from Summit Public Schools, a charter network in California and Washington, with folders for PowerSchool, Clever and Salesforce. The school hasn't confirmed. And on Wagyu, the Monero swap service Whitearmor listed this week, Hudson Rock analysed about thirty eight thousand order records and ten thousand I P addresses. For a privacy service, a leaked list of who swapped what and from where is about as bad as it gets.
+
+Finally, the one to watch this evening. Mimori says it will publish ninety four thousand files from OpenText at nineteen thirty six U T C today. That's just after half past three this afternoon, Eastern.
+
+## Vulnerabilities
+
+Back to vulnerabilities, briefly, because the top of the hour covered most of it.
+
+On the Fragnesia kernel flaw, it was first disclosed in May. There's a Metasploit module. The fixed kernels are listed in the brief. If you've got a Linux server facing the internet with P H P on it, and it hasn't been rebooted onto a new kernel since the spring, it belongs at the top of today's list.
+
+A note on Cisco's S D W A N. Cisco updated its advisory for the S D W A N controller flaw from February, to link to new research from Talos. That's this morning's deep dive, so I'll leave it for now.
+
+GitLab. Alpine Linux, the operating system that sits inside an enormous number of containers, reported repeated attempts to exploit a perfect ten GitLab flaw against its own server. It found no proof of success, but treated the server as compromised, reset passwords and rotated secrets. It says its packages weren't tampered with. One wrinkle for anyone running GitLab on their own Ruby. Upgrading GitLab alone isn't enough. You need the fixed Ruby too.
+
+The updates. VMware still has no patch for S D D C Manager against the Brotli flaw. Workarounds only. Tailscale's fixes are out, with no headscale fix yet. On e Mudhra, Cloudflare is urging everyone running its tunnel client to update, and to rebuild container images. And Microsoft says eight of e Mudhra's intermediate private keys were recoverable, two of them for code signing. Which means signed software is now part of the question, not only websites.
+
+And a note of honesty. Lumen's new research on Chinese relay networks lists a zero day in Arista's VeloCloud Orchestrator under one vulnerability number. On the twenty third, I told you about an exploited VeloCloud Orchestrator zero day under a different number. I don't yet know if they're the same flaw. I'd rather say that than guess.
+
+Patches not known to be exploited. Jackson databind, the Java library, nine point eight, with a public proof of concept. Apache Kafka, where some brokers using OAuth will accept a forged superuser token. Dell's PowerProtect Data Domain backup appliances, four flaws at nine point eight. Backup appliances, again. Juniper, Jenkins and WordPress also shipped fixes.
+
+## Supply chain
+
+Supply chain.
+
+Huntress published a campaign it calls Managed for Malice. Victims are lured with DocuSign or proposal themed messages, or tax and Teams themes, into enrolling their computers into a device management service. Hexnode or Rippling. But the account belongs to the attacker. The management platform then installs ScreenConnect as system. And here's the clever part. If you find and remove ScreenConnect, the device management enrolment simply puts it back. You can't clean up the tenant from the device. You have to remove the enrolment. The action is to alert on any device enrolment into a management tenant we don't own. And note the lure. A proposal waiting for your signature. In our business, that's a Tuesday.
+
+On Oracle PeopleSoft, the flaw Shiny Hunters used this year turns out to be three flaws chained together. A request smuggled through the integration gateway reaches a service that trusts anything coming from the machine itself, and from there it runs code. There's a small trick to get past web firewalls by spelling one letter of the path in hexadecimal. Mandiant's advice is to treat any PeopleSoft host with a web shell as compromised, and rotate every credential that tier can reach.
+
+Kaspersky reported a suspected supply chain implant in a customised Windows build used by Asian government entities, hiding in the Windows update folder next to legitimate patching components. One victim. No attribution.
+
+And Cequence found a scanner pretending to be thirty two different A I crawlers, looking for exposed configuration files, cloud keys and S S H keys. On one day it reached nearly half the organisations it monitors that receive A I bot traffic. The A I crawler has become the new respectable disguise, because nobody wants to block the robots that might be reading their marketing.
+
+No new incidents in the package registries in the window.
+
+## A I
+
+A I.
+
+Today's story is less about A I as a target, and more about A I as standard equipment. Claude Code and DeepSeek based tooling on the P H P two Shell attacker's servers. A I attack skills on 123 Reg's attacker's servers. Ukraine's digital transformation minister saying Russia is using A I to prepare and run attacks faster, and Ukraine's response team seeing it in phishing, fake websites and malware development this year. And ESET's latest A P T report, which gives the sober view. A I is mainly speeding up malware writing and lure creation, with, quote, no substantial reshaping, unquote, of the landscape. One group even planted a fake request for nuclear weapons information in a script comment, apparently hoping to trip up any A I model used to analyse it. Which is either very clever, or a sign that the analysts' tools are now worth attacking.
+
+An older item, from Tuesday. Check Point found a campaign it calls Yoba, using fake ChatGPT and Claude desktop apps advertised through poisoned search results on G i t Hub Pages, with names like Claude Opus five Free. The download contains a genuine, signed OpenAI or Anthropic program, renamed to look like an installer, sitting next to a malicious library it loads without question. The payload mines cryptocurrency. Seven hundred downloads. Separately, ANY dot run counted more than twelve hundred sandbox runs of fake A I installers since April, four out of five themed on Claude or ChatGPT, with the United States top for the Claude lures. One of them even launched the real Claude app, so the victim got exactly what they wanted, plus a little something extra.
+
+LiteLLM, the A I gateway, has a new perfect ten in its enterprise edition. An unauthenticated request can make it read a local file and send it out, including the master key and the keys for every model provider behind it. Fixed. Not known to be exploited. And separate from the LiteLLM incident earlier this month.
+
+Also from Tuesday, Anthropic's red team published work showing an unreleased model building five exploit chains, including a one click Chrome escape and a zero click Linux root. All patched. The Hacker News notes some of the published vulnerability descriptions don't fully match Anthropic's account. And OWASP published guidance concluding that A I agents lower the skill needed for reconnaissance, but haven't reliably shown full autonomous compromise. Their suggested detection is rather charming. Look for repeated, rapid tool calls against one target, making no progress. Which describes an agent, and also a great many junior penetration testers.
+
+## Geopolitics
+
+Geopolitics.
+
+On the F E C, a few additions. No fines for late filers if they file within a day of restoration. Outside groups had been reporting more than fifty million dollars a day in spending the week before. And an anonymous source told POLITICO that no one really knows who did it, and suggested A I hacking tools may have been involved. That's speculation, and I'd leave it there.
+
+China. Lumen's Black Lotus Labs described Volt Typhoon's Silent Train network. Short lived chains of up to six hops, made from rented servers and hijacked devices, which erase themselves after use. Built since late twenty twenty three, and tied to zero days in Versa, N able, Cisco's S D W A N and Arista's VeloCloud. Hundreds of victims across telecoms, government, defence, satellite companies, universities and I T. A relay network that disappears behind you is a fine way to travel if you don't want anyone to know where you've been.
+
+Russia. Bloomberg's feature on Russian aligned groups tampering with industrial systems in the West has now been summarised in full by Meduza. A Danish water system protected by the password one two three four. A transformer factory fire in Catalonia. An ammonia leak at a meat plant near Los Angeles. Mostly older incidents, newly gathered together. And ESET reports the first destructive attack in Europe by a Belarus aligned group, against a Ukrainian transport manufacturer.
+
+Iran. Nothing new on the Gulf cables. The Washington Post reports that the U S has warned allies to prepare for possible strikes on Iran after the elections. I could only read the headline, so I can't tell you whether cyber retaliation is part of the picture. But it's the sort of headline that makes you check your Iranian threat actor playbooks are where you left them.
+
+## Consulting, chatter, brand and regulation
+
+The consulting sector, beyond the top of the hour.
+
+On Shiny Hunters, nothing new on the unnamed consulting firm executive. One related point. In the F B I jobs site breach earlier this month, the F B I said a contractor from Accenture had missed the PeopleSoft patch, and removed the contractor. That's the same PeopleSoft chain I described a moment ago. For any firm that runs client systems, the lesson writes itself. The patch you missed becomes the client's breach, and the client's breach becomes your name in the newspaper.
+
+And McKinsey. Nothing new in the window. No security chatter, nothing on Lilli.
+
+Brand and executive targeting. Nothing naming us. But two lures this week fit our business uncomfortably well. The Huntress campaign, with a proposal waiting for signature. And a campaign ANY dot run calls Skyw4lker, where a password protected contract or service proposal leads, through a Google Sites page, to a genuine Microsoft device code login. The victim types the code into a real Microsoft page, and the attacker gets their Microsoft three six five tokens. No fake login page to spot. It's worth telling staff that if a document asks them to enter a code at Microsoft to view it, the document is the attack.
+
+Regulation and law enforcement. The Treasury's sanctions office designated a North Korean controlled entity operating in Russia, and ten people, for laundering money from North Korean I T workers. Two of them Russian nationals, one of whom converted nearly two million dollars of cryptocurrency into cash. If anyone in the hiring process has ever wondered where the remote contractor's salary goes, this is the map. A Ukrainian Nefilim and Hive affiliate, Artem Stryzhak, was sentenced to seventy months. And for Connor Moucka, the Snowflake hacker, still no reported sentencing outcome.
+
+## Deep dive: the keys to the branch offices
+
+Now the deep dive. On Wednesday, Cisco Talos published research on a group it tracks as U A T eleven four seven three, and a toolkit it calls KeyDrift. It's the most technically elegant thing I've read this month, and that is not a compliment to anyone's network.
+
+Let me set the scene. Most large organisations now connect their offices through software defined wide area networks. S D W A N. At the centre sit controllers. Cisco calls them vSmart and vBond. They decide how traffic flows between sites, and they hand out the encryption keys that protect the tunnels between offices. If an ordinary router is a postman, the controller is the sorting office, the address book and the key cabinet.
+
+U A T eleven four seven three got into those controllers through a Cisco flaw from February, rated a perfect ten. It's been on C I S A's exploited list since then. Talos doesn't say when these intrusions happened, or whether the flaw was still a zero day when it was used. It calls the activity historical.
+
+Once inside, they didn't drop a crude backdoor and leave. They moved into the furniture. KeyDrift lives inside the controller's own control plane process, called v daemon. The main module, which Talos calls PolyFlame, is injected into that process using the debugging interface, by a small injector and a shell script that finds the right process. PolyFlame hooks the functions the process uses to send and receive network traffic, and gives the operators a backdoor and a relay. On vBond, a packed version arrives encrypted, makes its own system calls to avoid monitoring, and quits if it notices a debugger watching.
+
+Then the module that gives the toolkit its name. On vSmart, a library Talos calls LittleFilch hooks the point where the controller decrypts its own encrypted control traffic. It reads the decrypted messages and pulls out the peer addresses and, Talos assesses, the thirty two byte I P sec keys the controller distributes to the edges. It writes them, encrypted, to a file in a temporary folder, and sends them out over U D P, disguised as ordinary secure datagrams.
+
+Think about what that means. With those keys, and a position on the network path, an attacker can potentially decrypt the traffic between your offices, or redirect it. Not one laptop. The whole overlay.
+
+How do they persist? By editing the startup scripts for the controller's own services, so that every time S S H starts, their loader starts first, and by quietly removing some of the authentication configuration for logins. They timestomp their files, copying the dates from legitimate neighbours, so nothing looks freshly changed.
+
+And how do they talk to it? There are no hardcoded addresses, no domains, no beacon you can block. The commands arrive inside the S D W A N control traffic itself. And the implant checks a hash of today's date against its own clock before obeying. A password that changes every midnight.
+
+Who is it? Talos says with high confidence that the group's infrastructure overlaps considerably with Volt Typhoon's Silent Train network, the one Lumen described the same day. Talos stops short of saying they're the same group. The victims Talos names are in space and satellite services, defence and aerospace technology, and policy research. That last one should catch the eye of anyone who works near government advisory.
+
+So, what to look for. All of this is in the brief, with the file paths and the Snort rule numbers, because Talos published no hashes or I P addresses.
+
+One. Compare the startup scripts for the S S H and A A A manager services on your controllers with known good images, looking for a remount of the root filesystem, or anything launched before the real S S H.
+
+Two. Look for unexpected shared libraries loaded into v daemon. Specifically, libdssl and libcommon.
+
+Three. Look for anything attached to v daemon with the debugging interface, and for the files vdaemon dot bin or vdaemon dot conf in the temporary folder.
+
+Four. Check for missing or altered login authentication files, and for files whose timestamps match a neighbour exactly.
+
+Five. Review controller logs for signs of the February flaw. Unexpected peers, unexpected control connections, new admin accounts.
+
+And six. Look at who manages your controllers, and from where.
+
+What to do if you find it. First, take a memory capture and Cisco's diagnostic bundle before you reboot or upgrade anything, because reboots destroy the evidence. Then patch, and apply Cisco's hardening guide. If implants are present, bring in Cisco's support team and rebuild the controllers from known good images. Cleaning them isn't enough. And then the expensive part. Assume the overlay keys are compromised. Rotate keys and certificates across the overlay, and re onboard the edges. Finally, if your S D W A N is run for you by a managed service provider, which for many firms it is, ask them these questions directly, and ask for the answers in writing.
+
+The lesson is an old one, dressed in new clothes. We encrypt everything, and we feel safe, and we forget that encryption only moves the problem to wherever the keys are kept. KeyDrift doesn't break the lock. It sits next to the locksmith and takes notes.
+
+## Watchlist
+
+What I'm watching.
+
+Today. The P H P two Shell deadline for federal agencies. Palo Alto's remaining hotfixes, due today and tomorrow. Mimori's OpenText release, at just after half past three this afternoon, Eastern. And whether C I S A adds anything this afternoon. Saturday, the Fragnesia deadline. Next Tuesday, the midterms. And around the tenth of November, the Brotli, Magento and VMware deadlines, Patch Tuesday, and the Big Four's answers to Senator Wyden.
+
+Statements from Cherry Bekaert, Morrison Foerster, Lowenstein Sandler and SK Capital. Whether S A P or SoftwareOne respond to The Gentlemen. Okta's and D H S's account of how the sign on was used. Amadeus's own statement, and which other airlines it has told. VMware's S D D C Manager patch. And whether the two VeloCloud numbers turn out to be one flaw.
+
+And tomorrow is Friday, which means the weekly roll up, covering last Friday through today.
+
+That's Thursday. Pull the firewall management interfaces off the internet. Reboot your P H P servers onto a new kernel. Check the law and accounting firms against the client list. And if a contract asks you for a code at Microsoft, don't give it one.
+
+Until tomorrow.
