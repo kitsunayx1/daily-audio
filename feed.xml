@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Fri 30 Oct 2026: Binance&#x27;s $6.3B theft, Canadian law firms breached, GitLab and Cisco enter KEV, plus the week in review</title>
+      <description>Binance loses about $6.3B (TRM attributes it to North Korea&#x27;s TraderTraitor); McCarthy Tétrault and Davies breached via social engineering as Canada warns of help-desk vishing; Silent Ransom Group lists Susman Godfrey; CISA adds GitLab and Cisco ASA/FTD to KEV (due 1 Nov); commissary freezer failures probed as a cyberattack. Resolved: the two Arista VeloCloud CVEs are different flaws. Deep dive: TraderTraitor and Binance. Weekly roll-up for Fri 23 to Thu 29 Oct. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-30.md Weekly: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-30-weekly.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-30.md</link>
+      <guid isPermaLink="false">morning-signal-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-10-30.mp3" length="10148363" type="audio/mpeg"/>
+      <itunes:duration>1268</itunes:duration>
+    </item>
+    <item>
       <title>Thu 29 Oct 2026: Law and accounting firms listed, PHP2Shell hits PAN-OS, KeyDrift in Cisco SD-WAN</title>
       <description>Silent Ransom Group lists Morrison Foerster and Lowenstein Sandler, The Gentlemen claims Cherry Bekaert and SK Capital, and CrowdStrike&#x27;s legal threat report; Palo Alto confirms PHP2Shell exploitation of PAN-OS management interfaces as CISA adds Linux Fragnesia and a VMware ESX zero-day to KEV; DHS staff data via Okta SSO, Amadeus airline bookings, 123 Reg&#x27;s AI-driven intrusion; FEC filing restored. Deep dive: Cisco Talos on UAT-11473&#x27;s KeyDrift implants in SD-WAN controllers. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-10-29.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-10-29.md</link>
