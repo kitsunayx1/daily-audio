@@ -1,0 +1,159 @@
+## Morning Signal. Friday, the thirtieth of October.
+
+Good morning. Friday. Someone walked out of Binance last night with six billion dollars, two of Canada's grandest law firms have been talked into opening their doors, and somewhere on an American military base, the freezers have been defrosting themselves.
+
+This is Morning Signal for Friday, the thirtieth of October. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief carries every source link, the organisations table has seventy two rows, and because it's Friday, there's a weekly roll up at the end of this episode, with its own written version and a combined table for the team's weekly feed.
+
+First, a loose end tied off. Yesterday I told you Lumen's research listed an Arista VeloCloud zero day under a different number from the one I'd covered on the twenty third, and that I didn't know whether they were the same flaw. They aren't. One is a July flaw, unauthenticated, a perfect ten. The other is the October flaw, which needs a login but hands over operator rights. Both are exploited. The July fix doesn't cover the October flaw. So if you run VeloCloud Orchestrator, you need both.
+
+Three things.
+
+## The top three
+
+Number one. Binance has lost about six point three billion dollars, the largest theft of cryptocurrency on record, and the blockchain analysts say it was North Korea.
+
+At five past eight last night, U T C, which is just after four in the afternoon in Washington, Binance's hot wallets began emptying. Ten different blockchains. Most of it gone in about twenty minutes, with a second wave around three hours later. TRM Labs puts the total at six point three six billion. Chainalysis says about five point nine. Binance itself says about six point three.
+
+About two point seven to three billion has been frozen. Tether froze nearly a billion in its stablecoin, Circle another eight hundred million, and the Arbitrum network's security council reached in and moved the attacker's funds out of reach, which is a sentence I don't get to say very often. But about two point four billion, in Ether and Bitcoin, can't be frozen by anyone.
+
+TRM attributes it, with high confidence, to TraderTraitor, the North Korean group behind last year's Bybit theft. Chainalysis agrees. There's no F B I statement yet.
+
+And how? Binance's first account said a DevOps engineer's laptop may have been compromised, giving access to a service container used to submit withdrawals. Its later account found additional points of breach and said the incident stems from multiple factors. It found no evidence a private key leaked. Binance says customer funds are safe and it will cover the losses.
+
+It's this morning's deep dive, so I'll say just this now. Six billion dollars, and the front door was probably a laptop.
+
+The action. If our finance or treasury teams, or any client teams, have exposure to Binance, it's worth a call this morning. Expect Binance themed phishing for weeks. And for any firm with a payment or signing system, the question to ask today is how many hops it is from a developer's laptop to the thing that approves the money.
+
+Number two. Law firms again, this time in Canada, and Ottawa has put out a warning describing exactly how it's done.
+
+McCarthy Tétrault, one of Canada's largest firms, says it detected a coordinated social engineering campaign late on the twenty second, and that an unauthorised party accessed files including client information. An unnamed source told The Globe and Mail it was thirty one thousand files. The firm declined to give a number. Davies Ward Phillips and Vineberg reports a cyberattack on the twenty third and the compromise of information from one account. The reported method is phishing, and fake I T staff on Microsoft Teams asking for remote access. Several other Bay Street firms say they weren't affected. No actor has been named.
+
+The Canadian Centre for Cyber Security issued an alert describing the playbook. Callers pose as I T, and say there's an urgent passkey migration or multi factor enrolment to complete. They call mobiles, desk phones or Teams, and may spoof the real help desk number. The victim is sent to a page branded with their own organisation's name, which relays the password and the multi factor response to the real sign in service. Then the attacker adds their own multi factor device, deletes the security alert emails, pulls data from Microsoft three six five, SharePoint and OneDrive, and sends an extortion demand. Legal and financial firms since July. Mostly legal this month.
+
+Meanwhile, Silent Ransom Group listed Susman Godfrey, the American trial firm, and another redacted name beginning with L. Troutman Pepper Locke filed formal breach notices for an August incident, also social engineering, that a class action puts at about thirty seven thousand people. And a forum post claims to be selling about two hundred and sixty gigabytes of P w C's Azure data and G i t Hub repositories. I could see only a search snippet of that post, P w C hasn't commented, and it's separate from the Everest claim earlier this month. Treat it as a claim, and a thin one.
+
+And one more, which I'll come back to. WIRED reports that an Accenture contractor gave a personal A I coding agent administrator credentials on a Pentagon network. Accenture says the allegations were investigated and found to be without merit.
+
+The action. Put the Canadian alert in front of whoever owns our help desk identity checks and our multi factor reset process, and ask, honestly, whether a confident caller could talk their way through. And check McCarthy Tétrault, Davies, Susman Godfrey and Troutman Pepper Locke against the vendor and client database.
+
+Number three. C I S A has given federal agencies until Sunday to fix GitLab and Cisco firewalls, and the physical world is creeping into the picture.
+
+Yesterday afternoon, C I S A added the perfect ten GitLab flaw, the one I mentioned yesterday in connection with Alpine Linux, to its known exploited list, along with the Cisco firewall flaw that lets anyone reboot the device remotely. Both due the first of November. Sunday. And for GitLab, C I S A wants forensic triage, not just a patch. On Palo Alto, all but one of the P H P two Shell hotfixes are now out, with the last due today. Unit 42 says about two hundredths of one percent of the installed base had management interfaces on the internet and was hit. Small as a percentage. Not small if it's you.
+
+Now the physical. Back in August, freezers and refrigerators at six or seven American military commissaries switched themselves to defrost, and the food spoiled. Yesterday Reuters reported that the Pentagon is treating it as a suspected cyberattack. The Defense Criminal Investigative Service is leading, with the Army and Cyber Command. And investigators have spoken to French police, because in mid October someone changed refrigeration settings at hundreds of French supermarkets. Many of those used Danfoss controllers. Reuters couldn't confirm the commissaries did. One repost site claims Iran linked hackers are suspected. I can't find the original source for that, so I'd hold it lightly.
+
+And Belgium's federal tax agency pulled its online services after a cyberattack and moved its filing deadline from tomorrow to the sixteenth of November. It says the attack was stopped within hours.
+
+The action. Patch GitLab and the Cisco firewalls before the weekend. And ask facilities, just once, which of our building, heating and refrigeration controllers can be reached from the internet. The answer is rarely none.
+
+## Breaches and incidents
+
+The rest of the breaches, briskly, because it's Friday and the week is waiting.
+
+Japan, as ever, leads on volume. The retailer MUJI says up to twenty seven million records from its app may be exposed, email, date of birth and gender, including people who left the service years ago. Matsuya Foods, the restaurant chain, about two point four million records, after attackers got into the management system for its app. The used clothing brand RAGTAG, up to one point two million, with the attacker inside for eleven days. Yakult. Iris Ohyama's online shop. And another email delivery vendor, Arara, with about three million email addresses taken. That's the third Japanese email delivery service this month, after Cuenote and blastmail. Meanwhile Cuenote keeps producing victims. Life Card disclosed about three hundred and forty thousand contracts. Japan's privacy regulator now counts, provisionally, about two hundred and sixty million records leaked through unauthorised access since April.
+
+South Korea. Bithumb says the way in was third party groupware called Daou Office, and that eight hundred and forty four customers' data was readable, including resident registration numbers and copies of identity cards. Jin Air lost about fourteen hundred members' data through an inquiry interface. And the builder G S E and C had a facility booking system at its apartment complexes breached, including residents' access card numbers. Which means someone may now know how to open the gym, and possibly more.
+
+In the United States, Bangkok Bank's New York branch filed a notice that traces back to its audit firm, Mercadien. Accountants again. Photon Health, the vendor behind a pediatric practice's breach of three hundred and forty one thousand patients, filed too. And from headlines I couldn't read in full, iRhythm's breach is now counted at eight point two million, and B A E Systems says no data was taken in the incident that stopped bankruptcy court notices earlier this month.
+
+In Moldova, from last week but new to us, attackers made about eleven million requests to government online services that needed no login, and took data tied to about three quarters of a million identity numbers. The president convened the National Security Council yesterday. Officials suspect a foreign state, and suspect A I tools were used to find the holes. No one has been named.
+
+And on OpenText. Mimori's publication time came and went last night. The trackers still say publication planned. No evidence anything was released.
+
+## Leak sites
+
+The leak sites, beyond the law firms.
+
+Rhysida listed INTAX, a property tax compliance firm in Kentucky, claiming one point two seven terabytes, including about six hundred and fifty thousand client tax return files and, it says, plain text passwords for government tax portals. Emperador listed MAA Group, an engineering consultancy in Hong Kong. Direwolf listed USClaims, a litigation funder. Qilin listed Proterial, the former Hitachi Metals, and, again, the City of Columbia in South Carolina, which I covered last week. A new group called ScarlettGroup listed AU Small Finance Bank in India and Sunnybrook in Canada. And Whitearmor, which has had a busy fortnight, listed an on chain casino, asking no ransom at all. It says it was annoyed by a joke the casino made. Extortion as wounded pride.
+
+On the forums, Hudson Rock's FortiBleed two point oh: about seventeen hundred FortiGate configuration files, forty thousand secrets, including more than fifteen hundred Active Directory service account bindings. If your firewall configuration has ever left the building, assume the passwords inside it have too.
+
+## Vulnerabilities and supply chain
+
+Vulnerabilities, briefly.
+
+The Linux kernel TCP flaw that Anthropic's team found, which I mentioned yesterday, now has upstream fixes. But Ubuntu doesn't have a fix yet across its supported releases, and Red Hat has deferred its fix. So for once, the patch exists and you can't easily have it.
+
+Fortinet shipped what it calls a security hardening release for FortiOS and its management products, fixing critical and high flaws it found with A I help, and is withholding the details until the tenth of November. Which gives everyone ten days to patch, and attackers ten days to compare the old and new versions. Patch now.
+
+And two older ones newly reported. Exploit attempts against a critical Oracle E Business Suite flaw from the October patch release, and over a thousand exploitation events against Gotenberg, a document conversion tool that tends to sit quietly inside other people's applications.
+
+On supply chain, Radware described someone hiding commands inside G i t Hub issues and comments, in invisible H T M L, aimed at workflows that paste issue text into a shell script. Sixty one public repositories hit, seventy seven posts in forty three minutes, back in September. Including some names you'd recognise: Trivy, MLflow, Cilium, and G i t Hub's own documentation. Execution confirmed in two cases. If any of our workflows run on issues or comments, check what they do with the text.
+
+## A I
+
+A I.
+
+The Accenture story, as reported by WIRED through anonymous sources, and carried by two secondary outlets I read. An Accenture employee is said to have handed a personal Claude Code agent administrator credentials on a Defense Department network, an unclassified production system that holds controlled information and serves several intelligence agencies. The agent ran for about two months, and appears to have sent passwords, login details and a network map to a third party website that NIST had flagged for a prompt injection flaw. There's no indication classified systems were touched. Accenture says the allegations were thoroughly and independently investigated and found to be without merit. It didn't name the investigator, and it didn't deny that something happened. The Defense Department declined to comment.
+
+I'm not going to pretend that's an Accenture problem only. Every firm that works inside client networks has people who'd like a little help from an agent at eleven at night. The question for us is whether our policy on personal A I tools on client systems is written down, and whether anyone has read it.
+
+Talos described a remote access tool it calls NIK C2, written in Go, with a command that calls OpenAI's A P I from the victim's own machine, and, if the operator hasn't brought a key, uses the victim's. Theft, with the victim paying the compute bill. And SOCRadar found an exposed workspace belonging to the N zero n extortion operator, with an A I coding agent, a hundred and fifty four models, some deliberately uncensored, and seven thousand dollars in spend. And yet the way in was entirely ordinary. Stolen credentials against three hundred and five FortiGate V P Ns. The A I wrote the scripts. The passwords opened the doors.
+
+Google released Gemini four Carbon, with reported scores on finding and exploiting vulnerabilities, limited at first to cyber defenders. The arms race is now marketed in benchmarks.
+
+## Geopolitics, consulting and regulation
+
+Geopolitics. AP reports that U S officials have asked Middle East allies to prepare for possible renewed strikes on Iran after Tuesday's elections, and to take precautions against retaliation on energy and other infrastructure. Nothing in that report about cyber. My assessment is that Iranian cyber activity against American and allied targets becomes more likely after the third, and that it's worth checking the playbook now rather than then.
+
+Consulting. Beyond Canada and Accenture, Massachusetts lists a breach notice from Acumetis SixSense Strategy Group, a consultancy. Nothing new on the Shiny Hunters consulting executive. And McKinsey. Nothing new in the window. No security chatter, nothing on Lilli. Hacker News found the word McKinsey only in comments about the mountain.
+
+Regulation. In the U K, the government lost two votes in the Lords on the Cyber Security and Resilience Bill, one requiring a review within a year, and one requiring a register of foreign powers that pose cyber threats. Third reading is expected on Monday. And the F B I, with German, Dutch and British partners, seized a bulletproof hosting service called Virtualine, though one of its brands seems to be limping on.
+
+## Deep dive: six billion dollars and a laptop
+
+Now the deep dive. TraderTraitor and Binance.
+
+Let me give you the timeline as TRM Labs reconstructed it, because the preparation tells you more than the theft.
+
+Wednesday morning, three small withdrawals from Tornado Cash, the mixing service, fund an operator wallet. Not much. Just enough for fuel. Early Thursday, the attack code is tested on two wallets, and then rehearsed on a third. About four hours later, the same code is installed on a Binance hot wallet. They practised. Then they waited.
+
+At five past eight, U T C, the X R P goes, from five wallets. At ten past, Solana and Optimism. At twenty past, eighteen thousand Bitcoin. And in the same few minutes, one transaction submits fifty pre signed authorisations on Binance's main Ethereum hot wallet.
+
+That last detail is the clever one. Ethereum recently gained a feature that lets an ordinary wallet delegate its behaviour to a piece of code. The attacker had fifty such delegations signed in advance, each tied to a consecutive sequence number, so that whichever number the wallet was on when they struck, one of them would be valid. Once it took, the wallet itself became a sweeper. It didn't just send its balance out. It kept forwarding anything that arrived afterwards. At about twenty three minutes past eight, the whole Ethereum hot wallet went: a hundred and sixty seven thousand Ether and sixty three different tokens, including one point six billion in Tether.
+
+Then the institutions moved. At one minute past nine, Tether froze nine hundred and seventy one million. At four past, Circle froze eight hundred and twenty three million. Ripple and World Liberty followed. At five past eleven a second wave hit two more chains, and just after midnight, Arbitrum's security council forcibly moved the attacker's holdings on its network out of reach.
+
+What remains with the attacker, about two point four billion in Ether and Bitcoin, is now being laundered. Three hundred and twenty five million in stablecoins sold for Ether at more than a ten percent discount, which tells you how much of a hurry they're in. Sixty million deposited on a lending platform to borrow Ether against it, until the platform froze the market. Bitcoin moving down a peel chain, a little at a time. TRM expects bridges, swap services and over the counter brokers next.
+
+Now, the question that matters to the rest of us. How did they get the signatures?
+
+Binance's first account was a compromised DevOps engineer's laptop, giving access to a service container used to submit withdrawals. Its later account was more cautious: additional points of breach, multiple factors, and no evidence a private key leaked. TRM's view is that the attacker most likely gained the ability to make Binance's signing system sign whatever it asked. Signatures across different chains, different key types and different signing schemes, all within about thirty minutes. Phishing a single employee doesn't explain that. Controlling the machine that signs does.
+
+So the shape of the thing, as best we can see it, is this. An engineer's laptop. A container. A signing service that trusted what the container told it. And six billion dollars.
+
+Now, what to take from it, if you don't run a crypto exchange.
+
+First, every large organisation has a signing system of some kind. A payment approval service. A treasury platform. A code signing pipeline. The question is not whether it's secure in isolation. It's whether something that a developer can reach can ask it to sign.
+
+Second, the hunting. Look at developer and DevOps laptops that can reach production containers, for new remote access tools, odd packages, and interactive sessions into payment or signing services outside change windows. Alert on bursts of signatures, or signing requests that skip the usual approval. And separate your signing paths by system and by value, so that one compromised service can't approve everything.
+
+Third, the response, if you're close to this. Rotate credentials for anyone who can reach those paths. Rebuild suspect laptops rather than clean them. And review audit logs from the start of this week.
+
+TRM has published no wallet addresses or indicators yet, and neither has Binance. I'll pass them on when they appear.
+
+North Korea's thieves keep doing it the same way. Patience, rehearsal, and a person with access who opened the wrong thing. The money is new. The method is not.
+
+## The week in review
+
+Now, the week. Friday the twenty third through Thursday the twenty ninth. Five briefs, and a written roll up with every link and a combined table of two hundred and seventy six organisations.
+
+First, the firms that advise other firms were the target set all week. Everest listed P w C, claiming five hundred and ninety gigabytes from its H R and learning systems. P w C confirmed an incident at an unnamed vendor and says no client data was involved. The countdown passed with nothing published, at least as of Thursday. Leak sites named Kirkland and Ellis, White and Case, Weitz and Luxenberg, Beasley Allen, Morrison Foerster, Lowenstein Sandler and Morrison Cohen, and then Cherry Bekaert and SK Capital. And CrowdStrike's legal sector report put numbers on it. Four hundred and fifty five legal organisations on leak sites in a year, Silent Ransom Group's activity up a hundred and twenty nine percent, and a man hired to walk into a law firm dressed as I T.
+
+Second, P H P two Shell grew up. On Monday I led with what was reported as its first confirmed break in, at a European government body. By Tuesday, Unit forty two had retracted the link, and I corrected it. But the flaw went onto C I S A's list on Monday, honeypots recorded working shells, and by Wednesday Palo Alto confirmed attackers were using it on firewall management interfaces, chained with a Linux kernel flaw for root. Brotli, Magento and a VMware logging zero day joined the list too.
+
+Third, vendors leaked their customers' data at scale. Cuenote, fifty one point six million records across forty nine client systems, then phishing from its own domain. blastmail. Railway. Amplitude, reaching Coinbase. Amadeus, reaching three airlines. And the Okta sign on route into forty thousand Homeland Security staff records. The pattern is the same each time. The data was in someone else's system, and the someone else was trusted.
+
+Fourth, the help desk and the session token were the front door. Arctic Wolf counted more than four hundred fake I T support intrusions through Microsoft Teams. Huntress showed stolen tokens replayed at scale, and victims enrolled into attacker owned device management. And the Federal Election Commission took its filing system offline for about forty one hours after what it called a bad actor attempting to breach it, a week before the midterms.
+
+And fifth, A I agents attacked, and developer pipelines were drained. South Korean police say one suspect used generative A I to breach about ninety organisations. A forty four agent platform worked through targets in Japan. 123 Reg called its breach A I driven. And Gheist used stolen G i t Hub tokens on more than eight hundred and fifty accounts to empty build secrets.
+
+Corrections, for the record. Friday's no new additions to C I S A's list was wrong, and I corrected it on Monday. Monday's lead on P H P two Shell was retracted by its source, corrected Tuesday. Edward Dubrovsky is not the unnamed consulting firm executive in the Shiny Hunters story, settled Wednesday. And this morning, the two VeloCloud flaws are two flaws.
+
+And McKinsey. Nothing named us all week.
+
+Next week, the diary. Fragnesia's deadline tomorrow, GitLab and Cisco on Sunday, the U K bill on Monday, the midterms on Tuesday, and Fortinet's details on the tenth. Keep an eye on the help desk. This week, it was where the doors were opened.
+
+That's Friday. Patch GitLab and the Cisco firewalls. Read the Canadian alert with whoever runs the help desk. Ask how far your laptops are from your money. And have a quiet weekend.
+
+Until Monday.
