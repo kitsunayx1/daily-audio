@@ -1,0 +1,197 @@
+## Morning Signal. Monday, the second of November.
+
+Good morning. Monday. The clocks went back yesterday, so you were given an extra hour this weekend. Others used theirs differently. Someone slipped a backdoor into a coding assistant that developers install without a second thought. Someone else has been walking in and out of Ivanti's front door, one command at a time, without ever leaving a trace behind. And in Canada, two more of the country's grandest law firms have admitted that a friendly voice from the I T department was nothing of the sort.
+
+This is Morning Signal for Monday, the second of November. Because it's Monday, the window is seventy two hours, from about five on Friday morning, Eastern, until now. The written brief carries every source link, and the organisations table has ninety four rows, which tells you how busy a quiet weekend can be.
+
+A housekeeping note. Now that daylight saving has ended, seven in the morning Eastern is twelve noon U T C. Nothing changes for you. The episode will still be waiting when you wake.
+
+Three things.
+
+## The top three
+
+Number one. A poisoned copy of the Claude Code extension sat on the Cursor marketplace for about eleven hours last Thursday. It planted an S S H key on the machines that installed it, tried to open a tunnel back to the attacker, and set itself up to survive a reboot. Removing the extension does not remove any of that. This is today's deep dive, and if your firm lets engineers or consultants use Cursor, it is the first thing to check this morning.
+
+Number two. Ivanti Connect Secure has two more zero days. They chain with the one disclosed in the middle of October to give an unauthenticated attacker root on the appliance. The federal deadline for one of them is today. And the attacker behind it leaves no implant, so a patched box tells you nothing about whether you were visited.
+
+Number three. The Canadian law firm campaign has grown. Bennett Jones and Borden Ladner Gervais have joined McCarthy Tétrault and Davies as confirmed victims. Two American firms have appeared on the Silent Ransom Group's leak site. And Microsoft has published two intrusions that used exactly the same opening, a message on Teams from someone claiming to be the help desk, and ended with the attacker holding certificates for eleven privileged accounts.
+
+Let's begin where most of the damage is done. With people.
+
+## Breaches
+
+The Canadian law firms first, because this is the story that looks most like us.
+
+Four firms are now confirmed. Bennett Jones says two accounts in its business services group were compromised, reported on the nineteenth of October, and that client revenue reports and descriptions of mandates were accessed. It says its document management and accounting systems were not touched. Borden Ladner Gervais, B L G, says a portion of its Microsoft cloud environment was accessed, and it has Mandiant on the case. You'll recall McCarthy Tétrault, four accounts and about thirty one thousand files, and Davies, one account. Stikeman Elliott and Gowling W L G were targeted, but neither has confirmed a compromise.
+
+The method has not changed, which is the point. A message on Microsoft Teams from someone posing as internal I T. A phone call that appears to come from the I T department's own number. A sign-in page that looks right and quietly relays the multi factor prompt. At least seven employees across the four firms said yes. No vulnerability was required. No ransom demand has been reported, and no one has named the actor.
+
+Now put that next to what Microsoft published on Friday. Two intrusions at customers it did not name. Same opening, a fake help desk on Teams. In the first wave three users were approached. About ninety minutes later, sixteen more. From there the attacker abused Active Directory Certificate Services, the misconfigurations the industry calls E S C one and E S C eight, and obtained certificates for eleven privileged accounts. Then a D C Sync to pull password hashes from the domain controller, and R clone to carry the data out over S F T P. Nobody has linked the two campaigns. They don't need to be linked to teach the same lesson. The help desk is the new perimeter, and Teams is the door most firms leave on the latch.
+
+Staying with professional services of a sort. Chainalysis, the blockchain analytics firm that governments and banks rely on, disclosed on Friday that an external actor got into its internal systems and tools in October, using what the company calls offensive agentic techniques. In plainer words, an attacker driving A I agents. User I Ds, full names, emails and organisational role labels of platform users were exposed. Chainalysis says there's no evidence investigation content, passwords, M F A secrets or session tokens were touched, and that it's unrelated to Binance. If your firm has Chainalysis accounts, the names and roles of your investigators are now in someone else's hands. That's a phishing list, curated for you.
+
+South Korea next, and a supply chain story that keeps unfolding. Douzone Bizon is the country's largest provider of E R P and accounting software as a service, with more than a hundred and fifty thousand customers. On the sixteenth of October, an employee's V P N account was used to reach a development server. On the twenty first, encrypted data was taken from its backup service through a flaw in the backup product. The government has declared it a major incident. Over Halloween weekend, at least ten of Douzone's customers sent their own notices, among them a medical foundation, a publisher, a Bentley dealership, a food company, the Korean women's golf association and an auction house. The data at risk includes resident registration numbers, bank accounts and payroll records. Douzone says the data was encrypted and there's no sign the key leaked. That's a sentence worth holding loosely until the investigation is done.
+
+Japan. N T T Data disclosed on Saturday that a software firm it outsources I T work to was accessed, and with it a digital bond platform run with Securitize. Kintetsu Group says two thousand six hundred and seventy eight bond investors had names and purchase amounts exposed. Rakuten Securities counts up to three hundred and sixty two records, touching bonds issued by Kintetsu, J R West and Kagome. Nomura and M U F G Morgan Stanley say some of their investors are affected too. If you track Japanese financial clients, that's four brokers from one subcontractor.
+
+The Amadeus story continues to collect airlines. You'll remember a vendor account inside Amadeus's Altéa booking platform that was quietly used for about thirty seven months. Cathay Pacific now says about fifty three thousand bookings were affected. A N A says about thirty seven thousand eight hundred. Malaysia Airlines says its own systems are clean, which is true and entirely beside the point, because its data was processed by someone else's. Qantas has notified the Australian authorities. Condor is named as well. If Amadeus is in your vendor database, this one is still growing.
+
+On to the United States. Revolve Group, the online fashion retailer, filed with the S E C on Thursday. The Texas Attorney General's register puts the total at one million, five hundred and fifteen thousand people, with saved card numbers and expiry dates taken by what the company calls automated means. The breach began in September.
+
+Marathon Health, which runs clinics for employers, has filed notices covering about two hundred and seventy two thousand people. The cause will sound familiar by now. Someone posing as Marathon's own I T team obtained an employee's credentials, then exported data from a cloud application in August. Social security numbers, medical information, insurance details. Three stories this weekend, and every one began with somebody pretending to be the help desk.
+
+The Florida Department of Education confirmed that its student financial aid portal exposed about four point nine million social security numbers, along with names, addresses and dates of birth. It learned of it on the nineteenth of October and announced it late last week. The site remains offline.
+
+And a quick run through the rest of the ledger. In Japan, the travel company Club Tourism says about four point three million internet members had personal details exposed after a booking server was accessed on Friday morning, local time. No passwords or cards. Japan's Ministry of Foreign Affairs reports about three thousand six hundred records from its externally connected network. K D D I reports up to twenty two thousand records through Lifenet Life Insurance. Saga University suspects ransomware on an administrative storage device holding data on about eighty thousand people. And Trezor warns that a hardware wallet sold by a former reseller in Indonesia carried an implant that reads the recovery phrase straight off the screen. One device so far. Trezor says to treat all units from that reseller bought since March as unsafe.
+
+One more, because it is strange. Overnight on Sunday into this morning, refrigeration at about forty Delhaize supermarkets in Belgium failed in what the company calls an I T incident. Carrefour Belgium had cooling problems at fifteen stores. A butcher chain says its settings were changed remotely. In Sweden, some I C A stores were reported to have reached around fifty degrees Celsius. France had a version of this in October. Nobody has named a common vendor or claimed it. When food retailers in three countries discover that their freezers answer to someone else, I'd like to know who that someone is.
+
+## Leak sites and data dumps
+
+The leak sites had a lively weekend, and the professional services listings are where I'll spend our time. Remember the rule. These are claims. The victims haven't confirmed them.
+
+Silent Ransom Group, who specialise in law firms and in calling staff while posing as I T, added two more American names on Friday night. ArentFox Schiff, a national law and lobbying firm. And Moritt Hock and Hamroff, of Garden City, New York. There's also a redacted entry beginning with the letter P, with a full data timer running. When that timer ends we'll learn the name. Nothing yet from either firm, and no sample data shown.
+
+RansomHouse listed Phillips Nizer, a New York law firm. Qilin listed Meshbesher and Spence, a Minnesota firm, on Sunday. INC Ransom listed a Chicago legal site. A group called Genesis posted nine names at once on Friday, including a C P A firm, a market research company and Psychometrics Canada, an H R consultancy. Qilin also listed a German consultancy, q c consult, and an Austrian professional services firm. Settra listed an American architecture practice and another small firm.
+
+A word of caution on The Gentlemen. A leak site tracker shows about fifty of their victims as newly discovered on Saturday. Most of them, including S A P's Latin American arm, SoftwareOne, F P T Software and Cherry Bekaert, were already covered last week. This looks like the tracker re-reading the site, not new claims. And the Cherry Bekaert entry now carries a description of an Australian grain cooperative called C B H Group. Same initials, very different business. Somebody's crawler, or somebody's leak site, has its wires crossed. Treat that listing with care. The one date worth noting is F P T Software, where the group's deadline for publishing lands around Thursday or Friday this week.
+
+Elsewhere on the boards. A newer group called Whitearmor claims a full dump of an A I powered contact centre platform, AmplifAI, specifically the instance it runs for GoDaddy. The claim includes about thirteen and a half thousand employee user records, about six thousand of them tied to single sign on, and details of the S S O and Active Directory integration. Not confirmed by either company. If true, the integration details are the dangerous part.
+
+France had the busiest weekend for forum dumps. A file said to come from the Rassemblement National, a hundred and fifty thousand lines, which analysts think is stitched together from older material, given twenty eight thousand duplicates. A licence plate retailer, with a claim of one point seven million customers. Three pharmacies, the largest claimed at three hundred thousand people. Vehicle inspection chain Autosur, where the company has confirmed an incident at about fifty centres, and a seller is offering about eight hundred thousand lines. Whether those lines came from that incident is not yet established.
+
+## Exploited vulnerabilities
+
+The K E V catalogue grew by two on Friday, both Ivanti, and has been silent since.
+
+Here's the Ivanti picture. In the middle of October, Volexity disclosed a zero day in Connect Secure being used by an actor it calls U T A zero five seven six. Ivanti patched it. Now Ivanti has disclosed two more flaws, a privilege escalation and a file upload, and together the three give an unauthenticated attacker root. Here's the part that should make you set down your coffee. Devices fully patched against the October flaw were still exposed to this chain. The fixed versions are twenty five point one point one point three and twenty two point eight R two point six.
+
+The deadline for federal agencies to fix the privilege escalation is today. C I S A has flagged it for forensic triage.
+
+What makes this actor unusual is restraint. There's no web shell. No implant. Every time it wants to run a command, it runs the whole exploit chain again, and passes the command and the answer inside the exploit's own encrypted traffic. It cleans the logs and evades Ivanti's own integrity checker. Once inside, it takes the credentials stored on the appliance, including the L D A P account used to talk to Active Directory, dumps directory metadata, and runs tools that hunt for L A P S passwords and BitLocker recovery keys. It also does Kerberoasting and password spraying. Shadowserver sees more than five thousand of these appliances exposed to the internet.
+
+So the advice is not just patch. Patch, then assume the credentials on the box are gone. Rotate them. Look in Active Directory for unusual Kerberos ticket requests and for reads of L A P S and BitLocker attributes. A burglar who leaves nothing behind is still a burglar.
+
+GitLab. The deadline for its maximum severity flaw passed on Sunday. GitLab has now published detections for self managed customers after seeing exploitation attempts, and Shadowserver counts about two thousand eight hundred exposed community edition servers. I have to flag a conflict. On Thursday I gave you one fixed version for the nineteen point three branch, and on Friday a slightly lower one. Today BleepingComputer lists nineteen point four point two, nineteen point three point five and nineteen point two point eight. Rather than trust me or anyone else, check GitLab's own release notes before you sign off on a server.
+
+Two flaws are being exploited that aren't on the K E V list. WordPress core, versions four point seven through seven point one point three, has a flaw in how it stages files during upgrades. It's fixed in seven point one point four, and Wordfence blocked nearly sixty three thousand attacks in a single day. And Drupal Commerce has an access bypass that Drupal itself says is being exploited in the wild against online stores.
+
+Patch status, briefly. Palo Alto has now shipped all twenty of its PAN O S hotfixes for the P H P two Shell chain. The Linux kernel T C P flaw still has no fix on Ubuntu, Red Hat or AlmaLinux, though Debian and Oracle have shipped one. VMware's S D D C Manager still has only a temporary workaround for the Brotli flaw.
+
+## A I attacks and trends
+
+The most elegant thing I read this weekend came from Cisco Talos, and I use the word elegant with some distaste.
+
+It's an infostealer called VOLTA. It does what stealers do. Browser passwords and cookies, Slack, Discord and Telegram sessions, Microsoft O Auth tokens, S S H keys, cloud configs, crypto wallets. It even gets past Chrome's newer cookie encryption by launching Chrome in headless mode. But then it does something new. It writes up a report on the victim and sends it to a large language model through OpenRouter, asking, in effect, how much is this person worth. The default model is a Claude model, with two others as fallbacks, and it checks the reply for refusals. The prompt casts the model as a forensic intelligence analyst drafting a target assessment. The answer is packed up and sent to Telegram with everything else. The criminals have hired an analyst. They simply don't pay it a salary. Talos thinks VOLTA is probably a builder sold to many customers. For hunting, look for Chrome launched headless by something that isn't a developer tool, and for OpenRouter traffic from programs that have no business talking to it.
+
+CrowdStrike published its own view of ARTEX, the A I driven intrusion framework we covered last week. It attributes this campaign to a China nexus actor it calls VAPOR PANDA. Since the seventeenth of October, the operation has probed more than two hundred organisations in at least fourteen countries, with confirmed post exploitation at nine. The targets include foreign ministries, a Middle Eastern interior ministry, and nineteen American organisations in pharmaceuticals, semiconductors, defence, nuclear and finance. The details are what stay with you. The agents were told to look for hosts that didn't have CrowdStrike's own sensor installed. In one intrusion the planning agents consumed about one point four billion input tokens. And one way in was a set of keys from a twenty twenty two mail server export that nobody had ever rotated. The machines are tireless. They are still relying on our forgetfulness.
+
+The A I developer platforms had a rough month. Northflank, a cloud deployment platform, told customers on Friday to assume every environment variable had been decrypted and every secret stolen, and later that night reported misuse of customers' A I keys. Wiz counts at least nine incidents at A I developer platforms in October. In two cases it investigated, stolen credentials were used to make about two and a half million calls to Amazon Bedrock, roughly a hundred thousand dollars of someone else's compute.
+
+A smaller but sharper idea. A fake Solana starter kit on GitHub, close to three hundred stars and a top search result, contains instructions in its readme aimed not at people but at A I coding agents. Run this PowerShell. The script installs NetSupport, a remote access tool. Prompt injection is no longer theoretical. It has a GitHub account.
+
+On the Accenture story from last week, about an A I agent allegedly connected to a Pentagon network, Accenture's position is that the allegations were thoroughly and independently investigated and found to be without merit. The Defense Department won't comment. Nothing further from Congress.
+
+## Cyber geopolitics
+
+North Korea, first. On Saturday the F B I formally attributed the Binance theft, about six point three billion dollars, to TraderTraitor, the same North Korean group it blamed for Bybit last year. It published six hundred and twenty eight addresses and asked exchanges to block them. Elliptic counts two point eight five billion frozen or seized, mostly stablecoins, and about three and a quarter billion still loose across more than eight hundred addresses. About eighteen thousand bitcoin has been split across nineteen addresses and is waiting. Bitcoin, unlike stablecoins, cannot be frozen by its issuer. That's the part they'll take their time with. Binance says it has replaced about ninety to ninety five percent of the loss from its own reserves, and began reopening withdrawals on Sunday morning. It still hasn't said how the attackers got in, beyond a developer's laptop and what it calls additional points of breach.
+
+America votes tomorrow. C N N reports that the federal channels for sharing foreign threats with election officials are at their weakest since twenty sixteen, after cuts at C I S A and the departure of its election staff. A classified briefing for officials in October had to be rescheduled because the video call kept failing. C I S A says it remains fully equipped. On the threats themselves, suspected Russian operatives have posted A I altered videos on X, including a fabricated allegation against Texas Senate nominee James Talarico. China is focused on down-ballot candidates it considers hostile. Iran has been relatively quiet. I found no confirmed incident against election infrastructure, and no joint statement from C I S A and the F B I for election eve. Expect noise tomorrow. Most of it will be designed to look worse than it is.
+
+Iran is quiet online, but not in its rhetoric. On Saturday a statement from the office of the Supreme Leader, Mojtaba Khamenei, promised an immediate and effective response to any attack, without geographical limitation. Reuters and AFP report the military has been told to widen its target list to American and Israeli linked interests abroad. The statement doesn't mention cyber. That part is my inference, and you should treat it as such. But last week we learned that American officials suspect Iran-linked hackers in the commissary freezer failures. Without geographical limitation is a phrase that travels well over a network.
+
+And in Ukraine, a war of nerves on the phone. On Sunday, Ukraine's national Air Alert app sent false warnings of nuclear and chemical threats around Kyiv, of street fighting, and of an Oreshnik missile launch. Ukraine blamed Russia, and the app was suspended and restored. That night, into this morning, Russia's Emergencies Ministry app sent alerts that nuclear warheads were heading for every region of the country. The ministry confirmed a massive cyberattack. No one has claimed either. Both came as the local ceasefire around Kherson came to an end. There's an old principle that the cruellest weapon is a false alarm, because it costs the attacker nothing and it teaches the victim to stop listening.
+
+## Consulting and professional services
+
+On the consulting front, the Canadian law firms and the Silent Ransom Group listings are the story, and you have them. The Canadian Centre for Cyber Security alert we discussed on Friday remains the most useful thing to forward. It recommends phishing resistant keys or passkeys, a harder process for anyone asking the help desk to reset M F A, and limits on who outside the firm can message staff on Teams. None of this is exotic. All of it is inconvenient. That is usually how you know it works.
+
+On the Big Four and the strategy houses, nothing new. PwC's listing by Everest hasn't moved. The Gentlemen's old Deloitte listing from early October has never been substantiated.
+
+## Social chatter relevant to McKinsey
+
+A quiet weekend. On Hacker News since Friday, the firm turns up only as a passing joke in comment threads. Nothing new on Lilli.
+
+One small item for your team. A domain, McKinsey dash careers dot com, appeared on a U R L scanning site with no verdict. I haven't established who owns it. It could be perfectly legitimate, or it could be a lookalike built for recruiting fraud. It's the link in the brief. A WHOIS check would settle it in a minute.
+
+## Brand and executive targeting
+
+Binance is now a brand under siege twice over. As withdrawals reopen, fake compensation offers are circulating, a free hundred and fifty dollar reward, a claim page, a reward hub. Binance's co-founder says there's no such voucher campaign. Security firms expect fake support agents, requests for seed phrases, invitations to move funds to a safe wallet, and so-called recovery firms claiming to work with the F B I. None of those comes with an F B I badge that means anything.
+
+And the weekend's real executive risk, once again, was not a deepfake of a chief executive. It was an ordinary employee answering a call from someone claiming to be I T. Marathon Health, the Canadian firms, Microsoft's two cases. If you brief leadership on one thing this week, brief them on that.
+
+## SaaS and supply chain
+
+The Cursor extension is our deep dive, so I'll begin with something else.
+
+DebugBear is a service websites use to measure their own performance. Its script sits on the page, quietly, timing things. Last Thursday, someone made DebugBear's script do rather more. On Polymarket, the prediction market, the hijacked script took over logged-in sessions, sold positions and moved the money out. Somewhere between two point two and two point nine million dollars across seven hundred and twenty six wallets. Polymarket says it will reimburse traders. DebugBear says it's affected by an ongoing security incident, and there are reports its domain was hijacked through the registrar. Any site that embeds a DebugBear script should look at what it was serving last week. This is the oldest trick in the supply chain book. You don't attack the bank. You attack the company that brings the bank its coffee.
+
+On the package registries, the open source vulnerability database recorded forty three malicious packages in our window. The worm we've called test me test has reached the Python index, in a package that runs a stealer every time Python starts. Someone published nine packages named after an internal project called tops two, a classic dependency confusion attack aimed at one company's private build. Another package was named after an internal project visible in a health sector client portal. There were typosquats of Solana and OpenZeppelin libraries. And one package posing as jQuery, when loaded on a website, picks an iPhone exploit to serve based on the visitor's iOS version.
+
+## Regulation and law enforcement
+
+In London, the Lords hold the third reading of the Cyber Security and Resilience Bill today. At report stage the government lost two votes, one requiring a review within a year that would consider bringing cloud and frontier A I into scope, and one creating a register of foreign powers that pose cyber threats to the U K. Then it goes back to the Commons, where those defeats will be argued over. Royal Assent is expected towards the end of the year.
+
+In Virginia, Ahmad Umar Agha of the Syrian Electronic Army was sentenced to forty two months. He was part of the group that hijacked the Associated Press Twitter account in twenty thirteen and posted a fake report that briefly wiped about a hundred and thirty six billion dollars off the stock market. His co-defendant remains a fugitive.
+
+Connor Moucka, of the Snowflake intrusions, was due to be sentenced last Tuesday. I can find no report that it happened. It may have been postponed. When I know, you'll know.
+
+## Deep dive: the poisoned Claude Code extension
+
+Let me tell you about a key with a very modest name.
+
+On Thursday the twenty ninth of October, at about half past nine in the morning, U T C, a new version of the Claude Code extension appeared on the marketplace used by Cursor, the A I code editor. It carried Anthropic's extension identifier. It looked, to anyone who glanced, exactly like the real thing. Two versions, in fact, two point one point three one two and two point one point three one three. Developers installed it, or their editors updated to it automatically, as editors do. It stayed up until about half past eight that evening. Eleven hours. The Hacker News reports Cursor saying at most five thousand users were affected.
+
+The extension did everything Claude Code is supposed to do. But before any of that, about sixty six extra lines of JavaScript ran first.
+
+They began by taking a polite inventory. The machine's name, the user, the operating system, the home and working directories, the email address configured for git. And then the names, only the names, of up to forty environment variables that looked like they might hold something valuable. Anything with key, token, secret, pass, A W S or G C P in the name. Not the values. Just a list of what's in the safe, without opening the door. That list was sent, in plain text, over H T T P, to a server at port eight zero nine nine.
+
+Then came the key. The code looked in the user's authorized keys file for an S S H key with the comment s v c dash telemetry. If it wasn't there, it added it. A modest little name. Service telemetry. The sort of thing an administrator would see and scroll past. Then it tried to switch on the S S H server, if the machine had one, and opened a reverse tunnel back to the attacker, so that the attacker could reach in through the developer's own outbound connection. On Mac and Linux it preferred a tool called auto S S H, which reconnects on its own. On Windows it used a hidden PowerShell loop that tried again every sixty seconds.
+
+And then it made itself at home. On a Mac, a launch agent named com dot apple dot sysmond, which sounds like something Apple would ship. On Linux, a line in the user's crontab to run at every reboot. On Windows, a scheduled task called SysMon, which sounds like a well known Microsoft tool, with a fallback in the startup folder. Each with small helper files tucked into a hidden config folder.
+
+Cursor says that on most Mac and Windows machines, the lack of admin rights stopped the tunnel from opening. But the key and the persistence were still written. And here's the part I'd underline. Uninstalling the extension doesn't remove any of it. The key stays in authorized keys. The task still runs at boot. The guest has left the party, but he's kept a key to the house.
+
+Cursor took the marketplace down, rebuilt it, rotated its keys and took the attacker's server offline. Version two point one point three one four is clean. The Visual Studio Marketplace, the npm package and Open V S X were not affected, and Anthropic says its own systems weren't breached. The question no one has answered is how the attacker got the right to publish under that name on Cursor's marketplace in the first place. No actor has been named. Microsoft is careful to say that its mapping of techniques does not establish attribution.
+
+So what do you do this morning.
+
+First, find out whether anyone in your fleet ran those two versions. Look in Cursor's extension directories for the Claude Code folder with versions three one two or three one three.
+
+Second, search every authorized keys file, on Macs, Linux and Windows, for s v c dash telemetry, or for the key fingerprint in the brief. Look for S S H processes with a remote forward to port twenty two whose parent is Cursor or Node. Look for S S H servers that have recently been switched on, on laptops that never needed one. And look for any connection to the attacker's address, which is in the brief, since the twenty ninth. Microsoft has published hunting queries that look for the launch agent, the scheduled task, the startup file and the helper files by name. Match on names, because file hashes may be missing from some events.
+
+Third, if you find it, remove the key, the launch agent, the cron entry or task, the startup file and the helper files, and kill the tunnel. Cursor has published clean up scripts for Mac and Windows. Read them before you run them, which is advice I'd give about any script that arrives in the middle of an incident.
+
+Fourth, and this is where the polite inventory comes back to bite. The attacker has a list of which secrets lived on each machine, even if not the secrets themselves. From a clean device, rotate the cloud keys, git tokens and A I A P I keys that those machines held. The list tells the attacker what to go looking for next. Make sure what they find has already expired.
+
+And then the policy conversation. Developer tools are now one of the most privileged things in the building. A coding assistant can read the source, run commands and hold the keys to the cloud. This weekend's lesson is that extensions should come from an approved list of publishers, that new versions should wait a few days before they roll out, and that outbound S S H from a laptop is something to allow on purpose, not by default.
+
+I'll leave you with one thought. The cleverest part of this wasn't the tunnel or the persistence. It was the name. Not malware. Not backdoor. Service telemetry. Most attacks succeed not because nobody looks, but because when somebody does look, what they see seems perfectly reasonable.
+
+## Watchlist
+
+What to keep an eye on this week.
+
+The American midterms tomorrow. Watch for statements from C I S A and the F B I, defacements of results sites or alert apps, and A I altered video. Most of what you'll see will be built for panic, not for damage.
+
+Iran, and whether that statement without geographical limitation turns into anything online.
+
+Ivanti, and whether the credentials taken from those appliances start showing up in Active Directory logs.
+
+The Gentlemen's publishing deadline for F P T Software, around Thursday or Friday.
+
+The Silent Ransom Group entry beginning with P. When the timer runs out, we'll have a name.
+
+How the attacker got publishing rights on Cursor's marketplace.
+
+Binance's root cause, and those eighteen thousand bitcoin.
+
+Whether a common vendor emerges behind the supermarket freezers in France, Belgium and Sweden.
+
+Fixes for the Linux T C P flaw on Ubuntu and Red Hat.
+
+And on Friday, the weekly roll up, covering this Friday past through Thursday.
+
+That's Morning Signal for Monday, the second of November. The written brief has every link, and the organisations table is ready for the vendor database. Check your developers' authorized keys before your developers check their email.
+
+Until tomorrow.
