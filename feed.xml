@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Tue 3 Nov 2026: Japan&#x27;s day of big numbers, freezers in nine countries, and the burglar who works in under an hour</title>
+      <description>Election day. Nojima, Prestige International, Netmile, @cosme and Suntory breaches; the Arara mail-delivery breach reaches TKC and Osaka City; WorkOS breached with the ARTEX AI framework; supermarket refrigeration attacks across nine countries plus UK incidents; GitLab version conflict resolved; Siemens IoT2050 and Synology exploitation; deep dive on Kaspersky&#x27;s CyberStrikeAI report. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-03.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-03.md</link>
+      <guid isPermaLink="false">morning-signal-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-11-03.mp3" length="13265185" type="audio/mpeg"/>
+      <itunes:duration>1658</itunes:duration>
+    </item>
+    <item>
       <title>Mon 2 Nov 2026: The poisoned Claude Code extension, Ivanti&#x27;s invisible visitor, and Bay Street&#x27;s help desk problem</title>
       <description>72-hour window. Trojanised Claude Code extension on the Cursor Marketplace (deep dive), two more Ivanti Connect Secure zero-days with a KEV deadline today, Bennett Jones and BLG join the Canadian law-firm vishing victims, SRG lists ArentFox Schiff and Moritt Hock, FBI names TraderTraitor for Binance, VOLTA stealer uses an LLM to value victims, election-eve threat picture. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-02.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-02.md</link>
