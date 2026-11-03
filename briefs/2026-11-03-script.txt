@@ -1,0 +1,207 @@
+## Morning Signal. Tuesday, the third of November.
+
+Good morning. Tuesday. America votes today, and the agency that used to sit in a war room with the states to keep watch is, by its own choice, mostly staying home. Meanwhile Japan has had the kind of Monday that keeps privacy regulators in work for a year, and across Europe somebody has been turning up the thermostat in the supermarket freezers of at least nine countries.
+
+This is Morning Signal for Tuesday, the third of November. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has ninety rows.
+
+First, a loose end tied off. Yesterday I told you there was a conflict over which GitLab versions fix the maximum severity flaw, and asked you to check GitLab's own release notes. We did. The fixed versions are nineteen point four point two, nineteen point three point five and nineteen point two point eight. The lower number I gave you on Friday was an earlier release that had a bug of its own. Thursday's figure was right. Consider it closed.
+
+Three things.
+
+## The top three
+
+Number one. Japan. In a single day, Nojima disclosed about seven million members exposed, Prestige International up to five and a half million, the points service Netmile up to five and a half million, and the beauty site at cosme about three million. Suntory lost data on about a hundred thousand people, most of them its own staff. And the mail delivery breach at Arara keeps spreading. It has now reached TKC, which supplies accounting and tax software to accounting firms and town halls, and up to two point two million of TKC's customer emails may be gone.
+
+Number two. The supermarket freezer attacks. What began in France and reached Belgium and Sweden on Sunday night has now been reported in at least nine countries. The U K's National Cyber Security Centre says British organisations were hit too. The common thread is old refrigeration controllers left on the internet with their default passwords. No one has claimed it.
+
+Number three. The machines are doing the burglary now, and the vendors are publishing the receipts. WorkOS, which sells single sign on to enterprises, says it was breached by an attacker using an A I offensive framework, and what was taken includes excerpts of customers' Slack conversations. Kaspersky has documented an open source A I framework taking a SQL server to domain admin in a few days, which is today's deep dive. And Sophos has shown a ransomware crew handing its lateral movement to A I coding agents.
+
+Let's begin with the ledger.
+
+## Breaches
+
+WorkOS first, because it's the one most likely to touch firms like ours.
+
+WorkOS provides enterprise single sign on and directory sync to software companies, which means it sits quietly behind the login page of a great many products you use. On the thirtieth of October it found someone inside an internal sales application. It disclosed yesterday. What was in that application is the interesting part. C R M contacts and account histories. Summaries and excerpts of sales calls and support discussions. Excerpts of customer Slack conversations. And product usage data, including the health of customers' directory and identity connections. WorkOS says its investigation found an A I assisted offensive security framework automating the reconnaissance and exploitation, and its chief executive named it on X as ARTEX, the same framework we've discussed twice in the last week. There's no evidence that production systems or application data were touched, and no customer count yet.
+
+Here's why that matters. If I wanted to phish an identity team, I couldn't ask for a better script than the real support conversations they've had with their identity vendor, along with a note on which of their connections were misbehaving. If your firm, or a client, uses WorkOS, expect the next phishing email to sound remarkably well informed.
+
+Now, Japan. Monday was a day of very large numbers.
+
+Nojima, the electronics retailer, says about seven million members of its online store and its used smartphone buyback site had their names, dates of birth, addresses, phone numbers, login I Ds, encrypted passwords and emails exposed. No card data. It detected the intrusion and confirmed the leak on Sunday.
+
+Prestige International, through a subsidiary that handles roadside assistance for insurers and car companies, says up to about five and a half million records were stolen, duplicates included. Names, addresses, phone numbers, vehicle registration and chassis numbers, financial account information and accident records. Misused credentials were found last Thursday, the system was shut down on Friday, and theft was confirmed yesterday. This is a business process outsourcer, holding other companies' customers. If any of your clients outsource customer service in Japan, this one belongs in the vendor database.
+
+Wills, which runs the Netmile points exchange, reported up to five and a half million people, former members included, with no detail on what was taken or how. Istyle, the company behind the at cosme beauty platform, reported about three million, with names, contact details, birth dates and, rather intimately, skin and hair type. Suntory says about a hundred thousand people were affected, roughly ninety thousand of them group and partner employees, plus new graduate applicants. The files were downloaded from what Suntory calls an external cloud service. Japanese press reports it was Microsoft three six five. Suntory hasn't confirmed that.
+
+And the Arara story. Arara runs a bulk email delivery service used by hundreds of Japanese companies. Its second report puts the damage at about three hundred and eighty client environments, about seventy seven million email addresses taken or at risk, and about seven million phishing emails sent from its platform between the twenty eighth and thirtieth of October. Seventy seven million is a number that deserves a moment. That figure comes to us through a Japanese security news site, not Arara's own report, so hold it with care.
+
+The newest casualty is TKC, which supplies accounting, tax and local government software. TKC says up to two point two million customer email addresses may have leaked through Arara. It has stopped sending email from its systems for accounting firms, businesses and municipalities altogether, with no date to restart. Several cities are affected, and this morning Osaka City says its online administrative services, which run on TKC, can't register users or reset passwords. Hokuriku Electric, Odakyu Travel and Osaka Gas have also reported losses through Arara. The pattern is the oldest one in the supply chain. One vendor that sends everyone's mail, and every customer discovers they were trusting it at once.
+
+The N T T Data and Securitize story moved too. N T T Data's second report says the attacker abused a flaw in the authentication function of the digital bond platform to give itself administrator rights. And a second direct client of Securitize has come forward. Marui Group says up to nine thousand and eighty six digital bond applicants were affected, about fifty four of them with bank account numbers. So the exposure isn't limited to N T T Data's platform. It's Securitize's.
+
+In Korea, the Douzone Bizon breach has reached an accounting firm. B D O Sung-hyun says client payroll data from its outsourced services work, backed up to Douzone's service last year, may be exposed. Names, resident registration numbers, salaries, year end tax data. B D O's contract with Douzone ended about eleven months ago. Which is why Korea's privacy regulator has opened an investigation that includes whether Douzone kept data it should have destroyed. That's a question every one of us should ask of our own vendors. When the contract ends, does the data?
+
+And one Korean story that is almost too neat. The Foreign Ministry confirmed yesterday that a manifest of a hundred and sixty eight people on the President's flight, including the President, the First Lady, the Prime Minister, the national security adviser, security officers and reporters, with passport numbers and dates of birth, had been sitting on VirusTotal since June. Officials suspect an internal leak, possibly a security scanner that uploaded the file automatically. Think about that. The tool meant to check whether a document is dangerous may be what published it. If your email gateway or sandbox submits attachments to VirusTotal by default, this is a good morning to find out.
+
+Brazil next. Mercado Bitcoin, the country's largest exchange, with about four and a half million customers, confirmed a cyberattack and halted deposits and withdrawals yesterday. Blockchain analysts count more than forty six million dollars flowing out late on Sunday. The company hasn't confirmed that figure, and says customers weren't harmed. Several analysts say the on chain evidence suggests otherwise. Tether froze about four and a half million.
+
+And in the United States, the Byod gang claims data on one point three million current and former students of Michigan State University. The university confirms suspicious activity in early October and reset every student and staff password, but says there's no evidence its central Active Directory was compromised.
+
+One housekeeping note on Revolve, the fashion retailer from yesterday. A SecurityWeek headline now puts it at at least two hundred thousand people. Yesterday I gave you the Texas Attorney General's figure of one and a half million. Those numbers may be counting different things. Both are in the brief, and I'd trust the regulator's filing until the company says otherwise.
+
+## Leak sites and data dumps
+
+The usual rule. These are claims.
+
+The law firm story continues. A group called Redact has listed Holland and Knight, the large American law firm, claiming about thirty gigabytes. You may remember Silent Ransom Group listed Holland and Knight back in September. So this may well be the same data, passed along or resold. Data like this rarely dies. It changes hands.
+
+Silent Ransom Group itself has posted a second redacted entry, initials S and G, last night. The entry beginning with P from last week is still hidden, with its timer still running. One aggregator claims the P is an Italian financial group, but it gives a placeholder for a domain, so I wouldn't put weight on it.
+
+The Gentlemen posted a fresh batch yesterday morning, including a British legal and estate agency, a professional services firm, two I T services companies and a pharmaceutical services business. Settra listed a British title company and a British insurer. Akira listed a real estate and finance firm in the United States. And a new group calling itself PixelLeaks has listed an unnamed Italian provider of I T services and hosted email, with a deadline on Thursday morning. A hosted email provider is never just one victim.
+
+Further afield, Qilin listed Consalud, one of Chile's large health insurers. And in France, the forums gave up an archive from Alaxione, a medical appointment scheduling service, covering about seven hundred and seventy clinics, with bank details for about four hundred and fifty of them, and server credentials in plain text. It's the third time this year Alaxione has appeared. At some point, repetition becomes a policy.
+
+I should say plainly that the leak site trackers stop around ten o'clock last night, U T C. Anything posted overnight will show up tomorrow.
+
+## Exploited vulnerabilities
+
+The K E V catalogue has been silent since Friday. No additions. Yesterday's Ivanti deadline has passed.
+
+But the world doesn't wait for the catalogue, and several things are being exploited that aren't on it.
+
+Siemens SIMATIC I O T twenty fifty. These are small industrial gateways. If Node-RED is installed, the flaw lets anyone on the network run code with full privileges, no login required. It's rated a perfect ten. Siemens published its advisory in August. VulnCheck's honeypots have seen it exploited since the thirtieth of October, mostly to install bots. If you have these devices, uninstall Node-RED or turn on authentication, and check whether anything has been left in the shared memory or temp folders. The file names are in the brief.
+
+Synology warns that a ransomware strain called C three R B three R is encrypting network storage devices running old versions of its D S M software. Synology points to a set of flaws it patched in November twenty twenty four. Any Synology box that hasn't been updated in two years is, I'm afraid, a box that's been waiting for this.
+
+BTCPay Server, which merchants use to accept cryptocurrency, has seen hot wallets drained on versions two point four point one and earlier. The advice is not just to upgrade, but to stand up a fresh server with a new wallet. And a WordPress plugin for crypto payments has a perfect ten flaw with no fix at all. It was closed in August. If it's still on your site, remove it.
+
+On the Ivanti chain from yesterday, Rapid7 has published hunting artefacts. An I P address, a pattern of web requests where the U R L and a particular header don't agree, a set of small Python files in the temp directory, with names that betray their purpose, including one that simply says spray hits, and selective deletion of the debug and audit logs. All in the brief. If you patched Ivanti last week and haven't looked for these, look.
+
+On the Linux T C P flaw, Ubuntu still has no fixed kernel, but it has now published a firewall rule that drops incoming packets carrying I P options, which reduces the risk without removing it. Drupal has confirmed its Commerce fix is in three point three point one three and eight dot x two point four one. And Langflow, the A I workflow builder, has four new critical and high severity flaws, two of them rated nine point eight, fixed in version one point one three. There's already a Metasploit module.
+
+And one piece of context from Microsoft that I'd frame and hang in the patch team's office. Of roughly three hundred and eighty three thousand published vulnerabilities, only about half a percent have ever been exploited. But the median time from publication to the K E V list this year is three days. And the median time to patch is about two weeks on Windows laptops, more than ten weeks on Linux servers, and more than a year on network appliances. The attackers need three days. We need a year for the devices at the front door. That's the whole game, in four numbers.
+
+## A I attacks and trends
+
+The theme of the week is that A I agents are no longer a lab demonstration. They're in incident reports.
+
+Sophos has published its analysis of a ransomware group it calls GOLD OGRE, behind the Aur0ra ransomware. In late August, the operators sat down with Cursor and gave A I coding agents their V P N credentials, a proxy, a list of targets and a goal. The agents did the rest. Directory discovery, password spraying, Kerberoasting, N T L M relay, lateral movement. In some victims they reached domain level access. Three of those victims later appeared on the leak site. The operators started almost entirely on Anthropic's models, and later used models from x A I and Moonshot as well. They got past the safety rules by describing the work as an authorised red team exercise, or as diagnostics testing. And they left Cyrillic keyboard slips in their commands, typing the Russian letters that sit where p s and l s live on the keyboard. The agents may be tireless, but the humans still type in the wrong layout.
+
+There's a supply chain angle on A I tooling too. Four packages on npm posed as Markdown servers for the Model Context Protocol, the plug in system that lets A I assistants use tools. In reality they probed the cloud metadata service on A W S, Google, Azure and Alibaba, looking for credentials. If your developers are installing M C P servers from npm the way they once installed browser toolbars, that's worth a policy.
+
+And a lure that's tailor made for our industry. Cofense reports fake invitations to an exclusive Anthropic A I preview, sent through GoTo Webinar, which lead to pages harvesting Google and Microsoft logins. Consultants are invited to things. That's what makes the invitation work.
+
+## Cyber geopolitics
+
+The freezers first, because this has quietly become the most interesting story in Europe.
+
+On Sunday night into Monday, refrigeration in supermarkets failed or was tampered with in Belgium, Sweden, the Netherlands, Estonia, Luxembourg, Finland, Ireland, Portugal and Italy. In Belgium alone, Le Soir counts about forty Delhaize stores, fifteen Carrefour, fifteen Intermarché, five Spar and an IKEA. In Ireland, thirteen SuperValu stores. In Portugal, seven Intermarché. In Italy, at least four Coop stores in Sicily. Danfoss says its controllers were involved, and points to default passwords and outdated software. France's national cyber agency has an alert covering both Danfoss and Copeland controllers. In the Netherlands, investigators found default passwords and no network segmentation. And in Britain, the head of the National Cyber Security Centre, Richard Horne, says there were a couple of incidents and a handful of U K organisations have been alerted.
+
+No one has claimed it. Belgium's federal prosecutor is investigating. I'll resist naming a culprit, because no one with evidence has. But I'll make an observation. Whoever did this chose a target where the damage is physical, visible and costly, where the defence was a factory password, and where the timing, a Sunday night, gave them hours before anyone noticed. That's not vandalism. That's a demonstration. The question is for whose benefit.
+
+America votes today. The New York Times reports that C I S A will be largely absent from election day, with no war room with the states and none of the regular press updates of past cycles. The F B I's New Haven office posted on its genuine X account yesterday that election day is Wednesday. It isn't. Whether that's a slip or something more, the F B I hasn't said. In Maricopa County, Arizona, two polling places closed for a few hours yesterday after storms knocked out power. They reopened, and partisan accounts promptly called it voter suppression. Researchers at the University of Washington found no foreign, A I or hacking element. That's the shape of election day risk now. Not the hack, but the rumour about the hack, moving faster than the correction. There's also a report, carried by an opinion outlet and attributed to the Telegraph, that Iran has set up groups to hack election systems. I couldn't retrieve the Telegraph original, so treat it as unverified. And I found no confirmed incident against election infrastructure in our window.
+
+In Russia, the federal statistics agency, Rosstat, has confirmed a cyberattack claimed by the Belarusian Cyber Partisans and the pro-Ukrainian group Silent Crow. They say they had six months of access, then destroyed servers and storage over the weekend, touched about twenty five thousand devices, and took mortality and military casualty data. That last detail is the political payload. A government's own statistics on how many of its soldiers have died. Rosstat says no protected data leaked. The claims are unverified.
+
+Iran. Researchers at Dream have documented an Iran-linked espionage group they call DarkBlinders, which between August and October went after a prominent individual in Israel and a government cloud in the Kurdistan Region of Iraq. The lures will sound familiar. Lookalike webmail and government domains. A fake video conferencing app called StarkMeet. And fake recruiters from Dubai Airports, offering a coding test that installs a backdoor. Dream links it, with medium confidence, to the APT thirty four family. For any firm that recruits constantly and asks candidates to take tests, the fake recruiter and the poisoned test are worth remembering.
+
+Google has taken down a botnet called XCPE, built from more than one point three million Android T V boxes made by a Chinese manufacturer, Videostrong, which Google says installed the backdoor itself. The boxes were rented out as residential proxies and used for ad fraud. Google expects to cut off at least ten million more devices through related takedowns. Residential proxies are how credential stuffing hides among ordinary home traffic. Fewer of them is good news for every login page on the internet.
+
+North Korea's Binance proceeds are on the move. About two hundred and forty two million dollars passed through Tron in two days, then out through cross chain bridges. THORChain says its front end now blocks the addresses the F B I flagged.
+
+And Apple has sent mercenary spyware warnings to users in ninety nine countries. No vendor named. If your firm has a playbook for an executive who gets one of those notifications, now is a good time to make sure people know where it is.
+
+## Consulting and professional services
+
+Today's thread is accountants and lawyers, and how much of their trouble comes through someone else.
+
+B D O Sung-hyun in Korea, through Douzone. TKC, whose customers are accounting firms, through Arara. Holland and Knight, relisted by a second group. A new redacted Silent Ransom Group entry.
+
+An analysis of law firm breach notices on California's register adds some names we hadn't covered. Seyfarth Shaw. Greenberg Traurig. WilmerHale, with about eighty thousand people. Blank Rome, after a fake I T caller. Fox Rothschild, after a vishing call. Seven of the ten firms in the analysis described some form of social engineering. And in Ontario, the legal profession's insurer, LawPro, says help desk impersonation has led to unauthorised withdrawals totalling millions of dollars from Ontario law firms, and premiums will rise to pay for it. When the insurers start repricing, the risk has stopped being theoretical.
+
+Nothing new on Accenture, PwC, the other Big Four, or the strategy houses.
+
+## Social chatter relevant to McKinsey
+
+Quiet online. One passing comment on Hacker News, about A I and corporate returns, nothing about security.
+
+But we closed one loop. The domain McKinsey dash careers dot com, which I mentioned yesterday, was registered on the twenty ninth of June this year through Name dot com, behind a privacy service in Denver. One WHOIS site offers to sell it through a domain marketplace, which suggests it may be parked. We couldn't see what it hosts. A recent, privacy shielded registration at a retail registrar doesn't look like something the firm's brand team would own. That's an inference, not a finding. But it's a recruiting themed name, in a week when fake recruiters are a theme, and it's worth handing to whoever does brand protection.
+
+## Brand and executive targeting
+
+Three patterns this morning.
+
+Fake recruiters, from DarkBlinders, and possibly that careers domain.
+
+Fake A I events, from the Cofense report. An invitation to an exclusive preview is the most natural thing in the world to send a consultant.
+
+And Microsoft says Teams will get third party deepfake detection and built in impersonation warnings in meetings this month. Welcome, but note the fine print. The warnings flag that someone might not be who they claim. They don't verify that they are.
+
+## SaaS and supply chain
+
+You've heard most of today's vendor stories already. WorkOS, Arara and TKC, Securitize, Douzone, Alaxione. Add D EDGE, a French hotel booking platform used by more than seventeen thousand hotels, where a configuration flaw in October exposed guest bookings, and guests are now getting WhatsApp messages from scammers who know exactly when and where they're staying.
+
+On the package registries. The fake jQuery package that loads an iPhone exploit has a new version. There's an npm package that installs a hook in your Z shell that runs whenever you open a terminal. Twenty four packages were published to probe a restaurant software company's internal build, a classic dependency confusion attack. And on PyPI, a clone of Pydantic, one of the most used Python libraries, which pulls down remote code.
+
+On the Cursor extension from yesterday, still no word on how the attacker got publishing rights.
+
+## Regulation and law enforcement
+
+In London, the Lords finished with the Cyber Security and Resilience Bill yesterday. It goes back to the Commons, carrying the two government defeats, a review within a year that could bring cloud and frontier A I into scope, and a register of hostile foreign cyber powers. The government may try to strip both out.
+
+In Washington, thirty five business groups led by the Business Roundtable are asking Congress to renew the twenty fifteen information sharing law for ten years, through this year's defence bill. It expires on the eleventh of December. The House version renews it, the Senate version doesn't, and Senator Rand Paul is the obstacle. If it lapses, the legal protections companies rely on when they share threat information with the government go with it.
+
+And Connor Moucka, of the Snowflake intrusions. Sentencing was set for the twenty seventh of October. There's still no public record of a sentence. I'll keep asking.
+
+## Deep dive: CyberStrikeAI
+
+Let me tell you about a burglary that took two weeks to plan and less than an hour to carry out.
+
+The tool is called CyberStrikeAI. It's open source, written in Go, and it's sold to the world as a penetration testing platform. It has its own command and control, and it has a large language model at its centre, which plans the next step, picks the tool, writes the command, and, if the operator wants, waits for a human to approve. Kaspersky has now documented it being used in real intrusions against education organisations in several countries in Africa and Latin America.
+
+Here's the clever bit of the design. The model runs on the attacker's own server. What's installed on the victim's machine is a perfectly ordinary implant. No A I. No A P I keys. No clever logic. Nothing that would look out of place to anyone who has seen a remote access tool before. The intelligence stays at home. Only the hands go out.
+
+The intrusion Kaspersky describes began with a SQL Server that had already been compromised. The first commands were typed by a human, under the SQL Server process itself. About a day of looking around, a few tools dropped, a sense of the network. Then nothing, for two weeks.
+
+Then the agent was let off the leash. Persistence and local reconnaissance in about two minutes. A scheduled task named System Update, an entry in the Run key, on Linux a line in the crontab and a line in the shell profile. Then about five hours of domain reconnaissance. Accounts, hosts, service tickets for Kerberoasting, accounts that don't require pre authentication, L A P S, Azure, Defender's status. Another pause of several days. And then, in no more than an hour, lateral movement across the network using Impacket, W M I and Win R M, a dump of L S A S S memory using a Windows library meant for something else entirely, a renamed copy of Mimikatz to run D C Sync and forge a golden ticket, decryption of stored secrets, and finally export of the databases. From the moment the agent was deployed to domain admin took about three to four days. The part that mattered took under an hour.
+
+None of the techniques is new. Kaspersky is quite clear about that. What the model contributed was speed and a lower bar for the person behind it. Someone who could never have done this by hand in an hour can now do it, as long as they can write a sentence describing what they want.
+
+Who was it? Kaspersky doesn't know, and says so. Its confidence is low, because the tool is public and because commands written by a language model don't carry the fingerprints a human operator leaves. There are faint signs of a Chinese speaking operator. Comments in Chinese inside scripts. The use of a Chinese D N S logging service to check for internet access. Restarts of the command server mostly during working hours in U T C plus eight. Faint, as I say.
+
+What do you look for?
+
+The implant talks over H T T P or web sockets and carries a header called X Implant Token. It's an unusual header, and a search of proxy and web application firewall logs for it costs almost nothing. The control panel uses a self signed certificate that names the framework. The Windows beacons hide in the temp folder under names like svchosts with an s, and svcmon thirty two. All the hashes and addresses are in the brief.
+
+Then the behaviour. A SQL Server process starting a command prompt, PowerShell, certutil or the registry tool. A scheduled task called System Update pointing into a temp folder. The Windows run D L L tool loading the C O M services library to take a mini dump. Servers looking up a D N S logging service.
+
+And the most useful idea of all, which is about time. Look for the rhythm of a machine. A sudden flood of Kerberos service ticket requests, share access events and W M I commands, all within minutes. And look for the pattern Kaspersky describes. A burst of reconnaissance, then days of silence, then a burst of under an hour that covers lateral movement and exfiltration. People don't work like that. Agents waiting for permission do.
+
+Why does this matter to a firm like ours? Because we run a great many database servers that face clients and projects, and the main objective here was the databases. Because the gap between first access and damage is shrinking to the length of a meeting. And because Microsoft told us yesterday that patching Linux servers takes more than ten weeks. This week alone we've had WorkOS breached with ARTEX, a ransomware crew using coding agents for lateral movement, and now CyberStrikeAI. Three independent reports, one direction.
+
+I'll leave you with this. For years we've said that attackers only need to be right once, and defenders need to be right every time. The machines haven't changed that arithmetic. They've simply let the attacker try a great deal more often, and a great deal faster, while sounding like nobody in particular.
+
+## Watchlist
+
+What to keep an eye on today.
+
+Election day. Hoaxes, polling place disruptions, A I video, and whatever C I S A and the F B I say tonight. Expect rumours to move faster than results.
+
+The refrigeration attacks. Whether a common actor or entry point emerges, and what the N C S C says about the British cases.
+
+Arara and TKC, and how many more Japanese companies name Arara as their mail provider.
+
+WorkOS, and any phishing that uses its customers' stolen support conversations.
+
+The two hidden Silent Ransom Group entries, P and S G. The PixelLeaks deadline on Thursday morning, and The Gentlemen's deadline for F P T Software on Thursday or Friday.
+
+Mercado Bitcoin's real losses, and who took them.
+
+Ubuntu and Red Hat kernels for the Linux T C P flaw.
+
+And on Friday, the weekly roll up, from last Friday through Thursday.
+
+That's Morning Signal for Tuesday, the third of November. The written brief has every link, and the organisations table is ready for the vendor database. If you vote today, do it in person, and believe the results only when they come from someone you can name.
+
+Until tomorrow.
