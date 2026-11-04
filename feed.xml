@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Wed 4 Nov 2026: A quiet election night, three more law firms, and intruders that weren&#x27;t people</title>
+      <description>Election day passes without a significant cyber incident; Falcon claims 260 GB from Buchanan Ingersoll &amp; Rooney as Qilin, INC and SRG list more law firms; GitBook&#x27;s AI agent-driven intrusion, Chainstack breach, cPGuard update-channel backdoor and Arara counts of 15.8M and 14.9M; WordPress flaw added to KEV; Google on LLMjacking; refrigeration attacks reach Germany and Romania; Binance post-mortem; McKinsey careers-domain update; deep dive on ESET&#x27;s Gorbag. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-04.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-04.md</link>
+      <guid isPermaLink="false">morning-signal-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-11-04.mp3" length="13535713" type="audio/mpeg"/>
+      <itunes:duration>1691</itunes:duration>
+    </item>
+    <item>
       <title>Tue 3 Nov 2026: Japan&#x27;s day of big numbers, freezers in nine countries, and the burglar who works in under an hour</title>
       <description>Election day. Nojima, Prestige International, Netmile, @cosme and Suntory breaches; the Arara mail-delivery breach reaches TKC and Osaka City; WorkOS breached with the ARTEX AI framework; supermarket refrigeration attacks across nine countries plus UK incidents; GitLab version conflict resolved; Siemens IoT2050 and Synology exploitation; deep dive on Kaspersky&#x27;s CyberStrikeAI report. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-03.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-03.md</link>
