@@ -1,0 +1,167 @@
+## Morning Signal. Wednesday, the fourth of November.
+
+Good morning. Wednesday. America voted yesterday, and the internet, for once, mostly behaved. The bomb threats came by telephone, the lies came by text message, and the only intruder anyone caught was a single address knocking on the same locked door, over and over, until the neighbours noticed. Meanwhile three more law firms found their names on extortion sites, and a documentation company that thousands of developers rely on says its intruders were not people at all, but A I agents.
+
+This is Morning Signal for Wednesday, the fourth of November. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has sixty three rows.
+
+First, a correction, or rather a promotion. Yesterday I described the domain McKinsey dash careers dot com as a possible squat, perhaps parked, perhaps nothing. It is something. Dark Reading reported in July, in a story updated on the ninth of that month, that U R L Scan had flagged that domain as potentially malicious, and that the abuse database Abuse I P D B had flagged its address dozens of times. It was part of a McKinsey themed job scam spotted by Will Thomas of Team Cymru. The scam went after marketing professionals through the H R platform PeopleForce, then bounced them through ExactTarget, Wise Agent and Netlify, and finally to a fake Google login drawn inside the browser window, the trick known as browser in the browser. So yesterday's shrug becomes today's recommendation. That domain deserves a takedown review.
+
+Three things.
+
+## The top three
+
+Number one. Election day passed without a significant cyber incident. Some probing and password guessing, none of it successful. The noise came from bomb threat hoaxes, misleading text messages and fabricated stories. C I S A held no election day briefings at all.
+
+Number two. Law firms keep landing on leak sites. The group calling itself Falcon claims two hundred and sixty gigabytes from Buchanan Ingersoll and Rooney, including privileged attorney client communications and merger documents. Qilin and INC listed two more American firms, and Silent Ransom Group posted a third entry with the name blacked out.
+
+Number three. The software supply chain had a bad day. GitBook suspended its service after what it calls an A I agent driven intrusion. Chainstack, which runs blockchain nodes for customers, disclosed a production breach. The update channel for a Linux server security product called c P Guard was hijacked and used to push a backdoor. And the Arara mail breach in Japan now reaches about fifteen point eight million records at one company and about fourteen point nine million at another.
+
+## Breaches and confirmed incidents
+
+GitBook first, because a great many engineering teams publish their documentation there and sync it straight from their code repositories. According to a single secondary source, the crypto trade site FinanceFeeds, attackers obtained some of GitBook's infrastructure credentials at about six in the evening, U T C, on Monday the second. GitBook confirmed the incident on Tuesday, suspended the app and its authenticated documentation, and restored service later that day. What may have been exposed: A P I tokens, integration credentials, the secrets used for Git Sync, and questions people had typed into GitBook's assistant. GitBook says it has no evidence customer content was changed. It has revoked every personal A P I token, and anyone using its M C P server, the connector that lets A I tools read GitBook content, has to re-authenticate. No customer count yet, and a post incident report is promised. The decentralised exchange PancakeSwap took its documentation offline and moved it to its own infrastructure. I could not find a primary statement from GitBook itself, so treat the detail as provisional. The action is not provisional. If your teams publish or sync through GitBook, rotate the Git Sync and integration secrets today.
+
+Chainstack. The intruder entered a development environment through what Chainstack calls a third party component on the twenty sixth of October, climbed into production, and was detected and cut off on the thirty first. Disclosure came yesterday. Exposed: organisation and account names, member email addresses and password hashes, and Chainstack is treating customers' node credentials as exposed too. Customers are told to rotate node credentials, regenerate A P I keys and change passwords. The Hacker News notes overlaps with the A R T E X A I campaign, the same one behind last week's WorkOS breach. Chainstack has not confirmed that link.
+
+The password manager m Secure, from m Seven Software, emailed current and former users early yesterday morning, about seven minutes to seven, U T C, telling them to change their stored passwords, reset two factor authentication and remove passkeys, because of what it called suspicious activity. No scope, no systems, no timeline and no count, and as of the evening no public bulletin.
+
+WorkOS, an update. Further reporting confirms the stolen data from its internal sales application included customer Slack excerpts, sales call and support summaries, contacts, relationship histories and product health information. Still no customer count. If you buy from WorkOS, expect phishing that quotes your own support tickets back to you.
+
+Japan, and the Arara spillover. Arara supplied mail delivery services, and every few days another of its customers does the arithmetic. Asoview, the online leisure booking site, puts its figure at fifteen million, eight hundred and twenty one thousand, one hundred and eighty four records: names, gender, dates of birth, phone numbers and ticket and usage history, but no passwords or cards. The electronics retailers Bic Camera, Kojima and Sofmap, in a joint notice on Monday, say about fourteen point nine million records, with no card data or online store logins. Yokohama City's electronic application system, run by T K C, which used Arara, may have about eight hundred and twenty thousand affected accounts, and registration and login there are suspended. The newspaper Kobe Shimbun reports about forty thousand newsletter email addresses.
+
+Also in Japan, Pan Pacific International Holdings, the parent of Don Quijote, says the Securitize Japan system holding its digital bond application data was breached. No counts.
+
+South Korea. The flaw behind the Bithumb and Hanyang Securities breaches now has a name and a version. It is an access control weakness in the groupware Daou Office, version three point six point eight point five and earlier, according to the national internet agency, K I S A. K I S A's advisory came on the thirtieth of October and Daou's patch notice on the second of November. The Korean outlet Boannews reports that a patch released last year was never shared with customers. The privacy regulator is also investigating whether the E R P provider Douzone Bizon failed to delete former clients' data, with fines of up to three per cent of revenue mentioned as a possibility. And the University of Seoul's homepage served fake CAPTCHA pages, the ClickFix trick that talks visitors into pasting a command into their own machine, from the thirtieth of October until two in the afternoon, Korean time, yesterday.
+
+Brazil. Mercado Bitcoin has revised its loss to about forty nine million U S dollars, two hundred and sixty six million reais. Eleven point two million has been frozen with help from Tether, Circle, B R L one, Paxos and Chainalysis. CertiK says the attack ran about five hours and drained hot wallets on ten chains. The entry point has not been disclosed.
+
+Holcim, the Swiss building materials group, has now confirmed to the Swiss news agency A W P what it calls an unauthorised data leak of limited scope. Operations are normal. The group Emperador claims about three hundred and sixty gigabytes.
+
+And in Argentina, Program Consultores, which supplies software and consulting to municipalities, was hit by ransomware. Its servers are down, disrupting billing and tax collection in Córdoba and other provinces. A press estimate, unofficial, puts the number of affected municipalities at about two hundred and fifty. The company denies any data was stolen.
+
+Two short ones. SecurityWeek's headline now puts the Frontline Education breach at over one point three million people; I could not read the article itself. And there were no new cyber incident filings with the Securities and Exchange Commission. The two filings I flagged yesterday, from HealthStream and Colony Bankcorp, turn out to have nothing to do with cyber. Strike them.
+
+## Leak sites and data dumps
+
+Everything in this section is claimed. The criminals say it; the victims, so far, do not.
+
+Law and professional services, because that is where the pattern is. Falcon posted Buchanan Ingersoll and Rooney, a large national American firm, yesterday evening, U T C. It claims one hundred and eighty two gigabytes compressed, two hundred and sixty uncompressed, including privileged attorney client communications, merger and acquisition material, non disclosure agreements, tax records and regulatory correspondence. Falcon's post says the firm, and I quote, contacted us then timewasted. The firm has said nothing publicly. Falcon's earlier law firm posts were Beasley Allen on the twenty sixth of October and Weitz and Luxenberg on the twenty fifth. Three American law firms in ten days.
+
+Qilin listed Arthur Chapman Kettering Smetak and Pikala, a Minneapolis firm. INC Ransom listed Hill and Beyer, and claims medical records, nine one one recordings and criminal investigation files. Silent Ransom Group, which specialises in law firms, posted a third redacted entry, initials G and R, alongside the earlier P and S G. Its earlier redactions were followed by named posts, Moritt Hock and ArentFox Schiff among them, so these are worth watching. RansomHouse re-posted Phillips Nizer, now marked disclosed. And just after the window closed this morning, Rhysida listed another law firm, Juge, Napolitano, Ruli, Putfark and Pittman.
+
+I T, software and finance. Akira listed S K Global Software, a South Korean Microsoft Dynamics partner that automates banking and treasury work. A group called Payouts King listed an entry reading iLending and J C Flowers and Company, a lender and a private equity firm, with no details, and the payments software company Autoscribe. A group called B Y O D, whose credibility is mixed, posted I H G Hotels and Resorts with the word estate in brackets and no description at all. PixelLeaks still has not named the Italian I T and hosted email provider it claimed on Tuesday; its deadline is tomorrow morning, U T C.
+
+And in France, a forum dump from the national research institute I N R A E, about one point two gigabytes including database credentials and an S S L private key, rated credible. Two smaller French dumps are in the brief.
+
+## Exploited vulnerabilities
+
+One addition to C I S A's known exploited list, which I checked against C I S A's own copy on GitHub, because the C I S A website was unreachable again. The catalogue was released yesterday evening and now holds one thousand seven hundred and sixty seven entries. The addition is the WordPress core upgrade window flaw I described on Monday and Tuesday: a race condition during upgrades that gives an unauthenticated attacker code execution. It is fixed in WordPress seven point one point four, released on the twenty eighth of October. Federal agencies have until this Friday. The practical point: any site that ran a full package upgrade from a vulnerable version should get a forensic look, not just a patch.
+
+c P Guard. This is the one that should make anyone who runs Linux servers sit up. An attacker got into the update system of its maker, O P S Shield, at about two in the morning, U T C, on the second, using compromised credentials. Versions five point eight eight point twelve through five point eight eight point nineteen shipped a malicious script that collected the system's password files, the database root configuration, shell history and S S H keys. It was caught within twelve hours, and about thirty two servers' worth of files were taken. Fixed in five point eight eight point twenty five. If you run it, check the install log for those versions, and rotate root and database passwords, cloud storage tokens and S S H keys. A security product's update channel used to rob the servers it protects. There is a lesson in there about trust, and it is not a new one.
+
+The Linux T C P flaw I have been tracking. Red Hat has raised its rating to critical, nine point eight, and released fixed kernels on Sunday for Red Hat Enterprise Linux eight, nine and ten. A reboot is required. Ubuntu's fixes are in its opt in proposed channel for its three current releases, with older ones pending. Still not exploited; there is a proof of concept that triggers the bug but does not take control.
+
+Node Red on Siemens I O T twenty fifty devices. VulnCheck has published the detail behind last week's exploitation reports. Its decoy was hit on the thirtieth of October by a single web request that deployed a flow running system commands, followed by a Linux bot and web shells. The source, an address on Microsoft's network geolocated to Brazil, was also trying eight other flaws in Solr, Camunda, Gitea, M L flow, Traefik and Joomla. The fix is Siemens Industrial O S version four point three point four point one or later, and turning on Node Red's admin authentication.
+
+Critical but not known exploited: Barracuda has disclosed two flaws, rated nine point three and eight point six, that chain together to give root on its Email Security Gateway and several other appliances. An attacker needs to reach the admin interface. So, latest firmware, and keep admin interfaces off the internet.
+
+## A I attacks and trends
+
+GitBook, Chainstack and WorkOS. Three software as a service incidents in a single week described either as A I agent driven or as linked to the A R T E X framework. I would not yet call it a campaign against one sector, but it is a pattern worth naming.
+
+Google's threat intelligence group and Mandiant have published a paper on what they call L L M jacking: stealing access to someone else's cloud A I models and running up the bill. This came out on Monday, so it is older than our window, but it has not been covered here. Some victims saw more than a hundred thousand dollars of fraudulent model charges in a day, and up to a million dollars cumulative, across finance, retail, technology and transport in the Americas and Asia Pacific. One actor, tracked as U N C six nine nine three, got in through a misconfigured service account key and ran a fake portal that persuaded users to paste in raw configuration data containing their access tokens, sidestepping passwords and multi factor authentication entirely. The stolen access is then resold through what Google calls L L M mixers. One of them, jet night dot com, made more than five hundred thousand A P I calls in under eight hours, costing a single victim nearly a million dollars. The hunting guidance is in the brief. If the firm runs models in its own cloud accounts, that is a conversation for the cloud team this week.
+
+Glow Labs has published research it calls M C Phantom. It found that in ninety eight per cent of reviewed sessions, A I coding agents installed deprecated reference M C P servers, apparently because those are the ones in their training data. Those archived servers have four high severity flaws, no C V E numbers and no patches coming; the worst allows code execution via prompt injection in the old Puppeteer browser server. More than seventeen point three million downloads since July 2025. Not exploited, as far as anyone knows. The fix is dull and effective: inventory the M C P configurations your developers' agents use and move them to maintained servers.
+
+A small curiosity from the deep dive later. A reverse shell used by the group ESET calls Gorbag carries a comment addressed to A I analysis tools, telling them not to analyse the file. ESET says its two test assistants were not fooled. The malware authors have started leaving notes for the machines. The machines, so far, are not reading them.
+
+And the U K's National Cyber Security Centre, in its annual review published yesterday, says it is highly likely that A I powered malware will feature in a ransomware attack on British critical infrastructure by 2028, and that China and Russia will routinely use A I in cyber operations by then.
+
+## Cyber geopolitics
+
+The American midterms. The election security centre's Tuesday night report: an unnamed election office's online services were probed, and an unnamed election agency saw repeated password guessing from one address. None of it worked, and other offices then saw traffic from the same address. One state's ballot drop box locator saw traffic spikes until someone added a CAPTCHA, and another office saw more than six hundred requests a minute. No attribution. No reports of foreign influence had reached the centre by half past nine last night, Eastern. Geoff Hale, formerly C I S A's election security lead, put it simply: we have not seen evidence of significant cyber incidents. And C I S A held no media briefings on election day, which Nextgov's reporter believes is a first.
+
+The trouble was analogue and social. A bomb threat evacuated a polling site at Beverly Elementary in Toledo, Ohio, at around half past ten, with threats to other schools in Ohio and in a mid Atlantic state. Fulton County, Georgia, voters received texts falsely saying their polling place had moved, and another state saw texts with the wrong opening hours. The F B I said of the Houston ballot story that no election related operation occurred. A ballot scanner malfunction in Westchester County, New York, which was not a cyber event, fuelled conspiracy posts at about a hundred a minute. And an Oklahoma man, Robin Patrick Martin, has been charged over the white powder letters sent to election officials in nearly every state since September 2024. Counting continues, and so will the claims. Watch for official statements from C I S A and the F B I.
+
+The supermarket refrigeration attacks have spread again. Germany reports four supermarkets, Romania six. Italy is now at about twenty, and Coop in Sweden says seven stores were hit, on what it calls old four G networks. The European Union says the attacks are not isolated, and the European commissioner Christophe Hansen calls it a deliberate attempt to disrupt our food supply chain. Romania's cyber director takes a cooler view: semi amateurish, and not, he thinks, a state. In Britain, The Record reports that three meat suppliers and Langridge Organic were among the victims; Langridge's managing director watched a fridge switch itself to defrost. The National Cyber Security Centre calls the national impact minimal.
+
+The strangest case is in France. The satirical weekly Le Canard enchaîné reports that cold rooms at Coolworld, a maintenance contractor for the French blood service in Bourgogne Franche Comté, were reset overnight on the first of November from minus thirty degrees to plus one hundred and ten. A technician caught it, and the health ministry says there were no operational consequences.
+
+On attribution, SentinelLABS published yesterday, with low confidence. Russian aligned groups, the Cyber Army of Russia Reborn, NoName zero five seven sixteen and Z Pentest, are in its words a credible line of investigation, based on their history of tampering with exposed industrial controls. Copycats are not excluded. A Z Pentest claim against a Spanish supermarket exists only as an archived Telegram repost. The French cyber agency, A N S S I, points to exposed admin interfaces and weak passwords rather than flaws in the Danfoss equipment, and operators in Portugal and Germany have hinted at third party maintenance access, which is unconfirmed. Danfoss says it warned its customers on the thirteenth of October. A Cybernews headline says pro Russian groups have claimed the attacks; I could not read it, so that stays unverified.
+
+Russia and Ukraine. President Zelensky has confirmed that Ukraine hacked Russia's emergency alert app, the one run by Russia's emergency ministry, in retaliation for the hijacking of Ukraine's air raid alert app on Sunday. His words: we only respond to their attacks. Separately, Russia has detained three suspected members of the group known as VasyGrek, or Fluffy Wolf, which phished companies in Russia, Belarus and Kazakhstan.
+
+North Korea, and Binance's own account of how it lost about six point three four billion dollars. Binance calls it a months long campaign. In June, an engineer installed malware. In September, a second engineer took part in a fake job interview and downloaded an assignment repository. On the twentieth of October the attackers moved laterally, and on the twenty ninth they abused an internal wallet signing service. Binance says it blocked fifty seven other North Korean attempts this year. Kim Yo Jong denied involvement on Monday.
+
+There is a conflict in the reporting. The Record describes the June lure as malware disguised as a popular A I coding tool. Fortune instead describes a tampered copy of the developer tool Homebrew pushed through a malicious advertisement, and says the job approach came through a job platform, LinkedIn according to its headline, from a fake project director, with fake interviews with H R and a chief executive to follow. We will see which version Binance's final report supports. Either way, two engineers, two lures, and four months of patience.
+
+And mercenary spyware. Among the recipients of Apple's latest spyware warnings were German officials, including members of Chancellor Merz's Asia delegation and the Green party co leader Franziska Brantner. Germany's federal security office, the B S I, told recipients to assume their devices are infected and replace them. Not clean them. Replace them.
+
+## Consulting and professional services
+
+The law firm postings are the story here, and you have heard them. Program Consultores in Argentina is the closest consulting shaped victim of the day.
+
+And a contract case worth reading. I L C Dover and its subsidiary I L C Astrospace will pay thirteen million dollars to settle False Claims Act allegations that they billed the government between 2018 and 2024 while failing contract cybersecurity requirements, including holding sensitive data with a cloud provider without the required safeguards. The whistleblower, their former cybersecurity director, receives two point three five million. For any firm with federal contracts, the lesson is that a cybersecurity clause is now a fraud exposure, and the person most likely to bring it is your own security lead.
+
+The Binance fake recruiter route is the week's clearest lesson for firms whose people get approached on job platforms, which is every consulting firm. Nothing new on Accenture, P w C, E Y, the rest of the Big Four, B C G or Bain.
+
+## Social chatter relevant to McKinsey
+
+Quiet, apart from the careers domain I opened with. One lower confidence observation. Careers pages on hosts such as upgrade dot mckinsey dot com dot b r and karriere dash upgrade dot mckinsey dot d e appear in search results. They look like firm owned country domains, but it is worth a quick ownership check.
+
+## Brand and executive targeting
+
+Fake recruiters, covered. The German advice to replace a spyware flagged device rather than clean it is a useful benchmark for executive protection. No new help desk voice phishing or deepfake payment fraud found.
+
+## SaaS and supply chain
+
+Most of today's supply chain story you have already heard. One more. The P C launcher for the game Nikke, from Shift Up and Level Infinite and distributed from Tencent's cloud, was trojanised. On the twenty seventh of September an attacker got write access to the Tencent cloud storage that distributes it and planted a loader in four JavaScript files. The launcher then pulled a remote access tool, running in memory, that steals browser passwords and cookies, goes after twenty eight cryptocurrency wallet extensions, and scans two hundred and sixty four file paths for Amazon, Azure and Google cloud keys, GitHub tokens, Docker and Kubernetes configurations and S S H keys. That is a tool built to find developers, not gamers. A fix shipped yesterday afternoon, U T C, and the Korean games company Nexon ordered the launcher removed from staff computers. It is worth checking corporate endpoints for the launcher, and D N S logs for the domain insight j s dot com, which is in the brief.
+
+And about seventy five npm and twenty PyPI malicious package records in the window, including a self republishing family that behaves like a registry worm. And the Cursor extension compromise I covered on Monday still has no published root cause.
+
+## Regulation and law enforcement
+
+Europol and German led investigators took down an investment fraud operation yesterday: seven arrests, searches in seventeen countries, more than a hundred servers seized, victims in more than fifty countries and at least four and a half million dollars lost. The operators were in Cyprus and Israel, with call centres in Albania, Kosovo and North Macedonia.
+
+The National Cyber Security Centre also offered small British firms a seventy five per cent discount on Cyber Essentials.
+
+In Washington, the 2015 cyber threat information sharing law has been extended by the stopgap spending bill to the eleventh of December, and industry groups are pushing for a proper renewal in the defence authorisation bill. And still no public record of a sentence for Connor Moucka.
+
+## Deep dive: Gorbag
+
+Today's deep dive is a group ESET named yesterday. It calls them Gorbag, after an orc captain in Tolkien, and the report's own web address speaks of orcs at the border.
+
+Why it matters to us. Firms that advise Ukrainian government, justice or reconstruction programmes, or work on donor and military aid logistics, sit next door to this group's targets. It sends phishing from real, compromised government mailboxes, it exploits an archive tool flaw that was patched in 2025, and it steals exactly the files that let somebody else walk in later: V P N profiles, remote desktop files, password vaults and signing keys.
+
+Who and what. Gorbag is a newly named, Russia aligned espionage group, active since at least February 2025, and as far as ESET can see it targets only Ukraine. About a quarter of its victims are justice and law enforcement bodies. About another quarter are local administrations, mostly front line city councils, nearly all of which had also been hit by air strikes. The rest are defence and logistics, including a hub for foreign military aid. Infosecurity Magazine reports that its stealer took electronic signature keys from a Ukrainian certification centre. ESET offers hypotheses for what it wants: monitoring war crimes investigations, identifying collaborators, assessing battle damage and tracking military supply. Read that list twice. The councils that were bombed are then burgled, and the burglary may tell someone how well the bombing went.
+
+Attribution. ESET says Russia aligned and gives no formal confidence level. The Hacker News reports overlaps with a cluster Ukraine's C E R T tracks as U A C zero two two six, also known as GIFTEDCROOK, and with one Trend Micro calls Shadow Earth zero six six. ESET also floats, as one possible explanation, that Gorbag is an initial access broker, opening doors for other groups. That is unconfirmed, but the choice of what it steals fits it rather well.
+
+How it gets in. In 2025, spearphishing from compromised Ukrainian local government mailboxes, with lures about fines and taxes. The kind of email nobody ignores. The Excel macro decodes data hidden in the spreadsheet's own cells, drops a payload into the Program Data folder and runs it. In 2026 the group moved to RAR archives that exploit a WinRAR flaw patched last year. Opening the archive shows a decoy P D F, while behind it a shortcut is dropped into the Windows Startup folder and an encrypted payload and PowerShell loader land in Program Data.
+
+The tools. The first is what ESET calls Prime ReverseShell: a PowerShell reverse shell, wrapped up as a dot NET program with a tool called P S two E X E, derived from a public code repository, talking to its server over H T T P S. One version carries the comment I mentioned earlier, asking A I tools not to analyse it. The second is BeautyStealer, written in C plus plus, which has gone through versions from zero point nine to two point zero. It takes cookies, passwords and history from Chrome, Edge, Opera and Firefox, and OpenVPN configurations. It sweeps user folders and removable and mapped drives for password vaults, V P N profiles, remote desktop files, certificates and the key files Ukrainians use for qualified electronic signatures. From version one point two it encrypts its strings, and it deletes itself once the job is done. Early versions sent the stolen archives to a Telegram chat; later ones to a custom web server.
+
+Two infrastructure addresses are published: a command server at the hosting provider M two four seven, first seen in March 2025, and an exfiltration server at E G I Hosting, first seen in June this year. Both are in the brief, along with ESET's file hashes and its MITRE mapping.
+
+What to hunt for, built from ESET's own artefacts. One: WinRAR installations older than the 2025 fix, and any RAR extraction that writes shortcut files into the Startup folder. Two: Excel with macros writing a program or script into Program Data, followed by a process launched from there. Three: compiled PowerShell binaries named Windows Telemetry making outbound web connections. Four: anything that is not a browser talking to Telegram's bot interface to send documents, and large archive uploads from ordinary workstations. Five: processes reading browser credential stores, password vaults, V P N profiles and certificate files, and then deleting themselves. And six, block and retro hunt the two addresses.
+
+The broader point. Gorbag is not exotic. It uses a public shell, a commodity style stealer and a patched flaw, and its real skill is in choosing whose mailbox to borrow. That, more than any zero day, is what makes it dangerous to the people around its targets.
+
+## Watchlist
+
+The Silent Ransom Group's three redacted entries, P, S G and now G R. The PixelLeaks deadline tomorrow morning, U T C. The Gentlemen's deadline for F P T Software around Thursday or Friday.
+
+The WordPress deadline for federal agencies, this Friday.
+
+GitBook's post incident report, and the scope of the m Secure incident.
+
+The refrigeration attacks, and whether anyone confirms a claim or a shared maintenance vendor.
+
+The election aftermath: official statements, and disinformation during the count.
+
+Binance, and which account of the first lure turns out to be right.
+
+And on Friday, the weekly roll up, from last Friday through Thursday.
+
+That's Morning Signal for Wednesday, the fourth of November. The written brief has every link, and the organisations table is ready for the vendor database. If a recruiter writes to you today with an exciting assignment, read the repository before you run it. Better still, don't run it.
+
+Until tomorrow.
