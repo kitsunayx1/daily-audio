@@ -1,0 +1,77 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-11-05,Crédit Mutuel Arkéa,Banking,France,About €118M / US$133M stolen via service provider,Unknown,Confirmed 4 Nov,Confirmed,https://therecord.media/french-bank-confirms-cyber-heist
+2026-11-05,Unnamed service provider to Crédit Mutuel Arkéa,IT services,France,Platform compromised and used for theft,Unknown,By 4 Nov,Confirmed (unnamed),https://therecord.media/french-bank-confirms-cyber-heist
+2026-11-05,Mitsui Sumitomo Insurance,Insurance,Japan,Intrusion; customer services halted,Unknown,2–4 Nov,Confirmed,https://cybersecurity-jp.com/news/118127
+2026-11-05,Aioi Nissay Dowa Insurance,Insurance,Japan,Intrusion; customer services halted,Unknown,2–4 Nov,Confirmed,https://cybersecurity-jp.com/news/118127
+2026-11-05,Nomura Investor Relations,Financial / IR services,Japan,Institutional investor and analyst contacts leaked,Unknown,2–4 Nov,Confirmed,https://cybersecurity-jp.com/news/118128
+2026-11-05,GitBook,Developer docs SaaS,Global,"Postmortem: SSO flaw, staff sessions, production secrets; one customer targeted","Unknown (""automation and AI"")",2–4 Nov,Confirmed,https://www.gitbook.com/status/security-incident-2026-11-03
+2026-11-05,Kernel (kernel.sh),AI browser infrastructure,US,"Leaked API key, logging-provider and GPU server access; 0.28% customers","Cryptomining actor (ARTEX, per Kernel)",24 Oct–3 Nov,Confirmed,https://www.kernel.sh/blog/public-notice-of-security-incident-nov-4-2026
+2026-11-05,Trigger.dev,Developer platform,Not stated,Environment variables of a subset of organisations accessed,Unknown,1 Nov,Confirmed,https://trigger.dev/blog/security-incident-nov-2026
+2026-11-05,CommandCode,AI developer platform,Not stated,Listed among AI platform breaches,Unknown,By 4 Nov,Reported,https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/
+2026-11-05,DreamHost,Web hosting,US,"File Manager compromise; FTP/SFTP credentials, webmail sessions",Unknown,Aug–23 Oct; disclosed 29 Oct,Confirmed,https://teiss.co.uk/news/dreamhost-discloses-breach-that-exposed-ftp-and-sftp-passwords-through-file-manager-flaw-18418
+2026-11-05,Abrigo (Sageworks),Lending SaaS,US,Offline after irregular activity,Unknown,30 Oct–2 Nov,Mostly restored,https://runtimewire.com/article/abrigo-restores-sageworks-october-30-shutdown
+2026-11-05,Mercado Bitcoin,Crypto exchange,Brazil,Loss US$37M (MB) vs US$49M (Chainalysis); US$15M frozen; reopening 9 Nov,Unknown,2–4 Nov,Confirmed,https://www.blocknews.com.br/criptoativos/mercado-bitcoin-retomara-operacao-apos-ataque-hacker/
+2026-11-05,Frontline Education,Education SaaS,US,"1,298,917 per state portals",Unknown,4 Nov,Confirmed,https://compliancehub.wiki/frontline-educations-1-3m-record-breach-tests-ferpas-vendor-oversight/
+2026-11-05,Kyiv Independent,Media,Ukraine,CMS and newsletter hijacked for fake alerts,Suspected Russia,4 Nov,Confirmed,https://therecord.media/ukraine-kyiv-independent-cyberattack
+2026-11-05,Ryohin Keikaku (MUJI),Retail,Japan,About 1.09M MUJI Card records with full card numbers,Unknown,4 Nov,Confirmed,https://cybersecurity-jp.com/news/118130
+2026-11-05,Credit Saison,Card issuer,Japan,Partner for affected MUJI Card,n/a,4 Nov,Affected partner,https://cybersecurity-jp.com/news/118130
+2026-11-05,Denny's Japan,Restaurants,Japan,App accounts accessed during migration,Unknown,30 Oct–3 Nov,Confirmed,https://cybersecurity-jp.com/news/118129
+2026-11-05,TKC,Accounting software,Japan,"Received leaked address data from Arara; up to 2,230,812",Unknown,4 Nov,Confirmed,https://www.tkc.jp/news/2026/20261104_1/
+2026-11-05,Workman,Retail,Japan,Up to about 1.45M via Arara,Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Daskin,Retail services,Japan,"657,886 via Arara (repica)",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Monte Rosa,Hospitality,Japan,"625,429 via contractor / Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,FinnoValley,Fintech (local currency),Japan,"594,799 via Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Setagaya Pay,Local payments,Japan,"About 590,000 (vendor-wide) via Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Sumitomo Realty & Development,Real estate,Japan,"205,208 via DataX / Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Tribeck,SaaS,Japan,"61,213 via Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Osaka Prefecture,Local government,Japan,Affected via Arara,Unknown,4 Nov,Reported,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Zaif,Crypto exchange,Japan,2nd Arara report,Unknown,4 Nov,Confirmed,https://corp.zaif.jp/info/20261104-1
+2026-11-05,Seoul Metropolitan Child Care Support Center,Public services,South Korea,Data retained by Douzone,Unknown,By 5 Nov,Under investigation,https://www.boannews.com/news/articleView.html?idxno=147019
+2026-11-05,KEPCO ES,Energy services,South Korea,Douzone APO backup data,Unknown,By 5 Nov,Under investigation,https://www.boannews.com/news/articleView.html?idxno=147019
+2026-11-05,Korea Machine Tool Industry Association,Industry association,South Korea,Douzone APO data,Unknown,By 5 Nov,Under investigation,https://www.boannews.com/news/articleView.html?idxno=147019
+2026-11-05,NH Travel,Travel,South Korea,PNRs via compromised Amadeus account,Unknown,Aug 2023–Sep 2026,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147014
+2026-11-05,Amadeus,Travel tech,Global,"Account login compromised (Korean Air, Asiana, Jin Air also cited)",Unknown,Reported 5 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147014
+2026-11-05,Ministry of the Interior and Safety,Government,South Korea,Unmasked attachments exposed on disclosure portal,n/a (exposure),5 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147035
+2026-11-05,Le Code by DEKRA,Driving exams,France,Candidate data via subcontractor,Unknown,20 Oct; reported 4 Nov,Confirmed,https://frenchbreaches.com/alertes/fuite-donnees-dekra-code-route-candidats-mots-de-passe-mw2du147wbg5l18p4uf
+2026-11-05,Servicio Extremeño de Salud,Health,Spain,"18,416 users; arrest; data recovered",Individual,Oct; reported 5 Nov,Confirmed,https://www.democrata.es/extremadura/garcia-espada-asegura-que-los-datos-robados-al-ses-se-han-recuperado-y-se-ha-frenado-su-difusion-en-foros-delictivos/
+2026-11-05,"Wiggins, Childs, Pantazis, Fisher & Goldfarb",Law,US,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,"Massey, Stotser & Nichols",Law,US,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,"Maglin, Miskiv & Associates",Accounting,US,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,The Vant Group,Business services,US,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Sky Solutions,Business services,Panama,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Adaris Tech,IT consulting,Spain,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Southern Cross Digital,IT,Australia,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Credi-Paz,Financial services,Argentina,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Krishnan Company,Accounting (CPA),US,"27 GB incl. client SSNs, passports",Akira,4 Nov 15:23,Claimed,https://recentbreaches.com/breach/krishnan-akira-2026-11
+2026-11-05,hhjcpa.com,Accounting / tax,US,About 305 GB,Brain Cipher,4 Nov,Claimed,https://www.ransomware.live/id/aGhqY3BhLmNvbUBCcmFpbkNpcGhlcg
+2026-11-05,fbc.ca,Tax / financial services,Canada,About 73 GB,Brain Cipher,4 Nov,Claimed,https://www.ransomlook.io/group/brain%20cipher
+2026-11-05,Megastar Financial,Mortgage,US,About 32K documents,Brain Cipher,4 Nov,Claimed,https://www.hookphish.com/blog/ransomware-group-braincipher-hits-megastarfinancial-com/
+2026-11-05,Triton Claims,Insurance claims,US,About 19.5K documents,Brain Cipher,4–5 Nov,Claimed,https://www.hookphish.com/blog/ransomware-group-braincipher-hits-tritonclaims-com/
+2026-11-05,"""W… G…"" and ""K… R…"" (redacted)",Unknown (likely law),Unknown,Redacted listings,Silent Ransom Group,4 Nov,Claimed,https://www.ransomlook.io/group/leakeddata
+2026-11-05,Jobmongers,Recruitment,UK,Leak-site listing,Medusalocker,4 Nov 22:22 UTC,Claimed,https://www.ransomware.live/id/Sm9ibW9uZ2Vyc0BtZWR1c2Fsb2NrZXI
+2026-11-05,Goldsmith & Hull,Law,US,Leak-site listing; publication 11 Nov,Aoqin,4 Nov 00:52 UTC,Claimed,https://api.ransomware.live/v2/sectorvictims/Professional%20Services
+2026-11-05,Unilever,Consumer goods,UK,About 79 GB; US$15M demand,WhiteArmor,4 Nov 20:57 UTC,"Claimed, unproven group",https://www.ransomware.live/id/VW5pbGV2ZXJAV2hpdGVhcm1vcg
+2026-11-05,Kontron North America,IT hardware,US,2.37 TB claimed,Global Secret Group,4 Nov 17:22 UTC,Claimed,https://www.ransomware.live/id/S29udHJvbiBOb3J0aCBBbWVyaWNhQEdsb2JhbCBTZWNyZXQgR3JvdXA
+2026-11-05,MAPFRE Brasil,Insurance,Brazil,About 9 GB,Destello,4 Nov,Claimed,https://recentbreaches.com/breach/mapfre-brasil-2026-destello-2026-11
+2026-11-05,Delta Dental of Missouri,Dental insurance,US,Member records exposed,N0n,5 Nov 04:52 UTC,Claimed,https://www.ransomware.live/id/RGVsdGEgRGVudGFsIG9mIE1pc3NvdXJpQE4wbg
+2026-11-05,The Container Store,Retail,US,Customer chats and emails,N0n,5 Nov 04:51 UTC,Claimed,https://www.ransomware.live/id/VGhlIENvbnRhaW5lciBTdG9yZUBOMG4
+2026-11-05,Magasin du Nord,Retail,Denmark,70.2 GB leaked,Majinahanashi,5 Nov,Claimed,https://www.ransomlook.io/group/majinahanashi
+2026-11-05,Sig Sauer,Firearms / defence,US,Leak-site listing,Scarlettgroup,4 Nov,Claimed,https://recentbreaches.com/breach/sigsauer-com-scarlettgroup-2026-11
+2026-11-05,Erowa,Manufacturing automation,Not stated,"538 GB incl. passports, NDAs",Akira,4 Nov,Claimed,https://www.ransomlook.io/group/akira
+2026-11-05,City of El Cajon,Local government,US,Police and 911 data for sale,Rhysida,4 Nov,Claimed,https://recentbreaches.com/breach/el-cajon-ca-rhysida-2026-11
+2026-11-05,TFG London,Fashion retail,UK,Leak-site listing,RansomHouse,4 Nov,Claimed,https://www.ransomlook.io/recent
+2026-11-05,Unnamed Italian IT / hosted-email provider,IT services,Italy,"24,000+ mailboxes threatened; deadline 9 Nov",PixelLeaks,5 Nov 07:59 UTC,Claimed,https://www.ransomware.live/id/RGlzY2xvc2VkQFBpeGVsTGVha3M
+2026-11-05,Lazeo,Aesthetic medicine,France,708 employees' data,Unnamed,5 Nov,Claimed (credible),https://frenchbreaches.com/alertes/fuite-donnees-lazeo-708-employes-mw2s9ujdk72wmeutg9n
+2026-11-05,Fédération française de pelote basque,Sport,France,"31,814 records",Unnamed,4 Nov,Claimed,https://frenchbreaches.com/alertes/fuite-donnees-federation-francaise-pelote-basque-ffpb-31814-mw20iyw5ps3bd2eh4b
+2026-11-05,OPSSHIELD (cPGuard),Security software,Not stated,"About 2,950 servers ran backdoor; 7,900 customer records from billing server",Unknown,1–2 Nov,Correction to prior count,https://www.helpnetsecurity.com/2026/11/04/cpguard-update-supply-chain-compromised/
+2026-11-05,CDMBase (@adminide-stack npm),Software,Not stated,"12 hijacked releases, PolinRider loader",Unknown (PolinRider),3–4 Nov,Confirmed (Sonatype),https://www.sonatype.com/blog/polinrider-loader-reappears-in-hijacked-npm-packages
+2026-11-05,screenshot-desktop (npm),Open source,Global,1.16.0 flagged malicious; disputed,Unknown,4 Nov,Disputed,https://github.com/bencevans/screenshot-desktop/issues/363
+2026-11-05,Plerdy,Web analytics,Ukraine,Tracking script compromised to serve APT29 profiler,APT29 (Sekoia),27 Aug–3 Sep,Reported,https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits
+2026-11-05,US chemical-industry trade association (unnamed),Trade association,US,Watering hole,APT29 (Sekoia),2026,Reported,https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits
+2026-11-05,Zyxel GS1900 switches,Network hardware,Global,CVE-2026-107441; 996 switches had data taken,Red Heron (GreyNoise),Aug–Nov,Exploited; Patch 3,https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html
+2026-11-05,SonicWall GMS / SMA1000,Security appliances,US,GMS EOL flaws unpatched; SMA1000 exploited,Unknown,4 Nov,Mixed,https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0019
+2026-11-05,Taipei fire department (119 dispatch),Emergency services,Taiwan,Patient-care and dispatch data via AI agents,"""bossjy"" (BOSSAI)",2026,Confirmed (Acronis),https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/
+2026-11-05,Indian BFSI and crypto firms (unnamed),Finance,India,AI-assisted intrusions (Crafty Falcon),Crafty Falcon,Reported 5 Nov,Active,https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058
+2026-11-05,SuperValu (13 stores),Grocery,Ireland,Refrigeration tampering,Claimed by NoName057(16) / Z-Pentest (doubted),Nov,Confirmed incident,https://www.rte.ie/news/primetime/2026/1105/1598007-clarity-supermarket-cyberattack/
+2026-11-05,Danfoss,Industrial controls,Denmark,Named in hacktivist claim; database sample released,NoName057(16) (claimed),3–4 Nov,Claimed,https://www.retaildetail.eu/news/food/pro-russian-hackers-claim-responsibility-for-attack-on-supermarket-refrigeration-systems-systemic-negligence/
+2026-11-05,Privacy Cash,Crypto privacy protocol,Global,Deposits suspended after Binance loot arrived,Lazarus-linked funds,5 Nov,Precaution,https://www.cryptoninjas.net/news/privacy-cash-freezes-deposits-after-1-2m-binance-hack-funds-hit-its-privacy-pools/

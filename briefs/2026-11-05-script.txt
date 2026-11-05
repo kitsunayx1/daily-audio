@@ -1,0 +1,161 @@
+## Morning Signal. Thursday, the fifth of November.
+
+Good morning. Thursday. Remember, remember, the fifth of November. Appropriately enough, today is a story about people who prefer to work from inside someone else's building. Russia's foreign intelligence service, according to a French security firm, has been waiting on trusted websites for the right telephone to walk past. A French bank lost more than a hundred million euros through a supplier it trusted. And a security product's update, which we were told yesterday had reached a few dozen servers, turns out to have reached nearly three thousand.
+
+This is Morning Signal for Thursday, the fifth of November. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has seventy six rows.
+
+First, a correction. Yesterday I told you that the backdoored update for the Linux security product c P Guard had taken files from about thirty two servers, and that version five point eight eight point twenty five was the fix. Help Net Security now reports that about two thousand nine hundred and fifty customer servers installed the malicious update and ran it as root, in a window of a few minutes early on the second of November. The attacker had also reached the company's billing and licensing server the day before, and took records on about seven thousand nine hundred customers, including contacts and hashed passwords. The clean version is now five point eight eight point twenty six. The smaller figure may have counted something narrower; the larger one is the one to plan around.
+
+And a second adjustment. GitBook's own post incident report, published yesterday evening, changes the story I gave you. More on that shortly.
+
+Three things.
+
+## The top three
+
+Number one. The French firm Sekoia says, with moderate to high confidence, that A P T twenty nine, the hacking arm of Russia's foreign intelligence service, the S V R, has been running watering hole attacks aimed at phones. It compromised real websites, among them a major American chemical industry trade association, built lookalikes of others, and hijacked a web analytics script used by thousands of Ukrainian sites. Visitors on old versions of i O S and Android were served exploit chains that, at their worst, empty the phone. Every flaw involved was already patched. C I S A added the one missing Apple flaw to its known exploited list yesterday. That is today's deep dive.
+
+Number two. Third parties keep paying out. Crédit Mutuel Arkéa, the French banking group, confirmed that attackers came in through a service provider and moved about a hundred and eighteen million euros out of the bank's own account. In Japan, two of the big M S and A D insurers, Mitsui Sumitomo and Aioi Nissay Dowa, shut down customer services after an intrusion. And there is c P Guard, which I have already apologised for.
+
+Number three. Professional services on the extortion sites again. A new group calling itself Soul posted twenty five victims in about a minute, including two law firms in Birmingham, Alabama, and an accounting firm in New Jersey. Akira and Brain Cipher listed accounting firms. Silent Ransom Group added two more entries with the names blacked out. And another new group, WhiteArmor, claims Unilever.
+
+## Breaches and confirmed incidents
+
+Crédit Mutuel Arkéa first. The bank confirmed what it called a sophisticated attack on Wednesday evening. The attackers went through the platform of a service provider, which the bank has not named, and from there made transfers out of the bank's own account to other banks, with some of the money possibly converted into cryptocurrency. The bank says customer accounts and assets were not touched, and that some of the funds have been frozen. The blockchain investigator ZachXBT put the figure at more than a hundred and thirty three million dollars; the bank says it can validate the order of magnitude, and French reporting gives a hundred and eighteen million euros. French media said the way in was the bank's online subsidiary, Fortuneo. The bank denies that. No attribution. For anyone who manages supplier risk, the useful sentence is this one: the money did not leave from a customer account. It left from the bank's own.
+
+Japan. Mitsui Sumitomo Insurance and Aioi Nissay Dowa Insurance, both part of the M S and A D group, detected an intrusion on the second of November and halted services on the third. Customer portals, one day insurance products, agent services and the corporate web service are among those suspended. No personal data leak confirmed, no restart date, and neither the route in nor the actor has been disclosed.
+
+Also in Japan, Nomura Investor Relations says its service for connecting companies with institutional investors was breached, exposing the names and email addresses of institutional investors and analysts. No count. It is the second leak at the Nomura group in two weeks. A list of who manages money and how to email them is a list somebody will use for phishing.
+
+GitBook, as promised. Its post incident report, published at about half past seven yesterday evening, U T C, says the attacker exploited a flaw in GitBook's single sign on login flow to create sessions as GitBook staff. From there: a misconfigured GitHub app, internal repositories, a Cloudflare key, production secrets, and a service account with full access to the infrastructure. The first account was hijacked at twenty seven minutes past twelve, U T C, on Monday the second, at a single targeted customer, which GitBook does not name. The attacker reached production by about ten to six, an internal alert fired at ten past six, and they were cut off by about half past eight. All A P I tokens were invalidated overnight, and secrets were rotated by midday Tuesday. About sixteen hours of downtime in all. Exposed: A P I and integration tokens, session signing secrets, Git Sync and GitLab access, and database credentials. Not exposed: billing data and passwords. GitBook says the speed and precision pointed to an attack driven largely by automation and A I, but names no tool.
+
+Two things change from what I told you. Yesterday's notice called the incident platform wide; the report says the activity focused on one customer, although GitBook still treats everyone's data as exposed. And yesterday I gave six in the evening as the start; the report puts first activity more than five hours earlier. Rotating Git Sync and integration secrets remains the right action.
+
+Next, a company called Kernel, which sells browser sessions for A I agents. A leaked A P I key was used to probe its systems on the twenty fourth of October. Three days later, the attacker used a staff login at Kernel's logging provider to download data that included a small number of A P I keys and third party secrets. On the third of November, a hosting provider credential gave access to four G P U servers, three of which ran customer browser sessions, and a cryptominer was started. About a quarter of one per cent of customers were affected. Kernel believes a financially motivated cryptomining actor used the A R T E X framework as what it calls a command center. That is Kernel's belief, stated as such.
+
+SecurityWeek now counts about thirteen breaches at A I developer platforms in a month, adding Trigger dot dev, where environment variables for a subset of organisations were accessed, and a firm called CommandCode. The security firm Wiz ties the wave to the resale of stolen A I tokens. The machines, it seems, are being robbed for their electricity bills.
+
+A few short updates. m Secure, the password manager, still has not said what happened, how many users are affected or whether vaults were accessed. Chainstack's link to A R T E X remains reported, not confirmed, and WorkOS still has not given a customer count. The web host DreamHost has disclosed that its file manager was compromised through a third party flaw from around August until the twenty third of October, exposing F T P credentials and some webmail sessions. And Frontline Education's breach now totals one million, two hundred and ninety eight thousand, nine hundred and seventeen people across five state portals, with filings in three more states still to be counted.
+
+Mercado Bitcoin, in Brazil, plans a phased reopening from Monday the ninth, and says about fifteen million dollars is now frozen. There is a conflict over the loss: the exchange says about thirty seven million dollars was drained; Chainalysis says forty nine million. The exchange says no customer will lose assets.
+
+More from Japan. The retailer MUJI's second report is considerably worse than its first. About one point oh nine million MUJI Card records with full card numbers and dates of birth were exposed, and about three hundred and forty five thousand of those cards are still usable. The first report, on the thirtieth of October, said no card data was involved. Denny's Japan says someone fraudulently created credentials during its app migration and got into member accounts. And the Arara mail breach continues to spread: newly announced are the retailer Workman, up to about one point four five million, Daskin, Monte Rosa, FinnoValley, the Setagaya Pay local currency, Sumitomo Realty and Development, and Osaka Prefecture. The analyst piyolog reminds everyone that these numbers cannot simply be added up.
+
+South Korea. The Douzone Bizon data retention case now lists twenty seven organisations, including the energy services firm K E P C O E S. The travel agency N H Travel says flight bookings were exposed through a compromised Amadeus account, with Korean Air, Asiana and Jin Air also cited. And the Ministry of the Interior and Safety apologised after its public document disclosure portal published attachments without masking them, including a resident registration certificate, passport details and cancer diagnoses. The filter missed scanned P D Fs.
+
+In France, Le Code by DEKRA, which runs driving theory exams, says a subcontractor was attacked on the twentieth of October, exposing candidate data and encrypted passwords. And the Kyiv Independent, the Ukrainian news outlet, had its website and newsletter service hijacked to publish and email fake stories, including one falsely claiming a nuclear strike. The outlet suspects Russia, on the content alone.
+
+No new cyber incident filings with the Securities and Exchange Commission.
+
+## Leak sites and data dumps
+
+Everything in this section is claimed.
+
+Law and accounting first. The new group Soul posted twenty five victims at about the same minute on Wednesday evening. The tracker that recorded them notes the compromises are not independently verified. Among them: two Birmingham, Alabama law firms, Wiggins, Childs, Pantazis, Fisher and Goldfarb, and Massey, Stotser and Nichols. An accounting firm in Parsippany, New Jersey, Maglin, Miskiv and Associates. A Spanish I T consultancy, Adaris Tech. Plus firms in Dallas, Panama, Australia and Argentina, and nine American healthcare providers. A burst like that from a new name can mean a fresh crew, or an old crew with a new sign over the door. Either way, it is not yet a track record.
+
+Akira listed Krishnan Company, a C P A firm, claiming twenty seven gigabytes including clients' Social Security numbers, passports and driving licences. Brain Cipher listed an American accounting and tax firm with about three hundred and five gigabytes, a Canadian farm tax and financial services firm, a mortgage lender and an insurance claims firm. Silent Ransom Group added two more redacted entries, initials W G and K R, bringing its unnamed list to five that I am tracking. A group called Aoqin listed Goldsmith and Hull, a California law firm, with publication set for the eleventh. And Falcon, which claimed Buchanan Ingersoll and Rooney on Tuesday, now threatens what it calls re attacks. The firm has still said nothing in public.
+
+Larger names. WhiteArmor, a new and unproven group, claims Unilever: about seventy nine gigabytes, including six hundred and sixty five thousand contacts, five and a half thousand accounts with logins for what appears to be a logistics system, and distributor loyalty data, with a demand of fifteen million dollars. The same group has advertised access for sale to Okta, Azure and V P N accounts, and is openly recruiting insiders. Global Secret Group claims two point three seven terabytes from Kontron North America. A new group, Destello, claims MAPFRE Brasil. N0n claims Delta Dental of Missouri and The Container Store. Rhysida is selling police and nine one one dispatch data it claims to have taken from the City of El Cajon, in California. And Scarlettgroup lists the firearms maker Sig Sauer.
+
+PixelLeaks has posted again about the Italian I T and hosted email provider it claimed on Tuesday, still without naming it, and now threatens to publish more than twenty four thousand client mailboxes, with a new deadline of Monday morning, U T C. Nothing new on The Gentlemen and F P T Software.
+
+## Exploited vulnerabilities
+
+C I S A's catalogue, read from its GitHub copy, is now at one thousand seven hundred and sixty eight entries, with one addition yesterday: an Apple flaw from 2024 that lets an attacker who can already read and write memory bypass the pointer authentication protection on Apple devices. It was fixed in May 2024. It is in the list because it is one link in A P T twenty nine's chain, and federal agencies have until the eighteenth of November.
+
+Zyxel. Its G S nineteen hundred series switches have a flaw that gives an unauthenticated attacker root command execution through the web management interface. The firm Binarly found that switches carrying Zyxel's earlier fix for an already exploited flaw were still vulnerable. GreyNoise says nine hundred and ninety six switches had their configurations and hashed root credentials taken around the seventeenth of August, and that five hundred and sixty four of them were still on factory default passwords. GreyNoise links the activity to a Chinese speaking group tracked as Red Heron. The fix is firmware two point nine zero patch three. Not in C I S A's list.
+
+SonicWall says it will not patch two flaws in its end of life Global Management System, including an unauthenticated file read rated nine point one. The advice is to migrate. Separately, a maximum severity flaw in SonicWall's S M A one thousand appliances, disclosed in October, has seen more than two and a half thousand exploitation attempts from eight addresses. It is not in C I S A's list either.
+
+Critical, not known to be exploited. A flaw in A P T, the package manager on Debian and Ubuntu, lets someone controlling a mirror or proxy swap packages and run code as root; Ubuntu shipped fixes yesterday. A Ruby on Rails file upload flaw rated nine point eight, fixed in eight point one point four point one and eight point oh point five point two, with Rails eight point oh support ending on Saturday. Two Xen hypervisor flaws that let one guest virtual machine read and write the memory of others, found, I should declare, by Anthropic using Claude. Chrome one fifty seven, with two hundred and thirteen security fixes, seven critical. Android's November bulletin, with a critical zero click flaw for Android fourteen through seventeen. And Fortinet will publish details on the tenth of November for flaws already fixed in its October releases. Patch first, and read the details afterwards.
+
+The follow ups. Ubuntu's fixes for the Linux T C P flaw are still sitting in the opt in proposed channel. The WordPress deadline is tomorrow; estimates of blocked attempts range from about thirteen thousand to sixty three thousand a day, which tells you more about the counters than the attackers. On Barracuda, sources disagree on both the fixed build and on whether the chain needs admin access. And VMware's S D D C Manager is still waiting for a patch against the flaw on C I S A's list, with a federal deadline of Tuesday.
+
+## A I attacks and trends
+
+Acronis has published a report it calls BOSSAI. With high confidence, it attributes a campaign to a single operator in Hualien City, Taiwan, working under the handle boss j y, who ran twelve A I agents at once. Acronis knows this because the operator left a development server misconfigured and exposed more than ninety thousand files of orchestration logs, agent conversations and victim data. The agents that built things included Grok, a model called OpenClaw, and Claude Code and Codex routed to a local model with its safeguards stripped out. The agents that attacked included a framework called Hermes, Cursor, Trae and CyberStrike. Acronis says the commercial models refused the offensive tasks. The uncensored local models did as they were told, and made things up. Confirmed compromise came at about ten targets in three countries, including patient care and emergency dispatch data from Taipei's fire department, and Thai universities. And the agents succeeded mostly where the basics were missing: open ports, unpatched databases, default passwords. Twelve agents, and the door was still the one left on the latch.
+
+India's national computer emergency team, C E R T In, has issued an advisory on an A I assisted actor it calls Crafty Falcon, targeting Indian banks, insurers and crypto firms with A R T E X, PentAGI, Cairn and CyberStrikeAI. Its signature is a one rupee test transfer before the real thing. And in a pleasing turn, a researcher found that a popular Docker image of the A R T E X framework, pulled about nine thousand times, carries a hidden root backdoor. Sixty two internet facing consoles were running it between the second and fourth of November. The people using A I to break in are being broken into by the people who packaged it for them.
+
+OpenAI has published research describing an unreleased cyber model that, in about thirty hours, produced nine hundred and forty eight working Linux kernel privilege escalation exploits, at about twelve hundred and seventy nine dollars each. Its conclusion is worth quoting: a low privileged account on an unpatched operating system should be considered functionally equivalent to root access for a well resourced threat actor. I read that through The Hacker News; I could not open OpenAI's page directly.
+
+And Check Point has documented what it calls prompt adware, an older item from Tuesday: a jailbreak bundle for the Codex coding tool that writes advertisements for a paid model gateway into Codex's own instruction files. Advertising has finally found a way to talk directly to the machine.
+
+## Cyber geopolitics
+
+The supermarket refrigeration attacks have a claim of responsibility, and a great many doubts. Italy's broadcaster Rai reported that the pro Russian groups NoName zero five seven sixteen and Z Pentest jointly claimed the attacks on Telegram, saying they had dealt a devastating blow to Danfoss and Dixell equipment, and blaming what they called systemic negligence. NoName released about two thousand five hundred lines it says come from a Danfoss database. The analyst Oleg Shakirov traced the claim's origins: a Telegram channel suggested Z Pentest on Tuesday morning, NoName then claimed a denial of service attack on Danfoss and posted unverified files, and in the evening came an A I generated video, with no evidence. He calls it implausible but cannot rule it out, noting these groups usually claim at once, not weeks later. Ireland's broadcaster R T E says the claim has not been verified, and reports that some of the thirteen affected SuperValu stores in Ireland used Danfoss controls. Ireland's cyber centre mentions a possible known vulnerability. When a hacktivist group claims your outage after you have been on the evening news, the claim is information about the group, not necessarily about the outage.
+
+Russia. Beyond A P T twenty nine, there is the Kyiv Independent hijacking I mentioned earlier.
+
+China. ESET has named a China aligned group it calls SlippyNunchucks, which hijacks the network lookups of Sogou, the popular Chinese input method, to deliver a backdoor to targets in Hong Kong, Thailand, Japan, Vietnam, Oman and Sri Lanka. Tencent fixed the flaw in Sogou version sixteen point ten on the twenty ninth of October. And, as mentioned, Red Heron and the Zyxel switches.
+
+North Korea and Binance. Kim Yo Jong again rejected the F B I's attribution, as North Korea fired missiles toward the sea. Meanwhile, laundering has resumed through THORChain, with about forty eight million dollars swapped so far, according to one analyst. Elliptic says about three point two one billion dollars is still sitting in linked addresses, and about two point eight five billion is frozen. The privacy protocol Privacy Cash suspended new deposits after about one point two million dollars of the stolen funds arrived. And the sources still disagree on the total: six point three, six point three six or six point four three billion, depending on whom you read. At that scale, a hundred million dollars is a rounding error. Remember that.
+
+And Washington after the midterms. CyberScoop reports that the Democrats won both chambers of Congress, and expects Maggie Hassan to chair the Senate Homeland Security committee, Mark Warner to lead Senate Intelligence, Bennie Thompson to return as chair of House Homeland Security, and Jim Himes to chair House Intelligence. Expect a push to restaff C I S A, which has lost about a third of its people. The information sharing law and C I S A's funding both expire on the eleventh of December. I found no new statement from C I S A or the F B I about election day itself.
+
+## Consulting and professional services
+
+The leak sites carry the story: two law firms and an accounting firm from Soul, a Spanish I T consultancy, Akira's C P A firm, Brain Cipher's tax practices, two more Silent Ransom Group entries, and a California law firm from Aoqin.
+
+The supplier lesson is Crédit Mutuel Arkéa: a provider's platform used to move the bank's own money. The investor lesson is Nomura Investor Relations: a ready made address book of fund managers and analysts. And WhiteArmor's open advertisement for insiders is a reminder that some of these groups would rather hire than hack.
+
+Nothing new on Accenture, the Big Four, B C G or Bain.
+
+## Social chatter relevant to McKinsey
+
+Quiet. I found no new mention of McKinsey in a security, A I risk or scam context. The last Hacker News hit was on Monday, a comment about A I productivity. Reddit and the certificate transparency search were unreachable, so the lookalike domain check was not refreshed today.
+
+## Brand and executive targeting
+
+The executive story is the phone. A P T twenty nine's chain takes mail, iMessage, WhatsApp, Telegram, the keychain and iCloud Drive from old iPhones, and one of its lookalike sites copied Raffles London at The OWO, a hotel where, Sekoia notes, open reporting placed President Zelensky on the fourteenth of October. If the firm's executives travel and stay where heads of state stay, their phones are in the same hotel lobby as everyone else's targets. No new fake recruiter, deepfake or help desk voice phishing campaigns found.
+
+## SaaS and supply chain
+
+c P Guard, corrected at the top. GitBook and Kernel, covered above.
+
+On npm, Sonatype found twelve malicious releases across ten packages from a long standing maintainer group, C D M Base, whose scope dates from 2017. The loader, which Sonatype calls PolinRider, reads an Ethereum transaction to find out where its command server is, then fetches and runs remote JavaScript. Using the blockchain as a noticeboard is an elegant way to make sure nobody can take the notice down.
+
+A popular package called screenshot desktop had its version one point sixteen flagged as malware. JFrog's researcher says that is a false positive, the version has been pulled, and the maintainer cannot verify what was actually published. Disputed, but worth checking lockfiles.
+
+The Nikke game launcher has published host indicators and cleans itself up automatically from yesterday evening, U T C; developers who had it installed should still reissue cloud keys, GitHub tokens and S S H keys.
+
+And the analytics script used by A P T twenty nine, and the Amadeus account behind the Korean airline bookings, both sit in this category too.
+
+## Regulation and law enforcement
+
+A Canadian, Ryan James Roach, has been extradited and appeared in federal court in Rochester, New York, charged, with a second Canadian, Mathiew James Stubbings, over cryptomining intrusions at schools in four states between 2016 and 2019.
+
+An older item: John Allen Kurrle Junior, an employee of a defence contractor holding a top secret clearance, pleaded guilty on the twenty eighth of October to helping a North Korean remote I T worker scheme. Sentencing is in January.
+
+On the information sharing law, the House version of the defence bill extends it to 2035 and adds A I; the Senate version does not extend it at all. Lawmakers return on Monday. And still no sentencing news for Connor Moucka.
+
+## Deep dive: A P T twenty nine, Poisoned Source
+
+Today's deep dive is Sekoia's report, published yesterday, on what it calls Poisoned Source.
+
+Why it matters to us. This is Russian foreign intelligence espionage aimed at the phones of the people who visit certain websites: trade associations, political parties, defence sites and a luxury hotel. One of the compromised sites belongs to a major American chemical industry trade association, which is exactly the kind of site consultants, clients and executives visit. The worst of the exploit chains empties an iPhone: mail, messages, WhatsApp, Telegram, the keychain, Wi Fi passwords, photos, health data and iCloud Drive. And every flaw involved was already patched. The exposure is the phone that has not been updated.
+
+Attribution. Sekoia, in a report by Amaury Garçon, Félix Aime and Robin Kwiatkowski, says moderate to high confidence that this is A P T twenty nine, based on technical overlaps, operating patterns, choice of victims and infrastructure. The Android chain resembles a 2024 campaign Google's threat analysis group linked to the same service, on Mongolian government sites. Sekoia is candid that it cannot tell whether the operators picked out particular visitors or simply collected what came. One small conflict: an early press account gave no confidence level at all.
+
+How it works. Three ways in. First, real websites compromised directly: a Ukrainian gas producer, the American chemical trade association, a far right European party, a Bulgarian military related site and an Australian medical clinic. Second, lookalike sites that sit in front of the real ones and pass traffic through: one copying the America two fifty commemoration site, and one copying Raffles London at The OWO, which Sekoia notes was where open reporting placed President Zelensky on the fourteenth of October. That one is now offline. Third, the supply chain: between the twenty seventh of August and the third of September, the tracking script of the analytics company Plerdy, used by thousands of mostly Ukrainian websites, including defence sites, was compromised.
+
+All three paths load the same thing: a profiling script that collects three hundred and ninety four details about the visitor's device from sixty one separate checks. Then it decides what to serve. An iPhone on i O S sixteen point seven gets a chain that steals cookies. An iPhone on i O S eighteen point five gets the full chain known as DarkSword, five flaws strung together, which takes nearly everything. An Android phone running Chrome versions one thirty nine to one forty five, except one forty three, gets a chain ending in a payload Sekoia calls AndroSnitch, which takes Chrome's cookies, saved logins and history, and the Wi Fi configuration. No persistence; it takes what it came for and leaves.
+
+The infrastructure. Domains were registered from April this year, the lookalikes in May and June, and the load balancer in late August. Stolen data went to a server on an unusual port. The domains, addresses and file hashes are all in the brief. One caution: two of Sekoia's published hashes for the iPhone stages differ between the body of the report and its table, so check before you load them into anything.
+
+What to do. One, search proxy, D N S and mobile threat logs for the published domains and addresses, especially traffic on that unusual port. Two, check the firm's own websites and client facing sites for third party analytics scripts, and for any loading of the Plerdy script between late August and early September. Three, look for staff visits to the two lookalike sites, around London hotel stays or America two fifty events. Four, use mobile device management to find iPhones at or below sixteen point seven, iPhones on eighteen point x below the DarkSword fixes, and Android Chrome in that version range, and force the updates. For executives who travel, Apple's Lockdown Mode is worth the inconvenience. Five, after a suspected hit, treat the phone's cookies, keychain, Wi Fi and messaging credentials as gone, and revoke every corporate session that phone has touched.
+
+The broader point. Nothing here is new technology. The exploits are old, the analytics script is ordinary, and the hotel is famous. The craft is patience and choosing where to wait. Russia's foreign intelligence service has always understood that the easiest way to meet a busy person is to be standing somewhere they already trust.
+
+## Watchlist
+
+PixelLeaks, with its new deadline on Monday morning. The Gentlemen and F P T Software, due about now. Aoqin's deadline for Goldsmith and Hull on the eleventh. Silent Ransom Group's five unnamed entries.
+
+Deadlines: WordPress tomorrow, VMware on Tuesday, Fortinet's disclosures on Tuesday, and the Apple flaw on the eighteenth.
+
+The name of Crédit Mutuel Arkéa's service provider. The scope of the M S and A D insurers' incident. Evidence, if any, behind the refrigeration claim. Mercado Bitcoin's reopening on Monday.
+
+And tomorrow, the weekly roll up, from last Friday through today.
+
+That's Morning Signal for Thursday, the fifth of November. The written brief has every link, and the organisations table is ready for the vendor database. Update your phone before you leave the house. It is the cheapest counter intelligence you will ever buy.
+
+Until tomorrow.
