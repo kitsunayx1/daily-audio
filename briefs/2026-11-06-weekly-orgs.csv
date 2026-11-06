@@ -1,0 +1,360 @@
+Brief date,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-10-30; 2026-11-02; 2026-11-03; 2026-11-04,Binance,Crypto exchange,Global,Post-mortem: fake interview and malware led to wallet-signer abuse,TraderTraitor (per FBI); North Korea denies,3 Nov,Disclosed,https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history ; https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist ; https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257 ; https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea
+2026-10-30,McCarthy Tétrault LLP,Law,Canada,Social engineering; client files accessed (31k files per unnamed source),Unknown,22 Oct; public 29 Oct,Confirmed,https://www.mccarthy.ca/en/news-and-announcements/statement-from-mccarthy-tetrault-10-29-2026
+2026-10-30,Davies Ward Phillips & Vineberg LLP,Law,Canada,One account compromised,Unknown,23 Oct; public 29 Oct,Confirmed,https://www.newsbeep.com/789793/
+2026-10-30,Susman Godfrey LLP,Law,US,Leak-site listing,Silent Ransom Group,29 Oct,Claimed,https://www.ransomware.live/id/U3VzbWFuIEdvZGZyZXkgTExQQFNpbGVudFJhbnNvbUdyb3Vw
+2026-10-30,"""L…"" (redacted)",Unknown (likely law),US,Leak-site listing,Silent Ransom Group,28 Oct,Claimed,https://www.ransomware.live/id/U3VzbWFuIEdvZGZyZXkgTExQQFNpbGVudFJhbnNvbUdyb3Vw
+2026-10-30,Troutman Pepper Locke LLP,Law,US,AG notices for 7 Aug social-engineering incident (~37k per lawsuit),Silent Ransom Group (claim),Filed 28 Oct,Confirmed,https://oag.ca.gov/privacy/databreach/list
+2026-10-30,Helmick Law PLLC,Law,US,Massachusetts breach notice,Unknown,Oct,Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-30,Acumetis SixSense Strategy Group (HC Parent Holdings),Consulting,US,Massachusetts breach notice,Unknown,Oct,Notified,https://www.mass.gov/lists/data-breach-notification-letters-october-2026
+2026-10-30,"INTAX, Inc.",Tax compliance,US,1.27 TB claimed incl. client tax returns,Rhysida,29 Oct,Claimed,https://www.ransomware.live/id/SU5UQVgsIEluYy5AUmh5c2lkYQ
+2026-10-30,MAA Group Consulting Engineers,Engineering consulting,Hong Kong,Leak-site listing,Emperador,29 Oct,Claimed,https://www.hookphish.com/blog/ransomware-group-emperador-hits-maa-group-consulting-engineers/
+2026-10-30,USClaims,Litigation funding,US,Leak-site listing,Direwolf,29 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-30,ClaimTek Systems,Claims technology,Not stated,Leak-site listing,Rhysida,29 Oct,Claimed,https://www.hookphish.com/blog/ransomware-group-rhysida-hits-claimtek-systems/
+2026-10-30,Morgan White Group,Insurance / benefits,Not stated,Leak-site listing,Shiba,29 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-30; 2026-11-02,PwC,Professional services,UK,No new development on Everest claim,Everest,22 Oct listing,Claimed (vendor incident confirmed),https://x.com/DailyDarkWeb/status/2115805023225729344 ; https://www.ransomware.live/group/everest
+2026-10-30; 2026-11-02,Accenture / US DoD (NIPRNet system),Consulting / defence,US,"Alleged AI-agent access; Accenture says ""without merit""",Insider (alleged),30 Oct statement,Disputed,https://www.cyberkendra.com/2026/10/accenture-claude-agent-dod-network-credentials.html ; https://www.techradar.com/pro/its-100-percent-a-national-security-threat-accenture-contractor-connected-an-ai-agent-to-the-pentagons-secure-network-and-then-sent-data-to-a-high-risk-website
+2026-10-30,Canadian legal and financial firms (unnamed),Law / finance,Canada,"Help-desk vishing, MFA relay, M365 data theft and extortion",Financially motivated actor (unnamed),Jul–Oct,Ongoing (Cyber Centre AL26-028),https://www.cyber.gc.ca/en/alerts-advisories/al26-028-ongoing-help-desk-voice-phishing-campaign-targeting-canadian-organizations
+2026-10-30,US Defense Commissary Agency (6–7 commissaries),Government / military retail,US,Freezers switched to defrost; suspected cyberattack,Unknown,Aug; reported 29 Oct,Under investigation,https://thenextweb.com/news/pentagon-military-base-freezer-failures-suspected-cyberattack
+2026-10-30,Intermarché / Super U,Retail,France,Refrigeration settings changed (possible link),Unknown,Mid-Oct,Confirmed attack,https://thenextweb.com/news/pentagon-military-base-freezer-failures-suspected-cyberattack
+2026-10-30; 2026-11-05,Danfoss,Industrial controls,Denmark,Named in hacktivist claim; database sample released,NoName057(16) (claimed),3–4 Nov,Claimed,https://thenextweb.com/news/pentagon-military-base-freezer-failures-suspected-cyberattack ; https://www.retaildetail.eu/news/food/pro-russian-hackers-claim-responsibility-for-attack-on-supermarket-refrigeration-systems-systemic-negligence/
+2026-10-30,US Department of Homeland Security,Government,US,"""Icepick"" leak of 41k+ staff; DHS ""aware of a potential breach""","""Department of Peace""",29 Oct,Leak confirmed,https://securityaffairs.com/202103/data-breach/hacker-leaks-data-on-more-than-40000-homeland-security-employees.html
+2026-10-30,"Bangkok Bank PCL, New York Branch",Banking,US,"Downstream of audit firm Mercadien, P.C.",Unknown,Filed 29 Oct,Confirmed,https://www.mass.gov/doc/2026-1526-bangkok-bank-pcl-new-york/download
+2026-10-30,"Mercadien, P.C.",Accounting / audit,US,Vendor breach behind downstream notices,Unknown,2026,Confirmed,https://www.mass.gov/doc/2026-1526-bangkok-bank-pcl-new-york/download
+2026-10-30,Photon Health,Health tech,US,AG notice; vendor behind Blueberry Pediatrics (341k),Unknown,Filed 28 Oct,Confirmed,https://www.hipaajournal.com/blueberry-pediatrics-photon-data-breach/
+2026-10-30,Del Monte Foods Corporation II,Food,US,AG notice (breach 7 Feb),Unknown,Filed 29 Oct,Confirmed,https://oag.ca.gov/privacy/databreach/list
+2026-10-30,Research Foundation for Mental Health,Non-profit,US,Vermont AG notice,Unknown,28–29 Oct,Confirmed,https://ago.vermont.gov/categories/security-breach-notices
+2026-10-30,American Phytopathological Society,Non-profit,US,Vermont AG notice,Unknown,28–29 Oct,Confirmed,https://ago.vermont.gov/categories/security-breach-notices
+2026-10-30,CodeSecure Inc.,Software,US,Vermont AG notice,Unknown,28–29 Oct,Confirmed,https://ago.vermont.gov/categories/security-breach-notices
+2026-10-30,iRhythm,Medical devices,US,HHS filing puts total at 8.2M,Unknown,29 Oct,Confirmed (headline),https://www.securityweek.com/hhs-filing-puts-irhythm-data-breach-toll-at-8-2-million/
+2026-10-30,BAE Systems,Defence / IT services,US / UK,Says no data extracted in bankruptcy-noticing incident,Unknown,29 Oct,Statement (headline),https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/
+2026-10-30; 2026-11-05,Ryohin Keikaku (MUJI),Retail,Japan,About 1.09M MUJI Card records with full card numbers,Unknown,4 Nov,Confirmed,https://cybersecurity-jp.com/news/117949 ; https://cybersecurity-jp.com/news/118130
+2026-10-30,Matsuya Foods Holdings,Food service,Japan,~2.38M records; services offline,Unknown,28–30 Oct,Confirmed,https://cybersecurity-jp.com/news/117950
+2026-10-30,World Co. / Tinpan Alley (RAGTAG),Retail,Japan,Up to ~1.2M records,Unknown,17–30 Oct,Confirmed,https://cybersecurity-jp.com/news/117952
+2026-10-30,Yakult Honsha,Consumer goods,Japan,"Website breach, ~40k records",Unknown,26–30 Oct,Confirmed,https://cybersecurity-jp.com/news/117951
+2026-10-30,Iris Ohyama (Iris Plaza),Retail,Japan,Shop intrusion; site suspended,Unknown,29 Oct,Confirmed,https://www.itmedia.co.jp/news/article/2610/30/2000002737/
+2026-10-30; 2026-11-02; 2026-11-03,Arara (Arara Message),Mail-delivery SaaS,Japan,About 380 client environments; about 77M emails at risk,Unknown,2nd report 2 Nov,Confirmed (per secondary),https://cybersecurity-jp.com/news/117904 ; https://innovatopia.jp/cyber-security/cyber-security-news/119603/ ; https://cybersecurity-jp.com/news/118103
+2026-10-30,Paydon,Payments,Japan,Downstream of Arara,Unknown,28 Oct,Possible exposure,https://novaist.jp/articles/arara-email-data-breach/
+2026-10-30,Life Card,Card issuer,Japan,"339,610 contracts via Cuenote FC",Unknown,28 Oct,Possible exposure,https://novaist.jp/articles/life-card-data-breach/
+2026-10-30,Aisin,Automotive,Japan,"3,396 records via Studio Inc.",Unknown,30 Oct,Possible exposure,https://cybersecurity-jp.com/news/117903
+2026-10-30,Bithumb (via Daou Office),Crypto exchange,South Korea,844 customers and 715 staff exposed via groupware,Unknown,27–29 Oct,Confirmed,https://www.fntimes.com/html/view.php?ud=2026102918415071730f4390e77d_18
+2026-10-30; 2026-11-04,Daou Technology (Daou Office),Groupware,South Korea,Zero-day (3.6.8.5 and earlier) behind Bithumb and Hanyang breaches,Unknown,27 Oct–2 Nov,Patched,https://www.fntimes.com/html/view.php?ud=2026102918415071730f4390e77d_18 ; https://www.boannews.com/news/articleView.html?idxno=147008
+2026-10-30,Jin Air,Airline,South Korea,"API abuse, 1,454 members",Unknown,28–29 Oct,Confirmed,https://www.businesskorea.co.kr/news/articleView.html?idxno=280083
+2026-10-30,GS E&C,Construction / property,South Korea,Apartment facility-booking system breach,Unknown,28–30 Oct,Confirmed,https://www.asiatoday.co.kr/kn/view.php?key=20261030010011066
+2026-10-30,Money Today,Media,South Korea,"1,367 records",Unknown,30 Oct,Confirmed,https://www.kmib.co.kr/article/20261030500545
+2026-10-30,FOD Financiën,Government (tax),Belgium,Cyberattack; portals offline; deadline moved,Unknown,28–29 Oct,Confirmed,https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409
+2026-10-30,Moldova Electronic Governance Agency,Government,Moldova,Data on ~750k ID numbers extracted [OLDER],Unknown; foreign state suspected,19–23 Oct,Confirmed,https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks
+2026-10-30,Zuken GmbH,Software (EDA),Germany / Japan,Cyberattack [OLDER],Unknown,23 Oct,Confirmed,https://pulsenewswire.com/articles/zuken-reports-cyber-attack-on-german-subsidiary.html
+2026-10-30,123 Reg (GoDaddy),Domain registrar,UK,Circumstantial link to Korean finance attackers; ARTEX,Unnamed (ARTEX user),30 Oct,Breach confirmed; link unverified,https://en.sedaily.com/finance/2026/10/30/hackers-behind-korean-bank-attacks-may-have-hit-uk-firm
+2026-10-30,OpenText,Software,Canada,Mimori publication time passed; no evidence of release,Mimori,29 Oct,Claimed,https://www.ransomware.live/id/T3BlblRleHRATWltb3Jp
+2026-10-30,Proterial,Manufacturing,Japan,Leak-site listing,Qilin,29 Oct,Claimed,https://www.ransomware.live/id/UHJvdGVyaWFsQFFpbGlu
+2026-10-30,TDS Telecommunications,Telecoms,US,27.4 GB claimed (possible duplicate),Global Secret Group,29 Oct,Claimed,https://www.ransomware.live/id/VERTIFRlbGVjb21tdW5pY2F0aW9ucyBMTEMuQEdsb2JhbCBTZWNyZXQgR3JvdXA
+2026-10-30,Minutes Quick Services,Facility services,UAE,Payroll and biometric data exposed,N0n,30 Oct,Claimed,https://www.ransomware.live/id/TWludXRlcyBRdWljayBTZXJ2aWNlc0BOMG4
+2026-10-30,W Interactive,Technology,UK,Leak-site listing,Qilin,29 Oct,Claimed,https://www.ransomware.live/id/VyBJbnRlcmFjdGl2ZUBRaWxpbg
+2026-10-30,"City of Columbia, SC",Government,US,Leak-site listing,Qilin,29 Oct,Claimed,https://www.ransomware.live/id/Q2l0eSBvZiBDb2x1bWJpYSwgU0NAUWlsaW4
+2026-10-30,Udima,Education,Spain,Leak-site listing,Qilin,29 Oct,Claimed,https://www.ransomware.live/
+2026-10-30,AU Small Finance Bank,Banking,India,Leak-site listing,ScarlettGroup,29 Oct,Claimed (snippet),https://x.com/DailyDarkWeb/status/2115840156783755590
+2026-10-30,Sunnybrook (sunnybrook.ca),Healthcare,Canada,Leak-site listing,ScarlettGroup,29 Oct,Claimed,https://www.ransomware.live/
+2026-10-30,INTI International University & Colleges,Education,Malaysia,Leak-site listing,Rhysida,30 Oct,Claimed,https://hackerfeeds.com/ransomware/reports/2026-10
+2026-10-30,rolly.io,Crypto gambling,Not stated,Player and wallet data claimed,Whitearmor,29 Oct,Claimed,https://www.ransomware.live/id/cm9sbHkuaW9AV2hpdGVhcm1vcg
+2026-10-30,National Association of Credit Management,Trade association (credit),US,Leak-site listing,Booba Team,29 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-30,California School Boards Association,Association,US,Leak-site listing,Booba Team,29 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-30,Terrebonne Parish Government,Government,US,Leak-site listing,Booba Team,29 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-30,LifeFone,Healthcare / alarms,US,Leak-site listing,Booba Team,29 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-30,Southwest Orthopedic & Reconstructive Specialists,Healthcare,US,Leak-site listing,Interlock,29 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-30,The Anglican International School,Education,Israel,Leak-site listing,Global Secret Group,29 Oct,Claimed,https://www.ransomlook.io/recent
+2026-10-30,Unnamed Philippine government agency,Government,Philippines,68 GB of SQL backups stolen,Unknown,Sep; reported 29 Oct,Researcher-reported,https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html
+2026-10-30,MedixBD (Opsonin Pharma),Telemedicine,Bangladesh,1M+ records claimed for sale [OLDER],Unknown,29 Oct,Claimed (snippet),https://x.com/DailyDarkWeb/status/2115601177995804942
+2026-10-30,"1,703 FortiGate configurations / 975 domains",Multiple,Global,"FortiBleed 2.0: 40,573 secrets exposed",n/a (exposure),Configs ~Feb 2026,Researcher-reported,https://www.infostealers.com/article/fortibleed-2-0-975-new-domains-40573-exposed-secrets-claim-your-ethical-disclosure/
+2026-10-30,"61 GitHub repositories (trivy, mlflow, cilium, github/docs, etc.)",Open source,Global,Command injection via issues and comments into CI,Unknown,1 Sep; reported 29 Oct,Researcher-confirmed,https://www.theregister.com/security/2026/10/29/attackers-turn-github-issues-into-supply-chain-campaign-against-61-public-repos-in-less-than-an-hour/5306153
+2026-10-30,Palo Alto PAN-OS customers (~0.02% of base),Multiple,Global,PHP2Shell exploitation of exposed management interfaces,Unknown,Oct,Confirmed by vendor,https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/
+2026-10-30,"Fanatics, Dediserve, Inter, ChiBiTek, FinSoft","E-commerce, hosting, ISP, MSP, software","US, IE/UK, VE, others",n0n extortion via stolen credentials [OLDER],n0n,Sep–Oct,Per SOCRadar,https://socradar.io/blog/n0n-ransomware-ai-assisted-extortion/
+2026-10-30,Nvidia / Megaspeed,Technology,US / Singapore,Suspected espionage targeting of Nvidia CEO,China (suspected),Reported 29 Oct,Unconfirmed,https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/
+2026-10-30,Virtualine (bulletproof host),Hosting,n/a,Domain seized [OLDER],FBI and partners,27 Oct,Partly offline,https://cybersecuritynews.com/fbi-seizes-virtualine-bulletproof-hosting/
+2026-11-02; 2026-11-03,Cursor (Anysphere),Developer SaaS,US,Marketplace abused; access path undisclosed,Unknown,29 Oct,Confirmed,https://cursor.com/blog/claude-code-extension-security-notice ; https://www.csoonline.com/article/4243210/cursor-removes-malicious-claude-code-extension-after-ssh-backdoor-attempt.html
+2026-11-02,Anthropic (extension ID abused),AI,US,Extension ID impersonated on a third-party marketplace; own systems not compromised,Unknown,29 Oct,Confirmed (impersonation),https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html
+2026-11-02,Ivanti Connect Secure customers (unnamed),Various,Global,Unauthenticated root via three-CVE chain; credential and AD theft,UTA0576,Since 1–3 Oct; KEV 30 Oct,Confirmed exploitation,https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/
+2026-11-02,Bennett Jones LLP,Law,Canada,Vishing; 2 accounts; client revenue reports,Unknown,19 Oct; public 30–31 Oct,Confirmed,https://tech-insider.org/ca/bay-street-law-firms-data-breach-bennett-jones-blg-2026/
+2026-11-02,Borden Ladner Gervais LLP,Law,Canada,Part of Microsoft cloud environment accessed,Unknown,Public 30–31 Oct,Confirmed,https://tech-insider.org/ca/bay-street-law-firms-data-breach-bennett-jones-blg-2026/
+2026-11-02,Stikeman Elliott,Law,Canada,Targeted by vishing campaign,Unknown,Oct,"Targeted, not confirmed",https://tech-insider.org/ca/bay-street-law-firms-data-breach-bennett-jones-blg-2026/
+2026-11-02,Gowling WLG,Law,Canada,Targeted by vishing campaign,Unknown,Oct,"Targeted, not confirmed",https://xira.com/p/2026/10/30/4-canadian-firms-fall-prey-to-industry-wide-cyberattack/
+2026-11-02,Unnamed Microsoft customers,Various,Unknown,Teams help-desk impersonation; AD CS ESC1/ESC8; DCSync,Unattributed,Disclosed 30 Oct,Confirmed (Microsoft),https://gbhackers.com/hackers-impersonate-it-help-desk-microsoft-teams/
+2026-11-02,Chainalysis,Blockchain analytics,US,"Agentic intrusion; user names, emails, roles",Unknown,Disclosed 30 Oct,Confirmed,https://www.chainalysis.com/blog/security-incident-october-30/
+2026-11-02; 2026-11-03; 2026-11-04,Douzone Bizon,ERP SaaS,South Korea,PIPC probe into retention of ex-client data,Unknown,3 Nov,Investigation,https://www.thelec.kr/news/articleView.html?idxno=64641 ; https://www.thelec.kr/news/articleView.html?idxno=64786 ; https://www.thelec.net/news/articleView.html?idxno=15234
+2026-11-02,Yeongseo Medical Foundation; Changbi; Chamjon Automotive; WithU; Jaewon Foods,Various,South Korea,Possible exposure via Douzone,Unknown,31 Oct–1 Nov,Notified,https://www.dailysecu.com/news/articleView.html?idxno=209237
+2026-11-02,Petdoc; KLPGA; Chuncheon Culture Foundation; K Auction,Various,South Korea,Possible exposure via Douzone,Unknown,31 Oct–1 Nov,Notified,https://www.thelec.kr/news/articleView.html?idxno=64641
+2026-11-02,Estasiyunitas; T&S Engineering; Jungbu Power Service,Various,South Korea,Possible exposure via Douzone,Unknown,31 Oct–2 Nov,Reported,https://www.dailysecu.com/news/articleView.html?idxno=209237
+2026-11-02; 2026-11-03,NTT Data (STdirectServices),IT services,Japan,"SaaS auth flaw gave admin; 2,789 bondholders",Unknown,2nd report 2 Nov,Confirmed,https://www.alphabiz.co.kr/news/articleView.html?idxno=195673 ; https://www.nttdata.com/global/ja/news/release/2026/110200/
+2026-11-02,Kintetsu Group Holdings,Transport / issuer,Japan,"2,678 bond investors via NTT Data/Securitize",Unknown,31 Oct,Confirmed,https://www.starts-sc.com/info/20261031.html
+2026-11-02,Rakuten Securities,Brokerage,Japan,Up to 362 records via NTT Data/Securitize,Unknown,31 Oct,Confirmed,https://www.alphabiz.co.kr/news/articleView.html?idxno=195673
+2026-11-02,Nomura Securities; MUFG Morgan Stanley Securities; Starts Securities,Brokerage,Japan,Investor data via NTT Data/Securitize,Unknown,31 Oct,Confirmed (some investors),https://www.starts-sc.com/info/20261031.html
+2026-11-02,JR West; Kagome,Transport; food (issuers),Japan,Bond investors via Rakuten/Securitize,Unknown,31 Oct,Possible exposure,https://www.alphabiz.co.kr/news/articleView.html?idxno=195673
+2026-11-02,HYBE,Entertainment,South Korea,Vendor preview tool; employee and partner data,Unknown,Notice 2 Nov,Confirmed,https://en.koreadaily.com/hybe-hack-employee-personal-data-leaked/
+2026-11-02; 2026-11-05,Amadeus,Travel tech,Global,"Account login compromised (Korean Air, Asiana, Jin Air also cited)",Unknown,Reported 5 Nov,Confirmed,https://www.paddleyourownkanoo.com/2026/10/30/major-software-provider-that-manages-bookings-for-hundreds-of-international-airlines-had-a-data-breach-for-three-years/ ; https://www.boannews.com/news/articleView.html?idxno=147014
+2026-11-02,Cathay Pacific,Airline,Hong Kong,"About 53,000 bookings via Amadeus",Unknown,30 Oct,Confirmed,https://www.paddleyourownkanoo.com/2026/10/30/major-software-provider-that-manages-bookings-for-hundreds-of-international-airlines-had-a-data-breach-for-three-years/
+2026-11-02,Malaysia Airlines,Airline,Malaysia,Customer data via Amadeus,Unknown,31 Oct,Confirmed,https://www.thestar.com.my/news/nation/2026/11/01/039our-system-not-compromised-despite-vendor039s-cybersecurity-breach039-says-malaysian-airlines
+2026-11-02,Qantas,Airline,Australia,Notified by Amadeus; reported to ACSC,Unknown,1–2 Nov,Confirmed (scope pending),https://www.insurancebusinessmag.com/au/news/cyber/vendor-cyber-risk-in-focus-as-amadeus-breach-hits-airlines-globally-595772.aspx
+2026-11-02,ANA; Condor,Airlines,Japan; Germany,"Via Amadeus (ANA about 37,800)",Unknown,Late Oct,Confirmed,https://www.paddleyourownkanoo.com/2026/10/30/major-software-provider-that-manages-bookings-for-hundreds-of-international-airlines-had-a-data-breach-for-three-years/
+2026-11-02,Binance users (brand abuse),Crypto,Global,"Fake ""compensation"" phishing",Unknown,1–2 Nov,Active,https://www.digitaltoday.co.kr/en/view/122347/binance-warns-of-fake-compensation-campaigns-as-withdrawals-resume
+2026-11-02; 2026-11-03,Revolve Group,E-commerce,US,"Count in SecurityWeek headline raised to 200,000",Unknown,3 Nov,Confirmed (counts differ),https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards ; https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/
+2026-11-02,Marathon Health,Healthcare services,US,IT-impersonation credential theft; about 272k,Unknown,Notices 30 Oct,Confirmed,https://www.claimdepot.com/data-breach/marathon-health-2026
+2026-11-02,Florida Department of Education,Government / education,US,Student aid portal; about 4.9M SSNs,Unknown,Announced 29–30 Oct,Confirmed,https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach
+2026-11-02,"BRANDco., LLC; The Krum Public Library",Retail; library,US,Vermont AG notices,Unknown,29–30 Oct,Confirmed (no detail),https://ago.vermont.gov/categories/security-breach-notices
+2026-11-02,Club Tourism (KNT-CT),Travel,Japan,About 4.32M member records,Unknown,31 Oct,Confirmed,https://www.club-tourism.co.jp/jpn/news/2026/1031/
+2026-11-02,Ministry of Foreign Affairs,Government,Japan,"About 3,600 records, external network",Unknown,30 Oct,Confirmed,https://internet.watch.impress.co.jp/docs/news/2152757.html
+2026-11-02,KDDI / Lifenet Life Insurance,Telecom / insurance,Japan,"Up to 22,541 records via linked system",Unknown,30 Oct,Confirmed,https://innovatopia.jp/cyber-security/cyber-security-news/119603/
+2026-11-02,Saga University,Education,Japan,Suspected ransomware on NAS; about 80k,Unknown,30 Oct,Confirmed,https://innovatopia.jp/cyber-security/cyber-security-news/119603/
+2026-11-02,Nihon Kotsu; Tokyu Land,Transport; real estate,Japan,"Breach updates (about 290k; 4,107)",Unknown,30 Oct,Confirmed,https://innovatopia.jp/cyber-security/cyber-security-news/119603/
+2026-11-02,Delhaize (Ahold Delhaize),Grocery,Belgium,"Refrigeration tampering, about 40 stores",Unknown,1–2 Nov,Incident confirmed; cyber suspected,https://www.brusselstimes.com/brussels-2/2387865/suspected-cyberattack-hits-fridges-and-freezers-at-dozens-of-belgian-supermarkets
+2026-11-02,Carrefour Belgium; De Laet & Van Haver,Grocery; butcher,Belgium,Cooling issues; remote setting changes,Unknown,2 Nov,Reported,https://www.brusselstimes.com/brussels-2/2387865/suspected-cyberattack-hits-fridges-and-freezers-at-dozens-of-belgian-supermarkets
+2026-11-02,ICA,Grocery,Sweden,Fridge and freezer manipulation reported,Unknown,1–2 Nov,Reported,https://ioplus.nl/en/posts/after-the-netherlands-belgian-and-swedish-supermarkets-hacked
+2026-11-02,Charité,Healthcare,Germany,Web contact-form data stolen,Unknown,30 Oct,Confirmed,https://www.berliner-zeitung.de/article/charite-in-berlin-daten-bei-cyberangriff-gestohlen-10547969
+2026-11-02,Autosur / SECTA,Vehicle inspection,France,Incident at about 50 centres; 798k lines for sale,ChimeraZ (seller),31 Oct,Incident confirmed; data claimed,https://www.cyberattaque.org/cyberattaque-contre-autosur-pres-de-800-000-fiches-clients-mises-en-vente/
+2026-11-02,Ville de Cholet; Verrières-en-Forez,Local government,France,Disruption; ransom demand at Verrières,Unknown,30 Oct; 1 Nov,Confirmed,https://www.cyberattaque.org/
+2026-11-02,Applebee's / Dine Brands,Restaurants,US,Hardcoded database password exposed customer data,n/a (researcher),30 Oct,Confirmed exposure,https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/
+2026-11-02,Shelly Store UK,E-commerce,UK,Web skimmer; card data,Unknown,30 Oct,Confirmed,https://www.theregister.com/cyber-crime/2026/10/30/uk-shelly-reseller-warns-payment-data-stolen-after-malware-found-on-website/5306250
+2026-11-02,Trezor / CryptoBilis,Hardware wallets,Czechia / Indonesia,Suspected implant in reseller units,Unknown,30 Oct,Suspected,https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html
+2026-11-02,Northflank,Cloud / dev platform,UK,Customer secrets assumed stolen; AI keys misused,Unknown,30 Oct,Confirmed,https://www.teiss.co.uk/news/northflank-security-incident-leads-to-unauthorized-use-of-ai-api-keys-customers-told-to-rotate-credentials-18398
+2026-11-02,Railway; OpenCode; Lightning AI,AI dev platforms,US / various,Part of Wiz's count of 9 October incidents,Unknown,Oct,Per Wiz (secondary),https://www.resultsense.com/news/2026-11-02-ai-developer-platforms-breaches-northflank-wiz/
+2026-11-02,Polymarket,Prediction market,US,Hijacked DebugBear script drained 726 wallets (about $2.7M),Unknown,29 Oct,Confirmed; reimbursing,https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html
+2026-11-02,DebugBear,Web performance SaaS,UK (unconfirmed),Script and domain used for theft and C2,Unknown,29 Oct,Confirmed incident,https://bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced
+2026-11-02,"VAPOR PANDA victims (ministries, pharma, telecoms, about 19 US orgs)",Government; pharma; telecoms,Multiple,AI-agent-driven intrusions; BLOODALCHEMY,VAPOR PANDA (China-nexus),From 17 Oct; report 29 Oct,Per CrowdStrike,https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/
+2026-11-02; 2026-11-03,Drupal Commerce merchants (2),E-commerce,Unknown,Fraudulent orders via access bypass,Unknown,Reported 29 Oct,Per maintainer,https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html ; https://www.rescana.com/post/drupal-commerce-core-cve-2026-118539-access-bypass-exploited
+2026-11-02; 2026-11-04,WordPress Core sites (unnamed),Web,Global,"CVE-2026-119977 added to KEV, due 6 Nov",Unknown,3 Nov,Exploited; fix 7.1.4,https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html ; https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json
+2026-11-02,Ukraine Air Alert app,Civil defence,Ukraine,"False nuclear, chemical and Oreshnik alerts",Russia (per Ukraine),1 Nov,Restored,https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings
+2026-11-02; 2026-11-04,Russian MChS emergency alert app,Government,Russia,Hijacked; Zelensky says Ukraine retaliated,Ukraine (self-declared),1–3 Nov,Confirmed by Zelensky,https://militarnyi.com/en/news/russia-s-emergency-services-app-hit-by-cyberattack-following-hack-of-ukraine-s-air-alert-app/ ; https://kyivindependent.com/zelensky-confirms-ukraine-targeted-russian-emergency-alert-systems-in-retaliatory-hack/
+2026-11-02,Poryadok,Retail,Russia,About 5 days of disruption,Unknown,About 25–30 Oct,Confirmed,https://therecord.media/russian-home-goods-chain-faces-disruptions
+2026-11-02,ArentFox Schiff LLP,Law / lobbying,US,Leak-site listing,Silent Ransom Group,30 Oct,Claimed,https://www.ransomware.live/id/QXJlbnRGb3ggU2NoaWZmQFNpbGVudFJhbnNvbUdyb3Vw
+2026-11-02,Moritt Hock & Hamroff LLP,Law,US,Leak-site listing,Silent Ransom Group,30 Oct,Claimed,https://www.ransomware.live/id/TW9yaXR0IEhvY2sgJiBIYW1yb2ZmIExMUEBTaWxlbnRSYW5zb21Hcm91cA
+2026-11-02; 2026-11-03,"""P…"" (redacted)",Unknown,Unknown,Still redacted; timer running,Silent Ransom Group,30 Oct 21:37 UTC,Claimed,https://www.ransomware.live/id/UC4uLkBTaWxlbnRSYW5zb21Hcm91cA
+2026-11-02; 2026-11-04,Phillips Nizer LLP,Law,US,"Re-posted as ""[DISCLOSED]""",RansomHouse,3 Nov 15:21 UTC,Claimed,https://www.ransomware.live/id/UGhpbGxpcHMgTml6ZXJAcmFuc29taG91c2U ; https://www.ransomlook.io/recent
+2026-11-02,Meshbesher & Spence,Law,US,Leak-site listing,Qilin,1 Nov,Claimed,https://www.ransomware.live/id/TWVzaGJlc2hlciAmIFNwZW5jZUBxaWxpbg
+2026-11-02,chicagolawyer.com,Law,US,Leak-site listing,INC Ransom,31 Oct,Claimed,https://www.ransomware.live/
+2026-11-02,Gilliam & Associates P.C.,Accounting,US,Leak-site listing,Genesis,30 Oct,Claimed,https://www.ransomlook.io/recent
+2026-11-02,Facts N Figures,Market research,US,Leak-site listing,Genesis,30 Oct,Claimed,https://www.ransomlook.io/recent
+2026-11-02,Psychometrics Canada,HR consulting,Canada,Leak-site listing,Genesis,30 Oct,Claimed,https://www.ransomlook.io/recent
+2026-11-02,Fred H Beck & Associates; EAS Engineering,Professional services; engineering,US,Leak-site listings,Genesis,30 Oct,Claimed,https://www.ransomlook.io/recent
+2026-11-02,Studio Stelitano e Associati,Professional services,Italy,Leak-site listing,Emperador,30 Oct,Claimed,https://www.ransomlook.io/recent
+2026-11-02,qc-consult,Consulting,Germany,Leak-site listing,Qilin,1 Nov,Claimed,https://www.hookphish.com/blog/
+2026-11-02,Forum ZT (forum-zt.at); Select Community Management,Professional services,Austria; US,Leak-site listings,Qilin,1 Nov,Claimed,https://www.hookphish.com/blog/
+2026-11-02,Smith & Casady; Nelsen Architects,Professional services,US,Leak-site listings,Settra,31 Oct,Claimed,https://www.ransomware.live/
+2026-11-02,AmplifAI (GoDaddy instance),Contact-centre SaaS,US,Claimed full data dump incl. SSO/AD details,Whitearmor,1 Nov,Claimed,https://www.ransomware.live/id/QW1wbGlmQUkgKEdvRGFkZHkgaW5zdGFuY2UpQHdoaXRlYXJtb3I
+2026-11-02,GoDaddy,Web services,US,Named as the AmplifAI instance owner in a claim,Whitearmor,1 Nov,Claimed,https://www.ransomware.live/id/QW1wbGlmQUkgKEdvRGFkZHkgaW5zdGFuY2UpQHdoaXRlYXJtb3I
+2026-11-02,KTU Shipyard (PT Karya Teknik Utama),Shipbuilding,Indonesia,Leak-site listing,Whitearmor,30 Oct,Claimed,https://www.ransomware.live/group/whitearmor
+2026-11-02,Cherry Bekaert (cbh.com listing),Accounting,US,Re-crawled listing carries CBH Group (Australia) description,The Gentlemen,31 Oct (tracker),Claimed; possible mismatch,https://www.ransomware.live/group/thegentlemen
+2026-11-02; 2026-11-03,FPT Software,IT services,Vietnam,No change; no deadline shown,The Gentlemen,Listed 31 Oct,Claimed,https://www.ransomware.live/group/thegentlemen ; https://www.ransomware.live/id/RlBUIFNvZnR3YXJlQHRoZWdlbnRsZW1lbg
+2026-11-02,Zehren and Associates; SOME; Serit CC; Northwest Micro Systems; Acodafe,Architecture; ERP consulting; IT services,US; Italy; Norway; US; Spain,Leak-site listings,The Gentlemen,31 Oct (tracker),Claimed,https://www.ransomware.live/group/thegentlemen
+2026-11-02,Mercantile Investment Corp Bolivia; INED; Eichstätt; Epic Health; Mann Group,Finance; research; local government; health; other,Bolivia; France; Germany; Australia,Leak-site listings,The Gentlemen,31 Oct (tracker),Claimed,https://www.ransomware.live/group/thegentlemen
+2026-11-02; 2026-11-04,Holcim,Building materials,Switzerland,"Confirms ""limited"" data leak; about 360 GB claimed",Emperador,3 Nov,Confirmed,https://www.ransomware.live/id/SG9sY2ltQGVtcGVyYWRvcg ; https://frenchbreaches.com/alertes/cyberattaque-holcim-lafarge-emperador-fuite-donnees-360-go-mw1djpwg5xb0yh3d8x
+2026-11-02,Spencer's,Retail,US,Leak-site listing,Scarlettgroup,31 Oct,Claimed,https://www.ransomware.live/
+2026-11-02,Light Rail Manila; Palletline; Société Ivoirienne de Télédiffusion,Transport; logistics; broadcast,Philippines; UK; Côte d'Ivoire,Leak-site listings,Qilin,30 Oct,Claimed,https://www.ransomware.live/group/qilin
+2026-11-02,Shibata Co.; BKV Vasúti Járműjavító; fzmb GmbH,Manufacturing; rail; healthcare,Japan; Hungary; Germany,Leak-site listings,Qilin,1 Nov,Claimed,https://www.hookphish.com/blog/
+2026-11-02,"Community Medical Center (Falls City, Nebraska)",Healthcare,US,Leak-site listing,Qilin,31 Oct,Claimed,https://www.ransomware.live/
+2026-11-02,Jumonji University; mars-semi.com.tw; uaa.mx; Rood Trucking,Education; semiconductors; education; trucking,Japan; Taiwan; Mexico; US,Leak-site listings,Safepay,31 Oct,Claimed,https://www.ransomware.live/
+2026-11-02,SALEG,State development company,Germany,Leak-site listing,Payload,31 Oct,Claimed,https://www.ransomlook.io/recent
+2026-11-02,Cabka,Plastics,Not stated,Leak-site listing,Audit Team,31 Oct,Claimed,https://www.ransomlook.io/recent
+2026-11-02,Phoenix Charter Academy; Meadows Valley School District; Ridgway High School,Education,US,Leak-site listings,Rhysida; Interlock,31 Oct,Claimed,https://www.ransomlook.io/recent
+2026-11-02,Rassemblement national,Political party,France,"150k-line dump, likely composite",shin0bi,31 Oct,Claimed,https://www.cyberattaque.org/cyberattaque-contre-le-rassemblement-national-150-000-dadherents-en-fuite/
+2026-11-02,Groupe MPA,Retail (plates),France,Claim of 1.7M customers,Unknown,1 Nov,Claimed,https://fuitesinfos.fr/article/2026-11-01-groupe-mpa
+2026-11-02,Grande Pharmacie Bailly; Pharmacie de la Cigogne; Pharmacie des Congrès,Pharmacy,France,Forum leak claims (303k; 110k; 23k),Unknown,1 Nov,Claimed,https://fuitesinfos.fr/article/2026-11-01-grande-pharmacie-bailly
+2026-11-02,Bien'ici; Terre de Son; Ma Déco de Fête,Property; retail,France,Forum sale or leak claims,Unknown,31 Oct–2 Nov,Claimed,https://www.cyberattaque.org/
+2026-11-02,"""tops2"" (unnamed company)",Unknown,Unknown,9 dependency-confusion npm packages,Unknown,30 Oct,Confirmed malicious (GHSA),https://github.com/advisories/GHSA-3vw9-xvmr-x46h
+2026-11-02,Unnamed health-sector client portal,Healthcare,Unknown,ms-client-portal dependency confusion,Unknown,31 Oct,Confirmed malicious (OSV),https://osv-vulnerabilities.storage.googleapis.com/npm/modified_id.csv
+2026-11-02,VOLTA infostealer victims (unnamed),Individuals,Unknown,Infostealer with LLM victim profiling,Unknown (builder customers),First seen 11 Oct,Per Talos,https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/
+2026-11-03; 2026-11-04,WorkOS,Identity SaaS,US,Sales app data incl. customer Slack excerpts,Unknown (ARTEX),30 Oct; reported 3 Nov,Confirmed,https://workos.com/security/bulletins/october-30th-2026-data-security-incident ; https://gbhackers.com/hackers-use-ai-powered-attack-framework-to-breach-workos/
+2026-11-03,Nojima,Electronics retail,Japan,"About 7,000,000 members",Unknown,1–2 Nov,Confirmed,https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf
+2026-11-03,Prestige International (Prestige Core Solutions),BPO / roadside assistance,Japan,Up to about 5.5M records,Unknown,2 Nov,Theft confirmed,https://cybersecurity-jp.com/news/118083
+2026-11-03,Wills (Netmile),Loyalty points,Japan,Up to about 5.49M,Unknown,2 Nov,Possible leak,https://cybersecurity-jp.com/news/118082
+2026-11-03,istyle (@cosme),E-commerce / media,Japan,About 3M members,Unknown,2 Nov,Confirmed,https://cybersecurity-jp.com/news/118061
+2026-11-03,Suntory Holdings,Beverages,Japan,"About 100,000, mostly employees; external cloud service",Unknown,2 Nov,Confirmed,https://cybersecurity-jp.com/news/118081
+2026-11-03,UCC Ueshima Coffee,Food,Japan,"5,529 emails via provider Sonic Moov",Unknown,2 Nov,Confirmed,https://www.ucc.co.jp/press/20261102.html
+2026-11-03,Net Dreamers,Media,Japan,"Up to about 152,500",Unknown,2 Nov,Possible leak,https://www.uma36.com/?pid=news_uma36alert
+2026-11-03,Value Golf,Leisure,Japan,Login emails possibly accessed,Unknown,2 Nov,First report,https://www.release.tdnet.info/inbs/140120261102563148.pdf
+2026-11-03,TV Tokyo (shop site),Media / e-commerce,Japan,Shop site accessed and shut,Unknown,2–3 Nov,No leak confirmed,https://cybersecurity-jp.com/news/118085
+2026-11-03; 2026-11-05,TKC,Accounting software,Japan,"Received leaked address data from Arara; up to 2,230,812",Unknown,4 Nov,Confirmed,https://www.tkc.jp/news/2026/20261102_2/ ; https://www.tkc.jp/news/2026/20261104_1/
+2026-11-03,Osaka City,Local government,Japan,Online admin system (TKC/Arara) disrupted,Unknown,3 Nov,Investigating,https://cybersecurity-jp.com/news/118104
+2026-11-03,Himeji; Utsunomiya; Shimotsuke,Local government,Japan,TKC email services affected,Unknown,2 Nov,Affected,https://cybersecurity-jp.com/news/118103
+2026-11-03,Hokuriku Electric Power,Utility,Japan,"About 550,000 emails via Arara",Unknown,2 Nov,Confirmed,https://cybersecurity-jp.com/news/118101
+2026-11-03,Odakyu Travel,Travel,Japan,"63,006 emails via Arara",Unknown,2 Nov,Confirmed,https://www.odakyu-travel.co.jp/web/info_20261102.html
+2026-11-03,Osaka Gas (FitDish),Utility,Japan,"34,489 emails via Arara",Unknown,2 Nov,Confirmed,https://www.osakagas.co.jp/company/press/pr2026/1828107_60967.html
+2026-11-03,Securitize Japan,Digital-securities SaaS,Japan,Platform breach affecting several issuers,Unknown,29 Oct,Confirmed,https://cybersecurity-jp.com/news/118084
+2026-11-03,Marui Group,Retail / finance,Japan,"Up to 9,086 digital-bond applicants; about 54 bank accounts",Unknown (via Securitize),2 Nov,Possible leak,https://cybersecurity-jp.com/news/118084
+2026-11-03,BDO Sung-hyun Accounting,Accounting,South Korea,Client payroll and RRN data via Douzone backup,Unknown,Notice 30 Oct; reported 2 Nov,Possible leak,https://www.boannews.com/news/articleView.html?idxno=146941
+2026-11-03,Korea Airport Security,Aviation security,South Korea,"HR, payroll, union, family data via Douzone",Unknown,2 Nov,Possible leak,https://www.boannews.com/news/articleView.html?idxno=146937
+2026-11-03,Kukkiwon,Sports body,South Korea,Staff and payee data via Douzone,Unknown,2 Nov,Possible leak,https://www.boannews.com/news/articleView.html?idxno=146936
+2026-11-03,Korean Kinball Association,Sports body,South Korea,Staff data via Douzone,Unknown,2 Nov,Possible leak,https://www.dailysecu.com/news/articleView.html?idxno=209239
+2026-11-03,Hanyang Securities,Brokerage,South Korea,31 records via Daou Office,Unknown,3 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=146970
+2026-11-03,Korean Foreign Ministry / Office of the President,Government,South Korea,168 delegation passport records exposed on VirusTotal,Internal leak suspected,Briefed 3 Nov,Confirmed,https://www.newspim.com/news/view/20261103001273
+2026-11-03; 2026-11-04; 2026-11-05,Mercado Bitcoin,Crypto exchange,Brazil,Loss US$37M (MB) vs US$49M (Chainalysis); US$15M frozen; reopening 9 Nov,Unknown,2–4 Nov,Confirmed,https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist ; https://investnews.com.br/tecnologia/mercado-bitcoin-como-foi-o-ataque-hacker-que-drenou-quase-us-50-milhoes-da-exchange-brasileira/ ; https://www.blocknews.com.br/criptoativos/mercado-bitcoin-retomara-operacao-apos-ataque-hacker/
+2026-11-03,Michigan State University,Education,US,1.3M student records claimed,Byod,Listed 2 Nov,Claimed; MSU disputes AD compromise,https://therecord.media/michigan-state-university-byod-gang-cyber-incident
+2026-11-03,D-EDGE,Hotel booking SaaS,France,Guest booking data exposed; WhatsApp scams follow,Unknown,20–21 Oct; reported 2 Nov,Confirmed,https://www.cyberattaque.org/d-edge-des-voyageurs-cibles-par-des-escrocs-apres-une-cyberattaque/
+2026-11-03,WS Audiology (Widex/Signia),Medtech,Denmark,Cyberattack; apps offline,Unknown,About 30 Oct,Confirmed,https://cyberpress.org/cyberattack-disrupts-ws-audiology/?amp=1
+2026-11-03,Tele Columbus (PŸUR),Telecoms,Germany,Customer bank and mandate data exfiltrated,Unknown,Sep–Oct; letter 27 Oct,Confirmed,https://borncity.com/blog/2026/11/02/cybervorfaelle-telekolumbus-netz-gmbh-pyur-bianance-und-mehr/
+2026-11-03,Holland & Knight,Law,US,"Leak-site listing, 29.7 GB (previously SRG)",Redact,2 Nov 16:00 UTC,Claimed,https://www.ransomware.live/id/SG9sbGFuZCAmIEtuaWdodEBSZWRhY3Q
+2026-11-03,"""S… G…"" (redacted)",Unknown,Unknown,Redacted listing,Silent Ransom Group,2 Nov 21:00 UTC,Claimed,https://www.ransomware.live/id/Uy4uLiBHLi4uQFNpbGVudFJhbnNvbUdyb3Vw
+2026-11-03,McEwan Fraser Legal,Legal / estate agency,UK,Leak-site listing,The Gentlemen,2 Nov 10:12 UTC,Claimed,https://www.ransomlook.io/recent
+2026-11-03,Pages Asociados,Professional services,Unknown,Leak-site listing,The Gentlemen,2 Nov 11:00 UTC,Claimed,https://www.ransomlook.io/recent
+2026-11-03,Solutis Tecnologias,IT services,Brazil,Leak-site listing,The Gentlemen,2 Nov 10:12 UTC,Claimed,https://www.ransomlook.io/recent
+2026-11-03,RedBlink Technologies; Logsytech Group,IT services,Unknown,Leak-site listings,The Gentlemen,2 Nov,Claimed,https://www.ransomlook.io/recent
+2026-11-03,KABS Pharmaceutical Services,Pharma services,Unknown,Leak-site listing,The Gentlemen,2 Nov,Claimed,https://www.ransomlook.io/recent
+2026-11-03,Secretaria de Estado de Saúde,Government health,Brazil,Leak-site listing,The Gentlemen,2 Nov,Claimed,https://www.ransomlook.io/recent
+2026-11-03,Kingdom Title,Financial services,UK,Leak-site listing,Settra,2 Nov,Claimed,https://www.ransomware.live/
+2026-11-03,Insurance House,Insurance,UK,Leak-site listing,Settra,2 Nov,Claimed,https://www.ransomware.live/
+2026-11-03,Mackin Engineering,Engineering,US,Leak-site listing,Settra,2 Nov,Claimed,https://www.ransomware.live/
+2026-11-03,Princeton Management,Real estate / finance,US,130 GB claimed,Akira,2 Nov,Claimed,https://www.hookphish.com/blog/ransomware-group-akira-hits-princeton-management/
+2026-11-03,Usnext; Howells Motor Freight,Technology; transport,Unknown; US,Leak-site listings,Akira,2 Nov,Claimed,https://www.hookphish.com/blog/
+2026-11-03,Neiman & Company,Financial services (per tracker),US,Leak-site listing,Pear,2 Nov 11:19 UTC,Claimed,https://www.ransomlook.io/recent
+2026-11-03; 2026-11-04; 2026-11-05,Unnamed Italian IT / hosted-email provider,IT services,Italy,"24,000+ mailboxes threatened; deadline 9 Nov",PixelLeaks,5 Nov 07:59 UTC,Claimed,https://www.ransomware.live/id/VW5uYW1lZEBQaXhlbExlYWtz ; https://api.ransomware.live/v2/groupvictims/pixelleaks ; https://www.ransomware.live/id/RGlzY2xvc2VkQFBpeGVsTGVha3M
+2026-11-03,Isapre Consalud,Health insurance,Chile,Leak-site listing,Qilin,2 Nov,Claimed,https://www.ransomware.live/
+2026-11-03,Astino Berhad,Manufacturing,Malaysia,Leak-site listing,Qilin,2 Nov,Claimed,https://www.hookphish.com/blog/
+2026-11-03,Stahlbau Mann GmbH,Manufacturing,Germany,17 GB claimed,Payload,3 Nov 04:06 UTC,Claimed,https://www.ransomware.live/id/U3RhaGxiYXUgTWFubiBHbWJIQHBheWxvYWQ
+2026-11-03,Orient Corporation (fire suppression),Manufacturing,Singapore,Leak-site listing,Orova,3 Nov 07:06 UTC,Claimed,https://www.ransomware.live/id/T3JpZW50IENvcnBvcmF0aW9uQE9yb3Zh
+2026-11-03,Raffles United Holdings; MARDEC Berhad; Hydrogel Vision; Harry's International,Various,Singapore; Malaysia,Leak-site listings,Orova,2 Nov,Claimed,https://www.ransomlook.io/recent
+2026-11-03,Alaxione,Medical scheduling SaaS,France,"About 770 clinics, about 450 IBANs, cleartext credentials posted",Unnamed forum actor,2 Nov,Claimed,https://fuitesinfos.fr/article/2026-11-02-alaxione
+2026-11-03,Brico Dépôt,Retail,France,"41,721 customers / about 57,100 invoices",Unnamed,2 Nov,Claimed,https://fuitesinfos.fr/article/2026-11-02-brico-depot
+2026-11-03,Club Alpin Belge,Association,Belgium,"About 25,600 members",Unnamed,2–3 Nov,Claimed,https://frenchbreaches.com/alertes/club-alpin-belge-fuite-donnees-25558-adherents-mvzvlk31ufntxvzt6
+2026-11-03,AFTT,Sports body,Belgium,"About 11,700 licence holders",Unnamed,2 Nov,Claimed,https://frenchbreaches.com/alertes/aftt-belgique-fuite-donnees-11712-licencies-tennis-table-mvzsrnxk35tj4f3wisj
+2026-11-03,Love and Vibes,E-commerce,France,Purchase histories,Unnamed,2 Nov,Confirmed,https://fuitesinfos.fr/article/2026-11-02-love-and-vibes
+2026-11-03,Office de tourisme de Strasbourg,Tourism,France,Contact-form data,Unnamed,2 Nov,Confirmed,https://www.cyberattaque.org/office-de-tourisme-de-strasbourg-une-cyberattaque-expose-les-donnees-des-visiteurs/
+2026-11-03,AMSAM,Medico-social,France,Patient and staff data,Unnamed,2 Nov,Confirmed,https://www.cyberattaque.org/amsam-les-patients-et-salaries-alertes-dune-fuite-de-leurs-donnees-personnelles-apres-une-cyberattaque/
+2026-11-03,Delhaize; Carrefour Belgium; Intermarché Belgium; Spar; IKEA Mons,Grocery / retail,Belgium,Refrigeration controllers tampered with,Unknown,1–2 Nov,Confirmed,https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html
+2026-11-03; 2026-11-05,SuperValu (13 stores),Grocery,Ireland,Refrigeration tampering,Claimed by NoName057(16) / Z-Pentest (doubted),Nov,Confirmed incident,https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html ; https://www.rte.ie/news/primetime/2026/1105/1598007-clarity-supermarket-cyberattack/
+2026-11-03,Coop Sweden; ICA,Grocery,Sweden,Refrigeration tampering,Unknown,1–2 Nov,Confirmed,https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html
+2026-11-03,Selver,Grocery,Estonia,1 store; Kitman Coldtech system,Unknown,1–2 Nov,Confirmed,https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html
+2026-11-03,Kesko,Grocery,Finland,Refrigeration tampering,Unknown,1–2 Nov,Confirmed,https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html
+2026-11-03,Intermarché / Mosqueteiros,Grocery,Portugal,7 stores,Unknown,1–2 Nov,Confirmed,https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html
+2026-11-03,Radenza Coop,Grocery,Italy,4+ stores,Unknown,1–2 Nov,Confirmed,https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html
+2026-11-03,Unnamed Dutch businesses (17+),Grocery / retail,Netherlands,Refrigeration tampering,Unknown,1–2 Nov,Confirmed,https://therecord.media/cyberattack-grocery-freezers-europe
+2026-11-03,Unnamed UK organisations,Food supply chain,UK,"""A couple of incidents"" of exploitation (NCSC)",Unknown,Reported 3 Nov,Confirmed by NCSC,https://www.aol.co.uk/articles/uk-firms-exploited-cyber-attack-091852000.html
+2026-11-03,Danfoss; Copeland (Dixell),ICS vendors,Denmark; US,Legacy controllers abused,Unknown,1–2 Nov,Danfoss acknowledges,https://therecord.media/cyberattack-grocery-freezers-europe
+2026-11-03,Rosstat,Government,Russia,"Claimed destructive attack, about 25,000 devices",Belarusian Cyber Partisans; Silent Crow,31 Oct–1 Nov,Attack confirmed; extent disputed,https://therecord.media/hackers-ukraine-belarus-russia
+2026-11-03,Kurdistan Region of Iraq government cloud; Israeli individual,Government; individual,Iraq; Israel,Espionage via phishing and malware,DarkBlinders (Iran-nexus),Aug–Oct; reported 2 Nov,Per researchers,https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html
+2026-11-03,Videostrong Technology Co. (XCPE botnet),Consumer electronics,China,Factory backdoor in 1.3M+ TV boxes,Videostrong (per GTIG),Disrupted; reported 2 Nov,Disrupted,https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/
+2026-11-03,Apple users in 99 countries,Individuals / media,Global,Mercenary spyware notifications,Unnamed,About 29 Oct; reported 2 Nov,Notified,https://therecord.media/apple-warns-users-99-countries-mercenary-spyware
+2026-11-03,FBI New Haven (X account),Government,US,Wrong election date posted,Unknown,2 Nov,Unexplained,https://leadstories.com/hoax-alert/2026/11/fact-check-fbi-new-haven-election-day-wednesday.html
+2026-11-03,Seyfarth Shaw; Greenberg Traurig; WilmerHale,Law,US,"California AG breach notices, mostly social engineering",Unnamed,Jul–Oct notices,Confirmed,https://complexdiscovery.com/a-cluster-of-law-firm-breach-notices-on-californias-register-points-mostly-to-deceived-staff/
+2026-11-03,Blank Rome; Fox Rothschild; Peña & Bromberg,Law,US,"California AG breach notices (fake IT caller, vishing, intrusion)",Unnamed,Jun–Oct notices,Confirmed,https://complexdiscovery.com/a-cluster-of-law-firm-breach-notices-on-californias-register-points-mostly-to-deceived-staff/
+2026-11-03,Ontario law firms (unnamed),Law,Canada,Unauthorised withdrawals via help-desk impersonation (LawPro),Unnamed,Reported 29 Oct,Per insurer,https://thelogic.co/?p=2140191
+2026-11-03; 2026-11-04,Node-RED / Siemens IoT2050 instances,OT / IoT,Global,CVE-2026-58115 exploited; bot and webshells,Unknown,30 Oct–1 Nov,Exploited,https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html ; https://www.vulncheck.com/blog/exploitation-targeting-node-red
+2026-11-03,Synology DSM users (unnamed),NAS owners,Global,C3RB3R ransomware on outdated DSM,C3RB3R,3 Nov,Vendor advisory,https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html
+2026-11-03,BTCPay Server operators (unnamed),Crypto payments,Global,Hot-wallet drains on 2.4.1 and earlier,Unknown,From about 1 Nov,Exploited,https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html
+2026-11-03,Education organisations (unnamed),Education,Africa; Latin America,CyberStrikeAI intrusion to domain admin; database export,Unattributed,Reported 2 Nov,Per Kaspersky,https://securelist.com/cyberstrikeai-attacks/121715/
+2026-11-03,Aur0ra victims (3 unnamed),Unknown,Unknown,AI agents reached domain access; later leak-listed,GOLD OGRE,Late Aug; reported 29 Oct,Per Sophos,https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution
+2026-11-03,GoParrot (targeted),Restaurant SaaS,US,24 dependency-confusion packages,Unknown,2 Nov,Confirmed malicious (OSV),https://osv-vulnerabilities.storage.googleapis.com/npm/MAL-2026-18493.json
+2026-11-03; 2026-11-04,McKinsey & Company (brand),Consulting,Global,mckinsey-careers.com tied by Dark Reading to a McKinsey-themed job-scam campaign,Unknown,Reported July; checked 4 Nov,Flagged by URLScan (per Dark Reading),https://www.who.is/whois/mckinsey-careers.com ; https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts
+2026-11-04; 2026-11-05,GitBook,Developer docs SaaS,Global,"Postmortem: SSO flaw, staff sessions, production secrets; one customer targeted","Unknown (""automation and AI"")",2–4 Nov,Confirmed,https://financefeeds.com/gitbook-hit-by-ai-agent-driven-cyberattack-disrupting-documentation-for-crypto-projects/ ; https://www.gitbook.com/status/security-incident-2026-11-03
+2026-11-04,PancakeSwap,Crypto / DeFi,Global,Docs taken offline after GitBook incident,n/a,3 Nov,Precaution,https://financefeeds.com/gitbook-hit-by-ai-agent-driven-cyberattack-disrupting-documentation-for-crypto-projects/
+2026-11-04,Chainstack,Blockchain infrastructure SaaS,Not stated,"Dev-to-production breach; names, emails, password hashes, node credentials",Unknown (possible ARTEX overlap),26–31 Oct; disclosed 3 Nov,Confirmed,https://chainstack.com/security-incident-nov-2026/
+2026-11-04,mSecure (mSeven Software),Password manager,US,"""Suspicious activity""; users told to rotate passwords, 2FA, passkeys",Unknown,3 Nov,Scope unknown,https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html
+2026-11-04; 2026-11-05,OPSSHIELD (cPGuard),Security software,Not stated,"About 2,950 servers ran backdoor; 7,900 customer records from billing server",Unknown,1–2 Nov,Correction to prior count,https://opsshield.com/notice/cpguard-update-channel-compromise.html ; https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html ; https://www.helpnetsecurity.com/2026/11/04/cpguard-update-supply-chain-compromised/
+2026-11-04,Asoview,Online leisure booking,Japan,"15,821,184 records via Arara",Unknown,3 Nov,Confirmed,https://cybersecurity-jp.com/news/118116
+2026-11-04,Bic Camera; Kojima; Sofmap,Retail,Japan,About 14.9M records via Arara,Unknown,2 Nov,Confirmed,https://cybersecurity-jp.com/news/118117
+2026-11-04,Yokohama City,Local government,Japan,"About 820,000 e-application accounts via TKC/Arara",Unknown,3 Nov,Investigating,https://cybersecurity-jp.com/news/118118
+2026-11-04,Kobe Shimbun,Media,Japan,"About 40,000 newsletter emails via Arara",Unknown,By 3 Nov,Confirmed,https://cybersecurity-jp.com/news/118118
+2026-11-04,Pan Pacific International Holdings,Retail,Japan,Digital-bond data at Securitize Japan,Unknown,2 Nov,Investigating,https://gekiryu-online.jp/2026/11/260252
+2026-11-04,Don Quijote repair contractor (unnamed),Retail services,Japan,Server breached; customer data encrypted,Unknown,28 Oct,Confirmed,https://gekiryu-online.jp/2026/11/260252
+2026-11-04,GMO GlobalSign,PKI / security,Japan,"File with 45,030 people's data exposed about 9 years",n/a (misconfiguration),30 Oct,Confirmed,https://cybersecurity-jp.com/news/118029
+2026-11-04,K Auction,Art auction,South Korea,Ex-Douzone customer notified,Unknown,By 4 Nov,Possible leak,https://www.thelec.net/news/articleView.html?idxno=15234
+2026-11-04,University of Seoul,Education,South Korea,Homepage served ClickFix fake CAPTCHA,Unknown,30 Oct–3 Nov,Remediated,https://www.boannews.com/news/articleView.html?idxno=147001
+2026-11-04,Shift Up / Level Infinite (Tencent CDN),Gaming,South Korea / China,Nikke launcher scripts trojanised; RAT and cloud-key stealer,Unknown,27 Sep–3 Nov,Fix released,https://www.boannews.com/news/articleView.html?idxno=147009
+2026-11-04,Nexon,Gaming,South Korea,Ordered Nikke launcher removed from staff PCs,n/a,4 Nov,Precaution,https://www.boannews.com/news/articleView.html?idxno=147009
+2026-11-04,Program Consultores S.A.,Municipal software / consulting,Argentina,Ransomware; about 250 municipalities disrupted (estimate),Unknown,Reported 3 Nov,Confirmed; data theft denied,https://ciberlatam.com/en/news/program-consultores-hit-municipal-ransomware
+2026-11-04; 2026-11-05,Frontline Education,Education SaaS,US,"1,298,917 per state portals",Unknown,4 Nov,Confirmed,https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/ ; https://compliancehub.wiki/frontline-educations-1-3m-record-breach-tests-ferpas-vendor-oversight/
+2026-11-04,Buchanan Ingersoll & Rooney PC,Law,US,260 GB claimed incl. privileged and M&A documents,Falcon,3 Nov,Claimed,https://www.ransomware.live/id/QnVjaGFuYW4gSW5nZXJzb2xsICYgUm9vbmV5IFBDQEZhbGNvbg
+2026-11-04,Arthur Chapman Kettering Smetak Pikala PA,Law,US,Leak-site listing,Qilin,3 Nov 15:16 UTC,Claimed,https://www.hookphish.com/blog/ransomware-group-qilin-hits-arthur-chapman-kettering-smetak-pikala-pa/
+2026-11-04,Hill & Beyer,Law,US,Leak-site listing; medical and criminal files claimed,INC Ransom,3 Nov 21:56 UTC,Claimed,https://www.ransomware.live/id/aGlsbGFuZGJleWVyLmNvbUBpbmNyYW5zb20
+2026-11-04,"""G… R…"" (redacted)",Unknown,Unknown,Redacted listing,Silent Ransom Group,3 Nov 12:54 UTC,Claimed,https://www.hookphish.com/blog/ransomware-group-silentransomgroup-hits-g-r/
+2026-11-04,"Juge, Napolitano, Ruli, Putfark & Pittman",Law,US,Leak-site listing,Rhysida,4 Nov 10:23 UTC,Claimed,https://www.ransomlook.io/api/last/1
+2026-11-04,Bright Property Service,Professional services,Malaysia,Leak-site listing,Orova,3 Nov,Claimed,https://www.ransomware.live/
+2026-11-04,SK Global Software,Software (Dynamics ISV),South Korea,"Internal, employee and project files claimed",Akira,3 Nov,Claimed,https://www.hookphish.com/blog/ransomware-group-akira-hits-sk-global-software/
+2026-11-04,iLending & J.C. Flowers & Co.,Lending / private equity,US,"Listing, no details",Payouts King,3 Nov 22:21 UTC,Claimed,https://www.ransomlook.io/group/payoutsking
+2026-11-04,Autoscribe Corporation,Payments software,US,"Listing, no details",Payouts King,4 Nov 01:21 UTC,Claimed,https://www.ransomlook.io/group/payoutsking
+2026-11-04,"IHG Hotels & Resorts ""(Estate)""",Hospitality,UK / global,"Listing, no description",BYOD,4 Nov 01:21 UTC,"Claimed, unverified",https://www.ransomlook.io/recent
+2026-11-04,Vetstoria,Veterinary booking SaaS,Not stated,Leak-site listing,Booba Project,3 Nov 14:18 UTC,Claimed,https://www.hookphish.com/blog/ransomware-group-booba-project-hits-vetstoria/
+2026-11-04,City of Edgewater; Boardman Park; DROUIN SAS,Local government; leisure; wood products,US; UK; France,Leak-site listings,Booba Project,3 Nov 14:18 UTC,Claimed,https://www.hookphish.com/blog/
+2026-11-04,gWorks,Government software,US,Leak-site listing,Pear,4 Nov 10:23 UTC,Claimed,https://www.ransomlook.io/api/last/1
+2026-11-04,Pelham Plastics; Bison Bag,Manufacturing,US,Leak-site listings,Akira,3 Nov,Claimed,https://www.hookphish.com/blog/
+2026-11-04,Darr Equipment,Industrial equipment,US,Leak-site listing,Chaos,3 Nov 22:21 UTC,Claimed,https://www.ransomlook.io/recent
+2026-11-04,MKG Kirchrode,Not stated,Germany,Leak-site listing,The Gentlemen,3 Nov 13:48 UTC,Claimed,https://www.ransomlook.io/recent
+2026-11-04,INRAE,Public research,France,About 1.2 GB incl. database credentials and SSL key,Unnamed,4 Nov,Claimed (credible),https://frenchbreaches.com/alertes/cyberattaque-inrae-piratage-base-pcb-fuite-donnees-mw1bopq3536zduavp2g
+2026-11-04,AFIB,Financial-services association,France,"About 3,600–3,800 members' contact details","""Alduin""",3 Nov,Claimed,https://frenchbreaches.com/alertes/cyberattaque-afib-bancassurance-fuite-donnees-3800-membres-mw17ijim057x0bd68k6
+2026-11-04,JASP-K9,Law-enforcement equipment,France,"About 1,699 invoices","""LunarisSec""",3 Nov,Claimed,https://frenchbreaches.com/alertes/cyberattaque-jasp-k9-1699-factures-fournisseur-forces-ordre-mw17nkhxufxntcyogu
+2026-11-04,Barracuda (ESG and others),Security appliances,US,Chainable pre-auth bypass and command injection,n/a,3 Nov,Not exploited,https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection
+2026-11-04,LLMjacking victims (unnamed),Finance; retail; tech; transport,Americas; APAC,Up to $1M in fraudulent AI charges,UNC6993; LLM mixers,Reported 2 Nov,Ongoing,https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models
+2026-11-04,Unnamed election office and agency,Government,US,"Probing, credential guessing, traffic spikes",Unknown,3 Nov,Unsuccessful,https://www.nextgov.com/cybersecurity/2026/11/election-office-reports-failed-attempts-hack-its-online-services/417021/
+2026-11-04,Beverly Elementary (Toledo polling site),Elections,US,"Bomb-threat hoax, evacuation",Unknown,3 Nov,Cleared,https://www.nextgov.com/cybersecurity/2026/11/election-security-center-reports-limited-threats-voting-glitches-fuel-fraud-claims/417013/
+2026-11-04,Fulton County voters,Elections,US,Smishing: false polling-place change,Unknown,3 Nov,Unattributed,https://www.nextgov.com/cybersecurity/2026/11/election-security-center-reports-limited-threats-voting-glitches-fuel-fraud-claims/417013/
+2026-11-04,Supermarkets (4),Grocery,Germany,Refrigeration temperatures raised,Unknown,3 Nov,Confirmed,https://www.aljazeera.com/news/2026/11/4/eu-urges-action-as-germany-romania-and-uk-report-supermarket-cyberattacks
+2026-11-04,Supermarkets (6),Grocery,Romania,Refrigeration tampering,Unknown,3 Nov,Confirmed,https://www.aljazeera.com/news/2026/11/4/eu-urges-action-as-germany-romania-and-uk-report-supermarket-cyberattacks
+2026-11-04,Langridge Organic; three meat suppliers,Food wholesale,UK,Fridge switched to defrost remotely,Unknown,2–3 Nov,No stock lost,https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks
+2026-11-04,Coolworld / EFS (French blood service),Healthcare,France,Cold-room setpoints changed −30 °C to 110 °C,Unknown,1–2 Nov,Reported; no consequences,https://frenchbreaches.com/alertes/cyberattaque-coolworld-efs-banques-sang-chambres-froides-mw17qluzro5uv8dn4l
+2026-11-04,"Ukrainian justice, local-government and defence bodies; a certification centre",Government,Ukraine,Espionage; credential and e-signature key theft,Gorbag (Russia-aligned),Feb 2025–2026; reported 3 Nov,Ongoing,https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine/
+2026-11-04,German officials (incl. Franziska Brantner),Government,Germany,Apple spyware notifications; BSI says replace devices,Unknown,Reported 3 Nov,Under review,https://therecord.media/german-officials-among-apple-spyware-warning-recipients
+2026-11-04,ILC Dover; ILC Astrospace,Defence / aerospace,US,$13M False Claims Act cyber-compliance settlement,n/a,3 Nov,Settled,https://cyberscoop.com/ilc-dover-cybersecurity-settlement-false-claims-act/
+2026-11-04,"npm / PyPI packages (tailwind-input-kit, tailwind-form-core, ln9qw38745g and others)",Open-source registries,Global,Malicious packages incl. registry worm and RAT,Unknown,3–4 Nov,OSV MAL,https://osv-vulnerabilities.storage.googleapis.com/npm/modified_id.csv
+2026-11-05,Crédit Mutuel Arkéa,Banking,France,About €118M / US$133M stolen via service provider,Unknown,Confirmed 4 Nov,Confirmed,https://therecord.media/french-bank-confirms-cyber-heist
+2026-11-05,Unnamed service provider to Crédit Mutuel Arkéa,IT services,France,Platform compromised and used for theft,Unknown,By 4 Nov,Confirmed (unnamed),https://therecord.media/french-bank-confirms-cyber-heist
+2026-11-05,Mitsui Sumitomo Insurance,Insurance,Japan,Intrusion; customer services halted,Unknown,2–4 Nov,Confirmed,https://cybersecurity-jp.com/news/118127
+2026-11-05,Aioi Nissay Dowa Insurance,Insurance,Japan,Intrusion; customer services halted,Unknown,2–4 Nov,Confirmed,https://cybersecurity-jp.com/news/118127
+2026-11-05,Nomura Investor Relations,Financial / IR services,Japan,Institutional investor and analyst contacts leaked,Unknown,2–4 Nov,Confirmed,https://cybersecurity-jp.com/news/118128
+2026-11-05,Kernel (kernel.sh),AI browser infrastructure,US,"Leaked API key, logging-provider and GPU server access; 0.28% customers","Cryptomining actor (ARTEX, per Kernel)",24 Oct–3 Nov,Confirmed,https://www.kernel.sh/blog/public-notice-of-security-incident-nov-4-2026
+2026-11-05,Trigger.dev,Developer platform,Not stated,Environment variables of a subset of organisations accessed,Unknown,1 Nov,Confirmed,https://trigger.dev/blog/security-incident-nov-2026
+2026-11-05,CommandCode,AI developer platform,Not stated,Listed among AI platform breaches,Unknown,By 4 Nov,Reported,https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/
+2026-11-05,DreamHost,Web hosting,US,"File Manager compromise; FTP/SFTP credentials, webmail sessions",Unknown,Aug–23 Oct; disclosed 29 Oct,Confirmed,https://teiss.co.uk/news/dreamhost-discloses-breach-that-exposed-ftp-and-sftp-passwords-through-file-manager-flaw-18418
+2026-11-05,Abrigo (Sageworks),Lending SaaS,US,Offline after irregular activity,Unknown,30 Oct–2 Nov,Mostly restored,https://runtimewire.com/article/abrigo-restores-sageworks-october-30-shutdown
+2026-11-05,Kyiv Independent,Media,Ukraine,CMS and newsletter hijacked for fake alerts,Suspected Russia,4 Nov,Confirmed,https://therecord.media/ukraine-kyiv-independent-cyberattack
+2026-11-05,Credit Saison,Card issuer,Japan,Partner for affected MUJI Card,n/a,4 Nov,Affected partner,https://cybersecurity-jp.com/news/118130
+2026-11-05,Denny's Japan,Restaurants,Japan,App accounts accessed during migration,Unknown,30 Oct–3 Nov,Confirmed,https://cybersecurity-jp.com/news/118129
+2026-11-05,Workman,Retail,Japan,Up to about 1.45M via Arara,Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Daskin,Retail services,Japan,"657,886 via Arara (repica)",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Monte Rosa,Hospitality,Japan,"625,429 via contractor / Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,FinnoValley,Fintech (local currency),Japan,"594,799 via Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Setagaya Pay,Local payments,Japan,"About 590,000 (vendor-wide) via Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Sumitomo Realty & Development,Real estate,Japan,"205,208 via DataX / Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Tribeck,SaaS,Japan,"61,213 via Arara",Unknown,4–5 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Osaka Prefecture,Local government,Japan,Affected via Arara,Unknown,4 Nov,Reported,https://piyolog.hatenadiary.jp/entry/2026/11/05/015717
+2026-11-05,Zaif,Crypto exchange,Japan,2nd Arara report,Unknown,4 Nov,Confirmed,https://corp.zaif.jp/info/20261104-1
+2026-11-05,Seoul Metropolitan Child Care Support Center,Public services,South Korea,Data retained by Douzone,Unknown,By 5 Nov,Under investigation,https://www.boannews.com/news/articleView.html?idxno=147019
+2026-11-05,KEPCO ES,Energy services,South Korea,Douzone APO backup data,Unknown,By 5 Nov,Under investigation,https://www.boannews.com/news/articleView.html?idxno=147019
+2026-11-05,Korea Machine Tool Industry Association,Industry association,South Korea,Douzone APO data,Unknown,By 5 Nov,Under investigation,https://www.boannews.com/news/articleView.html?idxno=147019
+2026-11-05,NH Travel,Travel,South Korea,PNRs via compromised Amadeus account,Unknown,Aug 2023–Sep 2026,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147014
+2026-11-05,Ministry of the Interior and Safety,Government,South Korea,Unmasked attachments exposed on disclosure portal,n/a (exposure),5 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147035
+2026-11-05,Le Code by DEKRA,Driving exams,France,Candidate data via subcontractor,Unknown,20 Oct; reported 4 Nov,Confirmed,https://frenchbreaches.com/alertes/fuite-donnees-dekra-code-route-candidats-mots-de-passe-mw2du147wbg5l18p4uf
+2026-11-05,Servicio Extremeño de Salud,Health,Spain,"18,416 users; arrest; data recovered",Individual,Oct; reported 5 Nov,Confirmed,https://www.democrata.es/extremadura/garcia-espada-asegura-que-los-datos-robados-al-ses-se-han-recuperado-y-se-ha-frenado-su-difusion-en-foros-delictivos/
+2026-11-05,"Wiggins, Childs, Pantazis, Fisher & Goldfarb",Law,US,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,"Massey, Stotser & Nichols",Law,US,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,"Maglin, Miskiv & Associates",Accounting,US,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,The Vant Group,Business services,US,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Sky Solutions,Business services,Panama,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Adaris Tech,IT consulting,Spain,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Southern Cross Digital,IT,Australia,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Credi-Paz,Financial services,Argentina,Leak-site listing,Soul,4 Nov,Claimed,https://www.ransomlook.io/group/soul
+2026-11-05,Krishnan Company,Accounting (CPA),US,"27 GB incl. client SSNs, passports",Akira,4 Nov 15:23,Claimed,https://recentbreaches.com/breach/krishnan-akira-2026-11
+2026-11-05,hhjcpa.com,Accounting / tax,US,About 305 GB,Brain Cipher,4 Nov,Claimed,https://www.ransomware.live/id/aGhqY3BhLmNvbUBCcmFpbkNpcGhlcg
+2026-11-05,fbc.ca,Tax / financial services,Canada,About 73 GB,Brain Cipher,4 Nov,Claimed,https://www.ransomlook.io/group/brain%20cipher
+2026-11-05,Megastar Financial,Mortgage,US,About 32K documents,Brain Cipher,4 Nov,Claimed,https://www.hookphish.com/blog/ransomware-group-braincipher-hits-megastarfinancial-com/
+2026-11-05,Triton Claims,Insurance claims,US,About 19.5K documents,Brain Cipher,4–5 Nov,Claimed,https://www.hookphish.com/blog/ransomware-group-braincipher-hits-tritonclaims-com/
+2026-11-05,"""W… G…"" and ""K… R…"" (redacted)",Unknown (likely law),Unknown,Redacted listings,Silent Ransom Group,4 Nov,Claimed,https://www.ransomlook.io/group/leakeddata
+2026-11-05,Jobmongers,Recruitment,UK,Leak-site listing,Medusalocker,4 Nov 22:22 UTC,Claimed,https://www.ransomware.live/id/Sm9ibW9uZ2Vyc0BtZWR1c2Fsb2NrZXI
+2026-11-05,Goldsmith & Hull,Law,US,Leak-site listing; publication 11 Nov,Aoqin,4 Nov 00:52 UTC,Claimed,https://api.ransomware.live/v2/sectorvictims/Professional%20Services
+2026-11-05,Unilever,Consumer goods,UK,About 79 GB; US$15M demand,WhiteArmor,4 Nov 20:57 UTC,"Claimed, unproven group",https://www.ransomware.live/id/VW5pbGV2ZXJAV2hpdGVhcm1vcg
+2026-11-05,Kontron North America,IT hardware,US,2.37 TB claimed,Global Secret Group,4 Nov 17:22 UTC,Claimed,https://www.ransomware.live/id/S29udHJvbiBOb3J0aCBBbWVyaWNhQEdsb2JhbCBTZWNyZXQgR3JvdXA
+2026-11-05,MAPFRE Brasil,Insurance,Brazil,About 9 GB,Destello,4 Nov,Claimed,https://recentbreaches.com/breach/mapfre-brasil-2026-destello-2026-11
+2026-11-05,Delta Dental of Missouri,Dental insurance,US,Member records exposed,N0n,5 Nov 04:52 UTC,Claimed,https://www.ransomware.live/id/RGVsdGEgRGVudGFsIG9mIE1pc3NvdXJpQE4wbg
+2026-11-05,The Container Store,Retail,US,Customer chats and emails,N0n,5 Nov 04:51 UTC,Claimed,https://www.ransomware.live/id/VGhlIENvbnRhaW5lciBTdG9yZUBOMG4
+2026-11-05,Magasin du Nord,Retail,Denmark,70.2 GB leaked,Majinahanashi,5 Nov,Claimed,https://www.ransomlook.io/group/majinahanashi
+2026-11-05,Sig Sauer,Firearms / defence,US,Leak-site listing,Scarlettgroup,4 Nov,Claimed,https://recentbreaches.com/breach/sigsauer-com-scarlettgroup-2026-11
+2026-11-05,Erowa,Manufacturing automation,Not stated,"538 GB incl. passports, NDAs",Akira,4 Nov,Claimed,https://www.ransomlook.io/group/akira
+2026-11-05,City of El Cajon,Local government,US,Police and 911 data for sale,Rhysida,4 Nov,Claimed,https://recentbreaches.com/breach/el-cajon-ca-rhysida-2026-11
+2026-11-05,TFG London,Fashion retail,UK,Leak-site listing,RansomHouse,4 Nov,Claimed,https://www.ransomlook.io/recent
+2026-11-05,Lazeo,Aesthetic medicine,France,708 employees' data,Unnamed,5 Nov,Claimed (credible),https://frenchbreaches.com/alertes/fuite-donnees-lazeo-708-employes-mw2s9ujdk72wmeutg9n
+2026-11-05,Fédération française de pelote basque,Sport,France,"31,814 records",Unnamed,4 Nov,Claimed,https://frenchbreaches.com/alertes/fuite-donnees-federation-francaise-pelote-basque-ffpb-31814-mw20iyw5ps3bd2eh4b
+2026-11-05,CDMBase (@adminide-stack npm),Software,Not stated,"12 hijacked releases, PolinRider loader",Unknown (PolinRider),3–4 Nov,Confirmed (Sonatype),https://www.sonatype.com/blog/polinrider-loader-reappears-in-hijacked-npm-packages
+2026-11-05,screenshot-desktop (npm),Open source,Global,1.16.0 flagged malicious; disputed,Unknown,4 Nov,Disputed,https://github.com/bencevans/screenshot-desktop/issues/363
+2026-11-05,Plerdy,Web analytics,Ukraine,Tracking script compromised to serve APT29 profiler,APT29 (Sekoia),27 Aug–3 Sep,Reported,https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits
+2026-11-05,US chemical-industry trade association (unnamed),Trade association,US,Watering hole,APT29 (Sekoia),2026,Reported,https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits
+2026-11-05,Zyxel GS1900 switches,Network hardware,Global,CVE-2026-107441; 996 switches had data taken,Red Heron (GreyNoise),Aug–Nov,Exploited; Patch 3,https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html
+2026-11-05,SonicWall GMS / SMA1000,Security appliances,US,GMS EOL flaws unpatched; SMA1000 exploited,Unknown,4 Nov,Mixed,https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0019
+2026-11-05,Taipei fire department (119 dispatch),Emergency services,Taiwan,Patient-care and dispatch data via AI agents,"""bossjy"" (BOSSAI)",2026,Confirmed (Acronis),https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/
+2026-11-05,Indian BFSI and crypto firms (unnamed),Finance,India,AI-assisted intrusions (Crafty Falcon),Crafty Falcon,Reported 5 Nov,Active,https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0058
+2026-11-05,Privacy Cash,Crypto privacy protocol,Global,Deposits suspended after Binance loot arrived,Lazarus-linked funds,5 Nov,Precaution,https://www.cryptoninjas.net/news/privacy-cash-freezes-deposits-after-1-2m-binance-hack-funds-hit-its-privacy-pools/

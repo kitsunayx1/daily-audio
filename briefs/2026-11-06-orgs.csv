@@ -1,0 +1,55 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-11-06,Chainalysis,Blockchain analytics,US,"All users' names, password hashes and live tokens exposed; KYT offline","Unknown (""agentic"")",4–5 Nov,Confirmed,https://www.chainalysis.com/blog/security-incident-october-30/
+2026-11-06,Mitsui Sumitomo Insurance,Insurance,Japan,"About 37,000 records leaked",Unknown,2–6 Nov,Confirmed,https://act1.co.jp/2026-11-06-07/
+2026-11-06,Mitsui Sumitomo Aioi Life,Insurance,Japan,"About 5,300 records leaked",Unknown,2–6 Nov,Confirmed,https://act1.co.jp/2026-11-06-07/
+2026-11-06,Aioi Nissay Dowa Insurance,Insurance,Japan,Records leaked (count pending; last 4 card digits per TBS),Unknown,2–6 Nov,Confirmed,https://news.web.nhk/newsweb/na/nd-20261106de71530
+2026-11-06,SMBC Consumer Finance,Consumer finance,Japan,"Up to 320,118 people's guarantee data sent out",Unknown,2–5 Nov,Confirmed,https://cybersecurity-jp.com/news/118152
+2026-11-06,Docomo SMBC Net Bank,Banking,Japan,"Up to 122,635 via SMBC Consumer Finance",Unknown,5 Nov,Confirmed,https://cybersecurity-jp.com/news/118152
+2026-11-06,Tsukuba Bank,Banking,Japan,Halted card applications after SMBC CF incident,n/a,5 Nov,Precaution,https://cybersecurity-jp.com/news/118152
+2026-11-06,NTT Docomo,Telecom,Japan,"Up to about 300,000 online-shop customers",Unknown,4–5 Nov,Confirmed,https://cybersecurity-jp.com/news/118153
+2026-11-06,Sompo Japan,Insurance,Japan,"About 65,000 auto customers via Prestige Core Solutions",Unknown,5 Nov,Confirmed,https://cybersecurity-jp.com/news/118149
+2026-11-06,Prestige Core Solutions,BPO / IT,Japan,Web-app weaknesses; up to about 5.5M records,Unknown,5 Nov,Confirmed,https://cybersecurity-jp.com/news/118149
+2026-11-06,Sony Sonpo; ENEOS Charge Plus; KDDI,Insurance; energy; telecom,Japan,Affected via PCS,Unknown,5 Nov,Confirmed,https://cybersecurity-jp.com/news/118149
+2026-11-06,Nomura Investor Relations,IR services,Japan,"About 2,000 investors/analysts and 250 ex-staff",Unknown,6 Nov,Confirmed,https://novaist.jp/articles/nomura-investor-data-leak/
+2026-11-06,DigiCert,Certificate authority,US,Archived customer data incl. some ID documents,Unknown,27 Jun–2 Jul; reported 5 Nov,Confirmed,https://cybersecuritynews.com/digicert-confirms-data-breach/
+2026-11-06,Crédit Mutuel Arkéa,Banking,France,"ZachXBT: US$133M+, ~US$30M unfreezable, not Lazarus",Unknown,5 Nov,Confirmed (amount unconfirmed),https://www.presse-citron.net/fraude-chez-credit-mutuel-arkea-la-banque-en-dit-plus-sur-la-cyberattaque-dont-elle-a-ete-victime/
+2026-11-06,Norad,Government aid agency,Norway,"Grants portal; 20,614 users possibly exposed",Unknown,30 Oct–5 Nov,Confirmed,https://www.helpnetsecurity.com/2026/11/05/norad-grants-portal-breach/
+2026-11-06,Mercado Bitcoin,Crypto exchange,Brazil,"US$48.6M per Bitquery; draining continued after ""contained""",Unknown,2–5 Nov,Confirmed,https://coindesk.com/pt-br/business/2026/11/05/mercado-bitcoin-hack-continued-hours-after-exchange-said-attack-was-contained-report-finds
+2026-11-06,BitMart,Crypto exchange,Global,"About $391K per founder, same group",Unknown,2 Nov,Unconfirmed,https://coindesk.com/pt-br/business/2026/11/05/mercado-bitcoin-hack-continued-hours-after-exchange-said-attack-was-contained-report-finds
+2026-11-06,SMBC (Sumitomo Mitsui Banking Corp.),Banking,Japan,"227,216 emails via Arara",Unknown,5–6 Nov,Confirmed,https://cybersecurity-jp.com/news/118150
+2026-11-06,GMO Payment Service,Payments,Japan,"Up to 106,997 via outsourced law firm using Arara",Unknown,5–6 Nov,Confirmed,https://cybersecurity-jp.com/news/118145
+2026-11-06,Sakai City,Local government,Japan,"About 290,000 emails via TKC / Arara",Unknown,5–6 Nov,Confirmed,https://cybersecurity-jp.com/news/118144
+2026-11-06,Edogawa Ward,Local government,Japan,Booking emails via Arara,Unknown,5–6 Nov,Confirmed,https://cybersecurity-jp.com/news/118148
+2026-11-06,Ryohin Keikaku (MUJI) / curtain contractor,Retail,Japan,"Separate contractor leak of 19,933",Unknown,4–6 Nov,Confirmed,https://novaist.jp/articles/muji-card-data-exposure/
+2026-11-06,Sega Fave,Gaming,Japan,ALL.Net / Aime servers accessed; services down,Unknown,1–6 Nov,Confirmed,https://novaist.jp/articles/sega-server-breach-outage/
+2026-11-06,Takarakuji,Lottery,Japan,Site suspended after unauthorised password changes,Unknown,5 Nov,Investigating,https://cybersecurity-jp.com/news/118146
+2026-11-06,Chikugo City,Local government,Japan,Site closed after unauthorised access,Unknown,5 Nov,Confirmed,https://cybersecurity-jp.com/news/118147
+2026-11-06,Jarvis (SV Tax Firm),Tax / accounting SaaS,South Korea,Fake breach emails sent; service suspended,Unknown,5–6 Nov,Investigating,https://www.boannews.com/news/articleView.html?idxno=147073
+2026-11-06,T1,Esports,South Korea,Possible HR/accounting exposure via Douzone,Unknown,5 Nov,Possible,https://www.boannews.com/news/articleView.html?idxno=147046
+2026-11-06,illicado,Gift cards,France,Fraudulent gift-card use after attack,Unknown,1 Nov,Confirmed,https://frenchbreaches.com/
+2026-11-06,Maileva (La Poste),Mail outsourcing,France,"Downstream incidents at Inovie, Novabio, Flandre Opale Habitat",Unknown,Nov,Confirmed,https://frenchbreaches.com/
+2026-11-06,"Smith, Gambrell & Russell LLP",Law,US,"Leak-site listing; ""$272,500 offer""",Silent Ransom Group,5 Nov 21:22 UTC,Claimed,https://recentbreaches.com/breach/smith-silentransomgroup-2026-11
+2026-11-06,"""W… R…"" (redacted)",Unknown,Unknown,Redacted listing,Silent Ransom Group,5 Nov 23:22 UTC,Claimed,https://recentbreaches.com/breach/w-r-silentransomgroup-2026-11
+2026-11-06,David L. Wade & Associates,Accounting,US,7 GB claimed,Akira,5 Nov 14:33 UTC,Claimed,https://www.hookphish.com/blog/ransomware-group-akira-hits-david-l-wade-and-associates/
+2026-11-06,Westboro Partners,Business / financial services,US,"58 GB incl. passports, SSNs",Akira,5 Nov 15:20 UTC,Claimed,https://www.hookphish.com/blog/ransomware-group-akira-hits-westboro-partners/
+2026-11-06,System Plus,IT reseller,Romania / US,About 30 GB,Akira,5 Nov 14:34 UTC,Claimed,https://www.hookphish.com/blog/ransomware-group-akira-hits-system-plus/
+2026-11-06,Computacenter,IT services,UK,"Leak-site listing, no details",INC Ransom,6 Nov,Claimed,https://www.breachsense.com/breaches/computacenter-data-breach/
+2026-11-06,Insurance Audit Services,Insurance services,US,Leak-site listing,Qilin,5 Nov 21:22 UTC,Claimed,https://recentbreaches.com/breach/insurance-audit-services-qilin-2026-11
+2026-11-06,Scry Analytics,Data / AI services,US,Leak-site listing,N0n,6 Nov 02:25 UTC,Claimed,https://recentbreaches.com/breach/scry-analytics-n0n-2026-11
+2026-11-06,Hallmark Cards; Max Fashion,Retail,US; Middle East,Leak-site listings,N0n,6 Nov 02:25 UTC,Claimed,https://recentbreaches.com/
+2026-11-06,Omni Hotels & Resorts,Hospitality,US,Leak-site listing,Redact,5 Nov 17:22 UTC,Claimed,https://www.hookphish.com/blog/ransomware-group-redact-hits-omni-hotels-and-resorts/
+2026-11-06,Panax Group / Uksung Chemical,Industrial chemicals / controls,South Korea,"SCADA credentials, dam logic claimed",INC Ransom,6 Nov,Claimed; denied knowledge,https://www.boannews.com/news/articleView.html?idxno=147079
+2026-11-06,Bridgestone HosePower,Industrial,US,Leak-site listing,Pear,5 Nov 12:18 UTC,Claimed,https://www.ransomlook.io/recent
+2026-11-06,Source Energy Services,Energy services,Canada,Leak-site listing,Akira,5 Nov,Claimed,https://www.ransomlook.io/recent
+2026-11-06,Beauty Success,Retail,France,3M customers claimed,Unnamed,Nov,Claimed,https://frenchbreaches.com/
+2026-11-06,FFTT (table-tennis federation),Sport,France,1.6M people claimed,ChimeraZ,Nov,Claimed,https://frenchbreaches.com/
+2026-11-06,Buchanan Ingersoll & Rooney PC,Law,US,Plaintiff-firm investigation opened,Falcon,5 Nov,Claimed,https://classlawdc.com/2026/11/05/buchanan-ingersoll-rooney-pc-data-breach/
+2026-11-06,OPSSHIELD (cPGuard),Security software,Not stated,"2,950 servers confirmed; trial-account entry",Unknown,1–2 Nov,Confirmed,https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html
+2026-11-06,Control Web Panel servers (unnamed),Hosting,Global,CWPdoor backdoored web server,Unknown,Sep–Nov,Active,https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
+2026-11-06,Barracuda ESG,Security appliance,US,Pre-auth root chain demonstrated,n/a,6 Nov,Not exploited,https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
+2026-11-06,"WatchGuard (AuthPoint, Dimension)",Security software,US,Critical flaws fixed; Dimension unpatched for Linux TCP,n/a,5 Nov,Mixed,https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/
+2026-11-06,White House,Government,US,6 IPs routed through 28 residential proxy services,Unknown (Infatica SDK),5 Oct–3 Nov,Reported,https://www.databreachtoday.com/white-house-ip-addresses-sold-through-proxy-services-a-33315
+2026-11-06,Danfoss,Industrial controls,Denmark,No sign of successful IT attack; 167 credential pairs found by DR,NoName057(16) / Z-Pentest (claimed),5 Nov,Claim unverified,https://www.nordiskpost.com/2026/11/05/pro-russian-hackers-claim-supermarket-fridge-attacks/
+2026-11-06,US military commissaries,Defence retail,US,Freezers switched to defrost/heat in August,Unknown,Aug,DoD IG investigating,https://therecord.media/cyberattacks-refrigeration-cisa-fbi
+2026-11-06,Unnamed MSP-managed tenants (27+),Multiple,Not stated,Entra/Azure DevOps access via stolen app credentials,Unattributed (ARTEX),28 Oct onward,Reported,https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/
+2026-11-06,Victims of SDNY deepfake CEO/lawyer fraud,Healthcare; banking; fintech; funds,US; UK,About US$129M stolen,"Soall, Hazan, Sheetrit (charged)",18+ months,Charged,https://www.justice.gov/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud
