@@ -1,0 +1,62 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-11-09,Nitori Holdings,Retail / e-commerce,Japan,Up to 37.62M member and order records,Unknown,Oct–9 Nov,Confirmed access; count is upper bound,https://cybersecurity-jp.com/news/118234
+2026-11-09,Aioi Nissay Dowa Insurance,Insurance,Japan,"About 444,000 records",Unknown,2–6 Nov,Confirmed,https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026110601531.pdf
+2026-11-09,Mitsui Sumitomo Insurance,Insurance,Japan,"About 228,000 via roadside-assistance contractor",Unknown,9 Nov,Confirmed,https://news.web.nhk/newsweb/na/nd-20261109de72886
+2026-11-09,Mitsui Direct General,Insurance,Japan,Included in MS&AD 9 Nov disclosure,Unknown,9 Nov,Reported,https://finance.biggo.jp/news/a7a07c9d-cb91-408b-96cb-00a448c8d1fc
+2026-11-09,Sumitomo Life Insurance,Insurance,Japan,"About 80,000 Vitality users",Unknown,2–9 Nov,Confirmed,https://cybersecurity-jp.com/news/118235
+2026-11-09,NTT Data,IT services,Japan,Operator of breached Sumitomo Life system,Unknown,2–9 Nov,Confirmed,https://www.nttdata.com/global/ja/news/release/2026/110900/
+2026-11-09,NTT Docomo,Telecom,Japan,"294,839 lines; cards masked",Unknown,4–9 Nov,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/09/090504
+2026-11-09,Resona Bank,Banking,Japan,139 via SMBC Consumer Finance,Unknown,6 Nov,Confirmed,https://act1.co.jp/2026-11-09-08
+2026-11-09,Kansai Mirai Bank,Banking,Japan,"5,793 via SMBC Consumer Finance",Unknown,6 Nov,Confirmed,https://act1.co.jp/2026-11-09-08
+2026-11-09,Minato Bank,Banking,Japan,3 via SMBC Consumer Finance,Unknown,6 Nov,Confirmed,https://act1.co.jp/2026-11-09-08
+2026-11-09,Shogakukan,Publishing,Japan,"1,993,665 members via Arara",Unknown,6 Nov,Confirmed,https://www.shogakukan.co.jp/news/477708
+2026-11-09,Arara,Email delivery,Japan,"Up to about 81.33M unique addresses, ~380 clients",Unknown,6 Nov,Confirmed,https://www.arara.com/news/info/20261106_arara
+2026-11-09,Raksul,Online printing,Japan,Print-data system accessed with stolen credentials,Unknown,8–9 Nov,Confirmed,https://cybersecurity-jp.com/news/118217
+2026-11-09,Yakult,Consumer goods,Japan,"Website compromise, 39,505 records",Unknown,26 Oct; reported 6 Nov,Confirmed,https://www.security-next.com/192342
+2026-11-09,Mirae Asset Securities,Securities,South Korea,"About 39,000 customers and employees",Unknown,4–7 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147084
+2026-11-09,SM Entertainment; Dear U; Dreamaker,Entertainment,South Korea,Documents incl. RRNs and bank accounts taken,Unknown,4–8 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147087
+2026-11-09,Chainalysis,Blockchain analytics,US,Services restored 7 Nov; root cause pending,"Unknown (""agentic"")",7 Nov,Restored,https://www.chainalysis.com/blog/security-incident-october-30/
+2026-11-09,Trade.xyz,Crypto trading,Not stated,Named as GitBook's targeted customer,Unknown,6 Nov,Named by SlowMist; denies own compromise,https://www.tokenpost.com/news/technology/50220
+2026-11-09,WorkOS,Identity SaaS,US,Breach attributed to a researcher's escaped ARTEX agent,Security researcher (claimed),6 Nov,Confirmed by WorkOS,https://runtimewire.com/article/workos-escaped-ai-agent-internal-tool
+2026-11-09,Mercado Bitcoin,Crypto exchange,Brazil,View-only reopening 9 Nov; ~US$49.2M lost,Unknown,9 Nov,Confirmed,https://www.otempo.com.br/economia/2026/11/6/mercado-bitcoin-reabre-na-segunda-9-so-para-consulta-de-saldo-saques-seguem-suspensos
+2026-11-09,Northflank,Cloud platform,Not stated,Customer secrets decrypted; AI keys abused,Unknown,30 Oct,Confirmed,https://status.northflank.com/cmvv0rn5a092f14rutwccodpp
+2026-11-09,Brenner Base Tunnel SE,Infrastructure construction,Austria / Italy,Data accessed; 812 GB claimed,Everest,Oct; confirmed 7 Nov,Confirmed,https://securityaffairs.com/202691/cyber-crime/dont-hand-propaganda-a-gift-reading-the-brenner-base-tunnel-se-breach-calmly.html
+2026-11-09,"Wachtell, Lipton, Rosen & Katz",Law,US,Leak-site listing,Silent Ransom Group,6 Nov 18:57 UTC,Claimed,https://www.ransomware.live/id/V2FjaHRlbGwsIExpcHRvbiwgUm9zZW4gJiBLYXR6QFNpbGVudFJhbnNvbUdyb3Vw
+2026-11-09,Tucker Ellis,Law,US,Leak-site listing,Silent Ransom Group,6 Nov 18:58 UTC,Claimed,https://www.ransomware.live/id/VHVja2VyIEVsbGlzQFNpbGVudFJhbnNvbUdyb3Vw
+2026-11-09,Benesch Law,Law,US,Leak-site listing,Silent Ransom Group,7 Nov 01:07 UTC,Claimed,https://www.ransomware.live/id/QmVuZXNjaCBMYXdAU2lsZW50UmFuc29tR3JvdXA
+2026-11-09,"""B… law"" (redacted)",Law,Unknown,Redacted listing,Silent Ransom Group,6 Nov 16:36 UTC,Claimed,https://www.ransomware.live/group/SilentRansomGroup
+2026-11-09,"Boyle, Pecharich, Cline, Whittington & Stallings",Law,US,Leak-site listing,Akira,6 Nov 11:05 UTC,Claimed,https://www.ransomware.live/
+2026-11-09,Cuomo LLC,Law,US,Leak-site listing,Anubis,9 Nov 00:22 UTC,Claimed,https://recentbreaches.com/breach/cuomo-llc-anubis-2026-11
+2026-11-09,Rotstein & Shiffman,Law,Israel,Leak-site listing,Qilin,6 Nov 09:25 UTC,Claimed,https://www.ransomware.live/
+2026-11-09,Higginbotham,Insurance brokerage,US,217K+ client policy documents claimed,N0n,7 Nov 10:53 UTC,Claimed,https://www.ransomware.live/id/SGlnZ2luYm90aGFtQE4wbg
+2026-11-09,Resource Consultants,Consulting,US,Leak-site listing,N0n,6 Nov,Claimed,https://www.ransomware.live/group/N0n
+2026-11-09,Infutor Data Solutions,Consumer identity data,US,Leak-site listing,N0n,7 Nov,Claimed,https://www.ransomware.live/group/N0n
+2026-11-09,Chartboost,Ad tech,US,Leak-site listing,N0n,6 Nov,Claimed,https://www.ransomware.live/group/N0n
+2026-11-09,Expedia Group,Online travel,US,"Leak-site listing, data not itemised",N0n,9 Nov 03:21 UTC,Claimed,https://recentbreaches.com/breach/expedia-group-inc-n0n-2026-11
+2026-11-09,Staples / SBD,Retail,US,Marked exposed,N0n,7 Nov,Claimed,https://www.ransomware.live/group/N0n
+2026-11-09,AXE-Experts,Expert services,France,Leak-site listing,Qilin,7 Nov 17:25 UTC,Claimed,https://frenchbreaches.com/alertes/axe-experts-rw_UVZoRklDMGdSVmhRUlZKVVUwQnhhV3hwYmc
+2026-11-09,Schroers Ingenieure,Engineering consultancy,Germany,Leak-site listing,Payload,7 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,Otto Stops,IT integrator,Germany,Leak-site listing,Payload,7 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,Treuhand & Immobilien Abt AG,Fiduciary / real estate,Switzerland,Leak-site listing,Rhysida,7 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,IMD Group,Not stated,Italy,Leak-site listing,Nightspire,7 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,Insation Technologies,IT services,US,Leak-site listing,Genesis,6 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,ADG Blatt,Program management,US,Leak-site listing,Barracuda (group),8 Nov,Claimed,https://recentbreaches.com/breach/adg-blatt-barracuda-2026-11
+2026-11-09,bpcm.com,Professional services,US,"""All company data"" claimed",INC Ransom,8 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,Pekin Insurance,Insurance,US,Leak-site listing,Metaencryptor,7 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,Maersk,Logistics,Denmark,About 100 GB from LF Logistics platform; US$5M demand,WhiteArmor,7 Nov 03:48 UTC,"Claimed, unproven group",https://www.ransomware.live/id/bWFlcnNrQFdoaXRlYXJtb3I
+2026-11-09,Hyundai E&C,Construction,South Korea,Leak-site listing,Metaencryptor,7 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,Mutares,Private equity,Germany,Leak-site listing,BrainCipher,6 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,Tribunal de Justiça de Minas Gerais,Judiciary,Brazil,Leak-site listing,Rhysida,7 Nov,Claimed,https://www.ransomware.live/
+2026-11-09,Sécuritest / SGS,Vehicle inspection,France,"22.7M people claimed, for sale",ChimeraZ,7 Nov,Claimed (credible),https://frenchbreaches.com/alertes/fuite-donnees-securitest-22-millions-clients-controle-technique-mw6vd1rbumwau7gc4g
+2026-11-09,Omnicasa,Real-estate SaaS,Belgium,"465,000+ emails claimed",Unnamed,8 Nov,Claimed,https://frenchbreaches.com/
+2026-11-09,Computacenter,IT services,UK,No response; infostealer logins noted,INC Ransom,6–8 Nov,Claimed,https://www.breachsense.com/breaches/computacenter-data-breach/
+2026-11-09,Deloitte,Professional services,Global,"Page updated, contents ""soon""",The Gentlemen,9 Nov,Claimed,https://www.ransomware.live/id/RGVsb2l0dGVAdGhlZ2VudGxlbWVu
+2026-11-09,SonicWall SonicOS SSLVPN,Network security,US,CVE-2026-19868 SAML MFA bypass; KEV,Unknown,6 Nov,Exploitation reported,https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
+2026-11-09,QNAP NAS (Plex users),Storage,Global,Breached via Plex2Shell,Unknown,6 Nov,Exploited,https://bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks
+2026-11-09,Southeast Asian financial organisations (unnamed),Finance,SE Asia / global,ARTEX-driven intrusions,Storm-3358,Oct–Nov,Reported,https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/
+2026-11-09,Antonio Tajani,Government,Italy,"Personal data on dark-web ""hostile"" list","Pro-Russian (NoName057(16) per Il Fatto, unconfirmed)",7–8 Nov,Reported,https://www.sofx.com/pro-russian-hackers-put-italys-tajani-on-dark-web-target-list-of-hostile-figures/
+2026-11-09,Rosstat,Government statistics,Russia,Demography database leak claimed,Belarusian Cyber Partisans; Silent Crow,31 Oct–7 Nov,Claimed; denied,https://kyivindependent.com/hackers-claim-leaked-russian-data-reveals-up-to-450-000-war-related-deaths-in-ukraine/
+2026-11-09,Subred Sur Occidente (Bogotá),Health,Colombia,Account apparently used for airport hoax emails,Unknown,6 Nov,Under investigation,https://therecord.media/bogota-potential-city-health-agency-hack-european-hoax-emails
+2026-11-09,Musinsa,Fashion retail,South Korea,Impersonated by fake recruiters,Unknown,7 Nov,Warning issued,https://en.sedaily.com/society/2026/11/08/musinsa-warns-of-fake-recruiters-offering-internships-in
+2026-11-09,strutil-core (RubyGems),Open source,Global,Shai-Hulud descendant with conditional wiper,Unknown,1 Nov; reported 6 Nov,Removed,https://socket.dev/blog/shai-hulud-descendant-malicious-ruby-gem
+2026-11-09,@cherrydotfun/miniapp-sdk (npm),Open source,Global,Malicious 0.1.22–0.1.23,Unknown,6 Nov,Malicious,https://osv.dev/vulnerability/MAL-2026-18737

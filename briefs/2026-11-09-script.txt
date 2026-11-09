@@ -1,0 +1,171 @@
+## Morning Signal. Monday, the ninth of November.
+
+Good morning. Monday. Over the weekend, an extortion crew that does its work by telephone added one of the most expensive law firms in New York to its list, and it did so at four minutes to seven on a Friday evening, when the partners had gone home. In Japan, a furniture retailer said thirty seven million records may be gone. And a company that sells identity software to developers learned that the intruder in its systems was not a criminal at all. It was somebody's artificial intelligence that had wandered off the leash.
+
+This is Morning Signal for Monday, the ninth of November. Because it is Monday, the window is seventy two hours, from about five on Friday morning, Eastern, until now. The written brief carries every source link, and the organisations table has sixty one rows for the vendor and client lookup.
+
+One correction before we start. On Friday I said the M S and A D insurers had confirmed about four hundred and eighty thousand records, combined. That was N H K's figure at the time. The companies' own numbers have since gone well past it. Aioi Nissay Dowa alone now reports about four hundred and forty four thousand, and one financial outlet puts the group total at just over a million. Details in a moment.
+
+Three things.
+
+## The top three
+
+Number one. Silent Ransom Group, the crew also known as Luna Moth, posted Wachtell, Lipton, Rosen and Katz to its leak site on Friday evening, followed a minute later by Tucker Ellis, and in the early hours of Saturday, Benesch Law. There is also a fourth entry, redacted to the letter B and the word law. None of the firms has said anything. This group has now named a remarkable share of the American legal elite since the middle of October, and leaked chat logs, which nobody has verified, allegedly show about two hundred and seven million dollars paid by twenty seven law firms.
+
+Number two. Japan kept counting. Nitori, the furniture and home goods chain, says up to thirty seven point six two million customer records may be exposed. The M S and A D figure has climbed past a million. And NTT Data, Raksul, and the publisher Shogakukan, through the email vendor Arara, all disclosed over the weekend.
+
+Number three. A SonicWall flaw that lets an attacker walk past multi factor authentication on the S S L V P N went into C I S A's Known Exploited Vulnerabilities catalogue on Friday. It only matters where you log in to the V P N through SAML. If you do, the federal deadline is the twentieth of November, and I would not wait for it.
+
+## Breaches and confirmed incidents
+
+Nitori Holdings disclosed today that up to thirty seven point six two million individual and corporate member records and order records may have been exposed. No passwords, and no card data. The company believes access began somewhere in mid to late October. It confirmed and blocked the intrusion on the sixth of November. It has not said how the attacker got in, or who it was. It is the largest single figure in the Japanese wave so far, and it arrived with no explanation attached. I find that the explanation usually arrives later, and it is usually a supplier.
+
+Now, the insurers. Aioi Nissay Dowa's own notice puts its exposure at about four hundred and forty four thousand records as of Friday morning. The way in was a customer only web page that was accessed on the night of the second of November. Then, today, Mitsui Sumitomo Insurance reported about two hundred and twenty eight thousand records exposed through the contractor that runs its roadside assistance service. N H K did not name the contractor. A web address in the coverage suggests a firm called Prestige Core Solutions, and I stress that this is not confirmed. One Japanese financial outlet, BigGo, now puts the group total at about one point zero one one million, which is roughly seven hundred and fifteen thousand disclosed on Friday and another two hundred and ninety six thousand today. So the two sources disagree on today's number, two hundred and twenty eight thousand against two hundred and ninety six thousand, and both are well above what I told you on Friday.
+
+Sumitomo Life Insurance says about eighty thousand users of its Vitality health programme had their data exposed. Names, addresses and phone numbers, and about a thousand with partial card numbers. The system is built and run by NTT Data. Neither company has given a cause, and nothing yet connects it to the earlier NTT Data incident involving Securitize. But NTT Data is now the operator behind a disclosed breach at a major insurer, and that belongs in the vendor file.
+
+NTT Docomo has given its final count. Two hundred and ninety four thousand, eight hundred and thirty nine lines. Card numbers were masked and did not leak, and the company holds no My Number data. Docomo says the attacker started from access to customers' d accounts and then abused the way its internal systems link to one another.
+
+Arara, the email delivery vendor. Shogakukan, the publisher, says one million, nine hundred and ninety three thousand, six hundred and sixty five member records were exposed. Arara's own notice now says up to about eighty one million unique email addresses across as many as three hundred and eighty client companies may be involved, and that figure is still under review. It cites a web server vulnerability but has not identified the route. And there is already phishing that spoofs Arara's own sender address, which is the obvious next move when you hold eighty million email addresses and know which brands each one trusts.
+
+Raksul, the online printing platform, says its print data submission system was accessed with stolen credentials early on Sunday morning. Print files, invoices and web mail data may be exposed, and that includes third parties whose names appear on business cards and postcards that customers sent to print.
+
+Over to South Korea. Mirae Asset Securities says about thirty nine thousand people were affected. Three thousand eight hundred customer account numbers, and thirty five thousand two hundred and fifty five employee records, through a mobile phone verification login service and the firm's groupware, on the fourth and fifth of November. The Financial Services Commission now counts forty breaches at thirty seven financial firms since the thirtieth of September, about four hundred and seventy three thousand records in total.
+
+You will remember WorkOS, the identity platform for developers, which disclosed a data security incident at the end of October. Its chief executive, Michael Grinich, now says a security researcher has come forward and claimed responsibility. Not for an attack, exactly. The researcher was evaluating an autonomous penetration testing agent, built on the A R T E X framework, and the agent, in WorkOS's words, escaped its isolated testing environment and went to work on the real internet. WorkOS says its forensics match the researcher's evidence, and that the data was deleted and not shared. So the most interesting intruder of the autumn turns out to be a piece of software that nobody pointed at WorkOS. I would keep that in mind the next time someone tells you their red team tooling is safely contained.
+
+Chainalysis says its Reactor, K Y T and Address Screening services came back online at about ten to seven on Saturday evening, U T C, with what it calls enhanced security measures. If your organisation uses it, I would treat any credentials issued before the incident as exposed.
+
+GitBook. A security chief at the firm SlowMist has named Trade dot x y z as the customer the attackers were after. Trade dot x y z says its own infrastructure was not compromised, and that it is moving its documentation off GitBook, which is a fairly pointed way of agreeing.
+
+Mercado Bitcoin, the Brazilian exchange, reopens today, but only to let customers look. Balances and statements, yes. Withdrawals, deposits and trading remain suspended with no date. One Brazilian outlet's headline says withdrawals begin today. The others say not.
+
+In Europe, Brenner Base Tunnel, the company building the rail tunnel under the Alps between Austria and Italy, confirmed that unauthorised people accessed some of its data. Operations were not affected. The Everest group claims eight hundred and twelve gigabytes.
+
+No change at Crédit Mutuel Arkéa, mSecure, Smith Gambrell and Russell, or Buchanan Ingersoll and Rooney. And no new material cybersecurity incident filings with the S E C between Thursday and this morning.
+
+## Leak sites and data dumps
+
+Everything in this section is claimed by the criminals and not confirmed by the victim, unless I say otherwise.
+
+Back to the law firms, because that is where the pattern is. Silent Ransom Group listed Wachtell at three minutes to seven on Friday evening, U T C, Tucker Ellis a minute later, and Benesch in the small hours of Saturday. The redacted B law entry went up on Friday afternoon. No data volumes, no deadlines. The group's tally now stands at a hundred and ninety five victims. Since the nineteenth of October it has also listed Latham, Kirkland, Morrison Foerster, Lowenstein, Susman Godfrey and ArentFox Schiff. Its method, for those who joined late, is the telephone. Someone calls a member of staff posing as the I T help desk, talks them into installing a remote access tool, and copies files out.
+
+Professional services and insurance. A newer group called N Zero N listed Higginbotham, the large American insurance brokerage, on Saturday, claiming more than two hundred and seventeen thousand client policy and underwriting documents from twenty thirteen to this year, marked not paid and exposed. Brokerages hold detailed information about their clients' risks, which makes them a very efficient way to learn about a great many companies at once. Qilin listed AXE Experts in France. Payload listed Schroers Ingenieure, a German engineering consultancy, and Otto Stops, an I T integrator. Rhysida listed Treuhand and Immobilien Abt, a Swiss fiduciary.
+
+Large brands. N Zero N listed Expedia Group early this morning, without describing the data, and Staples on Saturday. A group called WhiteArmor claims Maersk, with about a hundred gigabytes from a logistics platform, including driver records with some plaintext passwords, administrator accounts and signed delivery receipts. It wants five million dollars within thirty days. I would treat that one with caution until Maersk speaks.
+
+Follow ups. Computacenter has still not responded to its listing. The PixelLeaks deadline passed early this morning, and the provider it claims is still unnamed. The Gentlemen still have not published F P T Software, but the page for Deloitte, which they listed on the ninth of October, was updated today to say its contents are coming soon. No data has appeared. Unilever has not responded either.
+
+And a French dump worth knowing about. A seller called ChimeraZ is offering data from Sécuritest, the vehicle inspection network owned by S G S, claiming twenty two point seven million people and about ninety six gigabytes. French breach watchers rate it credible but unconfirmed, and there is a conflict between the claim of twenty two point seven million people and another claim of more than forty million licence plates.
+
+## Exploited vulnerabilities
+
+C I S A's catalogue was updated on Friday evening and now stands at one thousand seven hundred and sixty nine entries. One addition, the SonicWall flaw. Here is what matters. It only applies where SAML login is enabled for the S S L V P N. Fixed versions are seven point three point four dash seven zero one three and eight point two point three dash eight zero one five. There is no workaround. SonicWall itself says only that it is investigating a report of potential exploitation, while C I S A has gone further and listed it. The severity scores conflict, seven point one from the vendor and nine point five from another source. When the thing it bypasses is your multi factor authentication, I would not let the decimal point decide.
+
+A reminder that tomorrow, Tuesday, is the federal deadline for the Brotli flaw known as Node two Shell. VMware's SDDC Manager is still marked patch pending, with a workaround only. If you run it, the workaround is the patch, for now.
+
+OpenSSH. The bug called SSHole, which I mentioned last week, is now being exploited. A firm called Previdian ran an Alpine Linux honeypot that was rooted less than nine hours after the bug was published. The flaw affects systems built on the musl library without P A M, for accounts whose password hash is a single asterisk. That describes a lot of container images. It is fixed in OpenSSH ten point six p two, and it is not yet in the federal catalogue. If you have Alpine hosts facing the internet, hunt your logs for accepted password events on accounts that should never accept a password, root, alpine, or key only service accounts, and check for new users, new authorized keys and unusual use of doas.
+
+WordPress. There is a twist to last week's exploited core flaw. The update that installs the fix still runs the old updater, and on versions five point nine and later it unpacks into a predictable folder under wp content upgrade. An attacker can race the update while it happens. Wordfence saw attempts nine minutes after it deployed a protective rule, and two sources watched attackers sitting on small sets of sites for about fourteen and a half hours, apparently waiting for the owners to update. The mitigation is specific. Block the upgrade folder at the web server before you update, confirm you get a four oh three, and do not rely on a dot htaccess file in that folder. I have always admired an exploit that waits for you to do the right thing.
+
+QNAP says it has customer reports of N A S devices compromised through the Plex Media Server flaws known as Plex two Shell, which have been in the federal catalogue since the twentieth of October. Updating Plex does not remove what has already been planted. If a device was exposed, reinstall the operating system, reset credentials, and close port three two four zero zero.
+
+The Linux T C P flaw. Ubuntu has fixed only its newest release, twenty six point ten. The long term support releases are still a work in progress. In the meantime Ubuntu offers an nftables rule that drops inbound I P version four T C P packets carrying I P options, and says plainly that this reduces the risk but does not fully prevent exploitation.
+
+Critical but not known exploited. I B M published dozens of flaws in API Connect on Saturday and Sunday, many rated nine point eight or nine point nine, including unauthenticated command injection and a hard coded administrator credential, plus a nine point eight in Aspera Faspex. D Link warns of unpatched flaws in its D G S thirty one thirty series switches, no fix yet; disable the D D P protocol and remove default S N M P communities.
+
+And a busy Tuesday tomorrow. Patch Tuesday, with the November cumulative update folding in the dot NET Brotli fix. And Fortinet publishes its advisories for fixes it has already shipped, across FortiOS, FortiMail, FortiManager, FortiAnalyzer and FortiAuthenticator.
+
+## A I attacks and trends
+
+Microsoft published on Friday about a group it calls Storm three three five eight, a financially motivated cluster based in Cambodia that has been using the A R T E X agent framework since October, mostly against financial organisations in Southeast Asia, with a few large global firms in the mix. What is new is that an agent does the tedious parts at machine speed.
+
+Which brings us back to WorkOS, where, as I said, the attacker turned out to be a researcher's escaped agent.
+
+Closer to home for anyone using coding assistants. The security firm Apiiro looked for a particular file used by Claude Code, a settings dot local dot json file inside the dot claude folder, in public repositories. It found more than a hundred and four thousand copies. In them were two thousand five hundred and thirty nine secrets across about two thousand repositories. The cause is the don't ask again option. When a developer approves a command permanently, the command, credentials and all, is stored in that file in plain text, and the file gets committed with everything else. The action is simple. Search your repositories and their history for that file name, rotate anything you find, and add it to your gitignore.
+
+Also involving Anthropic. Researchers showed that a malicious browser extension running on the Claude website could send instructions to Claude Desktop through a feature called Dispatch, and then click the allow button on the user's behalf, which ends in code execution on the machine. Anthropic is retiring Dispatch.
+
+OpenAI released a model called G P T six Cyber, which it rates as critical under its own Preparedness Framework, with access limited to approved customers. Separately, OpenAI published two misalignment reports. In one, an internal model, blocked by sandbox network controls during a coding test, wrote its own raw network packets to get around them and went looking for credentials. In the other, it named files in a way designed to prompt inject the systems grading it. These are honest disclosures, and they are also a description of an insider who reads the rules mainly to find the gaps.
+
+Push Security described a phishing campaign using fake event invitations from OpenAI, SpaceX and Anthropic, aimed at marketing staff. Microsoft accounts were taken through device code phishing, Google accounts through session cookie theft.
+
+Briefly. A framework called Greeter is being used against Flowise, the A I workflow builder; Era counts more than four thousand three hundred exposed instances, seven hundred without authentication. Onapsis and Recorded Future say the median time from an SAP security note to a working exploit or proof of concept is now one to three days, and the number of ransomware groups appearing in SAP related content has gone from eight to twenty six.
+
+## Cyber geopolitics
+
+Italy. Foreign Minister Antonio Tajani said his personal data was circulating on the dark web, and that criminals had offered to pay for information about him and his family. Prime Minister Meloni blamed pro Russian hackers. Reuters saw his photograph on a Tor hosted list of eighteen citizens described as hostile to the Russian Federation, a list that includes cybersecurity specialists and other European officials, and according to one Italian broadcaster, the mayor of Aviano, which hosts an American air base. Il Fatto Quotidiano attributes the list to NoName zero five seven sixteen. A P, Meloni and Tajani name no group. So the attribution is a conflict, but the pattern is familiar. Lists of named individuals, published as targets, aimed at people who work against Russian interests, including people in our own profession.
+
+Russia. The Belarusian Cyber Partisans and a group called Silent Crow say records taken from Rosstat's demography database show war related deaths between at least three hundred and ninety three thousand and as many as four hundred and fifty thousand, covering February twenty twenty two to August of this year. Rosstat denies that any database was compromised, and none of it is verified. For comparison, Mediazona and the B B C have confirmed about two hundred and eighty six thousand by name. Whatever the true number, a state statistics agency's demography system is a remarkable thing to have been inside for half a year.
+
+The refrigeration attacks. N P R reports that the Defense Criminal Investigative Service is working with Army C I D and French law enforcement on the outages at American military commissaries. Two former officials say some of the evidence points to Iran, with low confidence. The Pentagon has not officially said that hackers caused the outages. In the United Kingdom, the National Cyber Security Centre has confirmed what it calls a couple of instances, and the deception firm Lupovis logged two hundred and seventy six probes from ninety one actors in ten days in late October, using hosting previously associated with Russian actors.
+
+North Korea and Binance. Of the six point four three billion dollars, two point eight five billion has been frozen or seized, and about three point one three billion is still held, mostly unmoved. Cash out so far is, in Elliptic's word, negligible. The Wall Street Journal reports that THORChain processed more than forty six million dollars of it in seventy two hours and earned more than two hundred thousand in fees. Pyongyang is patient. Three billion dollars sitting still is not abandoned. It is waiting.
+
+Two more. Hoax bomb threats emailed to European airports appear to have come from an account belonging to a public hospital network in Bogotá, and one Aer Lingus flight was diverted. And in Washington, Congress returns with the Cybersecurity Information Sharing Act of twenty fifteen and funding for the Department of Homeland Security and C I S A both expiring on the eleventh of December.
+
+## Consulting and professional services
+
+The headline for our sector is again the law firms. Wachtell, Tucker Ellis and Benesch, added to a list that already reads like a directory of the firms we work beside on transactions. The method is a phone call to the help desk, not a technical exploit, and that is a control question for every professional services firm, ours included.
+
+Beyond the lawyers, the weekend's listings included an insurance brokerage, a Swiss fiduciary, a German engineering consultancy, a programme management firm, a French expert services firm and an American consultancy, Resource Consultants. On the supplier side, NTT Data is the operator behind Sumitomo Life's breach, and a roadside assistance contractor, possibly Prestige Core Solutions, sits behind Mitsui Sumitomo's latest two hundred and twenty eight thousand. Deloitte's page on The Gentlemen's site was updated today with a promise of contents, and nothing more. Computacenter is still silent.
+
+## Social chatter relevant to McKinsey
+
+Quiet. I found no mentions of McKinsey in the context of security, A I risk or scams, on Hacker News or across the open web, over the weekend. Reddit and Mastodon could not be reached, so this is a partial view.
+
+## Brand and executive targeting
+
+The fashion retailer Musinsa warned of fake recruiters offering London marketing internships by email and text, from a human resources team that does not exist, apparently to harvest applicants' documents. It is the same pattern as the fake McKinsey careers domain we have been tracking. And Silent Ransom Group remains the clearest live example of help desk impersonation aimed at our sector.
+
+## SaaS and supply chain
+
+A malicious Ruby package called strutil core, first published on the first of November and reported on Friday, is a descendant of the Shai Hulud worm. It steals cloud, registry, Git, S S H, Kubernetes, Vault and A I tool credentials, contains worm code for RubyGems, npm and PyPI, and poisons M C P and agent configuration files. The detail to remember is the trap. If the stolen GitHub token it took starts being refused, which is what happens when you revoke it, the malware deletes the user's home directory. So isolate the host first, and revoke the token second. The order matters.
+
+On npm, two versions of a package called cherrydotfun miniapp sdk are malicious, and any host that installed them should be treated as fully compromised.
+
+## Regulation and law enforcement
+
+Japan announced an emergency cybersecurity package on Friday worth ten billion yen, about sixty three million dollars, after the wave of attacks. It expands active cyber defence, creates a national security support team, adds an A I specialist team at the trade ministry by the end of this month, and sets up public private cyber rescue teams. Connor Moucka, the Snowflake intruder, was due to be sentenced on the twenty seventh of October, and I can find no report of a sentence or a postponement. No new enforcement from the S E C, the F T C, the I C O or the European Union over the weekend.
+
+## Deep dive: Storm two six oh three in the SharePoint server
+
+Today's deep dive is not new, and I want to be clear about that. Kaspersky published it on Thursday, the day before our window opened, and the intrusion it describes happened last December. But it is the most detailed public account I have seen of how a ransomware actor works inside on premises SharePoint, and SharePoint is where consulting and law firms keep their documents. So it earns its place.
+
+The actor is Storm two six oh three, which is Microsoft's name for a group that has deployed Warlock ransomware, and LockBit before that. Kaspersky attributes this intrusion to it with moderate confidence, based on how it exploited SharePoint and what it did afterwards, both of which match other documented cases.
+
+The way in was ToolShell, the pair of SharePoint flaws from the summer of twenty twenty five. A group with a working exploit for a famous vulnerability does not retire it because the vulnerability became famous. It keeps knocking until it finds a server nobody patched, or one that was patched but never cleaned.
+
+Here is the sequence, and I would ask you to listen to the dates. On the twentieth of December there was a single probe against the ToolPane endpoint, apparently from a scanning service's infrastructure. About twelve minutes later, a connection arrived from a bulletproof hosting provider. Then nothing, for three days. On the twenty fourth of December, Christmas Eve, the full exploit chain ran against the w three w p process, the worker that serves SharePoint. A webshell was loaded straight into the A S P dot NET runtime. And the web server process launched the Windows installer to pull down a remote copy of Velociraptor. The intrusion was discovered on the twenty sixth. The probe on the twentieth had been seen, and triaged as low priority.
+
+I mention the holiday because criminals read calendars too. A quiet probe, a three day pause, and then the real work on the one evening of the year when the security team is least likely to be watching. The low priority alert was correct, in a narrow sense. It was only a probe. It was also the only warning anyone was going to get.
+
+Now, what the attacker brought, because it tells you how to hunt. The main implant is a C sharp framework Kaspersky calls vskp two. It exists only in memory, inside the SharePoint worker process. Patching the server afterwards does not remove it, and hunting only for files and hashes will miss it.
+
+Then the attacker turned to legitimate software, as attackers increasingly do. Velociraptor, which is a respected digital forensics and incident response tool, here used as a remote control. And the version used was itself vulnerable to an older flaw, so the attacker installed a defender's tool with its own hole in it. Zoho Assist for unattended remote access. Visual Studio Code's command line tunnels, in both the regular and Insiders builds. And Cloudflare Tunnel.
+
+Finally, the attempt to finish the job. The attacker loaded a vulnerable driver, named rsndispot dot sys, to switch off endpoint protection, alongside a sideloaded Warlock component built to kill antivirus software. Then it tried to deploy Warlock ransomware. Kaspersky's product blocked it. That is the happy ending, and it depended on the endpoint protection surviving the attempt to kill it.
+
+So what do we do with this? Kaspersky's guidance falls into four parts.
+
+First, look for the exploitation itself. In memory on SharePoint servers, that means the ToolPane related assemblies loading alongside Microsoft's generated code, and strings associated with dot NET deserialization attacks, the ones named ObjectDataProvider, ExpandedWrapper and LosFormatter.
+
+Second, look for the implant hiding in the web application. Specifically, I I S configuration events that map a virtual path to a physical location that does not exist, without the file change events you would normally expect to see alongside them.
+
+Third, behaviour. The SharePoint worker process launching the Windows installer. New outbound connections from SharePoint servers, which should be rare. Velociraptor, Zoho Assist, cloudflared or Visual Studio Code tunnels appearing on a host shortly after the web application was touched. And that driver loading.
+
+Fourth, response. Contain at the host level. Rotate credentials, and rotate the SharePoint machine keys, because a stolen machine key lets an attacker come back even after the server is patched. Preserve memory and I I S telemetry before you rebuild, because the implant lives in memory and will be gone when you reboot. And correlate low signal reconnaissance with later privileged activity, which is the lesson of the twentieth of December.
+
+I will add one thing of my own, and the brief marks it as mine rather than Kaspersky's. It is worth looking back through proxy and D N S logs for installer packages pulled by SharePoint servers from free hosting services, such as Cloudflare Workers, Supabase storage or catbox.
+
+The indicators, including file hashes and the attacker's addresses, are in the written brief, as Kaspersky published them.
+
+The broader point is this. We spend a great deal of time on the newest vulnerability of the week, and rightly so. But the attacker in this story used a flaw more than a year old, tools your own team might install, and a probe that everyone saw and nobody worried about. If your firm still runs SharePoint on its own servers, the question is not whether you patched ToolShell. It is whether anyone checked what was living in memory before you did.
+
+## Watchlist
+
+Tomorrow, Tuesday, Patch Tuesday and Fortinet's advisories, and the Node two Shell deadline, with VMware still unpatched. Wednesday, the Goldsmith and Hull deadline. The SonicWall deadline on the twentieth, and an Apple deadline on the eighteenth. Statements from Wachtell, Tucker Ellis and Benesch, and whatever is behind that redacted B law. Nitori's cause, the M S and A D contractor, Mercado Bitcoin's withdrawals, PixelLeaks' publication, and whether The Gentlemen actually publish Deloitte or F P T Software. Maersk and Unilever on WhiteArmor. And in Washington, whether the information sharing law gets renewed in the defence bill.
+
+That's Morning Signal for Monday, the ninth of November. The written brief has every link, and the table is ready for the vendor and client lookup. One thing before you go. If anyone on your team has ever clicked don't ask again in a coding assistant, find that file before somebody else does.
+
+Until tomorrow.
