@@ -1,0 +1,89 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-11-10,Sharefull,Gig-work platform,JP,"Internal system intrusion, up to 7.5M accounts",Unknown,4–9 Nov,Confirmed,https://cybersecurity-jp.com/news/118243
+2026-11-10,Wills (NetMile),Points exchange,JP,Up to 5.49M member records,Unknown,9 Nov,Confirmed (investigating),https://www.security-next.com/192460
+2026-11-10,Rohto Pharmaceutical,Consumer health,JP,2.8M customers via call-centre credentials,Unknown,Sep; reported 9 Nov,Confirmed,https://www.security-next.com/192493
+2026-11-10,Iris Ohyama,Manufacturing/e-commerce,JP,7.7M via external cloud,Unknown,29 Oct–8 Nov,Confirmed,https://bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers
+2026-11-10,Doutor Coffee,F&B e-commerce,JP,"Admin panel breach, 24,762 members",Unknown,24–25 Oct; reported 10 Nov,Confirmed,https://www.security-next.com/192495
+2026-11-10,JNSA,Security association,JP,"15,128 user records",Unknown,30 Oct–6 Nov,Confirmed,https://www.security-next.com/192491
+2026-11-10,Gakken Holdings (17 cos),Education/publishing,JP,"793,060 records via Arara",Unknown,9 Nov,Confirmed,https://cybersecurity-jp.com/news/118263
+2026-11-10,SEGA,Gaming,JP,2.2M emails via Arara,Unknown,9 Nov,Confirmed,https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
+2026-11-10,MOS Burger / Shochiku Multiplex / IIJmio,Food / cinema / telecom,JP,Arara downstream,Unknown,Nov,Confirmed (per BC),https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/
+2026-11-10,Arara,Email delivery SaaS,JP,81.3M emails,Unknown,27–31 Oct,Confirmed,https://cybersecurity-jp.com/news/118263
+2026-11-10,Blastmail (Rakus Light Cloud),Email delivery SaaS,JP,"API servers breached, 421 contracts",Unknown,20 Oct,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/09/230435
+2026-11-10,Cuenote (Yumil Link),Email delivery SaaS,JP,51.6M addresses output,Unknown,16 Oct,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/09/230435
+2026-11-10,SpeeCAN RAIDEN (Arcadia),Email delivery SaaS,JP,"Key leak, 1.42M phishing emails",Unknown,11–23 Oct,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/09/230435
+2026-11-10,Y-mail (Igrex),Email delivery SaaS,JP,"Portal intrusion, 11 clients",Unknown,24 Oct,Confirmed,https://piyolog.hatenadiary.jp/entry/2026/11/09/230435
+2026-11-10,Ryohin Keikaku (MUJI),Retail,JP,"Credential stuffing, 270k accounts",Unknown,9 Nov,Confirmed,https://cybersecurity-jp.com/news/118264
+2026-11-10,Hanil Networks (UBase),IT infrastructure/finance,KR,Ransomware,Unknown,2 Nov; disclosed 10 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147152
+2026-11-10,Agile Soda,AI (NH Bank subsidiary),KR,Douzone backup leak,Unknown,10 Nov,Suspected,https://www.boannews.com/news/articleView.html?idxno=147145
+2026-11-10,Jeonnam Info Culture Industry Promotion Agency,Public,KR,Douzone backup leak,Unknown,10 Nov,Suspected,https://www.boannews.com/news/articleView.html?idxno=147151
+2026-11-10,Douzone Bizon,ERP/backup SaaS,KR,"APO backup breach, 29 suspected victims",Unknown,10 Nov,Ongoing,https://www.boannews.com/news/articleView.html?idxno=147151
+2026-11-10,Anthropic,AI,US/KR,About 100 Korean enterprise accounts exposed,Cathedral (bug-bounty firm),31 Oct; PIPC 10 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147148
+2026-11-10,Modu Parking,Mobility app,KR,"Notification vendor keys stolen, phishing",Unknown,8–10 Nov,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147150
+2026-11-10,Thai Airways,Aviation,TH,"Amadeus booking-data access, 60,529 records",Unknown,9 Nov,Confirmed,https://thethaiger.com/news/world/aviation/thai-airways-confirms-passenger-data-leak-but-credit-card-details-safe
+2026-11-10,Amadeus,Travel tech,ES,Booking-data access in its infrastructure,Unknown,Aug 2023–Sep 2026,Confirmed (per Thai),https://thethaiger.com/news/world/aviation/thai-airways-confirms-passenger-data-leak-but-credit-card-details-safe
+2026-11-10,Philippine SEC,Regulator,PH,Account data incl. TINs,Unknown,9 Nov,Confirmed advisory,https://sqmagazine.co.uk/philippine-sec-confirms-tin-and-addresses/
+2026-11-10,Vanderbilt University,Higher education,US,Active incident; BYOD claim,BYOD,9 Nov,Incident confirmed; data claim unverified,https://databreach.com/news/77-vanderbilt-orders-campus-offline-as-ransomware-gang-says-it-took-over-the-network
+2026-11-10,Texas HHSC,State government,US,Leak-site claim,BYOD,9 Nov,Claim,https://databreach.com/news/77-vanderbilt-orders-campus-offline-as-ransomware-gang-says-it-took-over-the-network
+2026-11-10,ESTT,Web hosting,RU,Ransomware outage,Unknown,8 Nov,Confirmed,https://themoscowtimes.com/2026/11/09/cyberattack-disrupts-russian-web-hosting-provider-estt-a94212
+2026-11-10,MetaMask (Consensys),Crypto wallet,US,Staking rewards diverted,Unknown,5 Nov,Confirmed,https://bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure
+2026-11-10,"Wilentz, Goldman & Spitzer",Law,US,Leak-site claim,Silent Ransom Group,9 Nov 21:06 UTC,Claim,https://ransomware.live/id/V2lsZW50eiwgR29sZG1hbiAmIFNwaXR6ZXJAU2lsZW50UmFuc29tR3JvdXA
+2026-11-10,"""B… W…"" (redacted)",Unknown,Unknown,Leak-site claim,SRG / Leakeddata,9 Nov,Claim,https://recentbreaches.com/
+2026-11-10,Ornico,Media research,ZA,Leak-site claim,Global Secret Group,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Heartland Honda,Auto retail,US,Leak-site claim,Global Secret Group,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,carrollins.com,Insurance agency,US,370.73 GB claim,Everstake,9 Nov,Claim,https://recentbreaches.com/
+2026-11-10,Pelican ICT,IT services,NL,Leak-site claim,AuditTeam,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,jltrust.com,Financial services,SG,Leak-site claim,AuditTeam,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,roycegroup,Manufacturing,PH,Leak-site claim,AuditTeam,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,hnopvm.org,Unknown,HK,Leak-site claim,AuditTeam,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Vertex Pharmaceuticals,Biopharma,US,Prescriber data claim,N0n,9 Nov 23:53 UTC,Claim,https://www.ransomware.live/id/VmVydGV4IFBoYXJtYWNldXRpY2FscyBJbmNvcnBvcmF0ZWRATjBu
+2026-11-10,Landmark Group,Retail,AE,Storefront data claim,N0n,10 Nov 01:53 UTC,Claim,https://www.ransomware.live/id/TGFuZG1hcmsgR3JvdXBATjBu
+2026-11-10,"N0n Company #148–#211 (incl. 2 payment card networks, a bank, benefits consultancy, law firm)",Various,US/CA/GB/EU,Anonymised listings,N0n,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,159 Solutions,Pharma analytics,US,Leak-site claim,N0n,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Expedia Group,Travel,US,Claimed mega-dump,N0n,9 Nov,"Claim, no response",https://dunyadesk.com/article/expedia-data-breach-claim-n0n-ransomware-830-million-loyalty-records-nov-2026
+2026-11-10,Maersk (LF Logistics),Logistics,DK,"Claim, US$5M demand",WhiteArmor,7 Nov; updated 9 Nov,Claim,https://www.ransomware.live/id/bWFlcnNrQFdoaXRlYXJtb3I
+2026-11-10,CITIC Pacific (citicpacific.com),Financial/conglomerate,HK,Leak-site claim,Krybit,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,UNIC Technology (Thailand),Technology,TH,Leak-site claim,Krybit,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Taste of Asia,Hospitality,HK,Leak-site claim,Krybit,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,niclibya.com,Other,LY,Leak-site claim,Krybit,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Sumoteks Tekstil,Textiles,TR,Leak-site claim,Krybit,9 Nov,Claim,https://recentbreaches.com/
+2026-11-10,M.C.S. Steel PCL,Manufacturing,TH,Leak-site claim,Rhysida,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,JH Technology,Technology,KR,Leak-site claim,Metaencryptor,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Greentech Renewables,Energy,US,Leak-site claim,Metaencryptor,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,"Storage Mart, Scripps, SimonMed, Samtec, Futura, Emerging Display Technologies, MiraeING, Maruki Medical Systems, Servicasa, Texmo Group, Zetton, Tiendaleon, Mayur Group",Various,Various,Leak-site claims,Climax,9 Nov,Claim,https://recentbreaches.com/
+2026-11-10,DomusVi,Care homes,FR,Leak-site claim,Black X,9 Nov,Claim,https://recentbreaches.com/
+2026-11-10,Irwin Automotive Group,Auto retail,US,Leak-site claim,Aoqin,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Fortox Security Group,Security,CO,Leak-site claim,Aoqin,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Albion Online Data Project,Technology,US,Leak-site claim,Vexy,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Living Word Schools,Education,US,Leak-site claim,Vexy,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,La'ala Al Kuwait Real Estate,Real estate,KW,Leak-site claim,Eclipse,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Johnson Development Corp.,Real estate,US,Leak-site claim,Aurora,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,Grupa ABS,Other,PL,Leak-site claim,Panzer,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,IE & E Industries,Manufacturing,US,Leak-site claim,Orova,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,JTK Solutions,Technology,US,Leak-site claim,Morpheus,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,rrh.org,Healthcare,Unknown,Leak-site claim,Scarlettgroup,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,fhiworks,Healthcare,Unknown,114 GiB claim,Iah6477,9–10 Nov,Claim,https://recentbreaches.com/
+2026-11-10,h***de,Unknown,DE,75 GB claim,Cloak,9 Nov,Claim,https://recentbreaches.com/
+2026-11-10,Cameroon government troops,Government/defence,CM,Leak claim,Hyflock,9 Nov,Claim,https://www.ransomware.live/
+2026-11-10,starmark.co.th,Retail,TH,Leak-site claim,LockBit5,8 Nov,Claim,https://www.ransomware.live/
+2026-11-10,"""Twitter Account""",Unknown,Unknown,Internal data claim,BYOD,10 Nov,Claim,https://recentbreaches.com/
+2026-11-10,Nature et Découvertes,Retail,FR,500k orders for sale (via provider),Forum seller,9 Nov,Claim,https://frenchbreaches.com/
+2026-11-10,Color Box,Auto paint e-commerce,FR/EU,About 87.8k people,Hacker,9 Nov,Claim (credible),https://frenchbreaches.com/
+2026-11-10,ADEMS14,HVAC maintenance,FR,About 36.6k people,Hacker,9 Nov,Claim (credible),https://frenchbreaches.com/
+2026-11-10,Pharmatomic,Pharma-related,FR,Database extracts,Cybercriminal,8 Nov,Claim,https://frenchbreaches.com/
+2026-11-10,MBS Design,Furniture,FR,Database extracts,Cybercriminal,8 Nov,Claim,https://frenchbreaches.com/
+2026-11-10,Arromanches Militaria,E-commerce,FR,About 5k accounts,Cybercriminal,8 Nov,Claim,https://frenchbreaches.com/
+2026-11-10,InOutlet,Retail,FR,Customer data,"""Sophia""",8 Nov,Claim,https://frenchbreaches.com/
+2026-11-10,Qubole (Idera),Data platform SaaS,US,Trusted AWS role abuse against customers,Unknown,14–26 Oct; reported 9 Nov,Confirmed by Wiz,https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html
+2026-11-10,N-able (N-central),RMM/MSP software,US,Hosted service offline after 33 flaws published,Researcher disclosure,9 Nov 15:15 UTC,Ongoing,https://gbhackers.com/n-able-takes-n-central-servers-offline/
+2026-11-10,"Ethersphere (bee-js, Swarm Desktop)",Open-source/crypto,Global,Malicious releases,SleepyDuck-linked,9 Nov 00:09 UTC,Confirmed,https://socket.dev/blog/bee-js-compromise
+2026-11-10,Web3Auth / Keplr,Crypto wallet infra,Global,Private-key compromise,Unknown,Early Nov; reported 9 Nov,Confirmed,https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html
+2026-11-10,LNbits,Open-source Lightning wallet,Global,Extension exploit,Unknown,8 Nov,Confirmed,https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html
+2026-11-10,Fireworks AI,AI inference SaaS,US,Second breach via cloud provider,LLMjacking (per FW),23–24 Oct; bulletin 9 Nov,Confirmed,https://windowsforum.com/news/fireworks-ai-discloses-second-breach-customer-data-exposed-dataset-workflows-restricted.451620/
+2026-11-10,Mittwald CM Service,Web hosting,DE,MCP server flaw exploited; 56 customer projects compromised; 8 days undetected,Unknown (company alleges AI-aided),Oct; disclosed 7 Nov,Contained per company,https://therecord.media/cyberattack-germany-ai-mittwald
+2026-11-10,Qubole customers (unnamed),Various,Not stated,Secrets and S3 data stolen via Qubole's trusted AWS roles,Unattributed,14–26 Oct; reported 9 Nov,Disclosed by Wiz,https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild
+2026-11-10,Unnamed GPUStack v2.1.1 deployment,AI inference,Not stated,CVE-2026-102895 exploited; reverse shells,Unknown,Before 9 Nov,In KEV,https://securityonline.info/gpustack-authentication-bypass-cve-2026-102895-exploited/
+2026-11-10,~700 French grocery stores (incl. Intermarché),Retail / food,FR,"Refrigeration controller sabotage; food losses, at least 15 fires (The Record)",IRGC Shahid Kaveh (French government attribution),Oct; attributed 9 Nov,Judicial investigation,https://therecord.media/france-blames-iran-for-fridge-cyberattacks
+2026-11-10,Small hydroelectric sites (unnamed),Energy,FR,Attacks on Schneider Electric equipment,Iranian hackers (ANSSI),Disclosed 9 Nov,Attributed,https://therecord.media/france-blames-iran-for-fridge-cyberattacks
+2026-11-10,OpenAI,AI,US,Alleged covert recording device in executive meeting room,Ex-employee (charged),Arrest 9 Oct; plea 6 Nov,Prosecution ongoing,https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html
+2026-11-10,Nvidia,Semiconductors,US,Alleged intelligence approach to CEO,Alleged Chinese intelligence (per NYT/AP),8 Nov,Board investigation; China denies,https://cybersecuritynews.com/nvidia-investigates-chinese-spy-operation
