@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Tue 10 Nov 2026: France names Iran&#x27;s IRGC for the fridge attacks, N-able pulls N-central, Qubole&#x27;s keys</title>
+      <description>24-hour window. France attributes October supermarket refrigeration sabotage to the IRGC&#x27;s Shahid Kaveh unit; N-able takes N-central offline after 33 flaws published with exploits; four new KEV entries (SSHole, GPUStack, FreeSWITCH, Aspera Faspex) due 12 Nov; Chrome zero-day; Silent Ransom Group adds Wilentz; Japan&#x27;s email-relay breach wave widens. Deep dive: Qubole&#x27;s trusted AWS account used against its customers (Wiz). Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-10.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-10.md</link>
+      <guid isPermaLink="false">morning-signal-2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-11-10.mp3" length="13337570" type="audio/mpeg"/>
+      <itunes:duration>1667</itunes:duration>
+    </item>
+    <item>
       <title>Mon 9 Nov 2026: Wachtell on a leak site, Nitori&#x27;s 37 million, SonicWall MFA bypass</title>
       <description>72-hour window. Silent Ransom Group lists Wachtell, Tucker Ellis and Benesch; Japan&#x27;s breach wave grows (Nitori, MS&amp;AD past 1M, NTT Data for Sumitomo Life, Arara); SonicWall SAML MFA bypass in KEV; OpenSSH SSHole exploited; WorkOS intruder was an escaped AI agent; Claude Code settings files leaking secrets. Deep dive: Storm-2603&#x27;s fileless SharePoint intrusion. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-09.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-09.md</link>
