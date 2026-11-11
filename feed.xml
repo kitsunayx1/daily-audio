@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Wed 11 Nov 2026: A&amp;O Shearman on Silent Ransom&#x27;s list, Outlook zero-day, Barracuda deadline Friday</title>
+      <description>24-hour window. Silent Ransom Group lists A&amp;O Shearman; Patch Tuesday fixes an exploited Outlook NTLM-leak zero-day; Barracuda ESG chain exploited with a 13 Nov KEV deadline; Fortinet publishes eight critical CVEs; N-able ships N-central Hotfix 2; Korea&#x27;s Financial Security Institute breached; Iran rejects France&#x27;s attribution. Deep dive: Check Point&#x27;s CopperDragon, the supplier behind China-nexus Sparrow tooling. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-11.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-11.md</link>
+      <guid isPermaLink="false">morning-signal-2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-11-11.mp3" length="12513698" type="audio/mpeg"/>
+      <itunes:duration>1564</itunes:duration>
+    </item>
+    <item>
       <title>Tue 10 Nov 2026: France names Iran&#x27;s IRGC for the fridge attacks, N-able pulls N-central, Qubole&#x27;s keys</title>
       <description>24-hour window. France attributes October supermarket refrigeration sabotage to the IRGC&#x27;s Shahid Kaveh unit; N-able takes N-central offline after 33 flaws published with exploits; four new KEV entries (SSHole, GPUStack, FreeSWITCH, Aspera Faspex) due 12 Nov; Chrome zero-day; Silent Ransom Group adds Wilentz; Japan&#x27;s email-relay breach wave widens. Deep dive: Qubole&#x27;s trusted AWS account used against its customers (Wiz). Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-10.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-10.md</link>
