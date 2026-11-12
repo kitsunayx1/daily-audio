@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Thu 12 Nov 2026: ScreenConnect worm hits MSP estates, N-able HF2 not enough, AI pentest kits aimed at consulting</title>
+      <description>24-hour window. ScreenConnect SCKit/RelayTrap pushed to 288 endpoints at 48 orgs via MSP panels (deep dive). N-able N-central HF2 still exposed to new exploit code. Unit 42 ARTEX campaign against retail and consulting cloud tenants. Baker Tilly third-party breach. Dentsu Digital TONARIWA, Openlogi, Maersk confirmation, CSCTelecom SMS exposure. Barracuda KEV due Friday. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-12.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-12.md</link>
+      <guid isPermaLink="false">morning-signal-2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-11-12.mp3" length="13308002" type="audio/mpeg"/>
+      <itunes:duration>1663</itunes:duration>
+    </item>
+    <item>
       <title>Wed 11 Nov 2026: A&amp;O Shearman on Silent Ransom&#x27;s list, Outlook zero-day, Barracuda deadline Friday</title>
       <description>24-hour window. Silent Ransom Group lists A&amp;O Shearman; Patch Tuesday fixes an exploited Outlook NTLM-leak zero-day; Barracuda ESG chain exploited with a 13 Nov KEV deadline; Fortinet publishes eight critical CVEs; N-able ships N-central Hotfix 2; Korea&#x27;s Financial Security Institute breached; Iran rejects France&#x27;s attribution. Deep dive: Check Point&#x27;s CopperDragon, the supplier behind China-nexus Sparrow tooling. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-11.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-11.md</link>
