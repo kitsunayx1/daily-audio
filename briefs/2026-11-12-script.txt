@@ -1,0 +1,159 @@
+## Morning Signal. Thursday, the twelfth of November.
+
+Good morning. Thursday. Yesterday afternoon someone took the tool that managed service providers use to fix their customers' computers, and used it to break them instead. Two hundred and eighty eight machines across forty eight organisations, in about ninety minutes. The software they used was not flawed. It simply did what it was told, by the wrong person. N able's patch, meanwhile, turns out not to be the end of N able's problem. And Palo Alto's Unit Forty Two says an artificial intelligence penetration testing kit has been pointed at cloud tenants in consulting.
+
+This is Morning Signal for Thursday, the twelfth of November. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has eighty rows.
+
+Three corrections to yesterday, and I would rather make them than have you discover them. On Fortinet, I said eight critical vulnerabilities, and that I could not find the FortiMail and FortiAuthenticator ones. SecurityWeek now counts about a hundred vulnerabilities across eighty nine advisories, roughly seventeen of them critical, and FortiMail has more critical fixes than any other product. None is reported as exploited. On Xen Orchestra, I gave the wrong fixed versions. SecurityWeek says six point nine point two for the stable branch, and six point ten point one for the latest, and the second flaw, the malicious virtual machine import, has no fix at all yet. And on Patch Tuesday, the count now depends on who you ask. The Hacker News says one thousand two hundred and fifty nine, SecurityWeek one thousand and ninety four, Tenable one thousand and ninety three. The Hacker News adds that Microsoft credits the Outlook zero day to a researcher called Nono, and to Benoît Sevens of Anthropic, working with Claude. I mention that last part without further comment.
+
+Three things.
+
+## The top three
+
+Number one. From about a quarter to six yesterday evening, U T C, an operator began using ConnectWise ScreenConnect's Run Command feature to push rogue ScreenConnect clients, and a toolkit called S C Kit, onto managed computers. Huntress counts at least two hundred and eighty eight endpoints at forty eight organisations, all hit within about an hour and a half. The kit is built to wait for a technician to connect, steal that technician's session, and move on to every panel the technician can reach. ConnectWise has switched off five third party extensions in about four hundred partner environments, says it found no flaw in ScreenConnect and no compromise of its own systems, and nobody has named an actor. If your firm, or any of its suppliers, uses a managed service provider, today is the day to ask which remote tool they run. That is our deep dive.
+
+Number two. Huntress says that even N able N central servers fully patched to Hotfix Two should be treated as vulnerable. New exploit code, called Forever Able to Shell and Agent to Shell, was published yesterday. There is no fix and no C V E yet, and no confirmed successful exploitation, but there is scanning.
+
+Number three. Consulting is in the frame, twice. Unit Forty Two tracked a coordinated campaign using an open source A I penetration testing framework called ARTEX against cloud tenants in sectors including retail and consulting. And Baker Tilly, the American accounting and advisory firm, has told clients their Social Security numbers were taken through a platform run by a third party. Barracuda's federal deadline is tomorrow.
+
+## Breaches and confirmed incidents
+
+Japan first, because Japan, as usual, discloses things.
+
+Dentsu Digital, part of the Dentsu advertising group, runs a platform called TONARIWA, which companies use to send messages to customers on LINE, the messaging app most of Japan lives inside. Dentsu Digital confirmed on the tenth that someone logged into a management account with leaked credentials and escalated their privileges. How the credentials leaked, the company does not say. What may be exposed: some client companies' customers' names, dates of birth and contact details, and, more interesting, management data including the access tokens for clients' LINE Official Accounts. No payment data. The company says it cannot rule out that unauthorised LINE messages were sent. It has shut down every server and given no restart date. The first client to say so publicly is Japan Post, whose post office LINE account ran on the platform. The others, and the numbers, are still being counted. A marketing platform that holds the keys to its clients' official voices is a phishing operation waiting for a tenant.
+
+Openlogi, a logistics and fulfilment platform, had a third party in its systems on the eighth and ninth of November. Recipient names, addresses and phone numbers from client shipping records were taken, and clients including the fashion label HUMAN MADE and the fan club platform SKIYAKI have disclosed.
+
+And then there is a small one with an awkward shape. Cyber Security Cloud, a Japanese web application firewall vendor, published a notice at about four o'clock this morning, U T C. An outside organisation told them an employee's GitHub credential had leaked, and when they checked the logs, they found a third party had used it to get into the company's GitHub development area on the fifth. Customer company names, individual names, email addresses and service communications kept on GitHub may have leaked. No counts. The logs do not go back far enough to cover the whole time the credential was valid, which is the sentence nobody wants to write. The privacy commission has been told.
+
+The Arara email relay breach has another downstream victim, and this time it is the Cabinet Office. Sixty two thousand eight hundred and sixty three newsletter subscriber records across fourteen newsletters, some with name, affiliation and gender. The newsletters are suspended.
+
+And to save you the search, an outage of My Number certificate printing at convenience stores across four hundred and eight municipalities on the tenth was a failed router, not an attack.
+
+Korea. The Financial Security Institute, which we covered yesterday, saw its president, Park Sang won, publicly apologise yesterday at the opening of the Institute's own annual security conference. There are few rooms less comfortable to apologise in.
+
+SectaNine, which runs the Happy Point loyalty scheme for Korea's SPC Group, says an intruder used a compromised franchise store administrator account. It confirmed yesterday that buyer names, masked card numbers and card issuers were exposed. On the eighth it had suspected phone numbers and bank account numbers as well, and it has not yet said whether those are confirmed. No count. And Korea's science ministry has opened an investigation on its own authority into a leak of resident data from GS Engineering and Construction's Xi apartments, after the company declined a government investigation and chose to analyse the attack itself. The polite phrase for this is a change of tone.
+
+Europe. Maersk has confirmed that someone accessed and extracted data from what it calls a local legacy system, inherited from a past acquisition. Its words: our findings so far strongly suggest no sensitive data has been disclosed. A group calling itself WhiteArmor claims about a hundred gigabytes from the LF Logistics platform, including about thirty thousand driver records, plaintext passwords and thirty three super administrator accounts, and wants five million dollars in bitcoin within thirty days. Maersk has not confirmed WhiteArmor's involvement. The acquired system nobody quite finished integrating is the oldest door in corporate security, and it is still open in a great many houses.
+
+In Latvia, Cybernews reports that the local branch of CSCTelecom, an SMS gateway, left a database of more than a hundred and twenty five million text messages open between late September and late October. They include one time passcodes, temporary passwords, medical results and bank notifications. Among the senders are Swedbank, SEB, ERGO, airBaltic, and Latvia's emergency number. Whatever you think of SMS as a second factor, it rather assumes the messages are not sitting in a public database.
+
+France had a busy day: the student insurer MGEL, Hôpital Foch through La Poste's Maileva mail service, the florist Monceau Fleurs and the renovation firm Effy all confirmed leaks. Details are in the brief.
+
+And one older item, new to us. The airline SAS told Sweden's regulator that three hundred and fifty thousand travellers may be affected by the Amadeus booking data exposure. Amadeus calls the cause a software glitch. Cathay Pacific describes misuse of system account credentials. These are not the same thing.
+
+## Leak sites and data dumps
+
+Everything here is a claim, unless I say otherwise.
+
+The one that interests us most comes from a name nobody seems to have used before. A group calling itself Curious Worm posted ten victims at once, mostly healthcare, including SBH Health System in the Bronx, Shannon Medical Center in Texas and Life Line Screening. Among them is Baron and Budd, the law firm, which the tracker files under the United Kingdom, though the firm is commonly known as a Dallas practice. I could find no earlier public reporting on Curious Worm, which means either a new crew or an old one in a new coat. With these people, it is usually the coat.
+
+The Osiris group listed The Queenan Law Firm, along with Methodist Hospitals in northwest Indiana. The Gentlemen listed Burgess Lowman, an accounting firm in Wilmington, North Carolina, among about twenty posts. A group called Aoqin listed Tyfone, which supplies digital banking software to banks and credit unions, so any real compromise there may not stop at Tyfone. Play listed Minor League Baseball, and Qilin listed the Wisconsin Timber Rattlers, a minor league team. Baseball is having a week.
+
+Follow ups. Silent Ransom Group, which listed A and O Shearman on Tuesday, has been quiet since, and the tracker marks it inactive for two days. The A and O Shearman page was updated yesterday lunchtime with no statement attached, and the firm has said nothing public. Vortex's deadline for Cresa, the commercial real estate adviser, and for Alexion and Pyramid Healthcare, falls at about a quarter past six this evening, Eastern. And the alliance that calls itself Scattered Lapsus Hunters announced on Telegram that it is reactivating, adding a group tracked as U N C sixty seven eighty three, and building a new leak site. It also called three other crews impostors. When thieves start policing their own trademarks, the market is crowded.
+
+In France, a forum seller called Bonjour, which is either wit or the lack of it, is offering about two point one million rows said to come from the Cerballiance medical laboratories. Considered credible, not confirmed.
+
+## Exploited vulnerabilities
+
+The Known Exploited Vulnerabilities catalogue did not change yesterday. So the dates stand. Tomorrow, Friday, is the federal deadline for the two chained Barracuda Email Security Gateway flaws, and C I S A wants forensic triage, not just patching. A firm called Previdian saw seventeen exploitation attempts from fifteen addresses in three countries between Monday and Wednesday. Barracuda still says only a small number of organisations were exploited, and has published no indicators. The twenty fourth is the deadline for the Outlook zero day, Chrome, Cisco BroadWorks and Openwave.
+
+The Outlook detail filled in a little. An attacker sends a crafted message file, and if the target opens it, Outlook connects to an attacker's server without showing the usual warning about external content, which can leak the user's hashed credentials. Microsoft has still not said who used it, or against whom.
+
+Xen Orchestra, which manages Xen and XCP ng virtual machine hosts, remains the one I would worry about if I ran it. The first flaw lets anyone who sends an empty token get back a real one. That is fixed. The same attacker then used malicious virtual machine imports to take over the hosts themselves, and that is not fixed. Unauthorised access is not logged. Vates, the vendor, says isolate it on its own network, block the empty token at a web application firewall, rotate credentials, and if you find a compromise, reinstall.
+
+Cynet reports that someone went after Qlik Sense servers, the analytics platform, at several European customers in October, reaching a reverse shell within about three minutes. Cynet says it resembles the CACTUS ransomware intrusions of twenty twenty three. The attacker's staging server also held exploits for ActiveMQ and Veeam backup, which tells you where they intended to go next.
+
+And iVerify's annual mobile threat report says an iPhone exploit kit called DarkSword infected a phone through an Instagram advert, and that an operation it calls DeadTag re-registered more than six hundred and sixty expired domains that live websites still pointed to, then used them to deliver the kit to vulnerable versions of Safari. Every enterprise detection it saw was on the phone of someone at or below managing director. Which suggests the attackers are not waiting for the partners.
+
+Critical but not yet exploited. Apache's web server has a nine point eight flaw in its HTTP two module, fixed in two point four point seventy one. Red Hat says public research has shown a reliable exploit. Wiz says no exploit is available. One of them is having a worse week than the other. It was reported by Anthropic's open source scanner, and by Google. Ivanti, Citrix and Zoom all shipped critical fixes, Ivanti's Endpoint Manager at nine point eight. And a researcher at Baldur Security has named a FortiClient flaw Fortinet to Shell. If FortiPAM is enabled, visiting a malicious website is enough to run code. Researchers do love a name.
+
+## A I attacks and trends
+
+The theme today is the penetration testing tool that forgot which side it was on.
+
+Unit Forty Two, Palo Alto Networks' research group, says ARTEX, an open source multi agent framework for A I driven penetration testing, has been used in real intrusion attempts. They tracked a coordinated campaign against customer cloud environments in sectors including retail and consulting. The attackers did not exploit any software flaw. They turned public password reset pages and exposed programming interfaces into cloud access, sometimes inside a day, and in one pattern validated more than two hundred client secrets in about three minutes. As of October, Unit Forty Two counted six hundred and nine internet facing hosts running ARTEX, and more than thirteen hundred running a similar tool. The advice is plain: take down exposed A P I specifications and configuration files with tokens in them, rate limit password reset and registration pages, stop federated accounts from also having local passwords, and look for the first time a cloud key is used from a new address.
+
+Arctic Wolf has a parallel story about AntiFox, another open source autonomous pentesting platform. Servers running it were tied to a web shell on a Microsoft web server and to intrusions into Amazon Web Services accounts with stolen credentials, including at least one successful theft of a production secret. Arctic Wolf does not blame the developers. Neither do I. But a tool that does the boring parts of an intrusion for you does them for anyone.
+
+Railway, a cloud hosting platform for developers, published its account of an October breach. An attacker escaped the isolation around customer builds and worked their way to a credential that could decrypt customer secrets. They went looking specifically for A I provider keys, and used them to run up about seven hundred and forty thousand dollars in fraudulent usage, which Railway believes went to resale or model distillation services. Railway will cover the bills the providers will not refund. Wiz counts Railway among at least nine A I developer platforms breached in October. A I keys are now money, and they are stored like configuration.
+
+A firm called Claroc found more than thirty five thousand apps built with Grok's app builder open to anyone with the link, and the link is often visible in public D N S records. About one in ten held internal or personal data, including data from thirty identifiable organisations, six of them in the Fortune Five Hundred. The company behind Grok took down two dozen apps built by its own staff. Tools like this are a quiet way for data to leave a building.
+
+Finally, Huntress says the source code at the heart of yesterday's ScreenConnect toolkit appears to have been written by a large language model. We will come back to that.
+
+## Cyber geopolitics
+
+Ukraine. Ukrinform, the state news agency, had its homepage and its account on X defaced on Wednesday with the word ZELENET, a crossed out Ukrainian flag, a link to a Telegram channel and a pro Russian slogan. Its director general, Serhii Cherevatyi, confirmed the attack, said the agency is working with the security service and the state communications service, and said it was not the first attack in recent months. Nobody has claimed it. It follows the suspected Russian attack on the Kyiv Independent last week. Whoever did it chose a news agency, which is a statement in itself.
+
+Central Asia, and the most telling A I story of the day. The Singapore security firm CloudSEK says a group it calls Silent Lynx, which it links to Kazakhstan, used Hermes, an open source framework for autonomous A I agents, to steal more than two thousand national security documents from the government of Tajikistan. The agent planned the attacks, wrote the tools that downloaded and sorted the files, and wrote up the reports. Its instructions told it to behave as an elite offensive security specialist and red teamer. CloudSEK bases the attribution on Russian speaking operators, Kazakh business hours and a Kazakh internet connection. Neighbours have always read each other's mail. They now have an assistant to do the reading.
+
+China. Malbear Labs links the exploitation of a Cisco BroadWorks flaw, added to the federal catalogue on Tuesday, to a Chinese speaking actor using what it calls an autonomous A I intrusion harness against a European telecommunications provider and its customers. At least thirteen organisations may be affected, and the targets were credentials and subscriber billing and device records. Telecoms are where states go to learn who talks to whom.
+
+The Philippines. A monitoring group called Deep Web Konek counts twenty three government and private institutions hit by leaks and one defacement between the fifth and the seventh, including the Office of the Vice President, the labour and transport departments, the Coast Guard, the Air Force, the national power corporation and the courier LBC Express. The government's cybercrime centre says no more than twenty agencies were hit, and only ten told the privacy commission. Either way, it is a lot of government.
+
+Iran and France. Nothing new. Tehran repeats that the accusations are baseless, and Europe promises a swift and united response once it has agreed what that is.
+
+## Consulting and professional services
+
+Baker Tilly first. An unauthorised actor took client data from a platform run by an unnamed third party provider that Baker Tilly uses for client services. The Texas attorney general's portal lists ten thousand four hundred and fifty six Texans, with Social Security numbers, names and addresses, and dependants are included. Baker Tilly learned of it in early September and finished its review at the end of October. Nobody has claimed it. If Baker Tilly appears in your vendor list, or audits a client you share, it is worth a look, and it is worth asking which platform.
+
+Then the ARTEX campaign, which Unit Forty Two says touched consulting tenants. The technique, password reset pages and exposed interfaces, is the kind of thing that works best against firms with many client facing portals and many contractors. I need not say more about whom that describes.
+
+Then the ScreenConnect toolkit. The actor numbers each managed service provider it compromises, and the numbers start partway through a sequence, which suggests there were earlier victims nobody has seen yet. The law and accounting posts on the leak sites, Baron and Budd, Queenan, Burgess Lowman, and the Cresa deadline tonight, are in the leak site section. And A and O Shearman has still said nothing.
+
+## Social chatter relevant to McKinsey
+
+Quiet. Nothing on Hacker News in the window, one political post on Mastodon with no security content, and no news on the firm's security, its Lilli platform or scams in its name. Reddit was blocked.
+
+## Brand and executive targeting
+
+Nothing new and specific. I will only repeat the iVerify point. The exploit kits on enterprise iPhones were found on the phones of people at or below managing director. Executive device policies that stop at the top floor are protecting the wrong floor.
+
+## SaaS and supply chain
+
+N able first. Huntress updated its guidance at about one o'clock this morning, Eastern. Even an N central server fully patched to Hotfix Two, the build released on Tuesday that fixed seven C V Es, should be treated as vulnerable to the new exploit code published yesterday. There is no fix and no C V E for the new chains. The hosted service is back online. N able sees scanning, but no successful exploitation of customers, and Tenable has seen attempts against its decoys. Field Effect's advice to on premises customers was to upgrade before restoring normal access. Huntress now says even upgraded servers should be treated as vulnerable. The patch, in other words, was the end of the beginning.
+
+StepSecurity has a GitHub campaign it calls WFX Phantom. Compromised developer and bot tokens were used to open more than sixty two thousand probe pull requests and push more than twenty one thousand commits between Tuesday and today. The commits inject a shell script of about fifteen hundred lines into workflows, build scripts or npm install hooks, steal every secret and cloud key in reach, and then the commit is reverted and the workflow run deleted. The only trace may be a gap in the run numbers. It also trades build identity tokens for live cloud sessions and plants backdoors in cloud role trust. Repositories hit include nextcloud's docker images and webdriverio, through its bot account. It overlaps with October's GhostAction wave, but no single actor is proven.
+
+Certificates. The Indian certificate authority eMudhra revoked eight more intermediate authorities that it had previously said were unaffected by its October key handling fault, six for web servers and two for code signing. Microsoft removes ten eMudhra root certificates on Monday. Chrome and Firefox stop trusting new certificates from its first generation hierarchy issued after Monday, and Apple stops trusting all of them at the end of the month. If anything in your estate carries an eMudhra or emSign certificate, the clock has started.
+
+## Regulation and law enforcement
+
+In Washington, Democrats have questions about Michael LoSapio, the nominee for C I S A director. Senator Maggie Hassan, expected to chair the Senate homeland security committee from next year, has serious questions about his independence and judgement. Representative Bennie Thompson says his relationship with Palantir raises very serious concerns. A vote before the new Congress is uncertain. Meanwhile, C I S A's acting director, Nick Andersen, has set next year's priorities in a memo: national cyber defence, securing key infrastructure and nationwide resilience, with a focus on what it calls systemically important organisations. And the information sharing law of twenty fifteen expires on the eleventh of December unless Congress extends it. Thirty five industry groups want it extended to twenty thirty five. Nothing moved yesterday.
+
+Japan's privacy commission says it received ten thousand seven hundred and eighty four breach notifications from companies between April and September, up about twenty one percent on a year earlier. That, at least, explains the Japanese section of this brief.
+
+## Deep dive: the tool that came to fix things
+
+Our subject this morning is S C Kit, and its centrepiece, a program called RelayTrap. The sources are Huntress, Sophos and ConnectWise. Nobody has named the actor. The only name we have is the one the operator chose for themselves on the ScreenConnect sessions, which is Addmin, with two Ds. I will leave you to decide whether that is a joke.
+
+First, why this matters to a firm like ours. Consultancies and law firms rely heavily on managed service providers, or on internal I T teams, who use remote support tools like ScreenConnect to look after laptops and servers. A remote support tool is, by design, a way for one person to run commands on many computers. Most of the time, that person is a technician. This campaign is built to turn the technician into the carrier.
+
+The timeline, in U T C. Yesterday, at about a quarter to six in the evening, Huntress saw an operator, running as SYSTEM, issuing Run Command instructions on cloud hosted ScreenConnect panels. Ten minutes later, about a third of the eventual two hundred and eighty eight machines were hit. About ninety minutes after the first detection, all of them, across forty eight organisations. At a quarter to eleven last night ConnectWise published an advisory. And during the day it disabled five third party extensions in about four hundred partner environments, as a precaution, stressing that having an extension installed does not mean you were compromised. The extensions are Labtech Plus, R M M Plus, R M M plus sign, and the two Password Link versions of those.
+
+How did the operator get in? Unconfirmed. Huntress found no new vulnerability, and its telemetry points to stolen credentials or hijacked operator sessions. ConnectWise suspects those extensions, which expose a remote command interface protected by a passphrase the partner sets. A passphrase, in other words, that is only as good as the partner.
+
+Now the chain itself. Step one, Run Command checks whether a ScreenConnect client is already installed, then downloads an installer from the attacker's own ScreenConnect server and installs it silently. Step two, a small batch file sends the computer's unique machine identifier to the attacker, and the attacker's server sends back a key that only works for that one machine. The kit decrypts itself with that key. This is careful work. It means a copy of the kit taken from one victim will not open on a researcher's machine without the server's cooperation. Step three, a loader unpacks the kit into a folder called RelayTrap under ProgramData. Step four, the install scripts add exclusions to Microsoft Defender, and add application control rules that block any file pushed through ScreenConnect's temporary folders. Think about that. The defender's usual way of reaching the machine, to push a clean up tool through ScreenConnect, is precisely the route it closes. And they install a second rogue client, for luck. Step five, a script compiles the RelayTrap program on the machine itself, creates a scheduled task called TrapWatch that runs as SYSTEM every ten seconds, and stops the legitimate ScreenConnect service and sets it to manual start. Step six, a script tried to take over the ScreenConnect console. On every host log recovered so far, it failed.
+
+Step seven is the part the kit was designed for, though nobody has yet seen it work end to end. When a technician connects to an infected machine, the kit steals the technician's ScreenConnect authentication cookie from the browser's cookie store, replays it to list the sessions that technician can see, and then uploads a payload to the panel's shared toolbox, the library technicians use to run tools on customer machines. From there it runs as SYSTEM on every endpoint the panel can reach, and deletes itself after about sixty seconds. One infected laptop, one helpful technician, and the whole customer base of a provider becomes reachable. That is what Huntress means by worm like.
+
+The files include names like lab config, trap proof and lab trap cleanup, and a skip list of machines it will not touch, one called s c observation lab. Either the author tested in a lab of their own, or wants us to think this is research. Huntress also says the RelayTrap source code appears to have been generated by a large language model, because of its detailed comments and references. Yesterday's Silent Lynx agent wrote its own tools too. This one is aimed at the people who keep our computers running.
+
+Infrastructure, including ten file hashes, is in the brief. Huntress warns the hashes are weak indicators, because the scripts are rebuilt for every host.
+
+Hunting. Review the ScreenConnect Run Command history, the shared toolbox history and the instance audit logs, even if nothing has alerted, and look back before yesterday. Look for a second ScreenConnect client nobody approved, for installers pulled into the Windows temp folder by curl or PowerShell, for the TrapWatch scheduled task, for a registry Run value called RelayTrap Lite Alert, and for that RelayTrap folder. Look for new Defender exclusions, and the legitimate ScreenConnect service stopped or set to manual.
+
+Response, and this is the part I would underline. Do not connect to a suspect machine through ScreenConnect. That is what it is waiting for. Use your endpoint detection tool's live response, or Windows remote management, instead. Treat any technician workstation that has already connected to a suspect host as exposed, and investigate it from a clean device. Keep machines isolated until the clean up is finished, because Huntress has seen reinfection when isolation was lifted early. Then remove the rogue client and persistence, end the ScreenConnect web sessions, rotate its credentials, and revoke browser and identity provider sessions.
+
+For us, the practical question is simple. Which of our suppliers, and which of our offices' local I T arrangements, use ScreenConnect, and do any of them run those five extensions? It is the kind of question that is easy to ask this morning, and very hard to ask next week.
+
+There is something almost old fashioned about this campaign. No new vulnerability. No clever exploit. Just a trusted tool, a borrowed key, and the patience to wait for someone helpful to come along. The oldest trick there is, is to be the person everyone lets in.
+
+## Watchlist
+
+Tonight, at about a quarter past six Eastern, Vortex's deadline for Cresa, Alexion and Pyramid Healthcare. Tomorrow, the Barracuda deadline, and tomorrow is Friday, so the episode will include the weekly roll up. Monday, Microsoft removes eMudhra's roots, and the twenty fourth brings the Outlook, BroadWorks, Openwave and Chrome deadlines. The eleventh of December for the information sharing law. On ScreenConnect, further victim counts, a word from the extension's vendor, and a name for Addmin. On N able, a fix for the new chains. The Xen Orchestra import fix. Maersk's thirty day clock. A statement from A and O Shearman. And who, exactly, is Curious Worm.
+
+That's Morning Signal for Thursday, the twelfth of November. The written brief has every link, and the table is ready for the vendor and client lookup. Before you go, if you have a managed service provider, send them one question this morning: do you use ScreenConnect, and with which extensions. It costs nothing to ask. It may cost a great deal not to.
+
+Until tomorrow.

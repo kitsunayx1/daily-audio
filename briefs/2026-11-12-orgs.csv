@@ -1,0 +1,81 @@
+Date of brief,Organisation,Sector,Country,Incident,Actor,Date,Status,Source
+2026-11-12,Dentsu Digital (TONARIWA),Marketing tech / SaaS,Japan,Management-account takeover of LINE marketing platform; client end-user data and LINE tokens,Unknown,10–11 Nov 2026,Confirmed; service suspended,https://cybersecurity-jp.com/news/118310
+2026-11-12,Japan Post,Postal / logistics,Japan,Downstream of TONARIWA; LINE account affected,Unknown,11 Nov 2026,Confirmed (downstream),https://cybersecurity-jp.com/news/118310
+2026-11-12,Openlogi,Logistics platform,Japan,Unauthorised access; recipient shipping data taken,Unknown,8–11 Nov 2026,Confirmed,https://cybersecurity-jp.com/news/118311
+2026-11-12,HUMAN MADE,Apparel / e-commerce,Japan,Downstream of Openlogi (CURRY UP shipments),Unknown,11 Nov 2026,Confirmed (downstream),https://cybersecurity-jp.com/news/118311
+2026-11-12,SKIYAKI,Fan-club platform,Japan,Downstream of Openlogi (Bitfan),Unknown,11 Nov 2026,Under review,https://cybersecurity-jp.com/news/118311
+2026-11-12,MyNet group,Entertainment / games,Japan,Downstream of Openlogi,Unknown,11 Nov 2026,Confirmed (downstream),https://cybersecurity-jp.com/news/118311
+2026-11-12,Palette Project,Entertainment / merchandise,Japan,Downstream of Openlogi; reported to PPC,Unknown,11 Nov 2026,Possible leak,https://cybersecurity-jp.com/news/118311
+2026-11-12,Cyber Security Cloud Inc.,Cybersecurity vendor,Japan,Leaked employee GitHub credential; customer data on GitHub possibly exposed,Unknown,Notice 12 Nov 2026,Confirmed access; investigating,https://cybersecurity-jp.com/news/118349
+2026-11-12,Cabinet Office (内閣府),Government,Japan,"62,863 newsletter records via Arara",Unknown,11 Nov 2026,Confirmed (downstream),https://cybersecurity-jp.com/news/118308
+2026-11-12,Arara,Email delivery SaaS,Japan,81.33M unique addresses; about 380 clients,Unknown,28 Oct–11 Nov 2026,Confirmed; ongoing,https://cybersecurity-jp.com/news/118308
+2026-11-12,Raksul,Online printing,Japan,Stolen credentials to print-data submission system,Unknown,8–11 Nov 2026,Confirmed; investigating,https://www.security-next.com/192575
+2026-11-12,Financial Security Institute (FSI),Financial regulator / security,South Korea,Fake FSS-privileged account; forms and user data taken,Unknown,9–12 Nov 2026,Confirmed; FSC on-site investigation,https://www.boannews.com/news/articleView.html?idxno=147183
+2026-11-12,SectaNine (SPC Group),Loyalty / IT services,South Korea,Franchise admin account compromise; names and masked cards,Unknown,6–12 Nov 2026,Confirmed,https://www.boannews.com/news/articleView.html?idxno=147199
+2026-11-12,GS E&C,Construction / property,South Korea,Xi resident data leak; MSIT ex officio investigation,Unknown,11 Nov 2026,Under government investigation,https://www.boannews.com/news/articleView.html?idxno=147194
+2026-11-12,Binance,Crypto exchange,International,Denied ReySwap 335M-record claim,ReySwap (claim),Nov 2026,Denied,https://www.boannews.com/news/articleView.html?idxno=147224
+2026-11-12,Maersk,Shipping / logistics,Denmark,Legacy acquired system (LF Logistics) data extraction; US$5M demand,WhiteArmor (claimed),11 Nov 2026,Confirmed by company,https://securityaffairs.com/202869/data-breach/whitearmor-demands-5-million-from-maersk-claims-theft-of-100gb-of-data.html
+2026-11-12,CSCTelecom,Telecom / SMS gateway,Latvia,Exposed database of 125M+ SMS including OTPs,None (exposure),28 Sep–27 Oct 2026,Closed; reported,https://cybernews.com/security/csc-telecom-leaks-swedbank-seb-sms-messages/
+2026-11-12,Swedbank,Banking,Latvia,SMS content exposed via CSCTelecom,None (exposure),Oct 2022–Sep 2026,Downstream exposure,https://cybernews.com/security/csc-telecom-leaks-swedbank-seb-sms-messages/
+2026-11-12,SEB,Banking,Latvia,SMS content exposed via CSCTelecom,None (exposure),Oct 2022–Sep 2026,Downstream exposure,https://cybernews.com/security/csc-telecom-leaks-swedbank-seb-sms-messages/
+2026-11-12,airBaltic,Airline,Latvia,SMS content exposed via CSCTelecom,None (exposure),Oct 2022–Sep 2026,Downstream exposure,https://cybernews.com/security/csc-telecom-leaks-swedbank-seb-sms-messages/
+2026-11-12,ERGO (Latvia),Insurance,Latvia,SMS content exposed via CSCTelecom,None (exposure),Oct 2022–Sep 2026,Downstream exposure,https://cybernews.com/security/csc-telecom-leaks-swedbank-seb-sms-messages/
+2026-11-12,Groupe MGEL / MVS,Mutual insurance / student services,France,Illegitimate access to old member database incl. social security numbers,Unknown,11 Nov 2026,Confirmed,https://frenchbreaches.com/alertes/groupe-mgel-fuite-donnees-personnelles-bancaires-adherents-mwbvyd1s60d6xygo7vh
+2026-11-12,Hôpital Foch,Healthcare,France,Patient payment letters exposed via Kiwee and Maileva,Unknown,Sep 2026; disclosed 11 Nov,Confirmed,https://frenchbreaches.com/alertes/hopital-foch-fuite-donnees-patients-piratage-maileva-factures-mwc2c69j52j9n2rnqb6
+2026-11-12,Maileva (La Poste),Print and mail services,France,Upstream of Hôpital Foch exposure,Unknown,Sep 2026,Fixed; complaint filed,https://frenchbreaches.com/alertes/hopital-foch-fuite-donnees-patients-piratage-maileva-factures-mwc2c69j52j9n2rnqb6
+2026-11-12,Cerballiance,Medical laboratories,France,2.13M rows offered for sale,"""Bonjour"" (forum seller)",10 Nov 2026,Claimed; unconfirmed,https://frenchbreaches.com/alertes/cerballiance-fuite-donnees-2-millions-dossiers-medicaux-patients-mwc1a4xgry7gewnhac
+2026-11-12,ARTE TV,Media,France,About 604K–673K member records claimed,Unnamed forum user,11 Nov 2026,Claimed; unconfirmed,https://frenchbreaches.com/alertes/arte-tv-fuite-donnees-membres-inscrits-emails-comptes-mwci00v7k0eq5jt966i
+2026-11-12,Monceau Fleurs,Retail (florist),France,Customer data via till-system provider,Unknown,30 Oct 2026; disclosed 11 Nov,Confirmed,https://frenchbreaches.com/alertes/cyberattaque-monceau-fleurs-fuite-donnees-clients-2026-mwcjxgef1vk3k83cnmx
+2026-11-12,Effy (Airtech),Energy renovation,France,Customer contact and worksite data,Unauthorised third party,11 Nov 2026,Confirmed,https://frenchbreaches.com/alertes/effy-fuite-donnees-personnelles-renovation-energetique-artisan-mwc29dnnzabvhpzxkup
+2026-11-12,SAS,Airline,Sweden,"350,164 travellers' booking data via Amadeus",Unknown,Disclosed 9 Nov 2026,Confirmed (IMY filing),https://cypro.co.uk/insights/cyber-bulletins/sas-data-breach-may-affect-350164-travellers
+2026-11-12,Amadeus,Travel technology,Spain,Booking-display exposure across at least 15 airlines,Unknown,Oct–Nov 2026,Confirmed; ongoing,https://thecyberexpress.com/amadeus-cybersecurity-incident/
+2026-11-12,York University,Higher education,Canada,Theft of online-form submissions 2007–2026,Unknown,25 Oct 2026; FAQ 9 Nov,Confirmed,https://www.yorku.ca/uit/infosec/incident-faq/
+2026-11-12,Vanderbilt University,Higher education,US,Ransomware; 1M+ records claimed,BYOD,9 Nov 2026,No update,https://therecord.media/vanderbilt-cyberattack-ransomware-alert
+2026-11-12,Baron & Budd,Law firm,US (listed UK),Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,The Queenan Law Firm,Law firm,US,Leak-site listing,Osiris,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Burgess Lowman CPAs,Accounting,US,Leak-site listing,The Gentlemen,11 Nov 2026,Claimed,https://www.recentbreaches.com/
+2026-11-12,Tyfone,Fintech software,US,Leak-site listing,Aoqin,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Minor League Baseball,Sports,US,Leak-site listing,Play,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Wisconsin Timber Rattlers,Sports,US,Leak-site listing,Qilin,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Oral Roberts University,Higher education,US,Leak-site listing,Qilin,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Leonard's Express,Transportation,Australia,Leak-site listing,Qilin,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,SBH Health System,Healthcare,US,Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Shannon Medical Center,Healthcare,US,Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.recentbreaches.com/
+2026-11-12,Raleigh Orthopaedic,Healthcare,US,Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Life Line Screening,Healthcare,US,Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Atlas Healthcare Partners,Healthcare,Not stated,Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Marquis Companies,Senior living,US,Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Safco Dental Supply,Dental supplies,Not verified (listed Saudi Arabia),Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,SACHEM Inc.,Chemicals,Not verified (listed Canada),Leak-site listing,Curious Worm,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Methodist Hospitals in Northwest Indiana,Healthcare,US,Leak-site listing,Osiris,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,MKG Bremen,Manufacturing,Germany,Leak-site listing,Osiris,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Aviation Cargo Handling ExpAirts GmbH,Aviation logistics,Germany,Leak-site listing,Osiris,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Audio Note UK Ltd,Technology / audio,UK,Leak-site listing,Osiris,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Energreen S.p.A.,Energy,Italy,Leak-site listing,Settra,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Alan Mok Engineering,Engineering,Singapore,Leak-site listing,The Gentlemen,11 Nov 2026,Claimed,https://www.recentbreaches.com/
+2026-11-12,City of Humboldt,Local government,Not stated,Leak-site listing,The Gentlemen,11 Nov 2026,Claimed,https://www.recentbreaches.com/
+2026-11-12,Leware Construction Company of Florida,Construction,US,Leak-site listing,Akira,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,N0n Company #212 and #213,Education; electrical contracting,Ethiopia; Qatar,Anonymised leak-site listings,N0n,11 Nov 2026,Claimed,https://www.ransomware.live/
+2026-11-12,Cresa,Commercial real estate advisory,US,Leak-site deadline 23:18 UTC on 12 Nov,Vortex,12 Nov 2026,Claimed; deadline pending,https://www.ransomware.live/group/vortex
+2026-11-12,ConnectWise (ScreenConnect),RMM / remote access software,US,Rogue clients via third-party extensions; 288 endpoints at 48 orgs,Unknown,11–12 Nov 2026,Investigating; extensions disabled,https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html
+2026-11-12,N-able (N-central),RMM software,US,"New unpatched exploit code (4EverAble2Shell, Agent2Shell) beyond HF2",Researcher PoC (Sean Bales),11–12 Nov 2026,Unpatched; no exploitation confirmed,https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains
+2026-11-12,"GitHub repos (nextcloud/docker, webdriverio and others)",Open-source software,International,WFX Phantom GitHub Actions secret stealer,Unknown,10–12 Nov 2026,Active campaign,https://www.stepsecurity.io/blog/wfx-phantom-the-github-actions-secret-stealer
+2026-11-12,Railway,Cloud PaaS,US,Build-isolation escape; customer AI keys abused (about US$740K),Unknown,20–21 Oct 2026; report 11 Nov,Remediated,https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html
+2026-11-12,AntiFox (infrastructure),AI pentest tool,International,Hosts linked to IIS and AWS intrusions,Unknown,Reported 11 Nov 2026,Reported by Arctic Wolf,https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html
+2026-11-12,SpaceXSI (Grok) / X,AI / social media,US,"35,578 Grok-built apps publicly accessible; data of 30 orgs",None (exposure),Reported 10–11 Nov 2026,Partially remediated,https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html
+2026-11-12,eMudhra,Certificate authority,India,Eight more intermediate CAs revoked over key handling,None (process fault),Reported 11 Nov 2026,Remediating; root removals from 16 Nov,https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html
+2026-11-12,Qubole (Idera),Data platform SaaS,US,Trusted AWS role abuse in customer accounts,Unknown,14–26 Oct 2026,No vendor statement,https://letsdatascience.com/news/attacker-abuses-quboles-trusted-aws-access-to-breach-custome-6805fc2d
+2026-11-12,48 unnamed MSP-managed organisations (288 endpoints),Various,Not stated,Rogue ScreenConnect clients and SCKit/RelayTrap pushed via Run Command,Unattributed (participant 'Addmin'),11 Nov 2026,Investigating,https://www.huntress.com/blog/sckit-worm-rogue-screenconnect
+2026-11-12,Unnamed Barracuda customers (small number),Various,Not stated,Exploitation of CVE-2026-116606 and CVE-2026-111560,Unattributed,Nov 2026,KEV due 13 Nov,https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/
+2026-11-12,Unnamed Cynet customers (Qlik Sense),Various,EU,Reverse-shell attempts on Qlik Sense servers,Unattributed (CACTUS-like),Oct 2026,Attempts blocked,https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html
+2026-11-12,Unnamed retail and consulting cloud tenants,Retail; consulting,Not stated,ARTEX AI pentest framework used for cloud intrusion via password-reset and API abuse,Unattributed,Reported 11 Nov 2026,Reported by Unit 42,https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/
+2026-11-12,Unnamed IIS and AWS victims (AntiFox-linked),Not stated,Not stated,Web shell; production secret read,Unattributed,Reported 11 Nov 2026,Reported by Arctic Wolf,https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html
+2026-11-12,Middle East and SE Asian government bodies (unnamed),Government,Middle East; SE Asia,Falcon C2 browser compromise; Antino implant,Unnamed,Mar–May 2026; reported 11 Nov,Reported by Unit 42,https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/
+2026-11-12,Baker Tilly,Accounting and advisory,US,"Client data incl. SSNs taken from a third-party provider's platform; 10,456 Texans",Unknown,Discovered 6 Sep; reported 11 Nov 2026,Notifications sent,https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/
+2026-11-12,A&O Shearman,Law firm,UK,Leak-site listing updated 11 Nov 12:50 UTC; no statement,Silent Ransom Group,10–11 Nov 2026,Claimed,https://www.ransomware.live/id/QSZPIFNoZWFybWFuQFNpbGVudFJhbnNvbUdyb3Vw
+2026-11-12,Ukrinform,Media (state news agency),Ukraine,Website and X account defaced,Unclaimed (pro-Russian messaging),11 Nov 2026,Confirmed,https://yahoo.com/news/world/articles/crossed-flag-pro-russian-slogan-144400151.html
+2026-11-12,Tajikistan government (electronic document system),Government,Tajikistan,"2,000+ national-security documents stolen using Hermes AI agent",Silent Lynx (per CloudSEK),Aug–Sep 2026; reported 11 Nov,Researcher report,https://www.teiss.co.uk/news/kazakhstan-linked-hackers-used-ai-to-steal-tajik-government-documents-researchers-say-18447
+2026-11-12,Unnamed European telecom and customers (13+ orgs),Telecom,Europe,Cisco BroadWorks CVE-2026-20320 exploited,Chinese-speaking actor (Malbear Labs),Reported 8–11 Nov 2026,Exploited; patch available,https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/
+2026-11-12,Office of the Vice President and other agencies,Government,Philippines,Data leaks and one defacement (23 institutions claimed),"DeathNote Hackers, Happy Go Lucky PH, CrimsonSec Philippines",5–7 Nov 2026,Claimed; verifying,https://www.philstar.com/headlines/2026/11/11/2569338/massive-cyber-attacks-hit-23-government-private-sites
+2026-11-12,LBC Express,Logistics,Philippines,20.9M shipment logs allegedly exposed,Named in Deep Web Konek report,5–7 Nov 2026,Claimed,https://www.philstar.com/headlines/2026/11/11/2569338/massive-cyber-attacks-hit-23-government-private-sites
+2026-11-12,National Power Corporation and Mactan Electric,Utilities,Philippines,Data exposure,Named in Deep Web Konek report,5–7 Nov 2026,Claimed,https://www.philstar.com/headlines/2026/11/11/2569338/massive-cyber-attacks-hit-23-government-private-sites
