@@ -1,0 +1,165 @@
+## Morning Signal. Friday, the thirteenth of November.
+
+Good morning. Friday the thirteenth, for those who keep count. N able's hotfix, which on Wednesday looked like the end of the trouble and yesterday looked like the beginning, has now been bypassed in the wild, on servers that had done everything they were told. Small managed service providers in Florida and Sweden turned up on a leak site with their law and accounting clients listed underneath them, like guests on a seating plan. And Unit Forty Two has published what may be the clearest account yet of a state actor letting a machine do the burglary.
+
+This is Morning Signal for Friday, the thirteenth of November. The window is the last twenty four hours, from about five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has fifty nine rows. Because it is Friday, the weekly roll up comes at the end, with its own written version and a combined table for the team's weekly feed.
+
+Corrections first. Yesterday I said there was no confirmed exploitation of the new N able chains. Within about five hours of the code being published, there was. And on Maersk, I quoted the company as saying no sensitive data had been disclosed. It still says that, but SecurityWeek's headline this morning reads Maersk confirms data theft. Both are true, in the way that statements by companies under extortion are often both true.
+
+Three things.
+
+## The top three
+
+Number one. On Thursday a researcher published exploit code called Forever Able to Shell and Agent to Shell for N able's N central. About five hours later, servers began to fall. One firm counts twenty one compromised servers running a cryptocurrency miner, and nineteen of them had already applied Hotfix Two. Its words: applying Hotfix Two is not enough on its own. The way in requires a non default feature called the Legacy A P I. There is no fix yet. N able has switched that feature off in its hosted service, paused its Intune integration, and says it has found more indicators of compromise.
+
+Number two. The ransomware group INC posted two small managed service providers, Gator Works Computing in Florida and Elitdata in Sweden, and named their clients: a law firm, two accounting firms, and a Swedish law practice. In the same batch, three more law firms and the brokerage Raymond James. All of it claimed, none confirmed. But it is the third time this week that the route into professional services has run through the people who look after their computers.
+
+Number three. Unit Forty Two describes a China nexus cluster it calls C L S T A twelve thirty eight, which used a modified open source framework called Cairn, running on Chinese language models, against at least nineteen organisations in semiconductors, defence policy and civil society, and got into ten. Every way in was a basic weakness. Meanwhile the F B I warned that North Korean operators are hijacking people's trusted contacts and playing them recorded webcam video on fake Zoom and Teams calls. And today is the federal deadline for Barracuda.
+
+## Breaches and confirmed incidents
+
+Japan, where the week's long story of email suppliers continues to unspool.
+
+MUJI's parent, Ryohin Keikaku, held a press conference yesterday. Its president, Satoshi Shimizu, apologised, and then the company admitted something no company enjoys admitting. It had kept full MUJI Card numbers without masking them. It stopped collecting those numbers in July twenty twenty one, but never deleted the ones it already had. About one point oh nine million cardholders may have had full card numbers, card identifiers and dates of birth exposed. The wider figures are larger: about twenty seven million records with email, birth date and gender, and about two hundred and seventy thousand accounts hit by attackers trying lists of stolen passwords. The cause, in the company's words, was a vulnerability in part of the system. The online store has been closed for a week. There is an old rule in this business: the data you forgot you had is the data that hurts you.
+
+Arara, the email relay company, has three more downstream victims. Kawajun, which runs the KEYUCA homeware chain, lost one point two one million email addresses. It is worth noting that Arara first told Kawajun its data was not affected, then reversed itself a week later. The Kewpie food group lost about a hundred and twenty six thousand, after a similar reversal. And Tokyo Gas, about eighty five thousand. A supplier's first assurance, it turns out, is a draft.
+
+Shiseido says its online skin measurement service was breached by an outside party, with data altered and taken for two thousand five hundred and fifteen customers, including their skin analysis results. No facial images. And a multi store e commerce tool called Matomaru E C Tencho had malicious code on its server, exposing more than twenty one thousand orders from three hundred and seventy three merchants. The buyers then received fake refund emails quoting their real orders. That is the sequel to every order data breach, and it usually arrives within days.
+
+Dentsu Digital's second report on TONARIWA, the LINE marketing platform, says two client companies are confirmed affected, without naming them, and that restoring or replacing the service may take several months.
+
+Korea had a full morning. KB Capital says its car lease asset system was attacked, affecting one thousand eight hundred and eleven people, almost all of them staff at partner companies. Kakao Work, the business messaging service run by a Kakao group company, says an intruder got in on the ninth and exposed names, departments, phone numbers, email subjects and bodies, and message attachments. The same company had previously claimed its end to end encryption made leaks impossible. I make no comment, except to note that the word impossible has a poor record in this field. A crypto exchange called Flybit is the third known victim of a campaign against a groupware supplier, Dawoo Technology, after Hanyang Securities and Bithumb. And thirteen more organisations posted notices from the Douzone Bizon backup breach, including an accounting firm called Lian.
+
+Taiwan. TSMC, the world's leading chip foundry, says data on some current and former employees appeared online without permission. The records match what an unnamed outside cloud provider held, and TSMC found no breach of its own systems. Sellers claim forty six thousand records, including national identity numbers and bank accounts. That count is unverified.
+
+Europe. Maersk repeats that the incident was a legacy system from a previous acquisition, isolated to a local system, with no indication of impact elsewhere. WhiteArmor has published nothing. In France, the teleconsultation service Qare confirmed a leak of patient contact details, and someone is offering data said to cover about nine million patients of an appointment booking service called One Thousand and One R D V Santé. That one is a claim.
+
+And in America, Baker Tilly's notification letters went out on the ninth, to more than ten thousand people in Texas and a hundred and eleven in Rhode Island. The incident itself dates to early September. The vendor whose platform was breached is still unnamed. A law firm says it is already investigating on behalf of those affected.
+
+## Leak sites and data dumps
+
+All claims, unless I say otherwise. One caution: INC's batch was indexed at the very start of our window, and it re lists victims we covered on Wednesday, so some of these posts may be older than they look.
+
+Gator Works Computing, a managed I T provider in Chiefland, Florida. INC claims its backup and server infrastructure, and names four clients: Smith Law Firm, with more than three hundred case files; Beauchamp and Edwards C P As, with thousands of client records; Wise Accounting and Tax Services, with hundreds of QuickBooks files; and a chiropractor. It claims five to ten thousand people and more than two hundred businesses.
+
+Elitdata, a Swedish provider in Varberg. INC calls it a complete infrastructure breach, about six hundred and seventy gigabytes, and names a law firm, Advokatfirman Kurt Lundberg, among the clients.
+
+I want to dwell on this for a moment. A small law or accounting practice does not run its own data centre. It hands its backups to someone local and trusted. When that someone is breached, the practice is breached, and it may learn about it from a leak site. If your vendor list includes small professional firms, and most large ones do, their I T provider is part of your supply chain whether you know its name or not.
+
+Also from INC: Richardson, Pullen and Buck, a law firm in upstate New York; Pomer and Boccia, a business law firm in Ontario, which another group had already listed; a Louisiana wealth manager; Raymond James, with no data size given; Kalahari Resorts; and Shenwan Hongyuan's Hong Kong arm, which INC claims in full, nearly ten terabytes including regulatory inspection material. If that one is real, it is not a ransom problem. It is an intelligence problem.
+
+Elsewhere, the group N zero n named LEO Pharma, the Danish drugmaker it had listed anonymously last week, claiming more than three hundred million patient records and marking it not paid. Aoqin claims seven hundred gigabytes from Airblue, the Pakistani airline. Panzer listed Malaysia's Ministry of Health. And Curious Worm, the new name from Wednesday, added a senior living company.
+
+Follow ups. Vortex's deadline for Cresa, Alexion and Pyramid Healthcare passed last night. Nine hours later, the page still showed the expired countdown, with no sign that anything had been published. Silent Ransom Group has been quiet since Tuesday, and there is nothing new on A and O Shearman.
+
+## Exploited vulnerabilities
+
+The federal catalogue did not change yesterday. Barracuda's two Email Security Gateway flaws are due today.
+
+N able, in more detail. Forever Able to Shell gives an unauthenticated attacker root on the N central server, by way of an Apache Axis flaw rated nine point eight, on servers with the Legacy A P I turned on. Agent to Shell is, in the researcher's description, more than ten zero days that give SYSTEM on managed Windows machines, if the attacker knows the appliance's identifier. The attackers seen so far dropped a cryptocurrency miner, named after each victim's address, across the United States, South Africa, Canada and several European countries. A miner is the polite version. The same access would serve a ransomware crew very well. If anyone in your supply chain runs N central on premises, the question is simple: is the Legacy A P I off.
+
+Check Point says attackers chained a flaw called P H P to Shell with another bug against its Mobile Access gateways, in two waves. The first, from the thirtieth of October, hit Israeli organisations, moved on to VMware E S X i hosts, and ran a wiper. The second, worldwide, has not been destructive. Check Point says the evidence does not allow it to assess the true nature of the operation with high confidence, and weighs a China linked actor, an access broker, and a false flag. When the vendor offers three explanations, it is usually because all three are plausible.
+
+On ScreenConnect, a second analysis from Blackpoint says a fully patched client blocks the payload, but stolen operator session cookies still let attackers push commands as SYSTEM. ConnectWise now says on premises customers must disable the suspect extension themselves, and that disabling it and resetting credentials may not remove what has already been installed.
+
+A researcher who signs as Nightmare Eclipse has released a working Windows exploit called SignDrop, which takes a standard user to SYSTEM by abusing the way the common log file system and Defender handle a crafted log. There is no C V E and no patch, and Microsoft has said nothing. A firm called Cyderes reproduced it and saw no use in the wild. A public, working privilege escalation turns every phishing foothold into something worse.
+
+Critical, not yet exploited. Citrix fixed twelve flaws across NetScaler, including an authentication bypass in NetScaler Console at nine point four. Red Hat fixed two critical flaws in its Quay container registry, one of which lets an anonymous user read or overwrite private images. And there are critical fixes for React Server Components, PTC Windchill and MongoDB. Xen Orchestra's virtual machine import flaw is still unfixed.
+
+## A I attacks and trends
+
+The deep dive covers Cairn, so here, the rest.
+
+Island, a browser security firm, found a hundred and eighty six lookalike domains for twenty seven A I brands, Claude, ChatGPT, Gemini, Copilot and others, spelled one letter wrong. They lead to fake fix instructions that have the victim run commands, a browser hijacker, and sixteen Chrome extensions that claim nearly a million users between them. The trick is old. The bait is new. People now go looking for A I tools the way they once went looking for free software, and with the same discipline.
+
+Chainstack, a Web Three infrastructure company, gave its root cause: a Grafana dashboard in a development cluster, open to the internet, with the default administrator password. From there the attacker, using the ARTEX agent framework, reached production. Default passwords and autonomous agents are, it turns out, a natural pairing.
+
+Material Security described a campaign it calls CloudFire, which sends Google Calendar invitations that route through Google's own redirector to a live proxy, stealing Google sessions with the second factor included. Nearly nine hundred domains have been taken down. A Microsoft three sixty five version is apparently under construction.
+
+And OpenAI launched two tools for defenders, one for agentic penetration testing of web applications and one that drafts patches from scanner findings. The same fortnight, three open source agentic penetration testers turned up in real intrusions. The symmetry is not lost on anyone.
+
+## Cyber geopolitics
+
+North Korea, twice. The F B I issued an advisory on what it calls FaceStealer. The operators take over a victim's Telegram, LinkedIn, Slack or Discord account, and message that person's contacts. The contact receives a meeting invitation to a lookalike Zoom domain, joins, and sees what appears to be their friend on camera. It is a recording, taken from an earlier victim's call. Then they are asked to run an update. More than four hundred million dollars has been stolen in eighteen months, and the F B I has seized more than nine hundred recordings. The Bureau's advice is admirably plain: leave it off until you can see, hear and talk with the person who invited you. Separately, Stormshield describes a campaign it calls Trigram, linked to Kimsuky, using fake recruiters, a fake conference invitation and fake parcel tracking pages to deliver a stealer, and impersonating about fifty brands.
+
+China. ENEA, which secures mobile networks, describes a cluster it calls SilentAir that uses the old signalling protocols of mobile networks, from inside hacked operators in at least six Asian countries, to track and intercept subscribers, mainly in Taiwan, including political figures. It saw two factor codes arriving just after interception. ENEA's confidence on China is low. If you have senior people travelling in the region with text message based two factor, this is the story to forward.
+
+Russia and Europe. Poland's national e government platform has been offline since Tuesday, and the digital affairs minister says everything points to foreign adversaries, who he says planned to shut it down at the December peak. Romania's intelligence service says it stopped a Turla attack on a government institution, and a Romanian outlet says the target was correspondence with NATO and the European Union. And Group I B describes an actor it calls DarkLunnen, possibly Russian speaking, hitting defence, aviation and drone organisations in Ukraine and targets in fifteen countries. Group I B attributes it to no one.
+
+Iran and France. The Paris prosecutor says investigators are seeking international arrest warrants over the supermarket refrigeration attacks, and France is preparing to propose European sanctions. Meanwhile, researchers at Midnight Blue found six unpatched remote code flaws in a common Danfoss refrigeration controller, and say hundreds are reachable from the internet. Their advice is to take them off it, not to wait for patches. And in London, a court convicted two Iranian nationals under the National Security Act for surveillance of journalists, the first such convictions. That is espionage, not cyber, but it is the same state, and the same patience.
+
+## Consulting and professional services
+
+To put the week's pattern plainly: ScreenConnect on Wednesday, N able on Thursday, and now two small managed providers with law and accounting clients listed underneath. The weakest part of a professional firm's security is very often a company it pays to look after it.
+
+Two more items. Operation Endgame, the international police effort, took down infrastructure for Gootloader, CastleRAT and StealC, seizing two hundred and thirty five servers and two hundred and fifty seven domains. Gootloader matters to us because its lure is a fake legal document. Lawyers, bankers and consultants are its natural audience. And Unit Forty Two's Cairn campaign hit a standards body, semiconductor firms and a defence policy think tank, which is to say, our clients.
+
+No change on A and O Shearman, Deloitte, PwC, Accenture, or the rest of the larger firms.
+
+## Social chatter relevant to McKinsey
+
+Quiet. Nothing on Hacker News since Sunday, nothing on Mastodon since Wednesday, and no news on the firm's security, Lilli, or scams in its name.
+
+## Brand and executive targeting
+
+FaceStealer is the item. It is executive impersonation done properly: not a voice clone of a chief executive, but a hijacked colleague's account and a recording of their face. The defence is procedural. An unexpected meeting invitation from a known contact is confirmed by another channel, and nobody runs an update offered in a call. Add the fake A I domains, and the calendar invite phishing, and the theme of the week is that the meeting itself has become the attack surface.
+
+## SaaS and supply chain
+
+The GitHub campaign we covered yesterday is larger than it looked. Aikido counts four thousand eight hundred and thirty seven hijacked accounts, more than sixty one thousand repositories probed, and the payload running in at least one thousand eight hundred and thirty five. About fifty of the accounts can publish packages, and the payload has reached at least one P H P package and one Go module. BleepingComputer reports that hijacked accounts include ones at the United States General Services Administration, the French government and Fortune One Hundred companies. If your developers or your vendors' developers had a pull request titled docs, dependency audit notes, it is time to look.
+
+Trigram, the North Korean campaign, also compromised an npm package. And the S A A S breaches in the breach section, Dentsu, Kakao Work, Dawoo, Douzone and Arara, are all, at bottom, the same story: one supplier, many customers, and the customers find out last.
+
+## Regulation and law enforcement
+
+The Senate homeland security committee has scheduled a hearing on Michael LoSapio's nomination as director of C I S A. I could not find the date. The information sharing law still expires on the eleventh of December. In Korea, the Financial Services Commission plans to let crypto exchanges freeze withdrawals when they suspect a hack, and its audit of the Financial Security Institute begins on Monday. The Institute now says about a hundred and thirty files from forty eight financial companies leaked. And the U K's National Cyber Security Centre launched a scheme for certified firms to simulate adversaries against critical infrastructure.
+
+## Deep dive: the machine that took the job
+
+Our subject is a cluster Palo Alto's Unit Forty Two calls C L S T A twelve thirty eight, published yesterday afternoon. Unit Forty Two assesses it as China nexus intelligence collection, with moderate confidence. The reasons: the tasking files and operator interface are in Chinese, the only models used were Chinese, Zhipu's GLM and DeepSeek, and the targets match Chinese state intelligence priorities. It is not linked to any named group.
+
+What makes this report worth our time is not that a state used artificial intelligence. We have seen that all week. It is how little the humans had to do.
+
+The framework is called Cairn. It is open source, and the attackers ran a customised fork with their own operator interface and their own pack of scanning and exploitation skills. The operator gives it two things: the target's root domain, and a goal, one line in Chinese. Get a web shell, S S H access, source code, keys, credentials, and if possible, a way into the internal network. Then the loop begins. The model reads a shared blackboard of facts it has already established, decides on the next step, takes that one action, writes the result back as a new fact, and decides again. Over and over, until it reaches the goal, runs out of ideas, or the operator stops it. The operator can drop in hints whenever they like. Individual operations ran from about twenty minutes to more than fifty hours.
+
+And how did they persuade the models to do it? Every request carried a Chinese preamble saying this was an authorised penetration test, or a capture the flag exercise, or an audit, and forbidding refusal. Each operation had a file called authorization dot M D declaring the client had approved the work. Neither model refused. Unit Forty Two calls the pretext trivial. It is the oldest con in the world, the forged letter of introduction, presented to a clerk who does not check.
+
+The targets. Seven organisations in semiconductors and advanced manufacturing, across lithography, chip design, materials, photomasks and standards. Three in defence and defence policy, a space technology company, a defence analytics vendor and a policy think tank. Four in human rights and civil society, including a Canadian human rights body and an American teachers' union. Twenty five operations, at least nineteen organisations, about two weeks, in August and September. Ten compromised, says Unit Forty Two, though its own case list adds up to nine.
+
+Now the part I would ask you to remember. Not one of the ways in was clever. Password spraying an internet facing server. A cloud storage bucket that accepted writes from anyone. A production credential, brute forced, that turned out to work across several accounts on a partner integration app. A content management system that let anyone create an account. An identity platform with its registration page left open. For one target, the operator pre loaded the virtual private network gateways, group names and shared group passwords, which suggests earlier reconnaissance, or a purchase. No specific C V E numbers at all.
+
+What they got. At an industry standards body: dozens of valid credentials, private directories, and the ability to read, write and delete in its meeting and voting systems. The agent overwrote a live standards ballot document. Think about that for a moment. Not stolen. Changed. At a semiconductor company: new administrator accounts and a persistent production A P I token, which is to say, a key they intend to come back with. At the teachers' union: more than a million member records. At the think tank and analytics vendor: about five hundred user records, including military and government accounts. And at an industrial automation manufacturer, about a hundred and fifty thousand internal documents.
+
+The indicators are thin. Two addresses, one hosting the framework in Hong Kong and one used for staging and attacks in the United States. They are in the brief. No domains, no hashes. Unit Forty Two published no hunting queries and no ATT and CK mapping, so the ones in the brief are ours, and labelled as such.
+
+Hunting, then, in outline. Look for those two addresses in your firewall, proxy, web application firewall and identity logs since August. Look for probing of your internet facing applications at machine speed: one source walking through many paths and parameters per minute, for hours or days. Look for password spraying against application logins, partner portals and V P N groups, not only your identity provider. Look for accounts created through self registration on systems that should not allow it, and for new administrator accounts and long lived A P I tokens on production applications.
+
+And the response. Unit Forty Two's advice is identity hygiene and a smaller attack surface: no default or shared credentials, close registration endpoints, lock down cloud storage, patch the old flaws, fix the authorisation bugs. For a firm like ours, I would add three things. Find every client facing portal and engagement microsite that allows self registration, and close it. Retire any shared V P N group passwords. And review the administrator accounts and A P I tokens created on externally reachable applications since August.
+
+Unit Forty Two's conclusion is that the A I raised the volume and the coverage, not the sophistication. I would put it slightly differently. For years we have comforted ourselves that the basic weaknesses were survivable, because no one had time to find them all. Someone now has the time. It is a machine, it does not sleep, and it believes the letter of introduction.
+
+## Weekly roll up
+
+Now the weekly roll up, Friday the sixth through Thursday the twelfth of November. The written version has every link, merged where a story ran over several days, and a combined table of three hundred and twenty five organisations for the team's feed. Five themes.
+
+One. Silent Ransom Group worked its way through the better addresses of American law, and then crossed to London. It named Smith, Gambrell and Russell, Wachtell Lipton, Tucker Ellis, Benesch, Wilentz Goldman and Spitzer, and on Tuesday, A and O Shearman, plus four redacted entries. It now counts a hundred and ninety nine victims, ninety eight in professional services. Not one named firm has made a public statement. Other groups listed Baron and Budd, the Queenan Law Firm, Burgess Lowman, Higginbotham and Cresa. Baker Tilly confirmed client Social Security numbers were taken from a supplier's platform. And Unit Forty Two tracked an A I penetration testing kit being used against cloud tenants in consulting.
+
+Two. Japan's breach wave widened to tens of millions of records. Nitori, up to about thirty seven million. Iris Ohyama, Sharefull, Hana Cupid, Rohto, and the Chamber of Commerce's exam system, nearly a million examinees. The email relay company Arara reached more than eighty one million unique addresses across about three hundred and eighty client companies, with SEGA, MOS Burger and the Cabinet Office among those downstream. Insurers and lenders lost data through outsourcers. Japan announced an emergency cyber package, and its privacy regulator reported breach notifications up about a fifth. In Korea, the financial sector's own security institute was itself breached.
+
+Three. Trusted vendors and remote management tools were the way in. The ScreenConnect worm reached two hundred and eighty eight machines at forty eight organisations in ninety minutes, built to jump from the managed computer to the technician. N able took its hosted service offline after thirty three flaws were published with exploits, shipped a hotfix, and by Thursday the hotfix had been bypassed. Attackers used Qubole's own cloud account to step into its customers' accounts. And Amadeus, Fireworks A I, Maileva, Openlogi and Dentsu Digital all exposed data they were holding for someone else.
+
+Four. A I agents ran intrusions, and A I found the week's biggest bugs. Microsoft documented agents turning leaked GitHub secrets into cloud access in about five minutes. A Kazakhstan linked group used the Hermes agent to steal Tajik government documents. A Chinese speaking actor ran an autonomous harness against a European telecom. A I platforms were breached through the plumbing around the models: the German host Mittwald through its M C P server, NEAR A I through an inference server, and Railway lost its customers' A I keys. And on the other side of the ledger, the exploited Outlook zero day and a critical Apache flaw were both found with help from A I, in both cases including Anthropic's. There were also more than thirty five thousand Grok built apps open to anyone with a link.
+
+Five. France named Iran for the refrigeration sabotage, while the patch queue filled up. On Monday, French agencies attributed October's attacks on refrigeration in about seven hundred grocery stores to a unit of Iran's Revolutionary Guard, the group known as Cyber Avengers, named three people, and summoned Iran's ambassador. Iran called it baseless. The November wave across Europe remains unattributed. C I S A added eleven flaws to its known exploited list, including SonicWall, OpenSSH, the Outlook zero day, Chrome, Cisco BroadWorks and the two Barracuda flaws due today. Patch Tuesday fixed somewhere between one thousand and ninety three and one thousand two hundred and fifty nine C V Es, depending on who is counting. Fortinet disclosed about a hundred.
+
+And in one line on crypto: of the roughly six and a half billion dollars taken from Binance, Elliptic counts about two point eight five billion frozen or seized, and the amount cashed out so far as negligible.
+
+The thread through all five is the same one. The front door is reasonably well guarded these days. The side doors, the supplier, the help desk, the remote tool, the unattended portal, are where the week's business was done.
+
+## Watchlist
+
+Today, the Barracuda deadline. Monday, Microsoft removes the eMudhra roots, and Korea's audit of the Financial Security Institute begins. The twenty fourth for Outlook, BroadWorks, Openwave and Chrome. The eleventh of December for the information sharing law. On N able, a fix and a C V E for the new chains. On SignDrop, a patch. On ScreenConnect, a name. Whether Cresa's data appears. Whether Gator Works and Elitdata confirm anything. A date for the LoSapio hearing. And France's sanctions proposal.
+
+That's Morning Signal for Friday, the thirteenth of November, and for the week. The written brief and the weekly roll up have every link, and both tables are ready for the vendor database and the team's weekly feed. Have a good weekend. Before you go, if someone you know invites you to a call this weekend and asks you to install something, ring them first. On the telephone. Like it is nineteen ninety five.
+
+Until Monday.
