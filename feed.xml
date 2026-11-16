@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Mon 16 Nov 2026: FBI warns on ARTEX AI intrusions, weekend SaaS breach wave, Luna Moth&#x27;s Copilot token trick on law firms</title>
+      <description>72-hour window. FBI FLASH on the ARTEX agentic intrusion framework (deep dive): ConnectWise app trust into 2,250+ tenants, legal a named sector, privileged access in under 3 hours; Amazon and Barracuda ARTEX findings. Plaid KARTE down for all customers, GoQSystem 4.37M, Metaem, NHN Dooray, Quantum Systems update server, Cursor trojanised extension. Luna Moth re-targets law firms via Copilot Graph tokens; A&amp;O Shearman relisted. Two KEV entries and eMudhra root removal due today. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-16.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-16.md</link>
+      <guid isPermaLink="false">morning-signal-2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-11-16.mp3" length="12860450" type="audio/mpeg"/>
+      <itunes:duration>1607</itunes:duration>
+    </item>
+    <item>
       <title>Fri 13 Nov 2026: N-able hotfix bypassed in the wild, MSPs expose law and accounting clients, AI-run espionage + weekly roll-up</title>
       <description>24-hour window plus the weekly roll-up (6-12 Nov). N-able N-central exploited on Hotfix 2 servers; INC lists MSPs Gator Works and Elitdata with law and accounting clients; Unit 42 CL-STA-1238 Cairn autonomous AI campaign (deep dive); FBI FaceStealer deepfake-call warning; MUJI unmasked card numbers; TSMC employee data; Barracuda KEV due today. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-13.md  Weekly roll-up: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-13-weekly.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-13.md</link>
