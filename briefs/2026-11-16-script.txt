@@ -1,0 +1,163 @@
+## Morning Signal. Monday, the sixteenth of November.
+
+Good morning. The weekend was not quiet. The F B I has put out its first public warning about a tool called ARTEX, an open source framework that lets a handful of artificial intelligence agents do what used to take a team of intruders a week, and in some cases do it in under three hours. In Japan, a customer experience platform switched itself off for every customer it has, and stayed off. And a ransomware crew that specialises in law firms has gone back to the ones that did not pay, with a trick that walks straight past multi factor authentication.
+
+This is Morning Signal for Monday, the sixteenth of November. Because it is Monday, the window is seventy two hours, from about five on Friday morning, Eastern, until now. The written brief carries every source link, and the organisations table has sixty one rows.
+
+Corrections first. On Friday I told you the Known Exploited Vulnerabilities catalogue had not changed. It had not, when I looked. Later that afternoon, C I S A added two entries, and both of them are due today. I will come to them. On ARTEX and ConnectWise, The Record writes that Microsoft blamed Chinese state backed actors. Microsoft's October post does assess the group it calls Storm Zero Nine Forty, which it describes as China state aligned, as responsible, though it gives no confidence level. Its newer post from Friday names no actor at all, and the F B I names none either. So treat the actor as Microsoft's view, not a settled fact. On Xen Orchestra, the reporting still disagrees about which versions carry the fix, and nothing new has settled it. And on Baker Tilly, a nationwide figure of about one hundred and ninety five thousand people is now circulating. It comes from a single report and I cannot verify it. The confirmed numbers are still a little over ten thousand in Texas and about a hundred in Rhode Island.
+
+Three things.
+
+## The top three
+
+Number one. On Friday the F B I published a FLASH alert on ARTEX, marked for public release. ARTEX is an autonomous penetration testing framework, released on GitHub in July by a developer known as Autumn Twenty Seven, whom Censys and The Record identify as Li Puhua. The alert gathers three campaigns. One against South Korean finance, which took personal data on about sixty seven thousand people. One that Microsoft tracks as Storm Zero Nine Forty, which used trusted ConnectWise backup applications to sign in to more than two thousand two hundred and fifty customer tenants without a single user logging in. And a Cambodia based group Microsoft calls Storm Thirty Three Fifty Eight, going after banks. Legal is a named target sector. More than sixteen hundred ARTEX control consoles are sitting open on the internet. Amazon and Barracuda have their own ARTEX stories. This is the deep dive.
+
+Number two. Software as a service had a bad weekend. In Japan, Plaid suspended its KARTE platform for every customer on Friday afternoon, local time, confirmed that data may have left, and on Sunday told all customers to throw away every key and token that connects KARTE to anything else. It is still off. GoQSystem, which runs orders for online shops, lost data on more than four million people across nearly seventeen hundred shops. In Korea, an A I contact centre vendor called Metaem, with about a hundred and fifty clients, was breached, and the crypto exchange Coinone is among the clients notifying customers. A German drone maker may have had a poisoned update pushed from its own server. And Cursor confirmed that a trojanised build of the Claude Code extension reached up to five thousand developers.
+
+Number three. Law firms, again. ReliaQuest reports that Luna Moth, also called Silent Ransom Group, has gone back to firms that refused to pay, and talks staff into handing over a live Microsoft three six five token. A and O Shearman was listed by a second extortion name on Friday. A Turkish law office has a deadline on Friday. And Baker Tilly now faces a federal class action. Also today: those two catalogue deadlines, and Microsoft pulling the last of the eMudhra root certificates out of Windows.
+
+## Breaches and confirmed incidents
+
+Japan first, because Japan had the heaviest weekend I have seen in some time.
+
+Plaid's KARTE is a customer experience platform. It measures web and app behaviour and sends messages on behalf of brands. On Friday at about a quarter to one in the morning, Eastern, it began suspending service, calling it emergency maintenance, after detecting unauthorised access by a third party. By that evening it had confirmed possible leakage to outside parties and was emailing affected customers one by one. On Saturday night, Eastern, it said the network isolation of the affected environment was complete, which stopped any ongoing leakage. As of Sunday afternoon in Tokyo, every KARTE project was still suspended: measurement, messaging, and the admin console. No restart date. No data types, no record counts, and no cause. If any of your clients or vendors run KARTE, the question to ask this morning is simple. Have they rotated the keys?
+
+GoQSystem runs order management for online shops. An attacker came in through a flaw in an inquiry form on the tenth and eleventh of November. Its second report counts nearly seventeen hundred shops and four million three hundred and sixty seven thousand individuals, with names, addresses, phone numbers and order details. Exfiltration is confirmed for part of it. No card data is held. On Sunday the company warned of look alike phishing domains, which tells you someone has already thought about what to do with the list.
+
+Keisei Electric Railway, which runs the Skyliner to Narita, says up to about three point three seven million reservation records may be affected, including encrypted passwords. The whole reservation and e ticket system is halted. Yamada Denki reports up to three and a half million customer records. Monex Securities says a contractor running part of its account opening system was breached, with up to one point one three million email addresses and nearly sixteen hundred identity document images, My Number cards, driving licences and selfies, possibly taken. The contractor is not named.
+
+The Yomiuri Giants fan club lost about eight hundred thousand email addresses. A LINE integration platform called COMSBI, from Sonic Move, was entered through an internal support account, and its customers are now disclosing. Keihan Holdings counts up to two hundred and twenty four thousand people's LINE profiles, and about sixty four thousand records with names, addresses or dates of birth. Media counts differ, so hold that number loosely.
+
+The City of Osaka says more than a million email addresses were exposed through Arara, the email delivery service already in last week's brief. The Record now puts Arara's total at seventy seven million addresses across nearly four hundred customers. Osaka Metropolitan University, in its sixth report on the N E C incident, says data on about a hundred and seventy thousand people sat in N E C managed cloud storage. It was migration data from twenty twenty one that nobody deleted.
+
+And RIKEN, the national research institute, has suspended operations of Fugaku, one of the world's largest supercomputers. According to a user notice it confirmed to ITmedia on Monday, files in home directories were read and private keys or authentication data may have been taken. All users may be affected. Cause and scale are under investigation.
+
+Korea. Metaem is an A I contact centre vendor with about a hundred and fifty clients, hospitals among them. It detected anomalies on the twelfth, posted a notice on Saturday, and on Sunday two clients followed. Coinone, the exchange, lists possible exposure of names, phone numbers, account numbers, passwords, resident registration numbers, home addresses and wallet addresses. Bunjang, a resale marketplace, lists call recordings and transcripts. That last item is worth a pause. An A I contact centre holds the voice of every customer who ever called.
+
+NHN Dooray, a collaboration suite, says an attacker brute forced its forgot password codes, changed passwords and logged in, and separately used an open A P I flaw to leak A P I keys. Customer projects, drives, messenger and calendars were exposed. Every A P I key has been revoked and the A P I service is suspended.
+
+Elsewhere in Asia. T S M C has filed its notice with the S E C, and The Record reports a forum post offering six point nine gigabytes of its employee data for three bitcoin. The cloud provider involved is still unnamed. In Australia, Coles disclosed a cyber incident to the stock exchange this morning, and says it has found no evidence that customer, team or supplier data was compromised.
+
+Europe. Maileva, the La Poste subsidiary that sends documents for client companies, now says twenty two million people were affected, mostly recipients, with names and postal addresses. Quantum Systems, the German drone maker that supplies Ukraine, says it found an active cyberattack by hostile actors. Der Spiegel and the Financial Times report a malicious file on the update server for QBase, its ground control and mission planning software. The Bundeswehr grounded its drones as a precaution. They are flying again. No one has been named. Apify, a Czech scraping platform with about ninety one thousand customers, says one stolen credential led to more, and to customer data including two factor recovery codes and Google and GitHub sign in tokens. ActiveCloud in Belarus was hit by ransomware, and Lithuanian Customs reports a breach.
+
+The Americas. Uber has told several state attorneys general that drivers' licence data was stolen through Fireworks A I, an inference provider. The counts so far are in the low thousands per state. Luxor, a bitcoin mining firm, had its fleet platform taken over on Saturday night and hashrate redirected to another pool. Its chief executive blamed A I, and put it this way: abliterated models are running twenty four seven against your entire surface. And the City of Mobile, Alabama, paid fourteen point seven million dollars to fraudsters over five months, after staff were persuaded to change a contractor's bank details. Five months. Found in a week.
+
+## Leak sites and data dumps
+
+Everything in this section is a claim by criminals. None of it is confirmed unless I say so.
+
+Professional services first. A and O Shearman, already listed by Silent Ransom Group on the tenth, was listed on Friday by a group calling itself Leakeddata, with no size and no deadline. Breachsense, separately, attributes a four hundred and fifteen gigabyte claim on the firm to a label called BusinessDataLeaks. Whether these are one operation or several is unresolved. The firm has said nothing.
+
+A Turkish law office, Koray Topaç Hukuk Bürosu, was posted by a group called Doommageddon, marked as negotiating, with a deadline of Friday. Galorath, an American cost estimation software and consulting firm, was posted by Akira. And a group called PixelLeaks dropped a batch of about twenty victims on Sunday morning, heavy with financial advisers and small consultancies. No Big Four or strategy firm names appeared in the window.
+
+Now the brands. On Saturday night, the extortion group N zero n took seven anonymised entries it had posted on the seventh, labelled only as numbered companies, and put names on them: Samsung Electronics, Gap, V F Corporation and its Timberland brand, Starbucks, Alo Yoga. Each was marked not paid, exposed. What is claimed is curious. Smart television viewing data at Samsung. Staff single sign on identities and shopper tracking at Gap. Over a hundred thousand shopping assistant chat sessions at V F. Device, purchase and location records at Starbucks. That is advertising technology, site search and chat data. It is not core systems. My inference, and it is only that, is a shared third party vendor, much as N zero n reached Expedia through a stolen data platform key. No vendor has been named.
+
+On Expedia itself, the claim has been itemised. More than eight hundred and thirty million loyalty records, fifty eight million traveller profiles, more than three hundred and thirty three million account and credential records. Expedia has confirmed a breach at a third party data platform. It has not confirmed the numbers. And the Vortex deadlines for Cresa and Alexion passed without a confirmed publication.
+
+## Exploited vulnerabilities
+
+The catalogue. Two additions on Friday afternoon, both due today, both with forensic triage requirements attached.
+
+The first is UnrealIRCd, the chat server. On a network of linked servers, any user can inject server to server commands, because a message tag is not escaped. Low relevance for most enterprises, unless someone is running I R C for internal bots.
+
+The second matters more. Check Point's Gaia operating system has a command daemon that runs as root on a socket anyone on the box can write to, and it does not ask who is calling. A local user becomes root. It is the second half of the chain Check Point Research described last week, where a flaw in mobile access portals was used to get on the box in the first place, followed by implants and, in some cases, an E S X I wiper. If you run Check Point gateways, today is the deadline, and the fix is in the vendor's article on the issue.
+
+Also today, Microsoft removes the remaining ten eMudhra root certificates from Windows and Edge. eMudhra issues its last public T L S certificates today and leaves that business. The cause was a migration script that reduced private keys to single byte values. One of them was, quite literally, the number four. Browsers will not be your problem. The problem will be devices and applications with their own bundled trust stores, which never get the operating system update. Some headlines mix today's ten with October's seven. They are different actions.
+
+On refrigeration, which is now a geopolitical subject, VulnCheck reports that two flaws in Copeland's XWEB EVO controllers, which give an unauthenticated attacker root, were being exploited two hours after disclosure. The product reached end of support in March. There will be no patch.
+
+Microsoft has published its own analysis of the ScreenConnect toolkit, SCKit, which we covered from Huntress last week. It steals console session cookies from technicians' browsers and then uses the console's own shared toolbox to push payloads to every machine the technician can reach. The indicators and seven hunting queries are in the brief. Update technician clients to the current version, disable the R M M plus extensions, which accept an empty key, and investigate out of band, not through ScreenConnect itself.
+
+SignDrop, the Windows logging flaw, still has no patch and no reported use in the wild. Cyderes has published stage by stage detections, including one I like for its plainness: any file called hid dot D L L in the shared ink folder, because Windows does not ship one there. N able still has no fix for the chains published last week. Keep the legacy A P I off.
+
+And on disclosure. Google's Project Zero now publishes full details ninety days after reporting a flaw, fixed or not, falling to sixty days in February. Expect exploit code for enterprise products to arrive sooner. Patch windows are shrinking from both ends.
+
+## A I attacks and trends
+
+The F B I alert is the deep dive. Here is the rest.
+
+Amazon runs decoys it calls MadPot, and among them are fake large language model A P Is. ARTEX agents, which need a model to think, plugged into them. In doing so, they leaked their own working memory. What Amazon saw, from early October to early November, with moderate confidence that several separate China linked groups were involved, was two campaigns. The first stole A I provider keys from gateways and app builders, LiteLLM, Dify, Langflow and the like, using known flaws, default master keys and secrets left in JavaScript and environment files. The agents graded what they stole, from a lead, to a working key, to a key with measured value. Then they spent the stolen keys on more inference, to steal more keys. The second campaign tried to pass identity checks at two crypto exchanges with a real time deepfake running on a single consumer graphics card, having worked out the liveness test well enough to get within seven pixels of the required movement. Every recorded attempt was rejected. That is the good news, and it is the vendor's server side checks that deserve the credit.
+
+Cursor has published the forensic story of its breach. An attacker used an access key Cursor had issued to Fireworks A I to copy a bucket of coding agent traces. Those traces contained credentials users had pasted in. Those credentials opened internal tools. And on the twenty ninth of October, a stolen credential let the attacker place two trojanised builds of the Claude Code extension in Cursor's marketplace cache for about eleven hours. At most five thousand users received them. The builds tried to plant a persistent S S H backdoor. If your developers use Cursor, the check is one line, in the brief, and uninstalling the extension is not enough. Fireworks has now been the door to Notion, to Uber, and to Cursor.
+
+Corelight looked at thirty five servers for the Model Context Protocol and found twenty three pull their dependencies fresh from public registries every time they launch. One server, pinned to a single commit, ran fifteen different dependency sets across nineteen builds in five weeks.
+
+## Cyber geopolitics
+
+Germany's Bundestag voted on Friday, three hundred and eight to one hundred and ninety, to give its foreign intelligence service powers to hack foreign systems, sabotage adversaries' supply chains and take down servers run by hostile state hackers. Its domestic service gets a shorter list. Measures inside Germany need advance approval from an independent council. The interior minister called it the reform of the century. In the same week, a German drone maker that supplies Ukraine may have had its update server turned against its customers.
+
+On the refrigeration sabotage in France, France will propose further E U sanctions against Iranian individuals and entities, according to Iran International, though nothing has been designated yet. An I R G C spokesman, quoted through a secondary repost, warned France not to fall for what he called Israeli false flag operations. And Romania's national cyber director called the incidents technically unsophisticated, and said he did not suspect a state actor. That sits awkwardly beside France's attribution to the I R G C. Both are on the record.
+
+Poland's digital affairs minister says the attack that took down ePUAP, the national e government platform, came from abroad, calling it an administrative bomb meant to paralyse government work. The platform was still not fully back over the weekend. No country has been named.
+
+Spain votes on the twenty ninth. Maldita reports a Russian operation known as Matryoshka posting fake covers styled as El País, Reuters and The Economist, with invented quotes from real economists.
+
+North Korea. Genians reports, with medium confidence, that Kimsuky impersonated a lawmaker's senior aide to target someone who had attended a National Assembly seminar. The first email had no attachment, deliberately. Only when the target replied did the file arrive. Patience is a technique.
+
+## Consulting and professional services
+
+The most important professional services item this weekend is ReliaQuest's account of Luna Moth. You will remember this group as the one that listed A and O Shearman. Here is the method. A blank email from a free address, with a PDF that will not open. A phone call from a spoofed number about a malicious email. Then a video call, with someone playing I T support, who walks the victim through opening Microsoft three six five Copilot, opening the browser's developer tools, and copying out a Microsoft Graph access token. The victim pastes it into a text sharing site. About a minute later, the downloads begin, from an address using a user agent that announces itself as SharePoint Scavenger. Bulk download is often done within the hour. Because a token is not a sign in, multi factor authentication is never asked again, and no attacker sign in appears in the logs. ReliaQuest recommends continuous access evaluation with strict location enforcement, disabling developer tools for ordinary users, blocking Graph Explorer and the browser network export pages, and allowing only approved remote support tools. It expects other groups to copy the technique within six months. Any professional services firm with Copilot rolled out should read it this morning.
+
+The F B I alert names legal among the sectors ARTEX is being used against. Consulting is not named. Baker Tilly faces a class action filed in the Southern District of New York on the twelfth. No change for the Big Four, Accenture, B C G or Bain.
+
+## Social chatter relevant to McKinsey
+
+Quiet. One unrelated comment on Hacker News, nothing on Mastodon, and news searches only resurface the earlier Lilli incident from this year.
+
+## Brand and executive targeting
+
+One older item, not in earlier briefs, because the firm is named. In July, Dark Reading reported a recruiter phishing campaign impersonating more than thirty brands, McKinsey among them. The lures look like emails from a recruiting platform, pass through legitimate marketing redirectors, and end at a fake Google sign in drawn inside the browser window. Nothing new in the window, but it is worth having on the shelf.
+
+Otherwise, impersonation this weekend was of I T support, through Luna Moth, of a parliamentary aide, through Kimsuky, and of entire newspapers, through Matryoshka. The last of those is a playbook that would work just as well on a consulting firm's thought leadership. No new executive deepfake cases.
+
+## SaaS and supply chain
+
+Count them. Plaid KARTE, GoQSystem, Sonic Move's COMSBI and At Home in Japan. Metaem and NHN Dooray in Korea. Apify in Europe. Seven software as a service or vendor platform breaches with downstream customers in a single weekend, and the common request in nearly every notice is the same: rotate your keys. Add a possible poisoned update at Quantum Systems, a trojanised extension at Cursor, and the ConnectWise application trust abused across more than two thousand tenants. StepSecurity also describes a fake job interview campaign called AccuraSoftHire, in which a take home coding test installs malicious packages on developers' machines.
+
+## Regulation and law enforcement
+
+The confirmation hearing for Michael LoSapio, nominated to lead C I S A, is set for Thursday at half past nine in the morning, before the Senate homeland security committee. C I S A has been without a confirmed director for almost twenty two months.
+
+The White House A I task force has asked regulators to go easy, for at least twelve months, on companies hit by attacks that A I overwhelmed, saying prior standards may be outdated. It also backed long term renewal of the information sharing law that expires on the eleventh of December. The S E C was not named. In Britain, the Information Commissioner received a record number of cyber incident reports in the third quarter, more than thirteen hundred, and investigated eighteen. Italy fined Meta eight hundred and five million euros over Facebook's access to Android photo galleries. And the Justice Department says the Gootloader malware was used in at least forty four ransomware attacks costing twenty nine million dollars.
+
+## Deep dive: the tool that does the job
+
+Let me tell you about ARTEX.
+
+It began, as these things often do, as a gift to defenders. An open source framework for autonomous penetration testing, published in July by a developer calling himself Autumn Twenty Seven. You give it an objective in plain language. It breaks the objective into tasks and hands them to specialised agents, one for reconnaissance, one for exploitation, one for moving about once inside, and those agents call a large language model to decide what to do next. The attackers the F B I describes mostly used DeepSeek models, though the framework will happily use Claude, G P T, G L M, Grok or Kimi. Since at least August, the F B I says, it has been used maliciously. In October the original repository came down. By then it did not matter. There were forks, mirrors, and a paid version called ARTEX PRO. By early November there were more than sixteen hundred ARTEX consoles exposed on the internet.
+
+On Friday the F B I published a FLASH alert. It is the first government advisory on the tool, and it draws three campaigns together.
+
+The first was in South Korea, against financial institutions, by an actor the F B I does not name. Structured personal data on about sixty seven thousand people left over ordinary encrypted web traffic.
+
+The second is the one that should hold a consulting firm's attention. Microsoft calls the actor Storm Zero Nine Forty and describes it as China state aligned, active since twenty twenty one. It did not break into two thousand two hundred and fifty tenants one at a time. It compromised the application identities of ConnectWise's cloud backup service, identities that customers had already consented to in their own Microsoft Entra tenants, and simply authenticated as the application. No user signed in. No user was phished. Once inside, it added credentials to existing applications, gave itself Global Administrator, and read Key Vault secrets in bulk across vaults. Before that, it had sprayed passwords at hundreds of accounts, more than a hundred and fifty thousand failed logons, without a single success. The spray failed. The trusted application did not. A consultancy consents to a great many multi tenant applications, in its own tenant and on client engagements. Each of those consents is a door that opens from the outside.
+
+The third is Storm Thirty Three Fifty Eight, which Microsoft describes as Cambodia based, going after financial organisations in South East Asia and installing remote access tools called WISP, vshell and Adaptix C two.
+
+What ties them together is pace. The F B I says some intrusions went from first touch to privileged access in under three hours. The targets are the edges of an organisation: partner portals, mobile back ends, employee apps, old integrations nobody owns any more. For a firm whose business runs through client portals and engagement environments, that list reads like an inventory.
+
+The full technique mapping is in the brief. Here is how to look for it.
+
+First, egress. Look for connections to the A P Is of Anthropic, DeepSeek, Zhipu's big model service and x A I from servers that have no business talking to them: web servers, jump hosts, build agents. DeepSeek and Zhipu traffic from a server is the strongest signal. The awkward part is that we, like everyone, now use these services legitimately, so the egress baseline has to know which hosts are allowed to think.
+
+Second, bursts. Rapid, sequential requests against login, search and record lookup endpoints on partner and employee portals, with very high record counts per session. A person does not read a thousand records a minute.
+
+Third, web shells. New dot A S P X or dot J S P files in web roots, especially on I I S and on Azure App Service deployment consoles.
+
+Fourth, the identity layer. In every tenant that has ever consented to a ConnectWise application, review sign ins by that application since the first of October, including app only and service principal sign ins from addresses outside the vendor's published ranges. Look for new credentials added to existing applications, new owners, role assignments, and above all, anything that assigned itself Global Administrator.
+
+Fifth, secrets. One principal reading Key Vault secrets across several vaults in a burst, and bursts of deployment validation dry runs, which is an agent checking what it is allowed to do before it does it.
+
+And sixth, look at your own estate, and your contractors' hosting, for exposed ARTEX consoles.
+
+The indicator list, about two dozen addresses and one domain, is in the brief. The F B I gives no file hashes, and the addresses are historical cloud infrastructure, so vet before you block.
+
+On response, the F B I is specific. Restrict cloud admin, deployment, hypervisor and backup consoles to trusted networks. Apply least privilege to multi tenant application consents. Rate limit the A P Is that return records. Scan repositories and pipelines for secrets and rotate what you find. Preserve your Entra, Purview and Graph logs before you remove anything. Keep ConnectWise connections disabled until ConnectWise publishes restoration steps. And do not delete the enterprise applications as a first response, because that is where the evidence lives.
+
+Now step back. Amazon watched the same tool steal A I keys and then spend them on further theft, a business that pays for itself. Barracuda, a security vendor, says its own cloud was entered through an access key given to an A I provider and never revoked, and that ARTEX carried the intruder across ten environments in under two days. And Cursor lost its developers' trust through a key it had issued to an inference vendor. The pattern this weekend is not that machines have learned to hack. It is that we have handed out a great many keys, to a great many vendors, on the assumption that someone would remember to take them back. ARTEX is simply very good at finding the ones nobody did.
+
+## Watchlist
+
+Today: the two catalogue deadlines for UnrealIRCd and Check Point, and the eMudhra root removal. Watch for a restart date and a data inventory from Plaid's KARTE, and for scope from RIKEN. Watch for the vendor behind N zero n's brand claims, and for anyone copying the Copilot token technique. Still waiting on an N able fix and a SignDrop patch. Thursday, the C I S A director hearing. Friday, the Doommageddon deadline for the Turkish law office. Next week, more catalogue deadlines on the twenty fourth, and Spain votes on the twenty ninth. The information sharing law expires on the eleventh of December.
+
+That is Morning Signal for Monday. Rotate the keys you have forgotten you issued. Until tomorrow.
