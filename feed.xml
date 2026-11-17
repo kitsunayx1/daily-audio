@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Tue 17 Nov 2026: Optimizely scripts turned into malware for 178 sites, KARTE fallout hits Japanese brands, Google sees fully automated exploitation</title>
+      <description>24-hour window. OPTIMJACK (deep dive): attacker code served via Optimizely Web to 178+ organisations incl. BBC, Zoom, HSBC, Freshfields, CohnReznick, Baringa: clipper, card skimmer, iOS exploit kits. Plaid KARTE confirms tokens leaked; Francfranc 5.98M, Shikoku Electric, Ainz &amp; Tulpe; RIKEN Fugaku keys stolen. GTIG: first fully automated exploitation; MIDNIGHT NEPTUNE backdoors Claude Code settings. N0n posts ~60 names incl. Visa, JPMorgan, Canadian advisers. Confluence/Apache Axis CVE-2026-90436 exploited. Infoblox via migration vendor. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-17.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-17.md</link>
+      <guid isPermaLink="false">morning-signal-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-11-17.mp3" length="11551202" type="audio/mpeg"/>
+      <itunes:duration>1443</itunes:duration>
+    </item>
+    <item>
       <title>Mon 16 Nov 2026: FBI warns on ARTEX AI intrusions, weekend SaaS breach wave, Luna Moth&#x27;s Copilot token trick on law firms</title>
       <description>72-hour window. FBI FLASH on the ARTEX agentic intrusion framework (deep dive): ConnectWise app trust into 2,250+ tenants, legal a named sector, privileged access in under 3 hours; Amazon and Barracuda ARTEX findings. Plaid KARTE down for all customers, GoQSystem 4.37M, Metaem, NHN Dooray, Quantum Systems update server, Cursor trojanised extension. Luna Moth re-targets law firms via Copilot Graph tokens; A&amp;O Shearman relisted. Two KEV entries and eMudhra root removal due today. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-16.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-16.md</link>
