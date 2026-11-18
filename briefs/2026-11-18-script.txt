@@ -1,0 +1,163 @@
+## Morning Signal. Wednesday, the eighteenth of November.
+
+Good morning. In Japan, the customer platform that switched itself off last Friday has turned into one of the largest data incidents that country has seen, and a brokerage has added millions more on top of it from a place nobody was guarding, a test environment. In London, one of the oldest law firms in the City has been hit, and is saying nothing. And for about forty five minutes yesterday afternoon, a Python package published under Microsoft's own name quietly stole the keys of anyone who installed it, then made new ones.
+
+This is Morning Signal for Wednesday, the eighteenth of November. The window is the last twenty four hours, from about twenty past five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has forty five rows.
+
+Corrections first, and there are several, which I prefer to the alternative.
+
+On N able. Yesterday I told you the fix for on premises N central servers was still pending. It was not. Hotfix three was published for on premises servers on Monday, and it fixes seventeen vulnerabilities and closes the legacy interfaces for good. If you were waiting, stop waiting.
+
+On N zero n, the extortion crew. I said its countdown on Visa and JPMorgan ran out around Thursday. I can find nothing that supports that date. Cybernews reports a forty eight hour countdown with no stated start and no stated end. So there is no Thursday deadline. There is a clock, and nobody will say what time it shows.
+
+On Visa itself, a conflict resolves. Visa told Cybernews that an incident began at an unnamed third party provider in Asia Pacific, and, in its words, Visa's systems were not involved and were not impacted. JPMorgan says its outage on Monday was a software bug. Both are now on the record.
+
+On Arion Kurtaj, the young man behind the Grand Theft Auto leak. The Crown Prosecution Service has now confirmed the guilty plea in its own release. Sentencing is on the twenty third, at Woolwich Crown Court.
+
+And on JINS, the eyewear chain. Yesterday I said a headline put it at more than eighteen million records, and that I would not repeat a number like that until I could confirm it. I can now. JINS itself says up to about eighteen point two nine million.
+
+Three things.
+
+## The top three
+
+Number one. KARTE. The customer experience platform run by Plaid, which went dark on Friday, now has its clients counting. JINS, up to about eighteen point three million member records. The clothing chain Shimamura, about seven million. M U F G Bank, six and a half million. The travel company Club Tourism, about four million. The home services marketplace MeetsMore, three point four million. Add only the figures that companies have confirmed, and you pass thirteen million. Add the figures given as up to, and possible exposure runs well above forty million, though those overlap, and you should not simply sum them. Separately, and not connected to KARTE, Rakuten Securities says a test environment leaked full personal and financial profiles on up to four point four seven million accounts, and login identifiers on up to eleven and a quarter million.
+
+Number two. Law and research firms. The Lawyer reports that Clifford Chance has been hit by a cyberattack. City A M says it is separate from the Optimizely affair. The firm declined to comment. And Ipsos, the market research company, which counts some five thousand clients, has disclosed a breach of one of its internal systems. Both hold exactly the kind of client material that a consulting firm hands its suppliers every day.
+
+Number three. The developer supply chain, and the A I agents that now live in it. Microsoft's agent framework package on the Python index shipped two malicious versions. Bitdefender found twenty two GitHub repositories booby trapped not for people, but for the coding agents people use. And a flaw in the Java runtime, which its finders have called Java Four Shell, lets an attacker run code before logging in on Jira, Confluence, Keycloak and Jenkins. C I S A says patch now. The deep dive this morning is Russia's COLD RELIC, which takes what it steals from one organisation and uses it to talk its way into the next.
+
+## Breaches and confirmed incidents
+
+Japan first, because Japan is where the numbers are.
+
+Plaid has said a little more about how KARTE fell. The intrusion ran for about fourteen hours, from just before one in the morning to just before three in the afternoon, Tokyo time, on Friday the thirteenth. Which is to say from about eleven on Thursday morning, Eastern, to just before one on Friday morning. A Plaid account was taken over, and the attacker reached the administrative console. The platform remains fully suspended.
+
+The clients, then, in order of size. JINS, up to about eighteen point three million records: member number, email, surname, date of birth, gender, postcode and prefecture. M U F G Bank, six and a half million, though only gender, age and area. Shimamura, about seven million. M U F G Trust Bank, about two hundred and thirty thousand, with no names or account numbers. MeetsMore, sixty thousand people with fuller personal data and nearly three point four million with an identifier and a prefecture. The industrial parts supplier MISUMI, about one hundred and forty thousand. The broadcaster WOWOW. Nikkei, the newspaper. Club Tourism, about four point oh six million, and Hankyu Hanshin Hotels, three hundred and thirty one thousand, five hundred and eighty six. And a company called Kaitekku, which left KARTE in January of last year, says its data was still there. Twenty seven thousand, five hundred and thirty people. That last one is the one I would underline. Leaving a vendor is not the same as the vendor forgetting you.
+
+Two more names come from headlines I could not open: the robo adviser WealthNavi, about nine hundred and ten thousand, and Uniform Next, up to one point seven million. Treat those as unconfirmed.
+
+Rakuten Securities is a separate matter. It detected and blocked what it calls possible third party access on Monday, and says data held in a test environment may have leaked. The list of fields is unpleasant. Name, date of birth, address, phone, email, employer, the bank account for withdrawals, declared income, financial assets and holdings. Up to about four point four seven million accounts with all of that, closed accounts included. Up to about eleven and a quarter million with branch and customer codes and login identifiers. Rakuten says no passwords or PINs leaked, and no fraudulent trading has been confirmed. There is a test environment like this in every large organisation. It is usually full of real data, because real data makes the tests pass, and it is usually guarded like a garden shed.
+
+Two smaller platforms. ChatPlus, which sells chat and A I agent software to Japanese companies, says its web servers were accessed on the thirteenth and the intrusion found on the seventeenth, and that personal data its customers entrusted to it may have been viewed. Which means it may have a tail of its own, the way KARTE did. And Pokepay, an electronic money platform from a company called Pocketchange, was accessed on the fourteenth and suspended overnight. University cooperative money and a number of local currencies stopped working. No funds were lost.
+
+Korea. Daou, the groupware vendor whose messenger pushed a malicious update over the weekend, has published artefacts. Look for a file called beacon dot exe in a folder named Daou Messenger Updater, and for a local administrator account named Daou Support, with remote desktop possibly switched on. The clean version is four point five point twelve. The Yellow Umbrella mutual aid fund, which serves small business owners, reports about two hundred and five thousand people, with partial resident registration numbers. And the logistics giant C J Logistics says its customer chatbot was hit with automated mass queries that returned recipient names and neighbourhood addresses. Investigators suspect an A I assisted attack. Somebody, it seems, simply asked the chatbot, many thousands of times, and it answered.
+
+Europe. Ipsos, I will come to under consulting. Equinor, the Norwegian energy company, reports a cyberattack on some of its I T systems, with production unaffected and, it says, no signs that data was stolen. A hospital in Greiz, in eastern Germany, suffered an extortion attack that closed its emergency room for about two days. In France, someone is offering for sale what they say are five hundred thousand, seven hundred and eighty two member and donor records from the Rassemblement National, France's largest far right party. That is a claim, though one tracker rates it credible.
+
+## Leak sites and data dumps
+
+Everything here is claimed, and the victims have not confirmed.
+
+Professional services first. The Gentlemen have posted Rosenberger Legal, a law firm in Salzburg, Austria. Qilin has posted Meridian Capital Group, which appears to be the American commercial real estate finance and advisory firm, though I cannot be certain it is the same company. BrainCipher has posted two firms it tags as professional services, an audit company and a consultancy in the Emirates. A group calling itself the Booba Project lists a Portuguese firm that may be legal. And PixelLeaks lists a South African hosting provider that may also be a managed service provider, along with a payments wallet, with a full leak promised on Sunday the twenty second.
+
+Then the brands. A new and unvetted group called Inception has published what it calls chapter one. PepsiCo, with what it says is a five hundred thousand row staff directory, in a format that points to an employee workplace app. Cigna, with about four hundred and twenty thousand ServiceNow support tickets. Paychex. A M D. Henry Schein. The pattern, once again, is not five intrusions. It is a supplier or a software service shared by five customers. Helix claims Veritiv, the packaging distributor, with ninety four million rows, and Sonoco. PixelLeaks has FAIR Health, the medical cost database. And AARP now has a second claimant, The Gentlemen.
+
+N zero n has added Jazz Pharmaceuticals, a car dealership software firm and A S Watson, the health and beauty retailer. Bitdefender looked behind its fifty nine names and found just over twenty real victims, which fits what I said yesterday about one vendor rather than sixty breaches. And Vortex says it will publish Drive Medical, one point four million records, on Friday.
+
+## Known exploited vulnerabilities
+
+One addition to C I S A's catalogue. Puppet Enterprise, from Perforce, the configuration management software that tells thousands of servers what to be. The flaw is in how Puppet Server processes reports. Any machine holding a valid agent certificate can run code on the Puppet server itself, and if certificate signing is set loosely, that may need no credentials at all. It scores nine point four out of ten. There is public proof of concept code, and federal agencies have until the first of December. Here is the thing about a Puppet server. It is the one machine every other machine obeys. Treat it the way you treat your domain controllers, and check how autosigning is set.
+
+Deadlines. Apple's older flaw is due today. SonicWall on Friday. Outlook, Openwave, Cisco BroadWorks and Chrome next Tuesday.
+
+And the Confluence flaw in Apache Axis is still not in the catalogue, despite Rapid Seven's report that it is being used. Rapid Seven has filled in the story of one intrusion, and it is instructive. The attacker's requests came back as server errors, which is what any monitoring would see, and yet behind each error, a shell and a download ran. Hundreds of encoded commands followed, through tunnelling services, in a pattern that suggests A I assisted tooling. The attacker trawled the database and the attachments for passwords and card numbers. About four hours in, a harvested service account was querying a cloud data warehouse. About twelve hours in, it was signing in to Microsoft three sixty five with legacy authentication. So if you run Confluence, here is the hunt. Look for legacy authentication sign ins to Microsoft three sixty five by any service account that Confluence knows about.
+
+Java Four Shell. A flaw in the Java runtime, in a piece of code that speeds up a common encoding routine on newer processors. It only affects sixty four bit Intel and A M D machines that have a particular set of vector instructions, so roughly Intel from Ice Lake onward and A M D from Zen four onward, which is to say most modern servers. Where it applies, it can be reached before login in the default setup of Keycloak, Jira, Confluence, Artifactory, Jenkins and PingFederate. Oracle scores it eight point one. Red Hat, provisionally, nine point eight. No exploitation is known yet, but one research firm says it holds a full working exploit and has not released it, and C I S A has issued an alert telling people to patch immediately. Oracle, Amazon Corretto, Azul and GraalVM have fixed builds. Red Hat does not yet. If you cannot patch, there is a startup flag that switches the vulnerable routine off. The real work is inventory. Java hides inside appliances and containers, each with its own copy, and nobody ever counts them.
+
+ScreenConnect. ConnectWise says attacks continue against out of date on premises servers and those with any of five third party extensions enabled, and that switching the extensions off does not remove access an attacker already has.
+
+Exploited, but not in the catalogue. A payment extension for Magento online stores, made by a company called Rootways, has a flaw that is being used to read files, reach the database and plant a card skimmer. Fixed in version four point one point five. Shops that use it should assume the worst and look. And Cyderes has exposed an access broker called tcherber, selling more than five hundred stolen FortiGate V P N credentials, and going after SonicWall too, with its own loader and ransomware behind it. An excellent morning to audit who can log in to your V P N, and from where.
+
+Briefly. The researcher who looked at Danfoss refrigeration controllers, the kind involved in the French supermarket attacks, says he found six previously unknown flaws in under an hour. One of them may allow code to run before login. The device has no secure boot. He called it not rocket surgery, which is one way to put it.
+
+## A I attacks and trends
+
+The Microsoft agent framework. Two versions of the package, one point two six point one and one point two six point two, were live on the Python index for about forty five minutes yesterday, from about twenty five to four to about twenty past four in the afternoon, Eastern. The package is downloaded around a hundred and ninety thousand times a month. The malicious code sat in a special kind of file that Python runs every time it starts, whether or not anything ever imports the package. It collected environment variables and the stored credentials of the Azure command line, npm, pip, git, Docker, Hugging Face and Azure DevOps. That is the familiar part. The unfamiliar part is that it then asked the cloud for brand new tokens, from Azure DevOps, from managed identities, and in the second version from GitHub Actions. As StepSecurity put it, rotating stored secrets does not cover those. A new maintainer account was added to the project the same day, and the publishing credential may still be in someone else's hands. Pin version one point two six point oh. And if a build system installed either bad version, revoke the tokens that machine could mint, not just the ones it held.
+
+Bitdefender's twenty two repositories are a different shape of the same idea. Each looks like an ordinary project. Inside are instruction files written for A I coding agents, the files called agents dot M D and Claude dot M D, which tell the agent to run a setup script quietly. And a settings file for Claude Code includes a hook that runs at the start of a session, once the user has trusted the repository. Then a stealer takes GitHub, cloud, pipeline, browser, password manager and S S H secrets, rewrites the configuration of fourteen different coding agents, Claude, Codex, Gemini, Copilot, Cursor and Cline among them, commits itself to up to twenty five other repositories with the stolen tokens, and tries to republish itself to the package registries. Consultants clone strangers' repositories constantly. That is the population to talk to.
+
+Fireworks A I, the model hosting company, has split its October trouble into two incidents. The second, from the twenty third to the thirtieth of October, through a third party cloud host, reached account and billing information for every account created before the thirtieth of October. No card numbers. If your teams use Fireworks, that is everyone.
+
+Briefly. Google's threat intelligence group says a Chinese state group is building its own automated attack framework. The firm Trajectory names Gemini Four Argon as the model behind Epoch A I's incident, in which swarms of up to eighty agents probed its website, though Epoch has not confirmed that. Varonis describes a phishing kit that rewrites each email with a language model, over and over, until it gets through. And Anthropic will shorten its disclosure deadline for high and critical bugs to thirty days from January.
+
+## Cyber geopolitics
+
+Russia gets the deep dive. Here, the rest.
+
+The European Union has sanctioned thirty people, together with the Social Design Agency, the Russian disinformation outfit, and NoName oh five seven sixteen, the pro Russian denial of service crew, under its hybrid threats and cyber regimes. That was announced on Monday, before our window, but it was not in Monday's brief. Italy's foreign minister used the moment to warn about election interference.
+
+Iran and France. After the supermarket attacks, the European Union's foreign policy chief, Kaja Kallas, said: The threat from Iran is increasingly spreading to Europe. We are now preparing further sanctions. Reporting says at least eleven other countries were hit in early November. Foreign ministers meet on the fourteenth of December, and that is where to expect them.
+
+China. Kaspersky describes two new backdoors it calls GitDoor and GraphDoor, which use GitHub and Microsoft's own Graph interface and SharePoint as their command channels. Government bodies in Asia and Africa, with one way in through a remote management tool at a Taiwanese organisation, and partial overlaps with several known Chinese groups. And Beijing has condemned the new American chip export rule and threatened countermeasures. The rule should appear in the Federal Register tomorrow.
+
+Pakistan. Lookout reports that a Pakistan aligned group is running fake defence recruitment sites, decorated with the logos of Airbus, B A E and Lockheed, to deliver GravityRAT.
+
+And a small clarification from Washington. The disruption to the N S A's internal network is not believed to be the result of a cyberattack.
+
+## Consulting and professional services
+
+Clifford Chance. The Lawyer reported on Tuesday that the firm had been hit by a cyber attack. I could not read the original, so I am leaning on City A M, which says the incident is separate from the Optimizely injection that touched Freshfields, and that the firm declined to comment. An anonymous tip dated the fifth of November claims client data was accessed and downloaded and clients told. That is unverified. No actor, no method. Silence at this stage usually means lawyers are drafting.
+
+Ipsos. The market research group has disclosed a breach of, in its words, one of its internal information systems. It filed a complaint around the eleventh, says there has been no impact on its operations, and says it will contact clients if client, project or partner information turns out to be affected. That if is doing a great deal of work. Research suppliers hold survey designs, client briefs and sometimes respondent data from engagements. If Ipsos is on your vendor list, this is a conversation for today.
+
+Optimizely, for completeness, has confirmed a vulnerability in its experimentation product and says all infected files were clean by about six on Monday evening, Eastern. The professional services names are unchanged: Freshfields, CohnReznick, Baringa and Cro Metrics.
+
+And one more. Baker Tilly Hulse and Company, a separate member firm of the Baker Tilly network, has told the Massachusetts attorney general that at least two thousand, six hundred and eighty nine people had social security numbers exposed.
+
+No new Big Four, no MBB and no Accenture items in the window. But the deep dive this morning is, I would say, the professional services story of the day, so stay with me.
+
+## Social chatter about McKinsey
+
+Quiet. Nothing new on Hacker News since the fourteenth, nothing on Mastodon since the eleventh, Reddit was unreadable, and there is no security news. I will take it.
+
+## Brand and executive impersonation
+
+COLD RELIC's impersonation and the GravityRAT recruiter sites, both covered elsewhere. Older, but worth a mention: Zimperium describes mobile phishing kits posing as recruiters, with Deloitte among the brands used. No new executive deepfake cases.
+
+## SaaS and supply chain
+
+Most of this you have heard. The Microsoft agent framework and the agent repositories. KARTE, ChatPlus and Pokepay. Inception's dumps, which point at a workplace app and a ServiceNow instance rather than at five separate companies. One practical point on KARTE. Every company that used it should rotate the credentials KARTE held, because the tokens were the part that left.
+
+## Regulation and law enforcement
+
+The United Kingdom. Arion Kurtaj's guilty plea, now confirmed by prosecutors, covers multiple Computer Misuse Act offences, fraud, and having a phone in prison. The victims named include Rockstar, B T and E E, Revolut and Uber. Sentencing on Monday the twenty third.
+
+The United States. The Justice Department's release on the extradition from Italy of an alleged member of the group known as the eight digits team is now readable, and calls the case one of the largest healthcare data breaches in decades. California's privacy agency has fined Hertz one point five five million dollars for ignoring people's opt out signals. And at C I S A, the confirmation hearing for the nominee, LoSapio, is tomorrow at half past nine. And the renewal of the information sharing law from twenty fifteen is in the House version of the defence bill but not the Senate's, with the law expiring on the eleventh of December.
+
+Nothing new from the S E C, O F A C, the I C O or Europol.
+
+## The deep dive: COLD RELIC
+
+Now. COLD RELIC.
+
+Google's Mandiant and its threat intelligence group published a case study yesterday called COLD RELIC: A Case Study in Impersonation and Compromise. You may know the group by other names. Google used to call it COLDRIVER. Microsoft calls it Star Blizzard. Others say Callisto, or Gossamer Bear. Google describes it as Russian state sponsored and cites the American Justice Department's assessment that it operates within the F S B, Russia's Federal Security Service. Google does not give a confidence level for these particular intrusions, and the link between the two cases rests on phishing links and pretexts that name the first victim. That is the honest shape of the attribution.
+
+Why should a consulting firm care? Because this is a group that uses what it steals from one organisation to impersonate that organisation's people to their friends. Not malware. People. Directories, mailboxes and relationships taken from victim one become the introductions to victim two. A consulting firm sits in the middle of a very large web of exactly those relationships, with clients, alliance partners, alumni and experts. That makes us useful twice over: as a store of who knows whom, and as the target of a message that appears to come from a client we trust.
+
+The first case. Late last year, an American organisation running Google Workspace. COLD RELIC had stolen the credentials of a super administrator, the account that can do anything. It got past the second factor by pushing approval requests until someone, tired or distracted, pressed yes. And it connected through a residential proxy, an ordinary home internet address near the victim, so that no impossible travel alert fired. A new device was registered.
+
+Then came the part that matters for anyone doing incident response. It enrolled passkeys, it generated backup codes, and it added its own multifactor devices. And when the victim reset passwords and sessions, the passkeys survived. Access continued. Later, the victim reset passwords but did not revoke sessions, and access continued again. A password reset alone, Google says, is not enough.
+
+What did it take? Essentially everything. It mass shared the whole organisation's Drive to an attacker mailbox and downloaded it directly. It ran a tenant wide customer takeout, which is Google's tool for exporting an entire organisation's data. It exported the employee list. It set up mail clients to keep syncing mailboxes from outside. It searched for passwords, for mail archive files, and for personnel records. And it covered its tracks with some care. It queried the security investigation tool and the email audit logs to see what the defenders could see. And it viewed, changed and deleted notifications in the Alert Center, the place where Google would have told the administrators that something was wrong. It sat there for several months.
+
+After it was evicted, it did not leave. It turned around and impersonated the victim's own staff, to their colleagues and to their associates. In June this year, a link naming the first victim turned up on VirusTotal.
+
+The second case. Another American organisation, this one using Microsoft Entra I D to sign in to Google Workspace. Someone there was contacted on an encrypted messaging app by a person posing as an employee of the first victim. A trusted name, from a trusted organisation, with a document to share. The link led first to a compromised legitimate website, which fingerprinted the visitor and passed them on. Then to a page that captured Entra credentials and tokens. Then, to keep things tidy, to a real looking lure document. Once inside, COLD RELIC registered a new multifactor device, downloaded in bulk, and renamed its messaging profile to start a new persona. The links had a tell: parameters in the address naming the earlier victim or the lure document. New COLD RELIC phishing has been seen as recently as this month.
+
+Now the honest bit. Google has published no indicators. No addresses, no domains, no file hashes. It gives two internet providers as examples of the residential networks used, and those are ordinary consumer providers. Blocking them would block a great many innocent people and no one in particular. So this is a hunt by behaviour, and Google has given us a good table to hunt with. The detail is in the written brief. Here is the shape of it.
+
+One. A run of rejected push approvals followed by a success from the same address. Two. A new passkey or a new device registered just after that pattern. Three. A sign in using a backup code from outside your corporate networks. Four. Any mail client outside the approved list being granted full access to Gmail. Five. A tenant wide takeout being created at all. Six. Spikes in Drive downloads or external sharing by a single user, especially to personal Gmail addresses. Seven. Bulk deletion of alerts in the Alert Center, which is the action you would least want to miss. And eight, someone downloading the user list or running investigation queries who has no business doing so. In Entra, the same idea. Look for new authentication methods registered, and sign ins from home internet providers in the user's own city.
+
+And the response. Hardware security keys where you can, and Google's Advanced Protection for the people who matter most. Make registering a passkey or a new second factor something that needs an administrator or a second channel to approve. When you find a compromise, revoke every session, refresh token and app grant, in both Workspace and Entra, and remove every passkey, backup code and device you did not issue. Disable takeout where nobody needs it.
+
+And one of our own. Brief the people who face clients, the partners and their assistants above all. If someone from a client gets in touch on Signal or WhatsApp with a document to look at, check it with them through a channel you already know. The client may well be real. The person on the other end may not be. COLD RELIC's whole method relies on the fact that we are polite to the people we know.
+
+The runners up for the deep dive were Kaspersky's operation behind GitDoor, and Cyderes on the access broker tcherber.
+
+## Watchlist
+
+Today. Apple's catalogue deadline. More KARTE clients, and figures from WealthNavi and Uniform Next. What went wrong at Rakuten Securities. How far ChatPlus reaches. And whether Clifford Chance says anything at all. Also a statement and root cause from Microsoft on the agent framework, any sign of Java Four Shell being used, and whether C I S A finally adds the Confluence flaw.
+
+Thursday. The LoSapio hearing at half past nine, and the chip rule in the Federal Register. Friday. The SonicWall deadline, and the Vortex deadline for Drive Medical. Sunday. PixelLeaks has promised its full leaks, FAIR Health among them. Monday the twenty third, Kurtaj is sentenced. Further out, the Puppet deadline on the first of December, the information sharing law expiring on the eleventh, and European foreign ministers, and perhaps Iran sanctions, on the fourteenth.
+
+That is Morning Signal. The written brief, with every link and all forty five organisations, is in the feed. Until tomorrow.
