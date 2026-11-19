@@ -10,6 +10,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Thu 19 Nov 2026: KPMG Canada client tax files accessed, Confluence in KEV, KARTE passes 60M</title>
+      <description>24-hour window. KPMG Canada confirms client tax documents accessed; four US law firms on leak sites; Confluence/Axis, LiteLLM, REDCap, Synology added to KEV with three-day deadlines; agent-framework attacker held a Microsoft pipeline certificate and used Cairn; ARTEX at the European Commission; KARTE disclosures pass 60M records (DHC 19.1M); Osaki Electric ransomware; deep dive on AuditTeam, ransomware billed as an audit. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-19.md</description>
+      <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-19.md</link>
+      <guid isPermaLink="false">morning-signal-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://kitsunayx1.github.io/daily-audio/episodes/2026-11-19.mp3" length="12109922" type="audio/mpeg"/>
+      <itunes:duration>1513</itunes:duration>
+    </item>
+    <item>
       <title>Wed 18 Nov 2026: KARTE passes 13M confirmed, Clifford Chance hit, Microsoft agent-framework poisoned</title>
       <description>24-hour window. KARTE fallout (JINS 18.29M, Shimamura, MUFG) and Rakuten Securities test-environment leak; Clifford Chance cyberattack and Ipsos breach; Microsoft agent-framework PyPI compromise, booby-trapped AI-agent repos, Java4Shell; Puppet Enterprise in KEV; deep dive on Russia&#x27;s COLD RELIC. Full sourced brief: https://kitsunayx1.github.io/daily-audio/briefs/2026-11-18.md</description>
       <link>https://kitsunayx1.github.io/daily-audio/briefs/2026-11-18.md</link>
