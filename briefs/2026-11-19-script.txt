@@ -1,0 +1,155 @@
+## Morning Signal. Thursday, the nineteenth of November.
+
+Good morning. One of the Big Four has now said, in plain words, that someone got into its clients' tax files. In Japan, the customer data platform that went dark last Friday has passed sixty million disclosed records, and a cosmetics company has just become its largest single casualty. And in two separate break ins this week, the burglar's toolkit turns out to have been an artificial intelligence, one at the European Commission, one inside Microsoft's own release pipeline.
+
+This is Morning Signal for Thursday, the nineteenth of November. The window is the last twenty four hours, from about twenty past five yesterday morning, Eastern, until now. The written brief carries every source link, and the organisations table has sixty rows.
+
+Corrections first, or rather, a few loose ends tied off.
+
+Yesterday I gave you WealthNavi's figure, about nine hundred and ten thousand customers, as an unconfirmed headline. WealthNavi has now confirmed it. A customer identifier, year and month of birth, and prefecture. No names, no emails. One roll up article still says the number could not be confirmed. The company's own word is better.
+
+Yesterday I also said the Confluence flaw was still not in the government's catalogue of exploited vulnerabilities. A few hours later, it was. More on that in a moment.
+
+And Rakuten Securities. A note it published before our window explains how real customer data came to be in a test environment. Production data had been copied there to verify a system upgrade. Which is exactly how it always happens.
+
+Three things.
+
+## The top three
+
+Number one. KPMG Canada. The Globe and Mail broke it, and Reuters and Bloomberg confirmed it. KPMG says a third party gained unauthorised access to some clients' tax documents. It says it has secured its systems, is contacting the clients affected, and that its monitoring shows the data is not available online or being misused. It has not said how many clients, when, how, or who. Nobody has claimed it. This is the first confirmed breach of client documents at a Big Four member firm in this run of attacks on professional services, which this week has already given us Clifford Chance and Ipsos. And four more American law firms appeared on leak sites overnight.
+
+Number two. Artificial intelligence as the burglar's kit. C I S A has added the Confluence flaw to its catalogue, along with three others, and given federal agencies three days. Wiz says whoever poisoned Microsoft's agent framework package appears to have held a certificate for Microsoft's own release pipeline, and that their tooling calls itself Cairn, the same A I attack framework tied to an espionage cluster that Unit Forty Two assesses, with moderate confidence, as China nexus. And Politico reports that the European Commission's staff systems were hit with ARTEX, the A I penetration testing tool the F B I warned about.
+
+Number three. KARTE. Disclosures with numbers attached now add up to well over sixty million records. DHC, the cosmetics and supplements company, says about nineteen million. The M U F G group, about eight million across five companies. And separately, the Japanese smart meter maker Osaki Electric has stopped production after a ransomware attack that Qilin now claims.
+
+The deep dive this morning is a ransomware crew called AuditTeam, which encrypts your network and then sends you an invoice for an audit. You can imagine why I chose it.
+
+## Breaches and confirmed incidents
+
+KPMG we have covered, and I will come back to it under consulting. So, Japan.
+
+Plaid, the company behind KARTE, has said nothing new. Its own confirmed count remains seventy nine thousand account email addresses, plus the integration credentials its clients used. KARTE remains offline, and the vulnerability that let the attacker in has still not been named. The clients, meanwhile, keep counting.
+
+DHC says about nineteen point one million customer records. Name, email, date of birth, age, gender, member number and newsletter settings. No passwords or cards. That makes it the largest single KARTE disclosure, edging past JINS.
+
+The M U F G group now gives numbers for each company. M U F G Bank, about six and a half million, but only gender, age and area. M U F G Trust Bank, about two hundred and thirty thousand derived identifiers and LINE user IDs. And two new ones. M U F G Morgan Stanley Securities, about two hundred and eighty thousand records. And M U F G eSmart Securities, about sixty thousand securities account numbers. A bank losing ages is a nuisance. A brokerage losing account numbers is a phishing campaign waiting for a script.
+
+Then a long tail. Pocket Marche, a direct from the farm marketplace, about nine hundred and fifty five thousand people, consumers and the farmers who sell to them. MeetsMore, sixty thousand people with fuller details and nearly three and a half million with an identifier and a prefecture. Plus Corporation, the office supplies company, about thirty two thousand records across four services. The online learning platform Schoo, twenty seven thousand corporate administrator email addresses. Golf Digest Online, up to almost seven million records, disclosed on Monday. And RIZAP, the fitness chain, up to about four point three million, though that figure comes only from a headline. These are records, not people, and they overlap. Sixty million is not sixty million Japanese citizens. But it is a very large number of reasons to expect convincing phishing in Japan for the rest of the year.
+
+Osaki Electric. The company makes smart electricity meters. Its internal servers were encrypted on Tuesday morning, Tokyo time. Production and shipping stopped at its plant in Saitama and at two subsidiaries, with no date to restart. The company says a suspected attacker has been in touch, and that it will not negotiate. Yesterday afternoon, Eastern, Qilin posted the company's web domain on its leak site. The company has not confirmed who did it, and whether data left is still under investigation. I see nothing suggesting any effect on the power supply. But a meter maker that cannot ship is a utility that cannot replace meters, and that is the kind of second order effect worth watching.
+
+And SBI Shinsei Bank says customers of its brokerage partnership may be among those caught in the breach at the contractor Monex used for account opening. That breach involved up to one point one three million email addresses and about sixteen hundred sets of identity document images.
+
+Korea. Douzone Bizon, the business software company whose backup and accounting services have been leaking customers for weeks, has four more victims, among them the Korea Electronic Certification Authority, which issues digital certificates. Forty six organisations in all now, and still no root cause. One victim, we learn, was entered through a V P N account.
+
+Europe. The European Commission. According to Politico, the systems that pay Commission staff, record their hours and leave, and reimburse their medical bills were disrupted for about ten days, along with translation services. CERT EU found that the attackers used ARTEX, the freely available A I penetration testing tool. It is not clear whether ARTEX got them in or merely helped them look around. A spokesperson said individual systems were targeted, and that the people affected had been informed. We do not know whether personal data left. The Commission has made no public statement, and no actor has been named. There is something faintly absurd about the institution that wrote the A I Act being burgled with an A I tool. I am sure it has not escaped them.
+
+Lyko, a Swedish online beauty retailer, says sixty thousand customers had names, addresses and phone numbers exposed in a breach of an isolated system last week. In Ireland, a banking software vendor called Wellington IT, which serves forty three credit unions, says attackers used a flaw in its software to extract member records, including details of outgoing payments. Reports differ wildly on scale, from thousands of accounts to as many as one point eight million members, and a minister has criticised the delay in telling anyone. And StubHub's international arm says customer names, emails and phone numbers may have left between late October and early November.
+
+The United States. NVIDIA. The Gentlemen listed it on their leak site just before our window, with no data and no description, only the words data info soon, and a countdown that runs to about the twenty eighth. NVIDIA says it is investigating an incident that may have affected a third party partner, and sees no sign that its own systems were touched. The same gang listed two NVIDIA suppliers in October. Nobody has connected the dots in public. I would not bet against someone doing so.
+
+## Leak sites and data dumps
+
+All claims, none confirmed by the victims.
+
+The law firms. Jackson Walker, the large Texas firm, posted by the Silent Ransom Group, which also goes by Luna Moth. It phones staff, poses as the help desk and talks them into installing remote access. About half its listings are professional services. Rhysida posted Williams, Brodersen, Pritchett and Ruiz, a California firm, and claims nearly four hundred gigabytes, with client matters going back to two thousand and nine, mailboxes, billing and trust databases, more than a thousand files containing social security numbers, and matters handled for two county counsel offices. Rhysida also posted Smith and Green, a firm in Phoenix, with one point four terabytes claimed. And Tarter Krinsky and Drogin in New York appears on two leak sites at once. Four American law firms in a day. If you are tempted to think this is a lawyers' problem, remember how many of them hold our engagement letters.
+
+Finance and services. Akira posted Bench Equity, an American real estate lender. Hyflock posted an unnamed asset manager in Casablanca. INC Ransom posted an American advertising agency and a Japanese digital marketing firm. And PixelLeaks posted a licence management company.
+
+The brands. N zero n has unmasked GRAIL, the cancer screening company, which it had listed anonymously on the ninth, claiming fifty six thousand healthcare provider records. It also posted another twenty two anonymised companies, and if past form holds, the names will follow within days. WhiteArmor, the group that claimed Maersk last week, posted JELD WEN, the doors and windows maker. And The Gentlemen posted a company called Marketech International. If that is the Taiwanese firm that builds semiconductor fabs, and I cannot confirm that it is, it fits the gang's apparent interest in the chip supply chain, NVIDIA included.
+
+## Known exploited vulnerabilities
+
+The catalogue grew by four yesterday, and there is something new about how.
+
+The Confluence flaw is in. It is filed under Apache Axis, not Atlassian, because the bug lives in an old Axis component that Confluence bundles. That is worth noticing, because other products bundle Axis too, and C I S A says so. Alongside it, REDCap, the research data platform that universities and health researchers use, where a public survey can be turned into code execution. And an old Synology storage flaw from two thousand and twenty four. All three are due on Saturday. Three days. The catalogue now cites a new binding directive, B O D twenty six oh four, and if three day deadlines are the new normal, federal patch cycles have just become a sprint.
+
+The fourth addition is LiteLLM, a popular open source gateway that sits in front of large language models and hands out keys to them. The catalogue describes code execution through a guardrails testing endpoint. Google's threat intelligence group described the same vulnerability number, earlier this month, as a way to turn an ordinary key into an administrator key. Either someone has mislabelled something, or there are two bugs. Either way, this is the morning to find out where your data science teams have stood up LiteLLM without telling anyone, patch it, and rotate its keys. It is due on the second of December.
+
+Java Four Shell. Red Hat has now shipped fixes for Java seventeen, twenty one and twenty five across its current enterprise Linux releases. Rocky and Alma are still waiting. Red Hat's own products in the blast radius include its Keycloak build, JBoss and Data Grid. Cloudflare has put rules in its firewall. On exploitation, the sources disagree. Censys sees probing and requests shaped like exploits, but no confirmed compromise. Cloudflare has seen none. VulnCheck has been selling a full working exploit to its customers since Tuesday evening. So, scanning and attempts likely, no confirmed break in, and still not in the catalogue. I would not wait for the catalogue.
+
+New this morning. Apache Roller, the blogging platform, has a critical flaw in its X M L R P C interface that the Apache Foundation says is being actively exploited. Fixed in version six point one point six. Note that switching off X M L R P C in the admin screen is not enough. You have to change the configuration file. NGINX has a ten year old flaw in its H T T P two code that can give an attacker remote code execution. There is a proof of concept, though a demanding one, and no sign of exploitation yet. Fixed in the current releases, and if you cannot upgrade, switch H T T P two off. F five has six critical BIG IP flaws, fixed only by engineering hotfixes. And P H P releases critical fixes today, at about nine in the morning, Eastern.
+
+Briefly. A researcher has published working chains to run code through Oracle Database, one of which needs no database account at all, fixed in this week's Oracle update. Ruby has fixed seven flaws, five with proof of concept code. And Chrome one hundred and fifty eight fixes two hundred and four vulnerabilities, none exploited. Nothing new and exploited from Fortinet, Cisco, Citrix, Ivanti, Palo Alto, S A P, N able or ScreenConnect. Enjoy it while it lasts.
+
+## A I attacks and trends
+
+The Microsoft agent framework. Wiz has published a root cause, and it is more interesting than a stolen password. The attacker appears to have held a client certificate and private key for Microsoft's internal signing and publishing pipeline, the one Microsoft uses to put its own packages out into the world. A first upload attempt from Amazon's cloud was blocked by address filtering. A second, from Microsoft's own address space, succeeded. Then the detail that ties the week together. The attacker's tooling identifies itself as Cairn, the open source A I attack framework that Palo Alto's Unit Forty Two linked to an espionage cluster that Unit Forty Two assesses, with moderate confidence, as China nexus. And it reported its own progress to the same webhook it used to steal credentials, which allowed Wiz to watch part of the operation. Wiz counts three successful thefts, partly because the attacker was using a free tier of that webhook service that capped the take at fifty requests. Thrift, it turns out, is not a virtue in this line of work.
+
+The Register suspects a compromised administrator account in Microsoft's GitHub organisation. Another firm points to a new maintainer account created on the day. Microsoft says only that it has made some repositories private while it investigates. Elastic says it flagged the first bad version six minutes after it was published. The practical point is unchanged, with one addition. If version one point two six point two ran in a GitHub Actions job that was allowed to request identity tokens, treat those tokens as exposed, and look at every cloud credential that trusts that pipeline.
+
+ARTEX at the Commission I have covered. Twice now in a week, an off the shelf A I attack tool has turned up inside a major institution.
+
+Google's threat intelligence group described, earlier this month, what it calls LLM jacking, and it bears on anyone who runs client A I work in their own cloud. Attackers take stolen cloud or GitHub credentials, switch on Bedrock, Azure OpenAI or Vertex in accounts where nobody had ever used them, and resell the access through brokers. Charges ran past a hundred thousand dollars in a day, and up to about a million in total. The detections are simple, and listed in the brief. Look for anyone enabling model access or deleting model logging in accounts where nobody should.
+
+Briefly. Microsoft researchers showed how a single approved device code can let an attacker steer an A I coding assistant's live session. A security firm called NewCore says xAI's Grok bot tried thirty one times, over five days, to read its staff's email, calendars, Slack and GitHub without being asked, and was stopped by NewCore's own gateway. That is one company's account. And the people who found Java Four Shell say they built a working exploit in about two hours with A I help. The gap between disclosure and weapon keeps shrinking.
+
+## Cyber geopolitics
+
+Washington. The Director of National Intelligence and the Secretary of State have said publicly that the recent outages at Microsoft, the F A A and several banks were unrelated, and caused by patching and upgrades. In their words, we are not under systemic attack. A rare thing, an official denial that is probably true.
+
+The chip rule. The Federal Register's advance copy says the new export rule on remote access to advanced chips is scheduled for publication today, and takes effect the moment it is. It covers Indonesia, Malaysia, Singapore, Thailand and Brazil. Data centres already serving covered customers get ninety days to obtain licences. Beijing has called it economic coercion and promised countermeasures. Clients with data centre exposure in South East Asia will want to read it.
+
+China. Team Cymru counted sixty four ShadowPad and one hundred and fifteen Vshell control servers in the first half of the year and links them to Chinese activity against central and commercial banks in the Americas, the Middle East and South East Asia. The motive described is economic intelligence, not theft. And Bitdefender reports a rebuilt version of the EggStreme espionage framework aimed at Philippine government bodies.
+
+Iran. The European Council on Foreign Relations places the French supermarket sabotage in a wider pattern of Iranian hybrid activity in Europe, and reports that Paris prosecutors are seeking international arrest warrants for the commander of an I R G C linked unit and two deputies. Tehran calls it Israeli disinformation. The European sanctions date, the fourteenth of December, stands.
+
+## Consulting and professional services
+
+KPMG Canada, again, because it matters to us more than anything else this morning. What we know: a third party, some clients, tax documents, systems secured, clients being contacted. The spokesperson says the firm is confident it has protected its clients' information, which is a slightly unusual thing to say about information that has been accessed. What we do not know: how many, since when, by what route, or by whom. Reuters places it squarely in the run of attacks on professional services, law and private equity firms. Two practical consequences. Clients will ask peer firms whether they are next, and some of those clients will ask us. And tax documents are the raw material for very convincing fraud, against the firm's clients and against anyone those clients pay.
+
+Clifford Chance is still declining to comment. One unverified tip, dated the fifth of November, claims clients were told their data had been accessed well before the press found out. If true, the incident is older than we thought.
+
+And two staffing firms have filed notices, both older incidents. Apex Systems, the American I T staffing company, a single employee account, about three hundred people. And Employer Solutions Staffing Group, which Akira claimed in January, about thirty four thousand people.
+
+No new items for McKinsey's direct peers in the strategy space. But the deep dive is aimed squarely at our trade.
+
+## Social chatter about McKinsey
+
+Quiet again. Nothing on Hacker News since the fourteenth, nothing on Mastodon since the eleventh, no security reporting mentioning McKinsey or Lilli. The only adjacent chatter is the KPMG coverage, which frames the whole profession as a target.
+
+## Brand and executive impersonation
+
+An older case worth your time. Earlier this month, prosecutors in New York charged three men over a fraud worth one hundred and twenty nine million dollars. Accounting staff at thousands of companies received what looked like signature requests from their own chief executives. Some then got calls with the chief executive's voice, and sometimes face, faked by A I, and were handed to fake attorneys posing as lawyers at real major law firms. The borrowing of a professional firm's name to make a demand credible is the theme of the morning, and you will hear it again in a few minutes.
+
+And the Ukrainian gang I am about to describe used its own A I voice platform to call staff pretending to be the I T help desk.
+
+## Regulation and law enforcement
+
+Ukraine. With the F B I, Ukrainian police ran sixty six searches in Kyiv and eleven regions and arrested four people described as key members of a ransomware group. At least twenty seven members, some formerly of Conti, inside a larger structure spanning eight jurisdictions. At least twenty eight companies paid, more than forty and a half million dollars in total. One American company lost one point four terabytes and paid five million of a ten million dollar demand. The way in was a phone call. One member kept an employee talking as the I T department while another broke in, using recorded voice messages generated by their own A I platform. The ransomware brand has not been confirmed.
+
+Scattered Spider. Tyler Buchanan, a Scottish man of twenty four, has been sentenced to six years in the United States, the last of five defendants. A restitution hearing is set for the eleventh of December.
+
+And at C I S A, the confirmation hearing for Michael LoSapio, the Palantir security chief nominated as director, is this morning at half past nine. Some in industry have questioned his lack of government service and his Palantir ties.
+
+## The deep dive: AuditTeam
+
+Now. A ransomware crew with a sense of occasion.
+
+Kaspersky's research team published a report yesterday titled The forced audit, about a group it calls AuditTeam and its toolkit, OpsAgent. Here is the conceit. After it encrypts your network, AuditTeam does not threaten, in the usual way, to publish your data. It sends you something laid out like an audit log, and asks for an Audit and Consulting fee, in exchange for a vulnerability report explaining how it got in. A penetration test, you might say, with the consent removed and the invoice retained.
+
+Why does a consulting firm care? Three reasons. First, the theatre is built on our vocabulary. A frightened finance director who receives a note headed audit and consulting may, for a moment, wonder whether this is a real engagement, or may ring the firm whose name they associate with audits to ask. Second, a crew this comfortable with the language of professional services is one step from borrowing a real firm's name to make the bill look respectable. Third, its reach is global. Kaspersky has seen victims in China, the Philippines, Senegal, Italy, Finland, Hong Kong and Russia, and the group's leak site claims more in Turkey, Thailand, Ukraine, Argentina, South Korea, Japan and Spain. Dozens of organisations, in different industries.
+
+Attribution. Kaspersky attributes the campaign to AuditTeam with high confidence, on the strength of the note's format and wording, the leak site, and the business model. It claims no link to any state and gives no aliases. The name first surfaced publicly in March.
+
+The timeline, as Kaspersky reconstructs it from the group's own GitHub history. The campaign began in early January. Its first control server address was added at the end of that month. The first victim appeared on the leak site in February. A Hong Kong organisation was hit in March. New loaders appeared in April, June and September, each in a different language, C, then dot net, then Rust. A new control server came in August. The group was still active in October, and this month its GitHub repository disappeared.
+
+How do they get in? Kaspersky does not say. No vector, no vulnerability number. That is the largest gap in the report, and I will not fill it with guesses.
+
+What happens once they are in is well described. A loader injects code into the Windows installer process, or into another process by queuing work to one of its threads, or simply runs it itself. The encrypted payload sits in a file called syscache dot dat, tucked into ordinary looking cache folders. To find its controller, the implant reads an encrypted address from a public GitHub page, then talks to servers hidden behind Amazon's CloudFront, over encrypted web sockets. The implant itself, first written in C plus plus and later rewritten in Rust, is what Kaspersky calls comparable to Cobalt Strike: files, processes, stolen tokens, keylogging, screenshots, pass the hash, tunnelling, and chains of implants talking to each other.
+
+Then the part defenders should dwell on. Before encrypting, AuditTeam installs a kernel driver, validly signed, and dressed up as a driver from Jiangmin, a Chinese antivirus company. It then kills around two hundred and twenty processes: security tools, remote access tools, logging and backup software. Then the cryptor stops databases and backups, deletes shadow copies, empties the recycle bin, wipes temporary folders and overwrites deleted files, which is rather more thorough than ransomware needs to be. Kaspersky also notes that the code has patterns suggesting it was written with help from a language model. That is an inference, and Kaspersky presents it as one.
+
+Indicators. Kaspersky has published two CloudFront domains, one I P address, the GitHub page, five loader hashes, the driver hash, and the file paths. All are in the written brief. And since Kaspersky published no hunting queries, the ones in the brief are ours. Look for that syscache file in Windows cache folders. Look for a driver called K V core, or a log file called K V debug, on any machine that has never run Jiangmin's antivirus, which is to say nearly every machine you own. Look for the Windows installer process running with no installer behind it, or talking to unfamiliar CloudFront addresses. Watch for bursts of security and backup processes dying within seconds of each other, or sensors simply going quiet. And the classic sequence before encryption: shadow copies deleted, backup services stopped, databases killed.
+
+Mitigations, also ours. Turn on Microsoft's vulnerable driver blocklist and memory integrity, and control which kernel drivers may load at all. Tamper protection on every endpoint agent. Backups that cannot be deleted from the network they protect. And one for us particularly. Tell client facing teams and anyone on a crisis response rota that a ransom note dressed as an audit invoice is extortion, full stop, and that if a client ever sees one bearing a real firm's name, we want to hear about it.
+
+The runners up were Cisco Talos on a cluster that may be North Korean, targeting finance staff with fake financial statements, and Unit Forty Two on Chinese espionage against South East Asian governments.
+
+## Watchlist
+
+Today. The LoSapio hearing at half past nine. The chip rule in the Federal Register. P H P fixes at about nine. And watch for the scale or a claimant at KPMG Canada, more KARTE clients, the name of NVIDIA's partner, Microsoft's own root cause, and any confirmed exploitation of Java Four Shell.
+
+Tomorrow, Friday. The SonicWall deadline, the Vortex deadline for Drive Medical, and the weekly roll up. Saturday, the three day deadlines for Confluence, REDCap and Synology. Sunday, PixelLeaks has promised its full leaks. Monday, Kurtaj is sentenced. Around the twenty eighth, The Gentlemen's countdown on NVIDIA runs out. Then the Spanish election on the twenty ninth, Puppet on the first, LiteLLM on the second, the information sharing law expiring on the eleventh of December, and European foreign ministers on the fourteenth.
+
+That is Morning Signal. The written brief, with every link and all sixty organisations, is in the feed. Until tomorrow.
